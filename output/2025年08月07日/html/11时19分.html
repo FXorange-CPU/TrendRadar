@@ -1,0 +1,183 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 192</p><p>生成时间: 2025-08-07 11:19:49</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">27</td>
+                    <td class="percentage">14.06%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250807105026384800" target="_blank" class="news-link">金十图示：2025年08月07日（周四）中国科技互联网公司市值排名TOP 50一览</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202508/0749001.html" target="_blank" class="news-link">中国游客意大利翼装飞行时身亡</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202508/0749000.html" target="_blank" class="news-link">北京天安门地区及相关道路本周末实施临时交通管理</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202508/0748999.html" target="_blank" class="news-link">广州山体滑坡致两人死亡 仍有五人被困</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2108510?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">广东防汛Ⅱ级应急响应调整为Ⅳ级</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3599083_100_1" target="_blank" class="news-link">中国7月铁矿石进口量为1.0462亿吨，环比下降1.3%。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3599082_100_1" target="_blank" class="news-link">中国7月大豆进口量为1167万吨。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3599081_100_1" target="_blank" class="news-link">中国7月原油进口量环比下降5.4%。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3599079_100_1" target="_blank" class="news-link">中国7月煤炭进口量为3561万吨。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3599078_100_1" target="_blank" class="news-link">中国7月铜进口量为48万吨。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202508/0748996.html" target="_blank" class="news-link">英国要求中国就伦敦新使馆项目提供更多详情</a> [7] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3599077_100_1" target="_blank" class="news-link">中国7月稀土出口量为5994.3吨。</a> [6 - 26] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250807/1066748471.html" target="_blank" class="news-link">俄专家：中国民众对俄罗斯抵御西方的韧性而印象深刻</a> [8]</div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3599073_0_1" target="_blank" class="news-link">中国海关总署：前7个月，东盟为我第一大贸易伙伴，我与东盟贸易总值为4.29万亿元，增长9.4%，占我外贸总值的16.7%。欧盟为我第二大贸易伙伴，我与欧盟贸易总值为3.35万亿元，增长3.9%，占我外贸总值的13%。美国为我第三大贸易伙伴，我与美国贸易总值为2.42万亿元，下降11.1%，占我外贸总值的9.4%。</a> [9 - 29] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3599071_0_1" target="_blank" class="news-link">中国海关总署：7月份，进出口3.91万亿元，增长6.7%。其中，出口2.31万亿元，增长8%；进口1.6万亿元，增长4.8%。</a> [10 - 30] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3599070_0_1" target="_blank" class="news-link">中国海关总署：今年前7个月，我国货物贸易保持向上向好势头，进出口总值25.7万亿元，同比增长3.5%，增速较上半年加快0.6个百分点。其中，对东盟、欧盟、非洲、中亚进出口分别增长9.4%、3.9%、17.2%、16.3%。</a> [11] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5051965" target="_blank" class="news-link">港股异动丨内房股普涨 中国金茂、建发国际涨超4%</a> [11] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%9B%85%E6%B1%9F%E6%B0%B4%E7%94%B5%E7%AB%99%E5%AF%B9%E4%B8%AD%E5%9B%BD%E6%84%8F%E5%91%B3%E4%BB%80%E4%B9%88" target="_blank" class="news-link">雅江水电站对中国意味什么</a> [12] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/hkMacao/202508/0748991.html" target="_blank" class="news-link">港媒：中国邀飞虎队成员后裔出席抗战纪念活动</a> [12] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202508/0748989.html" target="_blank" class="news-link">泽连斯基指中国雇佣兵为俄作战 中国外交部：多次提醒莫卷冲突</a> [14] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202508/0748988.html" target="_blank" class="news-link">广东佛山展开统一行动对抗基孔肯雅热</a> [15] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3599063_100_1" target="_blank" class="news-link">中国1-7月贸易顺差为6835.1亿美元。</a> [15] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3599062_100_1" target="_blank" class="news-link">中国1-7月以美元计价进口额同比下降2.7%。</a> [16] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3599061_100_1" target="_blank" class="news-link">中国1-7月以美元计价出口额同比增长7.3%。</a> [18] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3599060_100_1" target="_blank" class="news-link">中国7月贸易顺差982.4亿美元（路透调查预估为顺差1050亿美元）。</a> [19] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%81%8B%E4%B8%8E%E6%B7%B1%E7%A9%BA%E4%B8%8A%E6%B5%B7%E6%BB%A9%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26dgr%3D0%26realpos%3D20%26pos%3D20%26flag%3D1%26filter_type%3Drealtimehot%26lcate%3D5001%26c_type%3D31%26band_rank%3D20%26cate%3D5001%26q%3D%2523%25E6%2581%258B%25E4%25B8%258E%25E6%25B7%25B1%25E7%25A9%25BA%25E4%25B8%258A%25E6%25B5%25B7%25E6%25BB%25A9%2523%26stream_entry_id%3D31%26display_time%3D1754536628%26pre_seqid%3D17545366281070555694126" target="_blank" class="news-link">恋与深空上海滩</a> [20] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3599059_100_1" target="_blank" class="news-link">中国7月以美元计价进口额同比增长4.1%（路透调查预估为同比下降1.0%）。</a> [20] <font color='grey'>- 11时19分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">21</td>
+                    <td class="percentage">10.94%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250807/1066750744.html" target="_blank" class="news-link">韩国独检组尝试对尹锡悦实施强制到案再次失败</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8lcP01dHNwR" target="_blank" class="news-link">美国务卿：俄乌尚未准备好与特朗普进行三方会谈</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250807/1066749923.html" target="_blank" class="news-link">卢拉计划致电中印领导人，讨论金砖国家如何应对美国关税</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8lcQ1JrhQkq" target="_blank" class="news-link">日本质疑美国关税公告与协议不一致，敦促纠正</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202508/0748998.html" target="_blank" class="news-link">越南共产党中央总书记苏林将访韩国</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250807/1066748821.html" target="_blank" class="news-link">美国特使威特科夫的穿梭外交取得了哪些成果？</a> <font color='red'><strong>[5]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250807103848055800" target="_blank" class="news-link">野村：美国关税将增加印度短期增长风险</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202508/0748997.html" target="_blank" class="news-link">美国联合航空出现技术问题 暂停部分航班</a> [6] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250807/1066748698.html" target="_blank" class="news-link">美国将花费500亿美元用于“爱国者”防空导弹系统的维护和生产</a> [6]</div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250807/1066748581.html" target="_blank" class="news-link">特朗普新行政命令中称俄罗斯对美国构成“特别威胁”</a> [7]</div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250807103638999800" target="_blank" class="news-link">菲律宾经济部长：预计美国计划的关税不会对经济产生不利影响。</a> [8] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202508/0748994.html" target="_blank" class="news-link">涉在军事基地射伤五士兵 一美国陆军被捕</a> [9] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250807103601386800" target="_blank" class="news-link">菲律宾经济部长：美国威胁加征关税的影响不如一些人预期的那么大。</a> [10] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250807102225104800" target="_blank" class="news-link">美国官员：韩美军队在联合演习中将纳入俄乌冲突及中东冲突情景。</a> [18] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250807101643308800" target="_blank" class="news-link">美国运输部长：我们已提供全力支持，帮助他们清理航班积压情况。</a> [19] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250807101630673800" target="_blank" class="news-link">美国运输部长：我已听取了美国联合航空首席执行官关于该公司内部技术故障的简报，该问题仅与联合航空公司的运营有关，与更广泛的空中交通管制系统无关。</a> [20] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250807101305801800" target="_blank" class="news-link">韩国官员：韩美军方将把40项训练活动中的20项重新安排至9月。</a> [22] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250807101135005800" target="_blank" class="news-link">韩国官员：韩国和美国军方将把部分联合演习延后至9月。</a> [24] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250807101116652800" target="_blank" class="news-link">美国联邦航空管理局（FAA）：我们了解到联合航空遇到了技术问题，影响了他们的运营。由于正处在恢复过程中，可能会继续出现一些延误。我们将全力支持以解决其航班积压问题，并与联合航空保持密切联系。</a> [26] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250807101051443800" target="_blank" class="news-link">韩国总统办公室表示，越共中央总书记苏林将访问韩国</a> [27] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250807101003824800" target="_blank" class="news-link">日本内阁官房长官林芳正：我们寻求与美国的贸易协议迅速实施。</a> [28] <font color='grey'>- 11时19分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">9</td>
+                    <td class="percentage">4.69%</td>
+                    <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/08/07/6f7987c9ee504d7fbdcb7e9134a47789.html" target="_blank" class="news-link">特朗普“放风”：或很快与俄乌举行峰会</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8lcUPTIRsIR" target="_blank" class="news-link">特朗普被曝正筹划与俄乌总统会晤，会谈不包括欧洲代表</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250807/1066750398.html" target="_blank" class="news-link">媒体：特朗普敦促其团队在筹划与普京和泽连斯基会晤方面加快行动</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [MKT News] <a href="https://mktnews.net/flashDetail.html?id=019881f3-6c73-7ddf-a16f-d0ca8c0abc44" target="_blank" class="news-link">Trump Proposes 100% Tariff on Foreign Chips, Spares U.S. Manufacturers</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8lcQD4ojrzo" target="_blank" class="news-link">卢拉：我要给中印打电话，讨论金砖联手应对特朗普</a> [6] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202508/0748995.html" target="_blank" class="news-link">或出动警卫队维护治安 特朗普威胁接管华盛顿特区</a> [8] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2108253" target="_blank" class="news-link">特朗普政府叫停拜登批准的巨型风电项目</a> [11] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2108490?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">特朗普威胁对华盛顿特区实行联邦接管</a> [12] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%E5%AF%B9%E4%BF%84%E4%BA%AE%E5%87%BA%E4%B8%A4%E4%B8%AA%E2%80%9C%E7%BB%9D%E6%8B%9B%E2%80%9D" target="_blank" class="news-link">特朗普对俄亮出两个“绝招”</a> [27] <font color='grey'>- 11时19分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">社保 医疗改革 医保 养老 旅游 教育</td>
+                    <td class="count">7</td>
+                    <td class="percentage">3.65%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2108509?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财政部：继续通过现有资金渠道 支持地方健全学前教育投入机制</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2108499?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">2013年至2024年中央财政累计安排学前教育转移支付资金达2209亿元</a> [8] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2108498?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">教育部刘玉光：严格把握幼儿园设立条件 加强幼儿园办学资质审核</a> [9] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2108485?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">教育部刘玉光：适时研究建立统一的家庭经济困难儿童等群体资助政策</a> [14] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2108479?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中央财政需要承担的年保育教育费补助资金将于近日下达</a> [15] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2108467?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">保育教育费按照什么标准免？财政部详解</a> [19] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2108464?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">免保育教育费政策今年秋季学期有望减少家庭支出约200亿元</a> [20]</div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">5</td>
+                    <td class="percentage">2.6%</td>
+                    <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1935999555821876457" target="_blank" class="news-link">华为又开源三个模型，并更改所有盘古仓为 openPangu，这意味着什么？</a> [8] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3599065_0_1" target="_blank" class="news-link">爱彼迎转型为人工智能优先平台</a> [14] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3599057_100_1" target="_blank" class="news-link">汤森路透：第二季营收实现增长，AI产品提供强劲助力。</a> [17] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=44818836" target="_blank" class="news-link">Why Building Billing Systems Is So Painful (2024)</a> [23] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=44815046" target="_blank" class="news-link">AI in Search is driving more queries and higher quality clicks</a> [27] <font color='grey'>- 11时19分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">半导体 GPU</td>
+                    <td class="count">4</td>
+                    <td class="percentage">2.08%</td>
+                    <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8lbs59N6iF0" target="_blank" class="news-link">特朗普：将对芯片和半导体征收约100%关税</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250807103619455800" target="_blank" class="news-link">马来西亚贸易部长：已与美国同行取得联系，以明确有关半导体的最新关税事宜。</a> [9] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250807103436802800" target="_blank" class="news-link">特朗普称将对芯片和半导体征收大约100%的关税。嘉盛市场情绪指数显示，纳指空头占比上升至54%。后市情绪如何？欢迎前往“数据库-嘉盛市场晴雨表”查看并订阅（数据每10分钟更新1次）。</a> [11] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250807/1066746861.html" target="_blank" class="news-link">特朗普：美国将对进口芯片和半导体征收100%关税</a> [16]</div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.56%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5051969" target="_blank" class="news-link">港股异动丨赤子城科技大涨超13% 预计上半年归母净利同比增超100%</a> [7] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3599068_0_1" target="_blank" class="news-link">亚洲股市上涨，日本东证指数在科技乐观情绪中创下历史新高</a> [12] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2108487?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">卓驭科技获徐工集团智驾定点 计划2026年量产</a> [13]</div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.04%</td>
+                    <td class="titles"><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=44819962" target="_blank" class="news-link">Mac history echoes in current Mac operating systems</a> [6] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%8B%B9%E6%9E%9C%E5%B8%82%E5%80%BC%E4%B8%80%E5%A4%9C%E5%A4%A7%E6%B6%A8%E8%B6%851%E4%B8%87%E4%BA%BF%E5%85%83" target="_blank" class="news-link">苹果市值一夜大涨超1万亿元</a> [20] <font color='grey'>- 11时19分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">小米 雷军</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.04%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2108508?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">小米集团盘中一度跌超5% 创近两个月新低</a> [6] <font color='grey'>- 11时19分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5051968" target="_blank" class="news-link">大行评级｜花旗：维持小米“买入”评级 相信第二季表现基本符合预期</a> [8] <font color='grey'>- 11时19分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">chatgpt Sam Altman openai</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.52%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=OpenAI%E6%88%96%E5%9C%A8%E5%91%A8%E4%BA%94%E5%87%8C%E6%99%A8%E5%8F%91%E5%B8%83GPT-5" target="_blank" class="news-link">OpenAI或在周五凌晨发布GPT-5</a> [30] <font color='grey'>- 11时19分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.52%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250807101246689800" target="_blank" class="news-link">日本内阁官房长官林芳正：经济再生大臣赤泽亮正呼吁美国尽快执行降低汽车关税的协议。</a> [23] <font color='grey'>- 11时19分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>12</td>
+                    <td class="word">手机</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.52%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5051972" target="_blank" class="news-link">大行评级丨大和：降小米(1810.HK)目标价至72港元，Q2智能手机出货量及毛利率或低于预期</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时19分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>13</td>
+                    <td class="word">月球 登月 火星 宇宙 飞船</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.52%</td>
+                    <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1936164461774865298" target="_blank" class="news-link">NASA 代理局长发布内部指令，要求加速月球核反应堆建造计划，目的是什么？计划是否可行？</a> [6] <font color='grey'>- 11时19分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>14</td>
+                    <td class="word">钓鱼岛 台海 南海</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.52%</td>
+                    <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8lcQD4ojrzV" target="_blank" class="news-link">印度首次与菲律宾南海军演到底图什么？</a> [9] <font color='grey'>- 11时19分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
