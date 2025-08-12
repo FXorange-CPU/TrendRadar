@@ -1,0 +1,167 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 113</p><p>生成时间: 2025-08-12 16:21:16</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">8</td>
+                    <td class="percentage">7.08%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%9B%B4%E5%87%BB%E5%8C%97%E4%BA%AC%E9%99%8D%E9%9B%A8" target="_blank" class="news-link">直击北京降雨</a> [8] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E6%9C%89%E4%B8%AD%E5%9B%BD%E7%9A%84%E8%AF%B4%E6%B3%95" target="_blank" class="news-link">中国有中国的说法</a> [10] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3608247_100_1" target="_blank" class="news-link">中国财政部：对于单笔5万元以上的消费，以5万元消费额度为上限进行贴息。</a> [11] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E7%89%88%E8%8A%B1%E6%9D%9F%E8%88%AC%E7%9A%84%E6%81%8B%E7%88%B1%E7%AB%8B%E9%A1%B9" target="_blank" class="news-link">中国版花束般的恋爱立项</a> [16] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3608222_0_1" target="_blank" class="news-link">美国在贸易谈判中延长对中国商品关税暂停期</a> [16] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3608210_100_1" target="_blank" class="news-link">【行情】ICE11月菜籽期货下跌2.3%，此前中国宣布对加拿大菜籽油征收反倾销税。</a> [19] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3608209_100_1" target="_blank" class="news-link">中国财政部：每名借款人在一家贷款经办机构可享受的全部个人消费贷款累计贴息上限为3000元。</a> [20] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E5%8C%97%E4%BA%AC%E6%9A%B4%E9%9B%A8&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26filter_type%3Drealtimehot%26q%3D%25E5%258C%2597%25E4%25BA%25AC%25E6%259A%25B4%25E9%259B%25A8%26c_type%3D31%26dgr%3D0%26cate%3D5001%26lcate%3D5001%26stream_entry_id%3D31%26realpos%3D21%26band_rank%3D21%26flag%3D1%26pos%3D20%26display_time%3D1754986701%26pre_seqid%3D175498670127502279878149" target="_blank" class="news-link">北京暴雨</a> [21] <font color='grey'>- 16时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">5</td>
+                    <td class="percentage">4.42%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250812161227220800" target="_blank" class="news-link">金十整理：机构前瞻美国7月核心CPI数据</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2112717" target="_blank" class="news-link">就在今晚！美国劳工统计局“换帅”后的首份CPI报告要来了</a> [8] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3608262_0_1" target="_blank" class="news-link">仁宝电子投资3亿美元扩大美国业务</a> [8 - 28] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3608239_100_1" target="_blank" class="news-link">【行情】美国股指期货上涨0.1%。</a> [14] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250812155856721800" target="_blank" class="news-link">叙利亚外交部：叙利亚外交部长阿萨德·哈桑·希巴在约旦首都安曼会见了约旦外长艾曼·萨法迪，双方将在与美国叙利亚事务特使托马斯·巴拉克共同出席的三方会议前进行会谈。</a> [20] <font color='grey'>- 16时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">4</td>
+                    <td class="percentage">3.54%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250812160827429800" target="_blank" class="news-link">金十数据整理：每日投行/机构观点梳理（2025-08-12）</a> [11] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250812160206012800" target="_blank" class="news-link">LME有色金属库存日报</a> [16] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250812160145637800" target="_blank" class="news-link">LME注册及注销仓单日报</a> [17] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250812154734225800" target="_blank" class="news-link">金十数据整理：每日房地产行业动态汇总（2025-08-12）</a> [23] <font color='grey'>- 16时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">4</td>
+                    <td class="percentage">3.54%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250812/1066822974.html" target="_blank" class="news-link">俄安全局：基辅特工计划引爆载有60公斤炸药的汽车以刺杀俄军官</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3608245_100_1" target="_blank" class="news-link">中国财政部：贴息范围还包括单笔5万元及以上的家用汽车、养老生育、教育培训、文化旅游等重点领域消费。</a> [12] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2112822?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">三部门：个人消费贷款财政贴息范围包括单笔5万元以下消费 以及单笔5万元及以上的家用汽车、养老生育、教育培训、文化旅游等重点领域消费</a> [13] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%2312306%E5%9B%9E%E5%BA%94%E5%A5%B3%E5%AD%90%E5%B8%A64%E5%A8%83%E5%9D%90%E9%AB%98%E9%93%81%E6%8B%92%E7%BB%9D%E8%A1%A5%E7%A5%A8%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26filter_type%3Drealtimehot%26q%3D%252312306%25E5%259B%259E%25E5%25BA%2594%25E5%25A5%25B3%25E5%25AD%2590%25E5%25B8%25A64%25E5%25A8%2583%25E5%259D%2590%25E9%25AB%2598%25E9%2593%2581%25E6%258B%2592%25E7%25BB%259D%25E8%25A1%25A5%25E7%25A5%25A8%2523%26c_type%3D31%26dgr%3D0%26cate%3D5001%26lcate%3D5001%26stream_entry_id%3D31%26realpos%3D20%26band_rank%3D20%26flag%3D1%26pos%3D19%26display_time%3D1754986701%26pre_seqid%3D175498670127502279878149" target="_blank" class="news-link">12306回应女子带4娃坐高铁拒绝补票</a> [20] <font color='grey'>- 16时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">4</td>
+                    <td class="percentage">3.54%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5054907" target="_blank" class="news-link">美股异动丨特朗普态度“急转”，英特尔盘前涨3.5%</a> [12] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3608242_101_1" target="_blank" class="news-link">【行情】美股盘前，英特尔涨近3%，特朗普对英特尔Ceo态度软化，不再要求其辞职。</a> [13] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250812160352126800" target="_blank" class="news-link">英特尔(INTC.O)盘前上涨3.4%，此前特朗普称与英特尔CEO的会谈非常有趣。</a> [15] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3608220_0_1" target="_blank" class="news-link">特朗普改变黄金关税政策；黄金价格趋于稳定</a> [17] <font color='grey'>- 16时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.77%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2112850?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">澳联邦法院判决苹果和谷歌公司涉嫌反竞争违法</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250812160517680800" target="_blank" class="news-link">澳联邦法院判决苹果和谷歌公司涉嫌反竞争违法</a> [14] <font color='grey'>- 16时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.77%</td>
+                    <td class="titles"><div class='new-title'>🆕 [MKT News] <a href="https://mktnews.net/flashDetail.html?id=01989d2d-b269-7dd5-926f-c571d01e039c" target="_blank" class="news-link">CHINA&#x27;S FOREIGN MINISTRY: HOPE THAT THE U.S. WILL TAKE PRACTICAL ACTIONS TO MAINTAIN THE STABILITY AND SMOOTH OPERATION OF THE GLOBAL CHIP SUPPLY CHAIN</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2112719?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【风口专家会议】华为AI SSD，特邀行业专家全面解读华为存储新品对产业链和算力服务器方案影响</a> [15] <font color='grey'>- 16时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.77%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2112853?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">香港恒生指数收涨0.25% 恒生科技指数跌0.38%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2112845?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">国家电投集团数字科技公司增资至15.57亿</a> [6] <font color='grey'>- 16时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.88%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2112815?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">智微智能：推出基于Nvidia Jetson等芯片平台的机器人大小脑控制器产品线</a> [16] <font color='grey'>- 16时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.88%</td>
+                    <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2200860" target="_blank" class="news-link">iPhone 17Pro最新外观曝光</a> [18] <font color='grey'>- 16时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">半导体 GPU</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.88%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5054906" target="_blank" class="news-link">美股异动｜日月光半导体盘前跌超2% 7月按新台币计净营收小幅下滑</a> [13] <font color='grey'>- 16时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>12</td>
+                    <td class="word">机器人 脑机接口</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.88%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5054917" target="_blank" class="news-link">徕木股份(603633.SH)：将持续开展在光模块、数据中心、机器人等方向连接器产品的开发和市场拓展工作</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时21分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
