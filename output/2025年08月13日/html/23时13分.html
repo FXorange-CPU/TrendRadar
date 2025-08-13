@@ -1,0 +1,151 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 80</p><p>生成时间: 2025-08-13 23:13:49</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">13</td>
+                    <td class="percentage">16.25%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250813/1066845756.html" target="_blank" class="news-link">美国财长：若阿拉斯加峰会不顺 美国会加强制裁</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250813230417720800" target="_blank" class="news-link">英国首相斯塔默：今天上午的会谈进展顺利，与美国总统特朗普通话时，我们在安全保障方面取得了进展，停火谈判必须有可信的安全保障。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250813230316760800" target="_blank" class="news-link">美原油库存意外增加，美国原油价格累计下跌近1美元/桶。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3611807_100_1" target="_blank" class="news-link">英国首相斯塔默：在早些时候与美国总统特朗普的通话中，我们在安全保障事宜上取得了进展。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3753221" target="_blank" class="news-link">罕见“坚定看空”的大行，瑞银：看空美国经济、看空美元、看空美股</a> [10] <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250813225142229800" target="_blank" class="news-link">英国声明：斯塔默告诉美国总统特朗普和欧洲领导人，我们对乌克兰的支持坚定不移，国际边界不得以武力改变，乌克兰必须拥有强大而可信的安全保障，以捍卫其领土完整</a> [10] <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250813224734307800" target="_blank" class="news-link">美国能源信息署：4周平均石油产品供应量升至2023年8月以来最高水平。</a> [12] <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3611791_101_1" target="_blank" class="news-link">美国圣路易斯联储前主席布拉德：我不认为美国国会山考虑修订美联储法案。（特朗普政府关于遴选）美联储主席（候选人）的面谈进展“富有建设性”。</a> [14] <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3611789_100_1" target="_blank" class="news-link">英国声明：首相斯塔默告诉美国总统特朗普和欧洲领导人，我们对乌克兰的支持坚定不移，国际边界不得以武力改变，乌克兰必须拥有强大而可信的安全保障，以捍卫其领土完整。</a> [15] <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250813224303674800" target="_blank" class="news-link">美国能源信息署：美国中西部炼油厂利用率升至2023年12月以来最高水平。</a> [16] <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250813223617613800" target="_blank" class="news-link">法国总统马克龙：美国总统特朗普也会“争取”与普京和泽连斯基举行三方会谈，可能会在欧洲举行。</a> [17] <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3611784_100_1" target="_blank" class="news-link">美国能源信息署（EIA）：截至8月8日当周，美国石油产品四周平均供应量升至2023年8月以来最高水平。</a> [18] <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250813223602794800" target="_blank" class="news-link">高盛首席美国经济学家梅里克：我的团队计划继续发布研究报告，就像周末那份惹怒特朗普的报告一样。</a> [18] <font color='grey'>- 23时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">6</td>
+                    <td class="percentage">7.5%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202508/1349546.html" target="_blank" class="news-link">中国两大国有造船厂今起停牌 本周内合并</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202508/1349545.html" target="_blank" class="news-link">中国7月银行贷款20年来首现收缩</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5056321" target="_blank" class="news-link">中国大冶有色金属(00661.HK)：中色十五冶将受让大冶有色设计研究院100%股权</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202508/1349544.html" target="_blank" class="news-link">史学家许倬云辞世 国台办：先生始终以自己是中国人为荣</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1938710980315030269" target="_blank" class="news-link">中国恒大 8 月 25 日将从港交所退市，15 年上市之路终结，如何看待恒大在多元化扩张道路上的失败？</a> [14] <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E7%94%B7%E7%AF%AEVS%E9%9F%A9%E5%9B%BD%E5%89%8D%E7%9E%BB" target="_blank" class="news-link">中国男篮VS韩国前瞻</a> [18] <font color='grey'>- 23时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">外交部 卫健委 公安部 网信办 发改委 北戴河 中共中央 国务院 四中全会 三中全会 两会 政治局</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.75%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250813224647434800" target="_blank" class="news-link">土耳其外交部长费丹将于8月13日至14日访问卡塔尔。</a> [13] <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%E4%BA%9A%E6%B4%B2%E5%8F%B8%E5%8F%B8%E9%95%BF%E5%90%91%E6%97%A5%E6%96%B9%E8%A1%A8%E4%B8%A5%E9%87%8D%E5%85%B3%E5%88%87" target="_blank" class="news-link">外交部亚洲司司长向日方表严重关切</a> [28] <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8D%AB%E5%81%A5%E5%A7%94%E5%9B%9E%E5%BA%94%E5%A5%B3%E5%AD%90%E7%A7%B0%E5%AD%957%E5%91%A8%E9%81%AD%E5%8C%BB%E9%99%A2%E8%AF%AF%E8%AF%8A" target="_blank" class="news-link">卫健委回应女子称孕7周遭医院误诊</a> [30] <font color='grey'>- 23时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.5%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2114445?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【电报解读】阿里启动近千人招聘涉及AI眼镜等C端业务，机构预计随着下半年头部品牌旗下AI眼镜的上市与交付，今年全球智能眼镜销量有望突破550万台，这家公司为雷鸟提供AR眼镜专用磁吸无线充电电源适配器</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=44889050" target="_blank" class="news-link">The case for shorter .com domains</a> [9] <font color='grey'>- 23时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">微软 Microsoft</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.25%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3611781_101_1" target="_blank" class="news-link">最新13F报告显示，Berkshire Asset Management LLC.二季度建仓做多iShares 3-7年期美国国债ETF、Palantir、Coinbase、Phillips 66等。增持戴尔科技、霍尼韦尔、纽柯钢铁等。清仓Vanguard成长型ETF、T-Mobile、西方石油公司等。减持百时美施贵宝、iShares罗素1000价值ETF、强生、麦当劳等。重仓摩根大通、微软、艾伯维、思科、苹果。</a> [19] <font color='grey'>- 23时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">智能体 工作流 Agent</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.25%</td>
+                    <td class="titles"><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=44888847" target="_blank" class="news-link">How Well Do Coding Agents Use Your Library?</a> [11] <font color='grey'>- 23时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.25%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3611786_101_1" target="_blank" class="news-link">【行情】通用汽车涨超2.5%，最近五个交易日迄今累计涨超4.8%，摩根大通正举办活动。</a> [16] <font color='grey'>- 23时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">机器人 脑机接口</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.25%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5056320" target="_blank" class="news-link">港仔机器人(00370.HK)：吴卓谦获委任为首席财务官及公司秘书</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.25%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250813224608192800" target="_blank" class="news-link">欧洲领导人敦促特朗普促成普京与泽连斯基会面</a> [15] <font color='grey'>- 23时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">内卷 反内卷</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.25%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2114187" target="_blank" class="news-link">银行“反内卷”对金融数据有何影响？权威专家：产生“挤水分”效应，资金循环更加顺畅</a> [13] <font color='grey'>- 23时13分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
