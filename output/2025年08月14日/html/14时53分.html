@@ -1,0 +1,143 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 114</p><p>生成时间: 2025-08-14 14:53:08</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">8</td>
+                    <td class="percentage">7.02%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250814142601607800" target="_blank" class="news-link">鸿海：第二季度人工智能服务器收入同比增长60%。</a> [10] <font color='grey'>- 14时53分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2115077?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月14日电，鸿海第二季度人工智能服务器收入同比增长60%。</a> [14] <font color='grey'>- 14时53分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3613132_100_1" target="_blank" class="news-link">富士康：预计2026年人工智能市场需求将持续强劲。</a> [14] <font color='grey'>- 14时53分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250814142055408800" target="_blank" class="news-link">鸿海：人工智能市场将在2026年继续保持强劲需求。</a> [14] <font color='grey'>- 14时53分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3613128_100_1" target="_blank" class="news-link">富士康：预计第三季度人工智能服务器营收将实现同比增长逾170%。</a> [15] <font color='grey'>- 14时53分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250814142047750800" target="_blank" class="news-link">鸿海：预计第三季度人工智能服务器收入同比增长超过170%。</a> [15] <font color='grey'>- 14时53分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2115070?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月14日电，鸿海预计第三季度人工智能服务器收入同比增长超过170%，人工智能市场将在2026年继续保持强劲需求。</a> [17] <font color='grey'>- 14时53分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E5%BB%BA%E8%AE%AE%E6%AF%8F%E4%B8%80%E4%BD%8D%E6%99%AE%E9%80%9A%E4%BA%BA%E9%83%BD%E5%B0%BD%E6%97%A9%E7%94%A8%E4%B8%8AAI&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26band_rank%3D29%26cate%3D5001%26lcate%3D5001%26realpos%3D29%26stream_entry_id%3D31%26pos%3D29%26dgr%3D0%26flag%3D1%26c_type%3D31%26q%3D%25E5%25BB%25BA%25E8%25AE%25AE%25E6%25AF%258F%25E4%25B8%2580%25E4%25BD%258D%25E6%2599%25AE%25E9%2580%259A%25E4%25BA%25BA%25E9%2583%25BD%25E5%25B0%25BD%25E6%2597%25A9%25E7%2594%25A8%25E4%25B8%258AAI%26filter_type%3Drealtimehot%26display_time%3D1755154304%26pre_seqid%3D175515430488402303254151" target="_blank" class="news-link">建议每一位普通人都尽早用上AI</a> [29] <font color='grey'>- 14时53分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">4</td>
+                    <td class="percentage">3.51%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2115090?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美国对进口自中国的升降门扭簧作出双反终裁</a> [8] <font color='grey'>- 14时53分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2115085?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美国对进口自中国的溶胶—凝胶氧化铝陶瓷磨料颗粒作出双反终裁</a> [9] <font color='grey'>- 14时53分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1938996958015498212" target="_blank" class="news-link">广州一民营透析中心开设服装厂，收留尿毒症患者做工赚钱付透析费，如何看待这种「以工养医」的模式？</a> [19] <font color='grey'>- 14时53分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31394867" target="_blank" class="news-link">超2万次围观！上海这栋1.5亿元起拍的历史建筑因无人出价流拍</a> [20] <font color='grey'>- 14时53分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">4</td>
+                    <td class="percentage">3.51%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5056652" target="_blank" class="news-link">A股异动丨臻镭科技跌近5% 股东拟询价转让3.88%股份</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时53分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5056649" target="_blank" class="news-link">A股异动丨安路科技跌逾5% 股价创逾半个月新低</a> [6] <font color='grey'>- 14时53分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5056647" target="_blank" class="news-link">大行评级｜星展：上调丘钛科技目标价至15港元 预计下半年业绩将较上半年改善</a> [8] <font color='grey'>- 14时53分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5056643" target="_blank" class="news-link">研报掘金丨东兴证券：安孚科技积极探索新业务，予“推荐”评级</a> [12] <font color='grey'>- 14时53分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">4</td>
+                    <td class="percentage">3.51%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250814143815382800" target="_blank" class="news-link">特朗普称美国可以为乌克兰提供安全保障</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时53分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202508/1449612.html" target="_blank" class="news-link">韩国前总统尹锡悦妻子金建希接受被捕后的首次调查</a> [6] <font color='grey'>- 14时53分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2115082?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月14日电，日经225指数收盘跌1.45%，报42649.26点；韩国KOSPI指数跌0.03%，报3223.55点。</a> [10] <font color='grey'>- 14时53分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1938544324531945729" target="_blank" class="news-link">两名 28 岁的日本拳手在同一赛事中因脑部损伤不幸离世，这起悲剧反映了拳击运动的哪些问题？</a> [13] <font color='grey'>- 14时53分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">3</td>
+                    <td class="percentage">2.63%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250814142934269800" target="_blank" class="news-link">金十数据整理：每日全球大宗商品市场要闻速递（2025-08-14）</a> [9] <font color='grey'>- 14时53分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250814142434566800" target="_blank" class="news-link">金十数据整理：每日全球外汇市场要闻速递（2025-08-14）</a> [11] <font color='grey'>- 14时53分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%BC%94%E5%91%98%E5%8F%B6%E7%AB%A5%E5%9C%A8%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5%E6%92%B0%E6%96%87" target="_blank" class="news-link">演员叶童在人民日报撰文</a> [30] <font color='grey'>- 14时53分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">地震 台风 洪灾 暴雨 泥石流 山体滑坡</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.75%</td>
+                    <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%8F%B0%E9%A3%8E%E6%9D%A8%E6%9F%B3%E5%AE%9E%E6%97%B6%E8%B7%AF%E5%BE%84" target="_blank" class="news-link">台风杨柳实时路径</a> [22] <font color='grey'>- 14时53分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2202993" target="_blank" class="news-link">专家解读台风杨柳影响</a> [25] <font color='grey'>- 14时53分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.88%</td>
+                    <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3DiPhone%E9%95%BF%E6%8C%89%E7%9A%84%E9%9A%90%E8%97%8F%E5%8A%9F%E8%83%BD&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26band_rank%3D20%26cate%3D5001%26lcate%3D5001%26realpos%3D20%26stream_entry_id%3D31%26pos%3D20%26dgr%3D0%26flag%3D1%26c_type%3D31%26q%3DiPhone%25E9%2595%25BF%25E6%258C%2589%25E7%259A%2584%25E9%259A%2590%25E8%2597%258F%25E5%258A%259F%25E8%2583%25BD%26filter_type%3Drealtimehot%26display_time%3D1755154304%26pre_seqid%3D175515430488402303254151" target="_blank" class="news-link">iPhone长按的隐藏功能</a> [20] <font color='grey'>- 14时53分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">半导体 GPU</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.88%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202508/1449614.html" target="_blank" class="news-link">半导体巨头Ferrotec落户柔佛 赛夫鲁：潜在投资见成效</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时53分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.88%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2114903" target="_blank" class="news-link">高盛惹怒特朗普 华尔街“声援”：关税引发的通胀冲击即将来袭！</a> [13] <font color='grey'>- 14时53分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
