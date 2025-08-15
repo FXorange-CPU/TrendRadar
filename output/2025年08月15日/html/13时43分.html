@@ -1,0 +1,135 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 60</p><p>生成时间: 2025-08-15 13:43:33</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">4</td>
+                    <td class="percentage">6.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250815132521751800" target="_blank" class="news-link">8月14日芝加哥商业交易所（CME）能源类商品成交量报告已在金十数据中心更新！欢迎点击查看</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250815132518667800" target="_blank" class="news-link">8月14日芝加哥商业交易所（CME）金属类商品成交量报告已在金十数据中心更新！欢迎点击查看</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250815132500724800" target="_blank" class="news-link">8月14日芝加哥商业交易所（CME）外汇类商品成交量报告已在金十数据中心更新！欢迎点击查看</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250815132453943800" target="_blank" class="news-link">8月14日芝加哥商业交易所（CME）比特币商品成交量报告已在金十数据中心更新！欢迎点击查看</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">3</td>
+                    <td class="percentage">5.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202508/1549708.html" target="_blank" class="news-link">中国统计局：极端天气冲击经济</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时43分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3615747_0_1" target="_blank" class="news-link">中国7月经济数据显示多个行业放缓</a> [8 - 28] <font color='grey'>- 13时43分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%9C%BA%E5%9C%BA%E5%9B%9E%E5%BA%94%E7%99%BB%E6%9C%BA%E5%8F%A3%E7%8F%AD%E5%91%B3%E5%BE%88%E6%B5%93" target="_blank" class="news-link">上海虹桥机场回应登机口班味很浓</a> [27] <font color='grey'>- 13时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">机器人 脑机接口</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2116100?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【风口研报·公司】发力军工、机器人领域订单，这家细分制造小龙头已获得宇树科技小批量订单并成为解决方案供应商，业绩有望迎来三重拐点共振</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时43分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202508/1549710.html" target="_blank" class="news-link">世界人形机器人运动会今于北京开幕</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=1956%E5%B9%B4%E5%AE%A1%E5%88%A4%E6%97%A5%E6%9C%AC%E6%88%98%E7%8A%AF%E5%BD%B1%E5%83%8F" target="_blank" class="news-link">1956年审判日本战犯影像</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时43分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2116187?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月15日电，日本10年期国债收益率上升2个基点至1.570%。</a> [7] <font color='grey'>- 13时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/08/15/80146b9184094547b9583faafd7483f4.html" target="_blank" class="news-link">特朗普主题餐厅老板面临遣返</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时43分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2116201?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">白宫公布美俄会晤特朗普最新行程安排</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250815131927535800" target="_blank" class="news-link">惠誉评级：美国关税增加日本和韩国汽车公司面临的挑战。</a> [8] <font color='grey'>- 13时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">手机</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2116180?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">机构：三季度手机面板市场整体维持高稼动率运行</a> [9] <font color='grey'>- 13时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2116197?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">券商、金融科技股持续拉升 指南针午后20CM涨停</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时43分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
