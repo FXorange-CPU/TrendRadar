@@ -1,0 +1,103 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 60</p><p>生成时间: 2025-08-19 03:13:53</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">27</td>
+                    <td class="percentage">45.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819030415347800" target="_blank" class="news-link">美国总统特朗普：（谈及三方会谈）在今天会后我们将会进行安排。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819030332509800" target="_blank" class="news-link">美国总统特朗普：普京确实很想做点什么</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3619571_100_1" target="_blank" class="news-link">美国总统特朗普表示，与乌克兰总统泽连斯基的会谈“涵盖了很多领域”。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3619569_100_1" target="_blank" class="news-link">乌克兰总统泽连斯基：重要的是美国就安全问题发出强烈信号。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819025949383800" target="_blank" class="news-link">美国总统特朗普：我认为今天会有解决方案，决议可能包括安全措施。</a> [8] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3619563_100_1" target="_blank" class="news-link">美国总统特朗普：可以在不久的将来实现。</a> [7 - 27] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3619562_100_1" target="_blank" class="news-link">美国总统特朗普：最终实现和平协定是可以达到的目标。</a> [8 - 28] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819025901867800" target="_blank" class="news-link">美国总统特朗普：最终和平协议是可以实现的，近期即可实现。</a> [9] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3619559_100_1" target="_blank" class="news-link">美国总统特朗普：截至目前，这种情况并未发生。</a> [10 - 30] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819025834385800" target="_blank" class="news-link">美国总统特朗普：在我们致力于实现持久和平的同时，我们都更希望立即停火。截至目前，这并未发生。</a> [10] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3619558_100_1" target="_blank" class="news-link">美国总统特朗普：我们所有人都希望在努力实现持久和平的同时立即实现停火。</a> [11] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819025807663800" target="_blank" class="news-link">美国总统特朗普：只有泽连斯基和乌克兰才能做出决定。</a> [11] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3619557_100_1" target="_blank" class="news-link">美国总统特朗普：我们还需要讨论可能的领土交换问题。</a> [12] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819025743504800" target="_blank" class="news-link">美国总统特朗普：阿拉斯加峰会强调和平是可以实现的。</a> [12] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3619555_100_1" target="_blank" class="news-link">美国总统特朗普：我们将考虑由谁负责哪些工作。</a> [13] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819025718974800" target="_blank" class="news-link">美国总统特朗普：我们还需要讨论可能的领土交换事宜。</a> [13] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3619554_100_1" target="_blank" class="news-link">美国总统特朗普：俄罗斯已同意接受安全保障。</a> [14] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819025701739800" target="_blank" class="news-link">美国总统特朗普：我乐观地认为，我们将共同达成一项协议，阻止对乌克兰的侵略。</a> [14] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819025629308800" target="_blank" class="news-link">美国总统特朗普：俄罗斯同意接受安全保证，我们将考虑由谁来负责什么。</a> [15] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819025444040800" target="_blank" class="news-link">美国总统特朗普：会议结束后我会给普京打电话，之后我们会努力解决这个问题。</a> [17] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819025351320800" target="_blank" class="news-link">美国总统特朗普：将尝试达成美国、乌克兰和俄罗斯的三方协议。</a> [18] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3619545_101_1" target="_blank" class="news-link">美国总统特朗普告诉欧洲领导人，他认为“我们的会谈将取得成功”。美国三大股指目前大致持平。</a> [19] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819025315024800" target="_blank" class="news-link">美国总统特朗普：到目前为止，这是非常成功的一天。</a> [19] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819025257845800" target="_blank" class="news-link">美国总统特朗普向欧洲领导人表示，相信我们会有成功的会谈。</a> [20] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819025000001800" target="_blank" class="news-link">美国总统特朗普将于十分钟后与欧洲领导人举行多边会议。</a> [21] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819024850678800" target="_blank" class="news-link">美国白宫：特朗普和泽连斯基前往会见欧洲领导人。</a> [22] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819024808781800" target="_blank" class="news-link">美国总统特朗普与欧洲领导人及乌克兰总统泽连斯基合影。</a> [23] <font color='grey'>- 03时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">7</td>
+                    <td class="percentage">11.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8lvnigpnWGW" target="_blank" class="news-link">特朗普与泽连斯基白宫记者会要点来了</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250819/1066936006.html" target="_blank" class="news-link">特朗普提及俄方反对乌克兰加入北约立场</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2118620?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">特朗普称不再送而是卖武器给乌克兰</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819030234979800" target="_blank" class="news-link">乌克兰总统泽连斯基：特朗普将尝试组织（美俄乌）三方会谈，如果特朗普能出席，乌克兰将感到高兴。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819025544139800" target="_blank" class="news-link">特朗普：俄乌不必非得有停火协议</a> [16] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819024537611800" target="_blank" class="news-link">据白宫消息人士透露，特朗普与泽连斯基的会晤已经结束。</a> [25] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819023745700800" target="_blank" class="news-link">特朗普称不再送而是卖武器给乌克兰</a> [29] <font color='grey'>- 03时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">外交部 卫健委 公安部 网信办 发改委 北戴河 中共中央 国务院 四中全会 三中全会 两会 政治局</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2118622?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">俄外交部呼吁英国不要妨碍俄美谈判</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819024638719800" target="_blank" class="news-link">俄外交部呼吁英国不要妨碍俄美谈判</a> [24] <font color='grey'>- 03时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3619567_101_1" target="_blank" class="news-link">美国得州总检察长指控Meta与Character.Ai以心理健康宣传误导儿童</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 03时13分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
