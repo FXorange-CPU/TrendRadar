@@ -1,0 +1,167 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 143</p><p>生成时间: 2025-08-19 20:30:28</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">35</td>
+                    <td class="percentage">24.48%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250819/1066954041.html" target="_blank" class="news-link">俄外长：俄方赞赏美方表现出的理解，美国做法有别于欧洲</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819195030715800" target="_blank" class="news-link">美国财长贝森特：美联储降息可能有助于推动住房建设回暖，从而在未来一到两年内继续压低房价。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819194954292800" target="_blank" class="news-link">美国财长贝森特：将利用关税收入偿还美国债务，降低赤字占GDP比例。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3621056_0_1" target="_blank" class="news-link">美国总统特朗普：（谈可能的美国安全保障）可能通过空中支持。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3621055_0_1" target="_blank" class="news-link">美国总统特朗普：普京昨天高兴地接听了电话。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3621051_100_1" target="_blank" class="news-link">美国总统特朗普：（关于俄乌冲突）我不想浪费时间，只想结束冲突。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3621049_100_1" target="_blank" class="news-link">【行情】美国美敦力公司股价盘前逆转走低，现跌3.6%。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819194927758800" target="_blank" class="news-link">美国财长贝森特：关税收入将从今年的3000亿美元大幅上涨。</a> [6] <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819194750864800" target="_blank" class="news-link">美国财长贝森特：印度通过俄罗斯石油进行套利不可接受。</a> [7] <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3621046_100_1" target="_blank" class="news-link">美国总统特朗普：与俄罗斯总统普京之间保持良好关系是一件好事。</a> [6 - 26] <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819194704938800" target="_blank" class="news-link">美国财长贝森特：这些美联储候选人是“一群了不起的人”。</a> [8] <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3621044_100_1" target="_blank" class="news-link">美国总统特朗普：未在欧洲领导人面前致电俄罗斯总统普京。</a> [7 - 27] <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250819/1066953595.html" target="_blank" class="news-link">韩国进行演应对网络和无人机攻击的演习</a> [9]</div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819194602410800" target="_blank" class="news-link">美国财长贝森特：投资服务通胀只是意味着市场上涨。</a> [9] <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3621039_0_1" target="_blank" class="news-link">美国总统特朗普：将为乌克兰提供某种形式的安全保障，但不可能是加入北约。</a> [10 - 30] <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3621038_100_1" target="_blank" class="news-link">美国总统特朗普：一直认为乌克兰是俄罗斯和欧洲之间的缓冲地带。</a> [11] <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819194525057800" target="_blank" class="news-link">美国财长贝森特：PPI通胀的大部分来自投资服务。</a> [11] <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3621037_0_1" target="_blank" class="news-link">美国总统特朗普盛赞乌克兰使用爱国者导弹。</a> [12] <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819194502733800" target="_blank" class="news-link">美国财长贝森特：将在劳动节前后与美联储候选人会面。</a> [12] <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3621036_0_1" target="_blank" class="news-link">美国总统特朗普：呼吁尽快展开对话，乌克兰将获得大量土地，俄罗斯是一个强大的军事国家。</a> [13] <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819194451515800" target="_blank" class="news-link">美国财长贝森特：将与11位美联储主席人选会面。</a> [13] <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3621035_0_1" target="_blank" class="news-link">美国总统特朗普：我们将在未来几周内了解俄罗斯总统普京的意向。</a> [14] <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819194423682800" target="_blank" class="news-link">美国财长贝森特：美国对英特尔的投资将是对拨款的转换，并可能增加资金，以帮助英特尔实现稳定；没有强迫企业采购英特尔产品的说法。</a> [14] <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3621034_100_1" target="_blank" class="news-link">美国总统特朗普：欧洲愿意派遣地面部队。</a> [15] <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819193831203800" target="_blank" class="news-link">美国财长贝森特：数字服务税不会阻碍乌克兰和平协议。</a> [16] <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3621026_0_1" target="_blank" class="news-link">泰达任命博·海因斯为战略顾问，负责美国扩张</a> [17] <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819193815668800" target="_blank" class="news-link">美国财长贝森特：我们正就数字服务税向全球各国施压。</a> [17] <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3621024_0_1" target="_blank" class="news-link">奈克斯塔将以 62 亿美元收购泰格纳，扩大美国市场覆盖范围</a> [18] <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819193714941800" target="_blank" class="news-link">美国财长贝森特：数字服务税不公平。</a> [18] <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3621021_0_1" target="_blank" class="news-link">美国总统特朗普：俄罗斯总统普京与乌克兰总统泽连斯基必须作出决定。</a> [19] <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819193619175800" target="_blank" class="news-link">美国财长贝森特：周一是很乐观、很棒的一天。</a> [19] <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2119722?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月19日电，美国财长贝森特表示，美联储降息可能有助于推动住房建设回暖，从而在未来一到两年内继续压低房价。</a> [20] <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3621020_100_1" target="_blank" class="news-link">美国总统特朗普：（被问及在俄乌冲突期间美国不会派遣地面部队）我向你保证。</a> [20] <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819193555673800" target="_blank" class="news-link">美国财长贝森特：计划就购买俄罗斯石油提高对印度的关税。</a> [20] <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819193502837800" target="_blank" class="news-link">美国财长贝森特：俄罗斯经济非常失衡。</a> [21] <font color='grey'>- 20时30分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">11</td>
+                    <td class="percentage">7.69%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202508/1950080.html" target="_blank" class="news-link">菲律宾澳洲加拿大在南中国海举行联合航行</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202508/1950079.html" target="_blank" class="news-link">中国1至7月证券交易印花税同比大增62.5%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202508/1950078.html" target="_blank" class="news-link">中国多家银行公告严禁信用卡资金炒股</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2208712" target="_blank" class="news-link">北京雨后彩虹</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202508/1950076.html" target="_blank" class="news-link">中国官媒揭发河南和田玉骗局 四涉事人员被控制</a> [6] <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2119753?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">豪尔赛：因未及时披露公司涉嫌单位行贿罪被立案调查事项 收到北京证监局警示函</a> [9] <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202508/1950072.html" target="_blank" class="news-link">中国7月非在校青年失业率升至17.8%</a> [10] <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC%E6%9A%B4%E9%9B%A8%E8%BF%87%E5%90%8E%E5%87%BA%E7%8E%B0%E2%80%9C%E5%8F%8C%E5%BD%A9%E8%99%B9%E2%80%9D" target="_blank" class="news-link">北京暴雨过后出现“双彩虹”</a> [12] <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2119206" target="_blank" class="news-link">广东：加快推动卫星互联网服务在低空经济、太空挖矿、太空旅游等前沿领域落地一批重大应用场景创新示范项目</a> [13] <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5060850" target="_blank" class="news-link">中国东方航空股份(00670.HK)将于8月29日召开董事会会议以审批中期业绩</a> [14] <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%8C%97%E4%BA%AC%E6%99%9A%E9%9C%9E%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26cate%3D5001%26lcate%3D5001%26band_rank%3D18%26stream_entry_id%3D31%26realpos%3D18%26dgr%3D0%26pos%3D18%26filter_type%3Drealtimehot%26c_type%3D31%26q%3D%2523%25E5%258C%2597%25E4%25BA%25AC%25E6%2599%259A%25E9%259C%259E%2523%26flag%3D1%26display_time%3D1755606346%26pre_seqid%3D17556063461160285957552" target="_blank" class="news-link">北京晚霞</a> [18] <font color='grey'>- 20时30分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">5</td>
+                    <td class="percentage">3.5%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250819/1066954452.html" target="_blank" class="news-link">特朗普：法德英希望在乌克兰境内部署军队</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250819/1066954143.html" target="_blank" class="news-link">特朗普：乌克兰不会成为北约成员国</a> <font color='red'><strong>[5]</strong></font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250819/1066953866.html" target="_blank" class="news-link">全球主义者VS和平：特朗普能否反抗战争贩子并结束乌克兰战争？</a> [6]</div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250819/1066953752.html" target="_blank" class="news-link">俄外长证实特朗普收到访问俄罗斯的邀请</a> [7]</div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3753588" target="_blank" class="news-link">白宫版智斗，特朗普果然大杀四方</a> [9] <font color='grey'>- 20时30分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.4%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BF%A9%E5%B0%8F%E5%AD%A9%E9%AB%98%E9%93%81%E4%B8%8A%E9%9D%99%E9%9F%B3%E6%89%93%E6%9E%B6%E5%8F%AA%E5%8A%A8%E6%89%8B%E4%B8%8D%E5%8A%A8%E5%98%B4" target="_blank" class="news-link">俩小孩高铁上静音打架只动手不动嘴</a> [17] <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2119727?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">比亚迪与芬兰汽车经销商Veho集团达成战略合作</a> [18] <font color='grey'>- 20时30分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.4%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2119747?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">赛微电子：拟1.57亿元收购展诚科技56.24%股权</a> [10] <font color='grey'>- 20时30分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2119732?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">扬杰科技：上半年净利润同比增长41.55% 拟每10股派4.2元</a> [16] <font color='grey'>- 20时30分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5%E5%AF%B9%E8%AF%9D%E4%BA%8E%E4%B8%9C%E6%9D%A5" target="_blank" class="news-link">人民日报对话于东来</a> [13] <font color='grey'>- 20时30分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202508/1950073.html" target="_blank" class="news-link">英伟达据报为中国市场研发B30A晶片 性能优于H20</a> [9] <font color='grey'>- 20时30分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=44950742" target="_blank" class="news-link">Apple has not destroyed Steve Jobs&#x27; vision for iPad</a> [24] <font color='grey'>- 20时30分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2119743?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">鹏鼎控股：投资80亿元建设淮安产业园 为AI应用市场提供全方位PCB解决方案</a> [13] <font color='grey'>- 20时30分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">半导体 GPU</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250819194540433800" target="_blank" class="news-link">美国财长贝森特：我们必须停止半导体芯片行业的单一故障点。</a> [10] <font color='grey'>- 20时30分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">新能源</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5060852" target="_blank" class="news-link">爱德新能源(02623.HK)将于8月29日召开董事会会议以审批中期业绩</a> [12] <font color='grey'>- 20时30分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>12</td>
+                    <td class="word">外交部 卫健委 公安部 网信办 发改委 北戴河 中共中央 国务院 四中全会 三中全会 两会 政治局</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2119741?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">朝鲜领导人金正恩号召迅速提升核力量 外交部回应</a> [12] <font color='grey'>- 20时30分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
