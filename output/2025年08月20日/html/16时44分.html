@@ -1,0 +1,159 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 100</p><p>生成时间: 2025-08-20 16:44:38</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">6</td>
+                    <td class="percentage">6.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8lyTU5N2naI" target="_blank" class="news-link">“泽连斯基拒了普京提议后，美国想挑布达佩斯”</a> [6] <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3622427_0_1" target="_blank" class="news-link">日本央行行长植田和男将于8月21-25日访问杰克逊霍尔。</a> [9 - 29] <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2120590?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月20日电，日本央行行长植田和男将于8月21日至25日访问杰克逊霍尔。</a> [15] <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3622391_100_1" target="_blank" class="news-link">泡泡玛特：美国市场开店不会明显加速，坚持更好开店质量。</a> [17] <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250820160812647800" target="_blank" class="news-link">日本央行行长植田和男将于8月21日至25日访问杰克逊霍尔。</a> [18] <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E9%92%9F%E5%8D%97%E5%B1%B1%E8%AE%B2%E8%BF%B01945%E5%B9%B4%E6%97%A5%E6%9C%AC%E6%8A%95%E9%99%8D%E8%AE%B0%E5%BF%86%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26cate%3D5001%26stream_entry_id%3D31%26band_rank%3D20%26flag%3D1%26pos%3D21%26lcate%3D5001%26filter_type%3Drealtimehot%26realpos%3D20%26q%3D%2523%25E9%2592%259F%25E5%258D%2597%25E5%25B1%25B1%25E8%25AE%25B2%25E8%25BF%25B01945%25E5%25B9%25B4%25E6%2597%25A5%25E6%259C%25AC%25E6%258A%2595%25E9%2599%258D%25E8%25AE%25B0%25E5%25BF%2586%2523%26dgr%3D0%26c_type%3D31%26display_time%3D1755679309%26pre_seqid%3D1755679309010056912594" target="_blank" class="news-link">钟南山讲述1945年日本投降记忆</a> [20] <font color='grey'>- 16时44分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250820162321506800" target="_blank" class="news-link">金十数据整理：每日债券市场要闻速递（2025-08-20）</a> [8] <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250820160208300800" target="_blank" class="news-link">金十数据整理：每日投行/机构观点梳理（2025-08-20）</a> [22] <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250820160115288800" target="_blank" class="news-link">LME注册及注销仓单日报</a> [23] <font color='grey'>- 16时44分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3622441_100_1" target="_blank" class="news-link">中国富途控股：二季度营收同比增69.7%。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250820162116997800" target="_blank" class="news-link">中国台湾第二季度经常帐 362.3亿美元，前值302.3亿美元。</a> [10] <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3622407_100_1" target="_blank" class="news-link">中国台湾7月外销订单金额同比增长15.2%（市场预估增长15.0%）。</a> [13] <font color='grey'>- 16时44分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5061562" target="_blank" class="news-link">索辰科技(688507.SH)：尚未与宇树科技、优必选展开合作</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5061557" target="_blank" class="news-link">汉马科技(600375.SH)：上半年净利润2772.83万元 同比扭亏为盈</a> [10] <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2120593?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">香港恒生指数收涨0.17% 恒生科技指数跌0.01%</a> [12] <font color='grey'>- 16时44分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/08/20/3386a561632847988d685ed7ed60dc14.html" target="_blank" class="news-link">拉夫罗夫赞扬特朗普，批评欧洲</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/08/20/a3c6d23c9a7f420cb7d0d65931fabb00.html" target="_blank" class="news-link">特朗普坦言结束俄乌冲突动机：“担心无法进入天堂”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时44分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2120612?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">大摩：英伟达等超大型科技股被低配 或因“技术性力量”迎来反弹</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时44分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3622449_101_1" target="_blank" class="news-link">Radiant Capital黑客再次花费1000万DAI加仓ETH</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 16时44分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">手机</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5061554" target="_blank" class="news-link">乔锋智能(301603.SZ)：公司数控机床产品可以应用于手机金属零部件的加工</a> [13]</div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">内卷 反内卷</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2119985" target="_blank" class="news-link">券商晨会精华：旺季来临叠加反内卷催化，关注建材布局机会</a> [13] <font color='grey'>- 16时44分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">社保 养老 旅游 教育</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3622399_100_1" target="_blank" class="news-link">希腊6月份旅游收入升至33.07亿欧元，2024年同期为30.38亿欧元。</a> [15] <font color='grey'>- 16时44分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2120622?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">金陵药业：分公司收到水解蛋白注射液药品再注册批准通知书</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时44分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
