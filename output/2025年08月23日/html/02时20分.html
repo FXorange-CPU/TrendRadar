@@ -1,0 +1,167 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 74</p><p>生成时间: 2025-08-23 02:20:57</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">29</td>
+                    <td class="percentage">39.19%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250823/1067011466.html" target="_blank" class="news-link">加拿大总理：将取消《美墨加协定》适用框架下的美国商品关税</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823015126555800" target="_blank" class="news-link">美国总统特朗普：局势必须结束。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823015028550800" target="_blank" class="news-link">美国总统特朗普：若无安全问题，我将开放经商机会。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823014958832800" target="_blank" class="news-link">美国总统特朗普：我们也可以整顿旧金山。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823014937704800" target="_blank" class="news-link">美国总统特朗普：准备好后将整顿芝加哥。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3627798_101_1" target="_blank" class="news-link">英特尔Ceo陈立武将在白宫会见美国总统特朗普。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3627789_100_1" target="_blank" class="news-link">美国总统特朗普：有关俄罗斯的决定将非常重要，无论采取制裁、关税或其他措施。</a> [8 - 28] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823014806662800" target="_blank" class="news-link">美国总统特朗普：我认为这是一笔很棒的交易，英特尔(INTC.O)已同意出售10%的股权，我们将达成更多类似交易。</a> [9] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3627788_100_1" target="_blank" class="news-link">美国总统特朗普：对俄罗斯空袭乌克兰一家美国工厂表示不满。（此前误指空袭目标为天然气管道，现已更正。）</a> [9 - 29] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823014605282800" target="_blank" class="news-link">美国总统特朗普：考虑通过交易持有英特尔(INTC.O)10%的股权。</a> [12] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823014332577800" target="_blank" class="news-link">美国总统特朗普：支持继续公开爱泼斯坦档案问题。</a> [13] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823014241934800" target="_blank" class="news-link">美国总统特朗普：（谈及乌克兰冲突）将查明谁是责任方。</a> [14] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823014157059800" target="_blank" class="news-link">美国总统特朗普：如有必要，我可能会在两周内决定对俄罗斯实施制裁。</a> [15] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823014127488800" target="_blank" class="news-link">美国总统特朗普：如果我宣布国家紧急状态，军队可以留下。</a> [16] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823014104716800" target="_blank" class="news-link">美国总统特朗普：我不认为我需要宣布全国进入紧急状态。</a> [17] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823014039940800" target="_blank" class="news-link">美国总统特朗普：对俄罗斯的决定将至关重要，无论是制裁、关税，还是什么都不采取。</a> [18] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3627770_100_1" target="_blank" class="news-link">美国总统特朗普：英特尔已同意一项交易，美国将持有英特尔10%的股权。</a> [19] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823014019626800" target="_blank" class="news-link">美国总统特朗普：如有需要，将延长华盛顿特区的国家紧急状态。</a> [19] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3627769_100_1" target="_blank" class="news-link">美国总统特朗普谈美联储主席鲍威尔：现在已经太晚了。</a> [20] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823013800012800" target="_blank" class="news-link">美国总统特朗普：愿考虑将全国隐蔽持枪许可扩展至华盛顿特区。</a> [20] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823013617970800" target="_blank" class="news-link">美国总统特朗普：两周内将在俄罗斯问题上做出决定。</a> [21] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823013604086800" target="_blank" class="news-link">美国总统特朗普：我会给普京几周的时间。</a> [22] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823013541926800" target="_blank" class="news-link">美国总统特朗普：我可能会在俄罗斯问题上采取这样或那样的方式。</a> [23] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823013337649800" target="_blank" class="news-link">美国总统特朗普：未来两周我们将知道事情会如何发展。</a> [25] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823013318549800" target="_blank" class="news-link">美国总统特朗普：对俄乌谈判的进展不满意。</a> [26] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823013237640800" target="_blank" class="news-link">美国总统特朗普：昨天我们进行了愉快的交谈。</a> [27] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823013228816800" target="_blank" class="news-link">美国总统特朗普：我们希望善待加拿大。</a> [28] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823013217910800" target="_blank" class="news-link">美国总统特朗普：（谈及加拿大取消对美国的报复性关税）将很快与加拿大总理卡尼再次通话。</a> [29] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823013154442800" target="_blank" class="news-link">美国总统特朗普（谈及加拿大取消对美国的报复性关税）我觉得这挺好的。</a> [30] <font color='grey'>- 02时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">3</td>
+                    <td class="percentage">4.05%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3627796_100_1" target="_blank" class="news-link">彭博社：苹果公司正就使用谷歌 Gemini AI为升级版Siri提供支持进行谈判。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2123668?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月23日电，谷歌已开始训练一款可在苹果服务器上运行的模型。</a> [8] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2123665?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">苹果据悉探索利用谷歌Gemini为新版Siri赋能</a> [10] <font color='grey'>- 02时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">3</td>
+                    <td class="percentage">4.05%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250823/1067011352.html" target="_blank" class="news-link">媒体：特朗普认为基辅将被迫“在很大程度上”接受俄罗斯的条件</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2123675?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">特朗普就华盛顿问题最新表态：考虑调用正规军、延长国家紧急状态</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2123674?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月23日电，特朗普在白宫发表讲话称，鲍威尔发出降息信号已经太晚，鲍威尔一年前就应该降息。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">外交部 卫健委 公安部 网信办 发改委 北戴河 中共中央 国务院 四中全会 三中全会 两会 政治局</td>
+                    <td class="count">3</td>
+                    <td class="percentage">4.05%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823014911155800" target="_blank" class="news-link">乌克兰外交部：我们再次警告明斯克，切勿进行鲁莽挑衅。</a> [6] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823014852276800" target="_blank" class="news-link">乌克兰外交部：我们呼吁各合作伙伴保持警惕。</a> [7] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823014727774800" target="_blank" class="news-link">乌克兰外交部就白俄罗斯-俄罗斯“西方”军演发表声明：莫斯科与明斯克之间的合作对欧洲构成威胁。</a> [10] <font color='grey'>- 02时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823014838556800" target="_blank" class="news-link">据华尔街日报：消息人士表示，美国政府不会进入英特尔(INTC.O)董事会，也不会在公司治理中扮演重要角色。</a> [8] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2123666?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月23日电，周五（8月22日），美联储隔夜逆回购协议（RRP）使用规模为362.75亿美元，上个交易日报253.58亿美元。</a> [9] <font color='grey'>- 02时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3627794_0_1" target="_blank" class="news-link">英伟达将与美国政府合作，为中国生产新型芯片</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3627775_0_1" target="_blank" class="news-link">尽管英伟达暂停H20芯片生产，Amkor股价仍上涨</a> [16] <font color='grey'>- 02时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">半导体 GPU</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3627784_0_1" target="_blank" class="news-link">恩智浦半导体股价在杰罗姆·鲍威尔讲话后上涨</a> [11] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3627777_0_1" target="_blank" class="news-link">受通胀数据和美联储降息预期影响，莱迪思半导体股价在芯片板块普涨中上涨</a> [15] <font color='grey'>- 02时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">DeepSeek 梁文锋</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.35%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3753850" target="_blank" class="news-link">DeepSeek上线两天后再回看：一次“小更新”，一场架构“豪赌”</a> [10] <font color='grey'>- 02时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.35%</td>
+                    <td class="titles"><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=44961153" target="_blank" class="news-link">Show HN: Pinch – macOS voice translation for real-time conversations</a> [15]</div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.35%</td>
+                    <td class="titles"><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=44987380" target="_blank" class="news-link">Away from Gmail, Leaving Gmail for Mailbox.org</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.35%</td>
+                    <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%A2%AB%E4%BF%84%E7%BD%97%E6%96%AF%E8%BE%B9%E5%A2%83%E5%8C%85%E8%A3%B9%E7%9A%84%E4%B8%AD%E5%9B%BD%E6%9D%91%E5%BA%84" target="_blank" class="news-link">被俄罗斯边境包裹的中国村庄</a> [30] <font color='grey'>- 02时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>12</td>
+                    <td class="word">乡村经济 乡村振兴 裁员</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.35%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3627793_101_1" target="_blank" class="news-link">派拉蒙全球考虑11月初裁员。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 02时20分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
