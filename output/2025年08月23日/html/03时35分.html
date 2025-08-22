@@ -1,0 +1,103 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 55</p><p>生成时间: 2025-08-23 03:35:54</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">27</td>
+                    <td class="percentage">49.09%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823032517056800" target="_blank" class="news-link">美国国防情报局局长被解职</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2123686?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">惠誉确认美国评级为“AA+” 展望稳定</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823032449004800" target="_blank" class="news-link">俄罗斯总统普京：俄罗斯正在与美国就北极及阿拉斯加合作事宜进行磋商。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2123685?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美国财政部：在最近的两周报告期内 投资基金买入167.85亿美元2055年8月15日到期的30年期债券</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823032348839800" target="_blank" class="news-link">惠誉：确认美国“AA+”评级，展望稳定</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823031649701800" target="_blank" class="news-link">惠誉：预计美国2026年的经济活动将维持在1.5%的低迷水平，因政策不确定性及高通胀将对消费者支出产生负面影响。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3627837_100_1" target="_blank" class="news-link">惠誉：预计美国2026年经济活动将维持在1.5%的低迷水平，政策不确定性和通胀上升将对消费者支出产生负面影响。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3627836_100_1" target="_blank" class="news-link">惠誉：预计在美国政策不确定性加剧的背景下，美元的主导储备货币地位将在可预见的未来持续。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3627834_100_1" target="_blank" class="news-link">惠誉美国：2026年加快降息将有助于提振2026年下半年初的国内需求，从而推动经济在2027年增长加速至2.1%。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3627833_101_1" target="_blank" class="news-link">惠誉：确认美国Aa+评级，前景展望稳定。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823031605159800" target="_blank" class="news-link">惠誉：美国尚未对巨额赤字采取“有意义的行动”。</a> [6] <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823031424810800" target="_blank" class="news-link">惠誉：预计2027年美国政府赤字将升至占GDP的7.9%。</a> [7] <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3627832_100_1" target="_blank" class="news-link">惠誉：美国提高关税、政府削减支出、收紧边境管控及驱逐出境、政策不确定性激增等因素导致消费者支出和企业投资放缓。</a> [6 - 26] <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823031358580800" target="_blank" class="news-link">惠誉：尽管美国政策不确定性加剧，但预计美元作为主要储备货币的地位将在可预见的未来继续保持。</a> [8] <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823031329652800" target="_blank" class="news-link">惠誉：预计2026年美国政府赤字将升至占GDP的7.8%。</a> [9] <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823031146832800" target="_blank" class="news-link">惠誉：预计2025年美国政府赤字将收窄至占GDP的6.9%。</a> [11] <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823031006299800" target="_blank" class="news-link">惠誉：（美国）更高的关税，政府削减开支，更严格的边境管制和驱逐出境，以及政策不确定性的激增减缓了消费者支出和商业投资。</a> [12] <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3627821_100_1" target="_blank" class="news-link">美国财政部：投资基金8月份购买了242.58亿美元的10年期国债。</a> [13] <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3627820_100_1" target="_blank" class="news-link">美国设备融资租赁协会：7月份美国商业设备借款下滑。</a> [14] <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3627816_100_1" target="_blank" class="news-link">美国总统特朗普：两周内决定是否对俄罗斯实施“大规模制裁”。</a> [16] <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823030638316800" target="_blank" class="news-link">市场消息：特朗普团队暂缓批准委内瑞拉石油供应给非美国大型企业。</a> [17] <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823030547485800" target="_blank" class="news-link">惠誉：确认美国评级为“AA+”；展望稳定。</a> [19] <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823030448350800" target="_blank" class="news-link">美国财政部：在最近的两周报告期内，外国投资者购买了54.92亿美元2028年8月15日到期的3年期美国国债，而上个月为47.5亿美元。</a> [20] <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823030416581800" target="_blank" class="news-link">美国财政部：在最近的两周报告期内，投资基金买入406.91亿美元2028年8月15日到期的3年期美国国债，上月买入421.73亿美元。</a> [21] <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823030334961800" target="_blank" class="news-link">美国财政部：在最近的两周报告期内，外国投资者购买了30.74亿美元2055年8月15日到期的30年期美国国债，上月为20.41亿美元。</a> [22] <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823030259576800" target="_blank" class="news-link">美国财政部：在最近的两周报告期内，投资基金买入167.85亿美元2055年8月15日到期的30年期债券，上月为165.57亿美元。</a> [23] <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823024927322800" target="_blank" class="news-link">美国参议员Mark Warner：解雇美国军事情报机构负责人是将情报视为忠诚考验的一个例子。</a> [26] <font color='grey'>- 03时35分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.64%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3627830_100_1" target="_blank" class="news-link">俄罗斯总统普京：相信特朗普的领导能力将有助于恢复俄美关系。</a> [7 - 27] <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250823030735209800" target="_blank" class="news-link">俄罗斯总统普京：我坚信，特朗普的领导才能将有助于恢复我们的关系。</a> [13] <font color='grey'>- 03时35分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.82%</td>
+                    <td class="titles"><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=44988496" target="_blank" class="news-link">Evolution Is Still a Valid Machine Learning Technique</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时35分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.82%</td>
+                    <td class="titles"><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=44988393" target="_blank" class="news-link">Scientists just found a protein that reverses brain aging</a> [6] <font color='grey'>- 03时35分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
