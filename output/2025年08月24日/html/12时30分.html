@@ -1,0 +1,111 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 34</p><p>生成时间: 2025-08-24 12:30:18</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">4</td>
+                    <td class="percentage">11.76%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202508/2450514.html" target="_blank" class="news-link">广东一周新增基孔肯雅热病例大幅减至336例</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时30分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202508/2450513.html" target="_blank" class="news-link">中国多地上调最低工资标准 北京每月2540元人民币</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时30分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1933217929220030774" target="_blank" class="news-link">湖南益阳「天降多块不明物体」，系卫星整流罩残骸，无人员受伤，航天飞行器零件砸中人的概率有多大？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时30分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3628301_100_1" target="_blank" class="news-link">中国驻美大使：中美农业合作既要“除虫”也要“育种”，农民不应为贸易战埋单。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 12时30分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">2</td>
+                    <td class="percentage">5.88%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250824/1067023652.html" target="_blank" class="news-link">幕后顾问：美国第一夫人如何影响特朗普及其政策</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250824114243594800" target="_blank" class="news-link">日媒：印总理莫迪将访问日本 将考察新干线试验列车</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时30分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.94%</td>
+                    <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1942532989562119452" target="_blank" class="news-link">东风集团股份因市值太低、失去融资功能选择退市，拆分岚图汽车港股上市，能解决困境吗？对投资者有何影响？</a> [16] <font color='grey'>- 12时30分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">地震 台风 洪灾 暴雨 泥石流 山体滑坡</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.94%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2124022?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">广西防御台风应急响应提升至Ⅲ级 北海至涠洲岛航线停航</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时30分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">钓鱼岛 台海 南海</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.94%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2124021?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中山大学6000米级深海无人遥控潜水器在南海完成首次深海试验</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时30分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
