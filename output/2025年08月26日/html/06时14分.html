@@ -1,0 +1,111 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 40</p><p>生成时间: 2025-08-26 06:14:35</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">13</td>
+                    <td class="percentage">32.5%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250826055219164800" target="_blank" class="news-link">据日经新闻：印度、日本首相拟时隔17年首次修订两国关于安全合作的联合声明。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250826054825192800" target="_blank" class="news-link">韩国总统办公室：美国总统特朗普与李在明此次会面是彼此拉近距离的机会，而非讨论具体的贸易问题。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250826054230821800" target="_blank" class="news-link">韩国总统办公室：双方此次未讨论农业领域；此次与美国总统特朗普的会面气氛良好，无需发表联合声明。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3630415_100_1" target="_blank" class="news-link">韩国总统李在明办公室：李总统提议美国总统特朗普在今年晚些时候与朝鲜国务委员长金正恩举行会晤。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 06时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250826053745442800" target="_blank" class="news-link">韩国总统办公室：总统李在明邀请美国总统特朗普出席秋季在韩国举办的亚太经合组织（APEC）会议。</a> [7] <font color='grey'>- 06时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3630402_101_1" target="_blank" class="news-link">【行情】在美上市韩国Etf涨幅收窄至0.27%。韩国发言人称，美国与韩国8月25日的首脑会谈结束，几乎没能达成共识。</a> [6 - 26] <font color='grey'>- 06时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250826053413163800" target="_blank" class="news-link">韩国总统办公室：总统李在明与美国总统特朗普就造船业展开会谈，特朗普强调了他对李在明的支持。</a> [8] <font color='grey'>- 06时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3630399_0_1" target="_blank" class="news-link">美国内政部质疑马里兰州海上风电项目许可并暂停其他项目</a> [7 - 27] <font color='grey'>- 06时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3630398_100_1" target="_blank" class="news-link">韩国总统李在明办公室：特朗普总统与李在明的会面是一次彼此靠近的机会，而非讨论贸易上的具体细节。</a> [8 - 28] <font color='grey'>- 06时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3630397_100_1" target="_blank" class="news-link">韩国总统李在明办公室：特朗普总统与李在明未讨论农业领域相关问题。</a> [9 - 29] <font color='grey'>- 06时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3630396_100_1" target="_blank" class="news-link">韩国总统李在明办公室：特朗普总统与李在明会面的气氛良好，双方认为已无需发表联合声明。</a> [10 - 30] <font color='grey'>- 06时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3630393_101_1" target="_blank" class="news-link">韩国总统李在明邀请美国总统特朗普出席秋季在韩国举办的亚太经合组织（Apec）会议。</a> [11] <font color='grey'>- 06时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3630392_100_1" target="_blank" class="news-link">韩国总统李在明办公室：特朗普总统与李在明举行了会谈，双方谈及了针对他们的暗杀未遂事件。</a> [12] <font color='grey'>- 06时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">4</td>
+                    <td class="percentage">10.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2125451?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月26日电，据报道，日本将在未来10年向印度投资680亿美元，涵盖人工智能和芯片领域。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250826055050095800" target="_blank" class="news-link">据日经新闻：日本将在未来10年向印度投资680亿美元，涵盖人工智能和芯片领域。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时14分</font></div><br><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45018494" target="_blank" class="news-link">Study finds gaps in evidence for air-cleaning technologies to prevent infections</a> [14] <font color='grey'>- 06时14分</font></div><br><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45018933" target="_blank" class="news-link">A short proof of the Hairy Ball theorem (2016) [pdf]</a> [21] <font color='grey'>- 06时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">2</td>
+                    <td class="percentage">5.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250826054024430800" target="_blank" class="news-link">金十数据整理：俄乌冲突最新24小时局势跟踪（8月26日）</a> [6] <font color='grey'>- 06时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250826052643972800" target="_blank" class="news-link">金十数据整理：中东局势跟踪（8月26日）</a> [10] <font color='grey'>- 06时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.5%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2125449?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">特朗普政府公告暗示印度即将加征50%关税</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">地震 台风 洪灾 暴雨 泥石流 山体滑坡</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.5%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2125453?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中央气象台8月26日06时发布暴雨黄色预警</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时14分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
