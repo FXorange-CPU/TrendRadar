@@ -1,0 +1,135 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 100</p><p>生成时间: 2025-08-27 22:41:38</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">15</td>
+                    <td class="percentage">15.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/08/27/243843a7746346f79189f72f8fc7e988.html" target="_blank" class="news-link">外媒：丹麦外交大臣召见美国外交官</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2128133?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月27日电，美国批准部分俄罗斯钻石进口交易许可。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250827220640868800" target="_blank" class="news-link">美国财政部：美国批准部分俄罗斯钻石进口交易许可。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3634407_100_1" target="_blank" class="news-link">美国能源信息署（EIA）：美国一周原油每日进口量增加29.9万桶。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3634417_101_1" target="_blank" class="news-link">美国三大股指全部转涨，道指涨0.27%</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3634406_100_1" target="_blank" class="news-link">美国能源信息署（EIA）：美国一周馏分油库存减少178.6万桶，市场预估为增加88.5万桶。</a> [6 - 26] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250827215724811800" target="_blank" class="news-link">研究机构Circana：任天堂在美国售出了200万台Switch 2。</a> [8] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3634415_100_1" target="_blank" class="news-link">【行情】美国天然气价格上涨逾3%，受逢低吸纳以及强劲的液化天然气出口流量支撑。</a> [7 - 27] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3634405_100_1" target="_blank" class="news-link">美国能源信息署（EIA）：美国一周炼厂产能利用率下降2.0个百分点。</a> [8 - 28] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3634410_101_1" target="_blank" class="news-link">美国8月22日当周Eia库欣地区原油库存变动 -83.8万桶，前值41.9万桶。</a> [9 - 29] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3634409_101_1" target="_blank" class="news-link">美国8月22日当周Eia汽油库存变动 -123.6万桶，前值 -272万桶。</a> [10 - 30] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2128122?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月27日电，研究机构Circana表示，任天堂在美国售出了200万台Switch 2。</a> [11] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3634404_100_1" target="_blank" class="news-link">美国能源信息署（EIA）：美国过去四周成品油总需求量为2115万桶/日，较上年同期增长2.5%。</a> [11] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3634403_100_1" target="_blank" class="news-link">巴西财长哈达德：从宏观经济角度来看，巴西有能力应对美国上调关税。</a> [12] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3634389_100_1" target="_blank" class="news-link">美国疾控中心：截至2025年8月26日，美国43个辖区共报告1408例确诊麻疹病例。</a> [18] <font color='grey'>- 22时41分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">10</td>
+                    <td class="percentage">10.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250827/1067087417.html" target="_blank" class="news-link">俄国际人文合作署署长：俄罗斯卫星广播电台“远东战役”播客节目将在中国播出</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/Chronicles/202508/2750818.html" target="_blank" class="news-link">张勇任海口市代市长，曾长期在广东工作</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250827/1067087588.html" target="_blank" class="news-link">俄专家：日本关于中国庆祝活动的声明是一次公关活动，日本无法影响局面</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3634418_100_1" target="_blank" class="news-link">北约秘书长吕特：俄罗斯和中国正在为与美国对抗做准备，并扩大国防工业规模。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250827215642742800" target="_blank" class="news-link">中国地震台网正式测定：8月27日21时27分，在阿富汗（北纬36.35度，东经71.40度）发生5.3级地震，震源深度150公里。</a> [9] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2128123?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">深圳能源：拟投建广东岑田抽水蓄能电站 本项目总投资85.03亿元</a> [10] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2128121?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">深圳能源：拟投资建设深能涿鹿县65万千瓦风电项目 总投资49.58亿元</a> [12] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5069177" target="_blank" class="news-link">中国核电(601985.SH)上半年净利润56.66亿元，同比下降3.66%</a> [15] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%A5%B3%E6%8E%92%E4%B8%96%E9%94%A6%E8%B5%9B%E5%B0%8F%E7%BB%84%E7%AC%AC%E4%B8%80" target="_blank" class="news-link">中国女排世锦赛小组第一</a> [17] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%B7%B1%E5%9C%B3%E4%B8%80%E5%B0%8F%E5%8C%BA%E8%A2%AB%E6%9B%9D%E6%9C%89%E9%9A%90%E8%97%8F%E8%B1%AA%E5%8D%8E%E5%BB%BA%E7%AD%91" target="_blank" class="news-link">深圳一小区被曝有隐藏豪华建筑</a> [28] <font color='grey'>- 22时41分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">4</td>
+                    <td class="percentage">4.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [MKT News] <a href="https://mktnews.net/flashDetail.html?id=0198ebe6-31c8-799d-bd0f-272d31599c52" target="_blank" class="news-link">BYTEDANCE&#x27;S TIKTOK U.S. BUSINESS REMAINS LOSS-MAKING, SOURCES SAY&lt;br/&gt;BYTEDANCE Q2 REVENUES GREW 25% TO REACH AROUND $48 BILLION, SOURCES SAY&lt;br/&gt;BYTEDANCE NEW EMPLOYEE SHARE BUYBACK TO VALUE COMPANY AT OVER $330 BILLION, UP FROM $315 BILLION IN LAST ROUND, SOURCES SAY</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2127856?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【风口研报·洞察】端侧AI产品即将迎来发布热潮，Meta计划在第四季度开启全球化销售，覆盖人群将提升十倍，年化出货量或触及2000万台级别，有望打开产业链成长天花板；中国生产力有望迎系统性重估</a> [8] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2127990" target="_blank" class="news-link">兴证策略：AI行情有望向更多AI+领域扩散</a> [13] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2128119?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月27日电，企业级云存储与协作平台Box公司(BOX)上涨3%。该公司将其2026财年营收指引上调至11.75亿美元，主要得益于企业高级协议数量翻倍及人工智能应用加速。</a> [13] <font color='grey'>- 22时41分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5069187" target="_blank" class="news-link">南芯科技(688484.SH)上半年净利润1.23亿元，同比下降40.21%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5069186" target="_blank" class="news-link">星湖科技(600866.SH)上半年净利润8.36亿元，同比增长65.22%</a> [6] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5069182" target="_blank" class="news-link">筑友智造科技(00726.HK)：中期股东应占亏损为2.71亿港元</a> [10] <font color='grey'>- 22时41分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2128010?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【公告全知道】英伟达+数据中心+第三代半导体+机器人！公司参与英伟达Blackwell系列架构数据中心硬件合作建设</a> [6] <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250827215004230800" target="_blank" class="news-link">英伟达(NVDA.O)转跌1.3%。</a> [14] <font color='grey'>- 22时41分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">字节 即梦 coze</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3634416_101_1" target="_blank" class="news-link">字节跳动将TikTok估值定为3300亿美元</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3634399_0_1" target="_blank" class="news-link">字节跳动宣布员工股份回购，估值达3300亿美元</a> [13] <font color='grey'>- 22时41分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250827221743233800" target="_blank" class="news-link">匈牙利外长：（谈及俄罗斯原油流经“友谊”管道）向匈牙利和斯洛伐克流通的石油供应可能在8月28日恢复。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时41分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5069181" target="_blank" class="news-link">林洋能源(601222.SH)上半年净利润3.24亿元，同比下降45.88%</a> [11]</div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250827215452154800" target="_blank" class="news-link">AXIOS网站记者表示，一位参与伊朗谈判的欧洲高级外交官透露，欧洲领导人即将就启动针对伊朗的“快速恢复机制”（snapback）进程做出决定。只有外交奇迹才能阻止这种情况的发生。</a> [11] <font color='grey'>- 22时41分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
