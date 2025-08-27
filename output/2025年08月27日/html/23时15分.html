@@ -1,0 +1,151 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 97</p><p>生成时间: 2025-08-27 23:15:53</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">28</td>
+                    <td class="percentage">28.87%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250827224910373800" target="_blank" class="news-link">美国总统特朗普：已全面了解明尼阿波利斯发生的枪击事件，白宫将继续密切关注局势。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250827224842113800" target="_blank" class="news-link">巴西财长：各国元首如今对美国感到不安，因为他们不知道明天会发生什么。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250827/1067087805.html" target="_blank" class="news-link">美国财长：不应立即没收遭冻结的俄罗斯资产</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250827224621545800" target="_blank" class="news-link">巴西财长：巴西将通过美国法院而非游说来挑战关税。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3634458_100_1" target="_blank" class="news-link">美国能源信息署（EIA）：上周美国首次进口委内瑞拉原油，此前自2024年7月以来没有进口。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250827223920526800" target="_blank" class="news-link">EIA报告：上周，美国从委内瑞拉进口了约7.4万桶/日的原油，这是自7月以来的首次周度进口。</a> [7] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3634453_100_1" target="_blank" class="news-link">巴西财长哈达德：美国无法阻止各国以本币进行贸易。</a> [7 - 27] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3634451_100_1" target="_blank" class="news-link">巴西财长哈达德：美国将美元武器化的做法反而使其走弱。</a> [8 - 28] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2128149?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美国至8月22日当周EIA原油库存减少239.2万桶</a> [10] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3634448_100_1" target="_blank" class="news-link">巴西财长哈达德：美元是价值储备，在未来许多年内仍将是如此，除非美国继续犯错。</a> [10 - 30] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2128146?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月27日电，美国三大股指全部转涨，道琼斯指数涨0.22%，标普500指数涨0.13%，纳斯达克综合指数涨0.10%。</a> [12] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250827223603394800" target="_blank" class="news-link">金十整理：美国当周EIA数据最值一览</a> [12] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3634438_100_1" target="_blank" class="news-link">巴西财长哈达德：如今各国元首都对美国感到不安，不知道明天会发生什么。</a> [14] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3634433_100_1" target="_blank" class="news-link">巴西财长哈达德：巴西将通过在美国法院而非游说挑战关税。</a> [16] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250827223206834800" target="_blank" class="news-link">美国至8月22日当周EIA蒸馏燃油产量引伸需求数据 561.31万桶/日，前值511.93万桶/日。</a> [16] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250827223150041800" target="_blank" class="news-link">美国至8月22日当周EIA车用汽油总产量引伸需求数据 995.37万桶/日，前值986.16万桶/日。</a> [18] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250827223135257800" target="_blank" class="news-link">美国至8月22日当周EIA原油产量引伸需求数据 2001.5万桶/日，前值2073.8万桶/日。</a> [19] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250827223010174800" target="_blank" class="news-link">美国至8月22日当周EIA战略石油储备库存 77.6万桶，前值22.3万桶。</a> [20] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250827223008864800" target="_blank" class="news-link">美国至8月22日当周EIA精炼厂设备利用率 94.6%，预期96.2%，前值96.6%。</a> [21] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250827223004977800" target="_blank" class="news-link">美国至8月22日当周EIA成品油进口 17.5万桶/日，前值7.4万桶/日。</a> [22] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250827223003676800" target="_blank" class="news-link">美国至8月22日当周EIA精炼油库存 -178.6万桶，预期88.5万桶，前值234.3万桶。</a> [23] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250827223003576801" target="_blank" class="news-link">美国至8月22日当周EIA原油进口 29.9万桶，前值-121.8万桶。</a> [24] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250827223003580800" target="_blank" class="news-link">美国至8月22日当周EIA新配方汽油库存 0万桶，前值0万桶。</a> [25] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250827223003576800" target="_blank" class="news-link">美国至8月22日当周EIA汽油库存 -123.6万桶，预期-215.4万桶，前值-272万桶。</a> [26] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250827223003455801" target="_blank" class="news-link">美国至8月22日当周EIA取暖油库存 10.2万桶，前值-50.3万桶。</a> [27] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250827223003455800" target="_blank" class="news-link">美国至8月22日当周EIA精炼油产量 -11.3万桶/日，前值19.3万桶/日。</a> [28] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250827223003449800" target="_blank" class="news-link">美国至8月22日当周EIA汽油产量 42.7万桶/日，前值-25.9万桶/日。</a> [29] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250827223003446800" target="_blank" class="news-link">美国至8月22日当周EIA投产原油量 -32.8万桶/日，前值2.8万桶/日。</a> [30] <font color='grey'>- 23时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">字节 即梦 coze</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.06%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2128150?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月27日电，据报道，字节跳动第二财季营收480亿美元，同比增长25%。截至目前，字节跳动官方尚未回应。</a> [9] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250827223621318800" target="_blank" class="news-link">消息人士：字节跳动将启动员工股票回购，价格为每股200.41美元。</a> [11] <font color='grey'>- 23时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.06%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2128145?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【电报解读】中国首个光量子计算机制造工厂落地深圳南山，机构看好量子计算未来或有望颠覆经典计算架构成为解决AI算力瓶颈的颠覆性力量，这家公司有进行光量子领域的研究</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3634434_0_1" target="_blank" class="news-link">Plaud.ai发布具备增强功能的新款Plaud AI Pro录音笔</a> [15] <font color='grey'>- 23时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.06%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2128147?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上海新阳：上半年净利润同比增长126% 集成电路相关材料销量显著增长</a> [11] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5069243" target="_blank" class="news-link">中国重汽(03808.HK)公布中期业绩 权益股东应占溢利增加4.0% 将加快海外产品升级</a> [11] <font color='grey'>- 23时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.06%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2128154?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">河北海伟电子新材料科技股份有限公司向港交所提交上市申请书</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5069244" target="_blank" class="news-link">智慧健康科技(01715.HK)：中期股东应占亏损为1150万元</a> [10] <font color='grey'>- 23时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.03%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250827223159184800" target="_blank" class="news-link">金十数据整理：美国当周EIA库存数据六大看点一览</a> [17] <font color='grey'>- 23时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.03%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3634449_0_1" target="_blank" class="news-link">泰勒·SWIFT（银行结算系统）和特拉维斯·凯尔斯宣布订婚；英伟达财报备受期待</a> [9 - 29] <font color='grey'>- 23时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.03%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3634460_0_1" target="_blank" class="news-link">丽莎·库克面临抵押贷款欺诈指控和罢免努力；预计将面临法律挑战</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 23时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">国产剧 电影 科幻</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.03%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2128151?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月27日电，据网络平台数据，电影《南京照相馆》上映34天，总票房破28亿​。</a> [8] <font color='grey'>- 23时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.03%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3634446_100_1" target="_blank" class="news-link">俄罗斯天然气工业石油公司（Gazprom Neft）：上半年利润下降54%。</a> [11] <font color='grey'>- 23时15分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
