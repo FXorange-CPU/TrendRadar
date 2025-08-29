@@ -1,0 +1,135 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 90</p><p>生成时间: 2025-08-29 16:44:29</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">7</td>
+                    <td class="percentage">7.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2130479?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">《中国场外金融衍生品市场发展报告（2024年度）》正式发布</a> [9] <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3638377_100_1" target="_blank" class="news-link">中国宝武：不应鼓励钢坯出口。</a> [9 - 29] <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3638373_100_1" target="_blank" class="news-link">中国政治局会议：要毫不松懈抓好安全生产和防范自然灾害各项工作，更好统筹高质量发展和高水平安全。</a> [10 - 30] <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3638370_100_1" target="_blank" class="news-link">中国官媒：中国中央政治局会议召开，研究“中华人民共和国民族团结进步促进法（草案）”等。</a> [12] <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2130473?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中国动力：上半年净利润9.19亿元 同比增长93.35%</a> [14] <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3638359_100_1" target="_blank" class="news-link">中国宝武：1-7月钢材出口量483万吨。</a> [19] <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2130454?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">广东：加力推动电子信息、石化化工、家电等产业强链补链延链稳链</a> [20] <font color='grey'>- 16时44分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">5</td>
+                    <td class="percentage">5.56%</td>
+                    <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/08/29/46e806e6546d46dba097f6759c0310c1.html" target="_blank" class="news-link">外媒：美国批准8.25亿美元对乌军售</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250829160739794800" target="_blank" class="news-link">道明证券前瞻美国7月PCE报告：关税料温和传导至商品价格 服务业通胀加快</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3638406_100_1" target="_blank" class="news-link">韩国方面表示，朝鲜2024年实现8年来最快增长，主要受与俄罗斯关系推动。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3638386_0_1" target="_blank" class="news-link">德国机械设备制造业联合会批评欧盟-美国关税提案，称其可能损害德国机械工程</a> [8 - 28] <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2130451?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月29日电，日本央行计划9月份以与8月份相同的速度购买国债。</a> [18] <font color='grey'>- 16时44分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2130474?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月29日电，迈威尔科技盘前跌超11%，公司Q3营收指引不及市场预期。</a> [13] <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2130468?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">香港恒生指数收涨0.32% 恒生科技指数涨0.54%</a> [15] <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2130465?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">唯科科技：询价转让初步定价为75.26元/股</a> [17] <font color='grey'>- 16时44分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">外交部 卫健委 公安部 网信办 发改委 北戴河 中共中央 国务院 四中全会 三中全会 两会 政治局</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2130493?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">人社部、国家发改委、财政部召开进一步加大稳就业政策落实力度视频会议</a> [6] <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3638368_100_1" target="_blank" class="news-link">中共中央政治局会议：要求全力以赴做好灾区群众救援工作。</a> [13] <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2130463?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中共中央政治局召开会议 中共中央总书记习近平主持会议</a> [16] <font color='grey'>- 16时44分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250829161740143800" target="_blank" class="news-link">金十数据整理：每日债券市场要闻速递（2025-08-29）</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250829160418348800" target="_blank" class="news-link">金十数据整理：每日投行/机构观点梳理（2025-08-29）</a> [6] <font color='grey'>- 16时44分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.11%</td>
+                    <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/08/29/abc3f1b9ca354e04860fed3800c4c678.html" target="_blank" class="news-link">英伟达营收利润均超市场预期</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时44分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.11%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3638371_0_1" target="_blank" class="news-link">埃里克·特朗普在香港会议上表达了对Bitcoin的支持，并预测其价值为100万美元</a> [14] <font color='grey'>- 16时44分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">社保 养老 旅游 教育</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.11%</td>
+                    <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/08/29/6e1f730422a94554adf965f4c2b26d08.html" target="_blank" class="news-link">德拟推每月10欧元“提前养老金”</a> [8] <font color='grey'>- 16时44分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
