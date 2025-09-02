@@ -1,0 +1,127 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 55</p><p>生成时间: 2025-09-03 00:45:33</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">claude Anthropic</td>
+                    <td class="count">5</td>
+                    <td class="percentage">9.09%</td>
+                    <td class="titles"><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45104907" target="_blank" class="news-link">Anthropic raises $13B Series F at $183B post-money valuation</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 00时45分</font></div><br><div class='new-title'>🆕 [MKT News] <a href="https://mktnews.net/flashDetail.html?id=01990b28-f88b-799d-bd53-a029ed39814a" target="_blank" class="news-link">&lt;B&gt;ANTHROPIC SECURES NEW FUNDING ROUND VALUING IT AT $183 BILLION&lt;/B&gt;</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时45分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2134034?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月3日电，美国AI初创公司Anthropic完成新一轮融资，估值达到1830亿美元。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 00时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250903000226659800" target="_blank" class="news-link">市场消息：人工智能公司Anthropic完成新一轮融资，估值1830亿美元。</a> [6] <font color='grey'>- 00时45分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3643913_101_1" target="_blank" class="news-link">Anthropic完成130亿美元新一轮融资，估值1830亿美元。Iconiq、Fidelity、Lvp领投，卡塔尔主权财富基金、新加坡主权财富基金参投。该公司8月收入突破50亿美元。</a> [9 - 29] <font color='grey'>- 00时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">4</td>
+                    <td class="percentage">7.27%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250902235138110800" target="_blank" class="news-link">美国证券公司Jane Street第二季度交易收入达到创纪录的101亿美元。</a> [9] <font color='grey'>- 00时45分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3643908_101_1" target="_blank" class="news-link">美国证券公司Jane Street二季度斩获101亿美元净交易收入，打破华尔街纪录。</a> [11] <font color='grey'>- 00时45分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3643905_101_1" target="_blank" class="news-link">美国财政部拍卖三个月期国债，得标利率4.045%（8月25日为4.100%），投标倍数2.96（前次为3.07）。拍卖六个月期国债，得标利率3.880%（前次为3.941%），投标倍数2.70</a> [13] <font color='grey'>- 00时45分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3643899_0_1" target="_blank" class="news-link">亚特兰大联储GDPNow模型预计美国第三季度GDP增速为3.0%，此前预计为3.5%。</a> [15] <font color='grey'>- 00时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">3</td>
+                    <td class="percentage">5.45%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2134050?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月3日电，英伟达表示，有足够的H100/H200来满足所有订单。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 00时45分</font></div><br><div class='new-title'>🆕 [MKT News] <a href="https://mktnews.net/flashDetail.html?id=01990b36-eabb-799d-bd53-f20251a6534f" target="_blank" class="news-link">NVIDIA REFUTES SUPPLY CONSTRAINT RUMORS ON H100/H200 GPUS</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 00时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250903002029623800" target="_blank" class="news-link">市场消息：英伟达(NVDA.O)否认有关H100/H200 GPU短缺的传闻。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 00时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.64%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250903000406945800" target="_blank" class="news-link">大众汽车：正在调整查特努加工厂的ID.4电动汽车生产，这将导致少量员工从10月开始暂时停薪留职。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 00时45分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3643911_100_1" target="_blank" class="news-link">大众汽车：公司正在调整田纳西州查塔努加工厂ID.4的产量，这将导致少数员工自10月起暂时停工。</a> [10 - 30] <font color='grey'>- 00时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">马斯克 特斯拉 gork</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.82%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3643923_101_1" target="_blank" class="news-link">美国上诉法庭判决，马斯克旗下社交媒体平台X Corp.（被收购前名叫推特）免于被勒令向推特工人支付仲裁费用。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 00时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.82%</td>
+                    <td class="titles"><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45104974" target="_blank" class="news-link">Launch HN: Datafruit (YC S25) – AI for DevOps</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 00时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.82%</td>
+                    <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E8%A9%B9%E5%A7%86%E6%96%AF%E4%B8%8A%E6%B5%B7&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26cate%3D5001%26stream_entry_id%3D31%26lcate%3D5001%26pos%3D24%26band_rank%3D25%26flag%3D1%26realpos%3D25%26q%3D%25E8%25A9%25B9%25E5%25A7%2586%25E6%2596%25AF%25E4%25B8%258A%25E6%25B5%25B7%26dgr%3D0%26filter_type%3Drealtimehot%26c_type%3D31%26display_time%3D1756831374%26pre_seqid%3D17568313748800413759683" target="_blank" class="news-link">詹姆斯上海</a> [25] <font color='grey'>- 00时45分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
