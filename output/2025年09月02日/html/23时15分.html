@@ -1,0 +1,135 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 77</p><p>生成时间: 2025-09-02 23:15:44</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">8</td>
+                    <td class="percentage">10.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2134007?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月2日电，美国大型体育用品零售商Academy现跌超6%，因其二季度业绩不及预期。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250902223300246800" target="_blank" class="news-link">美国财长贝森特：通过针对伊朗的石油收入来源，财政部将进一步削弱伊朗对美国及其盟友发动袭击的能力。我们仍然致力于确保石油供应不受伊朗影响，并将继续努力阻止伊朗正在进行的袭击企图。</a> [7] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250902222908844800" target="_blank" class="news-link">美国在最新一轮打击伊朗石油出口的行动中制裁伊拉克富商Waleed Al-Samarra&#x27;I。</a> [10] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250902222813872800" target="_blank" class="news-link">美国总统特朗普能源主管：电价飙升是最大担忧。</a> [11] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3643757_100_1" target="_blank" class="news-link">【行情】美国网约车公司Lyft股价逆转走势，现涨1.6%。</a> [14] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3643751_0_1" target="_blank" class="news-link">美国7月建筑支出小幅下降，受私营部门疲软拖累</a> [16] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3643750_100_1" target="_blank" class="news-link">美国财政部网站：美国发布了与伊朗相关的制裁措施。</a> [17] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%97%A5%E6%9C%AC%E5%8E%86%E5%8F%B2%E6%95%99%E7%A7%91%E4%B9%A6%E7%AB%9F%E8%BF%99%E6%A0%B7%E6%95%99%E4%BE%B5%E5%8D%8E%E6%88%98%E4%BA%89%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26stream_entry_id%3D31%26lcate%3D5001%26realpos%3D20%26band_rank%3D20%26q%3D%2523%25E6%2597%25A5%25E6%259C%25AC%25E5%258E%2586%25E5%258F%25B2%25E6%2595%2599%25E7%25A7%2591%25E4%25B9%25A6%25E7%25AB%259F%25E8%25BF%2599%25E6%25A0%25B7%25E6%2595%2599%25E4%25BE%25B5%25E5%258D%258E%25E6%2588%2598%25E4%25BA%2589%2523%26filter_type%3Drealtimehot%26pos%3D19%26c_type%3D31%26flag%3D1%26cate%3D5001%26dgr%3D0%26display_time%3D1756825934%26pre_seqid%3D1756825934956030421104" target="_blank" class="news-link">日本历史教科书竟这样教侵华战争</a> [20] <font color='grey'>- 23时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">7</td>
+                    <td class="percentage">9.09%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5076402" target="_blank" class="news-link">中国网成(01920.HK)授出2600万份购股权</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250902/1067223083.html" target="_blank" class="news-link">俄专家：俄罗斯通过增加对华供应来帮助中国满足2030年的天然气需求</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250902/1067222971.html" target="_blank" class="news-link">普京与乌兹别克斯坦总统在北京举行会晤</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5076400" target="_blank" class="news-link">中国交通建设(01800.HK)：中交集团累计增持公司H股1740万股</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28344718&amp;amp;topic_name=%E7%A0%B4%E5%A4%A7%E9%98%B2%2C%E6%97%A5%E6%9C%AC%E6%B1%A1%E8%94%91%E4%B8%AD%E5%9B%BD%E9%98%85%E5%85%B5%E5%8F%8D%E6%97%A5" target="_blank" class="news-link">破大防,日本污蔑中国阅兵反日</a> [6] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250902/1067220919.html" target="_blank" class="news-link">白俄罗斯总统：中国是白俄罗斯真正的朋友</a> [13]</div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E4%BA%94%E6%9C%88%E5%A4%A9%E4%B8%8A%E6%B5%B7%E6%BC%94%E5%94%B1%E4%BC%9A&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26stream_entry_id%3D31%26lcate%3D5001%26realpos%3D28%26band_rank%3D28%26q%3D%25E4%25BA%2594%25E6%259C%2588%25E5%25A4%25A9%25E4%25B8%258A%25E6%25B5%25B7%25E6%25BC%2594%25E5%2594%25B1%25E4%25BC%259A%26filter_type%3Drealtimehot%26pos%3D27%26c_type%3D31%26flag%3D1%26cate%3D5001%26dgr%3D0%26display_time%3D1756825934%26pre_seqid%3D1756825934956030421104" target="_blank" class="news-link">五月天上海演唱会</a> [28] <font color='grey'>- 23时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">社保 养老 旅游 教育</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.6%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3643774_0_1" target="_blank" class="news-link">高露洁-棕榄同意支付3.32亿美元以解决养老金计算集体诉讼</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%88%91%E5%9B%BD%E5%B7%B2%E5%88%92%E8%BD%AC%E4%B8%87%E4%BA%BF%E5%9B%BD%E8%B5%84%E5%85%85%E5%AE%9E%E7%A4%BE%E4%BF%9D%E5%9F%BA%E9%87%91%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26stream_entry_id%3D31%26lcate%3D5001%26realpos%3D23%26band_rank%3D23%26q%3D%2523%25E6%2588%2591%25E5%259B%25BD%25E5%25B7%25B2%25E5%2588%2592%25E8%25BD%25AC%25E4%25B8%2587%25E4%25BA%25BF%25E5%259B%25BD%25E8%25B5%2584%25E5%2585%2585%25E5%25AE%259E%25E7%25A4%25BE%25E4%25BF%259D%25E5%259F%25BA%25E9%2587%2591%2523%26filter_type%3Drealtimehot%26pos%3D22%26c_type%3D31%26flag%3D1%26cate%3D5001%26dgr%3D0%26display_time%3D1756825934%26pre_seqid%3D1756825934956030421104" target="_blank" class="news-link">我国已划转万亿国资充实社保基金</a> [23] <font color='grey'>- 23时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.3%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202509/0251302.html" target="_blank" class="news-link">黄仁勋上月赴台是为特朗普传话？ 台积电：应邀内部演讲</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.3%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250902222338651800" target="_blank" class="news-link">美国联邦住房金融局局长普尔特：刚刚收到视频证据，美联储理事丽莎·库克申报的“主要住所”正在出租给租户。库克最近向美国政府声称这是她的私人住所。</a> [14] <font color='grey'>- 23时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">机器人 脑机接口</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.3%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2133824" target="_blank" class="news-link">公募顶流调研忙，机器人概念股受追捧，胡昕炜、劳杰男、闫思倩等名将密集调研</a> [13] <font color='grey'>- 23时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.3%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3643780_0_1" target="_blank" class="news-link">塞尔维亚总统武契奇：塞尔维亚不会国有化俄罗斯在塞尔维亚石油工业公司的股份。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 23时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">外交部 卫健委 公安部 网信办 发改委 北戴河 中共中央 国务院 四中全会 三中全会 两会 政治局</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.3%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202509/0251303.html" target="_blank" class="news-link">福建“最快女护士”求调休跑马拉松 当地卫健委称需医院内部确定</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时15分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
