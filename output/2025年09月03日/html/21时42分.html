@@ -1,0 +1,127 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 100</p><p>生成时间: 2025-09-03 21:42:20</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">9</td>
+                    <td class="percentage">9.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2134951?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月3日电，欧洲量子计算机公司IQM完成超3亿美元B轮融资，本轮由美国投资机构Ten Eleven Ventures领投。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3645760_100_1" target="_blank" class="news-link">美国圣路易斯联储主席穆萨莱姆：数据完整性是经济的关键。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2134947?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月3日电，8月美国通过SPAC方式首次公开募股（IPO）融资额达18.2亿美元，同比增长3.9%。</a> [7] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2134944?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美联储穆萨莱姆：最新数据显示 美国劳动力市场面临下行风险增加</a> [10] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3645746_100_1" target="_blank" class="news-link">美国圣路易斯联储主席穆萨莱姆：美联储的结构有助于保护政策决策免受政治影响。</a> [12] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250903210945887800" target="_blank" class="news-link">乌克兰总统泽连斯基：星期四我们将试图与美国总统特朗普取得联系。</a> [19] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3645733_0_1" target="_blank" class="news-link">乌克兰总统泽连斯基：星期四我们将试图与美国总统特朗普取得联系。</a> [20] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250903210913544800" target="_blank" class="news-link">乌克兰总统泽连斯基：在这一关键时期，我们需要美国在我们这一边。</a> [21] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250903210313519800" target="_blank" class="news-link">乌克兰总统泽连斯基：我们收到美国方面的信号，美国将提供支持。</a> [29] <font color='grey'>- 21时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">6</td>
+                    <td class="percentage">6.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2134952?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月3日电，福特汽车8月美国总销量增长3.9%，纯电动车型销量增长16.2%。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2134927?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">现代汽车8月总销量增长12%</a> [14] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3645741_100_1" target="_blank" class="news-link">福特汽车：8月美国电动汽车总销量29444辆。</a> [14] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250903211529068800" target="_blank" class="news-link">福特汽车(F.N)8月美国总销量增长3.9%，纯电动车型销量增长16.2%。</a> [16] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3645739_100_1" target="_blank" class="news-link">福特汽车：8月份美国汽车总销量同比增长3.9%。</a> [17] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%9F%83%E6%96%87%E5%87%AF%E5%B0%94%E7%9C%8B%E5%8F%97%E9%98%85%E9%A3%9E%E6%9C%BA%EF%BC%9A%E4%B8%8D%E5%8F%AF%E6%80%9D%E8%AE%AE" target="_blank" class="news-link">埃文凯尔看受阅飞机：不可思议</a> [22] <font color='grey'>- 21时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5077340" target="_blank" class="news-link">纳指高开0.86%，谷歌A大涨超7%创新高，苹果涨超3%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3754842" target="_blank" class="news-link">美国30年期国债收益率再破5%，谷歌盘前涨超6%，现货黄金突破3550美元关口</a> [8] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2134922" target="_blank" class="news-link">美股三大期指涨跌不一 谷歌盘前大涨近7% | 今夜看点</a> [13] <font color='grey'>- 21时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5077341" target="_blank" class="news-link">北京能源国际(00686.HK)附属保能丰泰订立EPC合约</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3645750_100_1" target="_blank" class="news-link">富时中国A50指数季度调整：纳入新易盛、中际旭创等四股，剔除中核、中联通。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5077333" target="_blank" class="news-link">天工国际(00826.HK)完成对上海盖泽激光科技增资</a> [11] <font color='grey'>- 21时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5077339" target="_blank" class="news-link">Raymond James上调西方石油目标价至58美元</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3645755_0_1" target="_blank" class="news-link">因OPEC+可能增产的报道，石油价格下跌</a> [6 - 26] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3645743_100_1" target="_blank" class="news-link">巴拿马运河管理局：巴拿马总统穆利诺已宣布启动为新的洋际能源走廊开发天然气管道的流程。</a> [15] <font color='grey'>- 21时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">医疗改革 医保 防疫 禽流感 登革热 流感 新冠 基孔肯雅</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250903212116161800" target="_blank" class="news-link">世界动物卫生组织：德国报告称，在该国北部的一个农场发现H5N1禽流感疫情。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250903210417505800" target="_blank" class="news-link">世界动物卫生组织：葡萄牙报告在里斯本附近的一家农场爆发H5N1禽流感。</a> [26] <font color='grey'>- 21时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">芯片 光刻机 算力</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2134593?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【财联社早知道】SK海力士引进业界首款量产型高数值孔径极紫外光刻机，机构预计2029年全球光刻机市场规模将达378.1亿美元，它为全球光刻机巨头厂商提供透镜系统MEMS部件的工艺开发与晶圆制造服务</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时42分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
