@@ -1,0 +1,119 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 53</p><p>生成时间: 2025-09-04 01:13:14</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">12</td>
+                    <td class="percentage">22.64%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250904005427142800" target="_blank" class="news-link">欧洲央行管委维勒鲁瓦：美国总统特朗普对美联储独立性的攻击“对民主制度构成危险”。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250904005228601800" target="_blank" class="news-link">白宫官员：美国总统特朗普在总统办公室的讲话中所指的是与泽连斯基的电话通话，而不是与普京的通话。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 01时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2135050?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月4日电，美国玻璃制造商康宁公司短线走低，现跌超2%。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 01时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3646295_0_1" target="_blank" class="news-link">由于驳船利用率担忧，美国银行证券降低目标股价，Kirby公司股价下跌</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 01时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3646292_100_1" target="_blank" class="news-link">美国总统特朗普：如果美国在关税案中败诉，可能不得不取消与欧盟等其他国家的贸易协议。</a> [6 - 26] <font color='grey'>- 01时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3646289_100_1" target="_blank" class="news-link">美国总统特朗普：将在未来几天内与其进行通话。</a> [8 - 28] <font color='grey'>- 01时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250904004138825800" target="_blank" class="news-link">美国法官质疑司法部放弃波音(BA.N)独立监管人的决定，但未立即做出裁决。</a> [10] <font color='grey'>- 01时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250904003912023800" target="_blank" class="news-link">美国玻璃制造商康宁公司股价短线走低，一度跌超2%。</a> [11] <font color='grey'>- 01时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250904003218172800" target="_blank" class="news-link">美国国务卿鲁比奥在墨西哥会见墨西哥总统辛鲍姆。</a> [13] <font color='grey'>- 01时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3646278_101_1" target="_blank" class="news-link">欧洲央行管委维勒鲁瓦抨击美国总统特朗普对美联储（独立性）的强势攻击。</a> [15] <font color='grey'>- 01时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250904002535293800" target="_blank" class="news-link">据华盛顿邮报：美国佛罗里达州计划终止所有州疫苗接种强制令。</a> [17] <font color='grey'>- 01时13分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8F%B0%E6%B9%BE%E8%89%BA%E4%BA%BA%E9%9B%86%E4%BD%93%E8%BD%AC%E5%8F%91%E4%B9%9D%E4%B8%89%E9%98%85%E5%85%B5" target="_blank" class="news-link">台湾艺人集体转发九三阅兵</a> [30] <font color='grey'>- 01时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">3</td>
+                    <td class="percentage">5.66%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250904004919861800" target="_blank" class="news-link">印度财政部长：空调、电视机、洗碗机的税率降至18%，小型汽车税率降至18%，农产品、拖拉机、土地准备机械的税率降至5%。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3646300_100_1" target="_blank" class="news-link">印度财长：发动机排量超过1500cc的中型和大型汽车将适用40%的税率。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 01时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3646287_100_1" target="_blank" class="news-link">印度财长西塔拉曼：小型汽车税率降至18%。</a> [10 - 30] <font color='grey'>- 01时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">3</td>
+                    <td class="percentage">5.66%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250904004949913800" target="_blank" class="news-link">伊拉克石油部文件显示，伊拉克8月份石油出口量平均为338万桶/日。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 01时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3646299_100_1" target="_blank" class="news-link">印度财长西塔拉曼：烟草、嚼烟以及含糖汽水的特别税率为40%。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 01时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3646286_100_1" target="_blank" class="news-link">伊拉克石油部文件显示，8月份伊拉克石油出口量平均为338万桶/日。</a> [11] <font color='grey'>- 01时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.77%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250904/1067263016.html" target="_blank" class="news-link">普京：已邀请特朗普访问俄罗斯</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250904003029897800" target="_blank" class="news-link">特朗普对增兵波兰与加大对俄制裁持开放态度</a> [16] <font color='grey'>- 01时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.89%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3646280_101_1" target="_blank" class="news-link">谷歌公司很快将向所有用户开放若干选型，从而限制公司向广告商分享用户隐私的能力。</a> [14] <font color='grey'>- 01时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.89%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%99%AE%E4%BA%AC%EF%BC%9A%E4%B8%AD%E5%9B%BD%E4%B8%BE%E8%A1%8C%E7%9A%84%E7%BA%AA%E5%BF%B5%E6%B4%BB%E5%8A%A8%E5%BE%88%E7%B2%BE%E5%BD%A9" target="_blank" class="news-link">普京：中国举行的纪念活动很精彩</a> [28] <font color='grey'>- 01时13分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
