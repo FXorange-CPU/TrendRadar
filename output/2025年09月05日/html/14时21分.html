@@ -1,0 +1,167 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 111</p><p>生成时间: 2025-09-05 14:21:39</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">9</td>
+                    <td class="percentage">8.11%</td>
+                    <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%99%AE%E4%BA%AC%E7%9C%8B%E5%88%B0%E4%B8%AD%E5%9B%BD%E8%A7%82%E4%BC%97%E7%A7%92%E5%88%87%E4%B8%AD%E6%96%87%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26q%3D%2523%25E6%2599%25AE%25E4%25BA%25AC%25E7%259C%258B%25E5%2588%25B0%25E4%25B8%25AD%25E5%259B%25BD%25E8%25A7%2582%25E4%25BC%2597%25E7%25A7%2592%25E5%2588%2587%25E4%25B8%25AD%25E6%2596%2587%2523%26c_type%3D31%26cate%3D5001%26band_rank%3D1%26stream_entry_id%3D31%26flag%3D1%26pos%3D0%26lcate%3D5001%26dgr%3D0%26realpos%3D1%26filter_type%3Drealtimehot%26display_time%3D1757053222%26pre_seqid%3D1757053222548010789086" target="_blank" class="news-link">普京看到中国观众秒切中文</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202509/0551556.html" target="_blank" class="news-link">中国阅兵大秀对特朗普贸易政策的高危启示</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202509/0551555.html" target="_blank" class="news-link">金正恩高调亮相北京阅兵：多边外交首秀中的“政治胜利”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E6%9D%AD%E5%B7%9E%E4%B8%9C%E7%AB%99%E7%A6%81%E7%83%9F&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26q%3D%25E6%259D%25AD%25E5%25B7%259E%25E4%25B8%259C%25E7%25AB%2599%25E7%25A6%2581%25E7%2583%259F%26c_type%3D31%26cate%3D5001%26band_rank%3D9%26stream_entry_id%3D31%26flag%3D1%26pos%3D9%26lcate%3D5001%26dgr%3D0%26realpos%3D9%26filter_type%3Drealtimehot%26display_time%3D1757053222%26pre_seqid%3D1757053222548010789086" target="_blank" class="news-link">杭州东站禁烟</a> [9] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%9D%AD%E5%B7%9E%E9%85%92%E9%A6%86%E8%A2%AB%E6%9B%9D%E6%8F%90%E4%BE%9B%E5%A5%B3%E8%88%9E%E8%80%85%E7%94%A8%E5%98%B4%E5%96%82%E9%A3%9F%E6%9C%8D%E5%8A%A1" target="_blank" class="news-link">杭州酒馆被曝提供女舞者用嘴喂食服务</a> [12] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2136570?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上海将进一步落实优化配套措施 激发深夜消费活力</a> [12] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3649489_100_1" target="_blank" class="news-link">俄罗斯总统普京：俄罗斯和中国正在讨论建立互惠支付系统。</a> [13] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3649479_100_1" target="_blank" class="news-link">俄罗斯总统普京：俄罗斯将采取互惠措施，对中国公民实施免签证旅行。</a> [17] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%9F%A9%E7%94%B7%E5%AD%90%E4%B8%80%E4%B8%AA%E6%9C%882%E6%AC%A1%E8%A2%AD%E5%87%BB%E4%B8%AD%E5%9B%BD%E6%B8%B8%E5%AE%A2" target="_blank" class="news-link">韩男子一个月2次袭击中国游客</a> [28] <font color='grey'>- 14时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">5</td>
+                    <td class="percentage">4.5%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250905135344314800" target="_blank" class="news-link">日本央行行长植田和男将于10月3日访问大阪并举行新闻发布会。</a> [9] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250905135320328800" target="_blank" class="news-link">LG能源解决方案：与韩国政府合作，确保公司员工及承包商员工得到释放。</a> [11] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3649492_100_1" target="_blank" class="news-link">俄罗斯总统普京：我们与美国总统特朗普保持着开放对话。</a> [12] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3649478_100_1" target="_blank" class="news-link">Ashmore：有多个主题显而易见，这些主题表明投资者需要重新平衡配置，从美国资产转移。</a> [18] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250905134619345800" target="_blank" class="news-link">俄罗斯总统普京：我们收到了美国公司的提议，希望在阿拉斯加开展合作。</a> [20] <font color='grey'>- 14时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">4</td>
+                    <td class="percentage">3.6%</td>
+                    <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%88%91%E5%9B%BDAI%E5%85%BB%E7%8C%AA%E6%8A%80%E6%9C%AF%E6%9C%89%E5%A4%9A%E8%B6%85%E5%89%8D" target="_blank" class="news-link">我国AI养猪技术有多超前</a> [6] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45135302" target="_blank" class="news-link">Why RDF Is the Natural Knowledge Layer for AI Systems</a> [7] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3754969" target="_blank" class="news-link">博通Q3 AI芯片收入超预期增63%，神秘新客户下单百亿，料下财年AI前景“大幅”改善 | 财报见闻</a> [10] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45134489" target="_blank" class="news-link">Using AI to perceive the universe in greater depth</a> [29] <font color='grey'>- 14时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">3</td>
+                    <td class="percentage">2.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250905134705590800" target="_blank" class="news-link">俄罗斯总统普京：我们在讨论石油和天然气行业各种选项。</a> [18] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250905134226416800" target="_blank" class="news-link">丹麦最大能源公司Orsted将2025年息税折旧及摊销前利润指引调整为240-270亿丹麦克朗，先前为250-280亿丹麦克朗。</a> [25] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250905134034299800" target="_blank" class="news-link">俄罗斯总统普京：这是最大的能源项目之一。</a> [26] <font color='grey'>- 14时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.8%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202509/0551554.html" target="_blank" class="news-link">“特朗普去世”阴谋论为何喧嚣尘上</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2226015" target="_blank" class="news-link">特朗普邀20余位精英聚会</a> [29] <font color='grey'>- 14时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.9%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250905134413988800" target="_blank" class="news-link">苹果上一财年在印度录得创纪录的90亿美元销售额</a> [21] <font color='grey'>- 14时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">半导体 GPU</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.9%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2136561?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中微公司董事长尹志尧：半导体设备行业不要内卷 要联合</a> [19] <font color='grey'>- 14时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.9%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2136575?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月5日电，英国7月包括汽车燃料在内的零售销售额同比增长1.1%，预期增长1.3%。</a> [9] <font color='grey'>- 14时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">芯片 光刻机 算力</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.9%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2136546?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【盘中宝】提升算力性能的核心环节之一，这类产品有望成为解决互联瓶颈的重要方案，这家公司相关领域器件通过了客户验证</a> [20] <font color='grey'>- 14时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.9%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5078543" target="_blank" class="news-link">范式戴文渊现场观礼：更坚定科技强国的信念</a> [7] <font color='grey'>- 14时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">国产剧 电影 科幻</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.9%</td>
+                    <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1947243902219288904" target="_blank" class="news-link">电影《731》发布最新预告，有哪些值得关注的细节？</a> [16] <font color='grey'>- 14时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>12</td>
+                    <td class="word">乡村经济 乡村振兴 裁员</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.9%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2136584?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月5日电，奥地利石油公司OMV计划全球裁员12%。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时21分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
