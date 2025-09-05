@@ -1,0 +1,127 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 45</p><p>生成时间: 2025-09-05 11:47:34</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">4</td>
+                    <td class="percentage">8.89%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3649305_0_1" target="_blank" class="news-link">印度在关税和中国主导地位下扩大太阳能制造能力</a> [8 - 28] <font color='grey'>- 11时47分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3649302_101_1" target="_blank" class="news-link">蔚来：Nio Day 2025将于9月20日在杭州举办</a> [10 - 30] <font color='grey'>- 11时47分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3649299_100_1" target="_blank" class="news-link">中国中期借贷便利（MLF）未到期余额维持在55500亿元不变，下次9月25日到期规模3000亿。</a> [11] <font color='grey'>- 11时47分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1942937221293373329" target="_blank" class="news-link">看完中国首部 8K 拍摄太空电影《窗外是蓝星》你有什么感受？</a> [20] <font color='grey'>- 11时47分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.44%</td>
+                    <td class="titles"><div class='new-title'>🆕 [MKT News] <a href="https://mktnews.net/flashDetail.html?id=019917ec-ca80-799d-bd88-7dbc4f0058d5" target="_blank" class="news-link">【NVIDIA Plans Silicon Carbide Switch for Rubin Chips, TSMC Eyes 2027 Timeline】NVIDIA reportedly plans to replace CoWoS interposer material with silicon carbide for Rubin processors. TSMC advancing related R&amp;D, with silicon carbide expected to enter advanced packaging by 2027 at latest.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时47分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2136456?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">消息称英伟达拟将Rubin处理器CoWoS中间基板材料替换为碳化硅 台积电正推进相关研发</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时47分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">机器人 脑机接口</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2136460?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【掘金行业龙头】固态电池+机器人+光伏，锂电设备打破海外厂商垄断，市占率连续多年排名国内第一，这家公司固态电池领域初步完成“湿法+干法”双产线布局</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时47分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3649311_100_1" target="_blank" class="news-link">香港交易所行政总裁陈翊庭：高新科技企业在港再融资额已超越上市时集资金额。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 11时47分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3649313_0_1" target="_blank" class="news-link">澳大利亚国防部长：加强与日本的战略伙伴关系。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 11时47分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">新能源</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2136467?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">午评：创业板指半日涨3.48% 新能源赛道股全线大涨</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时47分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">国产剧 电影 科幻</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2224955" target="_blank" class="news-link">威尼斯电影节</a> [30] <font color='grey'>- 11时47分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
