@@ -1,0 +1,111 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 26</p><p>生成时间: 2025-09-06 15:12:28</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">5</td>
+                    <td class="percentage">19.23%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202509/0651639.html" target="_blank" class="news-link">美国多州出现与外卖食品相关的沙门氏菌感染病例</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时12分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202509/0651637.html" target="_blank" class="news-link">美国失业率近四年高位 劳动力市场放缓</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250906143038393800" target="_blank" class="news-link">日本经济再生大臣赤泽亮正：将分析关税对日本经济、全球经济的影响，以及与其他国家相比贸易条件的变化。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250906143013130800" target="_blank" class="news-link">日本贸易谈判代表赤泽亮正：将分析美国关税行政命令的影响，该命令将在两周内带来变化。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250906142944428800" target="_blank" class="news-link">日本经济再生大臣赤泽亮正：不能说与美国的贸易问题已经得到解决。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时12分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">4</td>
+                    <td class="percentage">15.38%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250906/1067338661.html" target="_blank" class="news-link">“三位一体”核力量震撼亮相：九三阅兵揭示中国战略威慑新格局</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2137550?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中星9C卫星正式投用 中国广播电视专用卫星实现全面国产化</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时12分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2137548?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上海合作组织成员国第二十四次经贸部长会议取得积极成果</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时12分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3651033_100_1" target="_blank" class="news-link">中国官媒：加拿大和澳大利亚军舰过航台湾海峡，解放军“全程跟监警戒”。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 15时12分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">半导体 GPU</td>
+                    <td class="count">1</td>
+                    <td class="percentage">3.85%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250906142937453800" target="_blank" class="news-link">日本经济再生大臣赤泽亮正：美国关于汽车关税的行政令已经发布，但目前尚未对药品和半导体的最惠国待遇作出任何决定。</a> [6] <font color='grey'>- 15时12分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">3.85%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250906/1067338379.html" target="_blank" class="news-link">俄副总理：俄罗斯已准备好向中国供应飞机零部件</a> <font color='red'><strong>[3]</strong></font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">1</td>
+                    <td class="percentage">3.85%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202509/0651634.html" target="_blank" class="news-link">特朗普宣布黄金钨铀等金属豁免关税 9月8日生效</a> [6] <font color='grey'>- 15时12分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
