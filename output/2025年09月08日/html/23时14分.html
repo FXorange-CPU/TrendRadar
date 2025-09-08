@@ -1,0 +1,151 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 101</p><p>生成时间: 2025-09-08 23:14:55</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">16</td>
+                    <td class="percentage">15.84%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202509/0851812.html" target="_blank" class="news-link">柯文哲交保指责赖清德分裂台湾 总统府：不接受非事实抺黑</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2139081?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美国8月纽约联储1年通胀预期为增长3.2%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250908230017944800" target="_blank" class="news-link">美国8月纽约联储1年通胀预期 3.2%，前值3.09%。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3653149_100_1" target="_blank" class="news-link">美国纽约联储：8月份房价上涨预期维持在3%不变。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3653148_100_1" target="_blank" class="news-link">美国纽约联储：8月份对当前财务状况的看法有所下降。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3653147_100_1" target="_blank" class="news-link">美国纽约联储：8月份三年期通胀预期维持在3%不变。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3653142_100_1" target="_blank" class="news-link">美国纽约联储：公众预计一年后失业率将上升。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250908225827305800" target="_blank" class="news-link">市场消息：美国最高法院法官暂时允许美国总统特朗普罢免联邦贸易委员会委员。</a> [6] <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3653140_0_1" target="_blank" class="news-link">美国8月纽约联储1年通胀预期3.2%，前值3.09%。</a> [6 - 26] <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3653139_100_1" target="_blank" class="news-link">美国纽约联储：8月份五年期通胀预期维持在2.9%不变。</a> [7 - 27] <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3653138_100_1" target="_blank" class="news-link">美国纽约联储：美国消费者在8月份下调了对劳动力市场的看法。</a> [8 - 28] <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202509/0851805.html" target="_blank" class="news-link">汇丰报告：中远与子公司或面对27亿元美国港口费</a> [9] <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3653137_100_1" target="_blank" class="news-link">美国纽约联储：8月份调查显示，自2013年6月以来，就业市场找到新工作的可能性最低。</a> [9 - 29] <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202509/0851804.html" target="_blank" class="news-link">台花莲舰交船 萧美琴：守护台湾是真实行动</a> [10] <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3653136_0_1" target="_blank" class="news-link">市场消息：美国最高法院法官暂时允许美国总统特朗普罢免联邦贸易委员会委员。</a> [10 - 30] <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250908225000001800" target="_blank" class="news-link">美国8月纽约联储1年通胀预期将于十分钟后公布。</a> [15] <font color='grey'>- 23时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">5</td>
+                    <td class="percentage">4.95%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2139077?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月8日电，据报道，小鹏汽车计划在2026年向全球大众市场推出“MONA”品牌。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250908225511788800" target="_blank" class="news-link">据CNBC：小鹏汽车(XPEV.N)计划在2026年进行面向全球的大众市场“MONA”品牌发布。</a> [11] <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3653128_101_1" target="_blank" class="news-link">小鹏汽车考虑2026年在海外市场推出Mona品牌。Ceo称，对收购其他电动汽车公司持开放态度。</a> [14] <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250908222449865800" target="_blank" class="news-link">比亚迪执行副总裁Stella Li：比亚迪插电式混合动力车在欧洲的销量将在未来一到两年内超过纯电动汽车的销量。</a> [25] <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250908222426132800" target="_blank" class="news-link">比亚迪执行副总裁Stella Li：比亚迪将在三年内于欧洲当地生产满足欧洲市场需求的所有电动汽车。</a> [27] <font color='grey'>- 23时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">5</td>
+                    <td class="percentage">4.95%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202509/0851810.html" target="_blank" class="news-link">中国对日参议员石平实施制裁 日本提出交涉</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202509/0851809.html" target="_blank" class="news-link">中国多地违规向死亡与服刑人员发放养老金</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/hkMacao/202509/0851806.html" target="_blank" class="news-link">台风“塔巴”登陆广东台山 粤港澳多地星期一停课</a> [8] <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202509/0851802.html" target="_blank" class="news-link">中国多家猪企8月生猪售价均降 销售收入下滑</a> [12] <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250908222440652800" target="_blank" class="news-link">比亚迪执行副总裁Stella Li：比亚迪对中国市场的表现感到满意，销量在“可能过高”之后已恢复正常水平。</a> [26] <font color='grey'>- 23时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.98%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202509/0851808.html" target="_blank" class="news-link">NBA球星詹姆斯人民日报撰文 称篮球是连接彼此桥梁</a> [6] <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250908225650232800" target="_blank" class="news-link">金十数据整理：欧盘美盘重要新闻汇总（2025-09-08）</a> [9] <font color='grey'>- 23时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.98%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250908225409017800" target="_blank" class="news-link">据天空新闻：英伟达(NVDA.O)CEO黄仁勋将陪同美国总统特朗普出席英国国宴。</a> [12] <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3653127_100_1" target="_blank" class="news-link">英国天空电视台：英伟达CEO黄仁勋预计将于下周陪同美国总统特朗普对英国进行国事访问。</a> [15] <font color='grey'>- 23时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">chatgpt Sam Altman openai</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.98%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250908225755927800" target="_blank" class="news-link">据天空新闻：苹果(AAPL.O)CEO库克、OpenAI创始人Sam Altman、贝莱德(BLK.N)CEO芬克、黑石集团(BX.N) CEO苏世民也已获邀，预计将出席在英国举行的国宴。</a> [7] <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45168883" target="_blank" class="news-link">&#x27;We can do it for under $100M&#x27;: Startup joins race to build local ChatGPT</a> [26] <font color='grey'>- 23时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.98%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250908230024125800" target="_blank" class="news-link">截止23:00收盘，国内期货主力合约涨跌不一。玻璃涨超1%，液化石油气（LPG）、菜油涨超0.5%。跌幅方面，丁二烯橡胶跌超1%，20号胶（NR）跌近1%。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2139068?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">世界最大清洁能源走廊2025年首次全开运行</a> [7] <font color='grey'>- 23时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">外交部 卫健委 公安部 网信办 发改委 北戴河 中共中央 国务院 四中全会 三中全会 两会 政治局</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.98%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250908225235757800" target="_blank" class="news-link">爱沙尼亚外交部长：在俄罗斯直升机侵犯爱沙尼亚领空后，今天我们传唤了俄罗斯驻爱沙尼亚代办。</a> [14] <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3653125_100_1" target="_blank" class="news-link">爱沙尼亚外交部长：今天在俄罗斯直升机侵犯爱沙尼亚领空后，我们召见了俄罗斯驻爱沙尼亚代办。</a> [17] <font color='grey'>- 23时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.99%</td>
+                    <td class="titles"><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45168953" target="_blank" class="news-link">Experimenting with Local LLMs on macOS</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">小米 雷军</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.99%</td>
+                    <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2230436" target="_blank" class="news-link">小米通报：王腾因泄密被辞退</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时14分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
