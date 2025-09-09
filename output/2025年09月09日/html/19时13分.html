@@ -1,0 +1,143 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 83</p><p>生成时间: 2025-09-09 19:13:34</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">7</td>
+                    <td class="percentage">8.43%</td>
+                    <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1947658435064754302" target="_blank" class="news-link">如何看待广州廖爸爸质疑学校家委会操作违规事件？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5080741" target="_blank" class="news-link">石四药集团(02005.HK)：吲哚菁绿获中国国家药品监督管理局批准登记成为在上市制剂使用的原料药</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2140077?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上海市委书记陈吉宁分别会见新加坡淡马锡董事长林文兴、丰隆集团主席郭令明</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2140072?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">宝钢股份：发行不超200亿元公司债获中国证监会核准批复</a> [6] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2140069?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上海洗霸：固态电池相关业务暂未形成长期稳定的规模化收入</a> [9] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5080710" target="_blank" class="news-link">上海洗霸(603200.SH)：固态电池相关业务暂未形成长期稳定的规模化收入</a> [11] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5080706" target="_blank" class="news-link">浦江中国(01417.HK)张金美女士已辞任公司联席公司秘书一职</a> [15] <font color='grey'>- 19时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">6</td>
+                    <td class="percentage">7.23%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2140071?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月9日电，大众汽车集团表示，旨在通过与技术和行业伙伴的更密切合作，进一步推进人工智能的使用。在此背景下，该公司目前正在探索大型工业模型（LIM）的潜力，这是一种基于自愿参与公司的真实制造、设计和过程数据的工业人工智能模型。</a> [7] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3654772_0_1" target="_blank" class="news-link">大众汽车计划在2030年前投资10亿欧元于人工智能</a> [9 - 29] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250909183039365800" target="_blank" class="news-link">大众汽车：人工智能将加速新车型和技术的开发过程。</a> [10] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250909183034799800" target="_blank" class="news-link">大众汽车：到2030年将投资最高10亿欧元用于人工智能。</a> [11] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250909183025490800" target="_blank" class="news-link">大众汽车：到2035年，人工智能带来的效率提升和成本节约可能达到40亿欧元。</a> [12] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2140060?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">大众汽车：到2030年将投资最高10亿欧元用于人工智能</a> [13] <font color='grey'>- 19时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">4</td>
+                    <td class="percentage">4.82%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2140080?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月9日电，加密交易所Gemini已签署条款清单，将为纳斯达克客户（含上市公司）提供加密资产托管与质押服务。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250909184118978800" target="_blank" class="news-link">加密货币交易平台Gemini Space Station：纳斯达克将通过私募方式进行投资。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250909183949649800" target="_blank" class="news-link">加密货币交易平台Gemini Space Station：纳斯达克同意购买公司5000万美元的A类普通股。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5080712" target="_blank" class="news-link">纳斯达克同意购买GEMINI 5000万美元的A类普通股</a> [9] <font color='grey'>- 19时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">机器人 脑机接口</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.41%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2140074?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">均胜电子：机器人相关零部件业务尚处于前期起步阶段 营业收入占比不到0.1%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2140040?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【机构龙虎榜解读】人形机器人+智元+半年报增长，已为国内外头部机器人客户批量供货大小脑控制器、能源管理模块等关键零部件，并与智元机器人、银河通用等持续深化合作，机构大额净买入这家公司</a> [12] <font color='grey'>- 19时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.41%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5080709" target="_blank" class="news-link">蓝思科技(06613.HK)9月9日耗资3006万元人民币回购100万股A股</a> [12] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250909182024384800" target="_blank" class="news-link">贝莱德GIP：地热与核能蕴藏“巨大机会”</a> [15] <font color='grey'>- 19时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.41%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3654832_100_1" target="_blank" class="news-link">韩国方面表示，法国道达尔石油公司将在10年内每年向韩国石油公社供应100万吨液化天然气。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2140057?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">道达尔能源与韩国天然气公司签署十年期液化天然气供应协议</a> [15] <font color='grey'>- 19时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">外交部 卫健委 公安部 网信办 发改委 北戴河 中共中央 国务院 四中全会 三中全会 两会 政治局</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.41%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250909183715049800" target="_blank" class="news-link">匈牙利外交部长：这将是迄今为止与西方供应商签订的最大规模和最长的天然气合同。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250909183705807800" target="_blank" class="news-link">匈牙利外交部长：将与壳牌(SHEL.N)签订长期天然气采购协议。</a> [6] <font color='grey'>- 19时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">芯片 光刻机 算力</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.2%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250909183211841800" target="_blank" class="news-link">Omdia预测显示，显示驱动IC芯片的出货量将下降2%，2026年方有望回升。</a> [9] <font color='grey'>- 19时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.2%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250909183407971800" target="_blank" class="news-link">英国石油(BP.N)：英国石油公司与地中海地区签署谅解备忘录，计划钻探五口井。</a> [8] <font color='grey'>- 19时13分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
