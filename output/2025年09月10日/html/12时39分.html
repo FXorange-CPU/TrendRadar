@@ -1,0 +1,119 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 20</p><p>生成时间: 2025-09-10 12:39:26</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">4</td>
+                    <td class="percentage">20.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5081041" target="_blank" class="news-link">韦德布什：新iPhone或为苹果带来超级换机周期</a> [6] <font color='grey'>- 12时39分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23iPhone16%E9%9C%80%E6%B1%82%E4%B8%8D%E9%99%8D%E5%8F%8D%E5%8D%87%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26pos%3D8%26band_rank%3D7%26flag%3D1%26filter_type%3Drealtimehot%26realpos%3D7%26cate%3D5001%26dgr%3D0%26lcate%3D5001%26c_type%3D31%26stream_entry_id%3D31%26q%3D%2523iPhone16%25E9%259C%2580%25E6%25B1%2582%25E4%25B8%258D%25E9%2599%258D%25E5%258F%258D%25E5%258D%2587%2523%26display_time%3D1757478983%26pre_seqid%3D1757478983202016496385" target="_blank" class="news-link">iPhone16需求不降反升</a> [7] <font color='grey'>- 12时39分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E5%A4%A9%E6%89%8D%E5%B0%8F%E7%86%8A%E7%8C%AB%E6%80%BB%E7%BB%93%E8%8B%B9%E6%9E%9C%E5%8F%91%E5%B8%83%E4%BC%9A&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26pos%3D11%26band_rank%3D10%26flag%3D1%26filter_type%3Drealtimehot%26realpos%3D10%26cate%3D5001%26dgr%3D0%26lcate%3D5001%26c_type%3D31%26stream_entry_id%3D31%26q%3D%25E5%25A4%25A9%25E6%2589%258D%25E5%25B0%258F%25E7%2586%258A%25E7%258C%25AB%25E6%2580%25BB%25E7%25BB%2593%25E8%258B%25B9%25E6%259E%259C%25E5%258F%2591%25E5%25B8%2583%25E4%25BC%259A%26display_time%3D1757478983%26pre_seqid%3D1757478983202016496385" target="_blank" class="news-link">天才小熊猫总结苹果发布会</a> [10] <font color='grey'>- 12时39分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23iPhone%E9%A6%96%E7%8E%B02TB%E5%86%85%E5%AD%98%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26pos%3D31%26band_rank%3D30%26flag%3D1%26filter_type%3Drealtimehot%26realpos%3D30%26cate%3D5001%26dgr%3D0%26lcate%3D5001%26c_type%3D31%26stream_entry_id%3D31%26q%3D%2523iPhone%25E9%25A6%2596%25E7%258E%25B02TB%25E5%2586%2585%25E5%25AD%2598%2523%26display_time%3D1757478983%26pre_seqid%3D1757478983202016496385" target="_blank" class="news-link">iPhone首现2TB内存</a> [30] <font color='grey'>- 12时39分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">5.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5081040" target="_blank" class="news-link">大行评级｜大和：上调吉利汽车目标价至24.5港元 重申“买入”评级</a> [7] <font color='grey'>- 12时39分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">1</td>
+                    <td class="percentage">5.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31581444" target="_blank" class="news-link">曾为假院士“背书”的广东省传统文化促进会公众号已被封禁</a> [18] <font color='grey'>- 12时39分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">5.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5081042" target="_blank" class="news-link">港股午评：恒指涨1.19%站上26000点上方，再刷阶段新高！科技股、金融股齐助力</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时39分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">1</td>
+                    <td class="percentage">5.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%97%A5%E6%9C%AC%E6%B0%91%E4%BC%97%E5%96%8A%E8%AF%9D%E7%9F%B3%E5%B9%B3%E6%BB%9A%E5%87%BA%E6%97%A5%E6%9C%AC%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26pos%3D4%26band_rank%3D4%26flag%3D1%26filter_type%3Drealtimehot%26realpos%3D4%26cate%3D5001%26dgr%3D0%26lcate%3D5001%26c_type%3D31%26stream_entry_id%3D31%26q%3D%2523%25E6%2597%25A5%25E6%259C%25AC%25E6%25B0%2591%25E4%25BC%2597%25E5%2596%258A%25E8%25AF%259D%25E7%259F%25B3%25E5%25B9%25B3%25E6%25BB%259A%25E5%2587%25BA%25E6%2597%25A5%25E6%259C%25AC%2523%26display_time%3D1757478983%26pre_seqid%3D1757478983202016496385" target="_blank" class="news-link">日本民众喊话石平滚出日本</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时39分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">新能源</td>
+                    <td class="count">1</td>
+                    <td class="percentage">5.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5081046" target="_blank" class="news-link">快电携手南昌碳普惠公司打造江西首个新能源车充电减排应用场景</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时39分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
