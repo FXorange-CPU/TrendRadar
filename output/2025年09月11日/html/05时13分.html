@@ -1,0 +1,135 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 52</p><p>生成时间: 2025-09-11 05:13:13</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">13</td>
+                    <td class="percentage">25.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2141585?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美国一保守派政治组织负责人遭枪击后死亡</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时13分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250911/1067413643.html" target="_blank" class="news-link">国会女议员：美国保守派政治人物中枪受伤</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250911050058129800" target="_blank" class="news-link">高盛CEO所罗门：关税对美国增长产生了影响，但很难量化。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250911045534208800" target="_blank" class="news-link">高盛CEO所罗门：我们看到一些就业数据表明美国经济出现了一些放缓迹象。</a> [6] <font color='grey'>- 05时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3658413_0_1" target="_blank" class="news-link">Chipotle 宣布扩张至韩国和新加坡</a> [7 - 27] <font color='grey'>- 05时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250911044204347800" target="_blank" class="news-link">美国总统特朗普称保守派网红查理·基克已去世。</a> [9] <font color='grey'>- 05时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250911043327225800" target="_blank" class="news-link">据美联社：被扣留韩国工人的回国航班暂时被取消。</a> [10] <font color='grey'>- 05时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250911042408233800" target="_blank" class="news-link">法国总统马克龙：与美国总统特朗普讨论了俄罗斯在乌克兰战争中令人担忧的进展。</a> [12] <font color='grey'>- 05时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3658385_101_1" target="_blank" class="news-link">韩国被特朗普政府扣押人员返韩航班暂时被取消。</a> [14] <font color='grey'>- 05时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3658377_100_1" target="_blank" class="news-link">法国总统马克龙：美国总统特朗普和我在电话中就卡塔尔遭遇以色列空袭后中东地区的局势表达了共同担忧。</a> [16] <font color='grey'>- 05时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3658375_100_1" target="_blank" class="news-link">法国总统马克龙：已同美国总统特朗普讨论了俄罗斯对乌克兰的侵略战争中令人担忧的最新发展。</a> [17] <font color='grey'>- 05时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250911041539841800" target="_blank" class="news-link">美国消费者金融保护局警告员工称，由于国会设定的新资金限制，可能会出现裁员情况。</a> [19] <font color='grey'>- 05时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250911041454145800" target="_blank" class="news-link">英媒：美国证交会主席威胁因可持续性问题禁止欧洲会计规则</a> [22] <font color='grey'>- 05时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">外交部 卫健委 公安部 网信办 发改委 北戴河 中共中央 国务院 四中全会 三中全会 两会 政治局</td>
+                    <td class="count">4</td>
+                    <td class="percentage">7.69%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3658424_100_1" target="_blank" class="news-link">卡塔尔外交部：卡塔尔将与伙伴合作，确保以色列总理内塔尼亚胡“受到追究”。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 05时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3658421_100_1" target="_blank" class="news-link">卡塔尔外交部：卡塔尔方谴责以色列总理内塔尼亚胡发出的“未来将公然侵犯卡塔尔主权”的威胁。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 05时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3658417_100_1" target="_blank" class="news-link">卡塔尔外交部：卡塔尔方面认为以色列总理内塔尼亚胡就卡塔尔接待哈马斯办公室所发表的言论“鲁莽”。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 05时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250911040727191800" target="_blank" class="news-link">俄外交部：就无人机事件 愿加入波兰与俄罗斯两国国防部间可能举行的磋商</a> [23] <font color='grey'>- 05时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.85%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3658426_101_1" target="_blank" class="news-link">科技行业Etf收涨1.8%，领跑美股行业Etf，标普可选消费板块跌约1.6%</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 05时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3658391_0_1" target="_blank" class="news-link">新思科技因IP业务挑战和出口限制影响前景，股价暴跌</a> [12] <font color='grey'>- 05时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.92%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3658389_101_1" target="_blank" class="news-link">美股七巨头收盘播报｜英伟达收涨超3.8%，苹果和亚马逊则跌超3%</a> [13] <font color='grey'>- 05时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">半导体 GPU</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.92%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3658372_101_1" target="_blank" class="news-link">【行情】截至收盘，宝尊电商涨3.12%，声网涨2.49%，唯品会涨1.58%，日月光半导体涨0.98%，腾讯音乐涨0.83%。百济神州跌10.59%，再鼎医药跌9.81%，亿航智能跌4.27%，乐信跌3.67%，雾芯科技跌3.30%。</a> [19] <font color='grey'>- 05时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.92%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3658378_101_1" target="_blank" class="news-link">【行情】周三（9月10日），彭博电动汽车价格回报指数跌1.79%，报3054.32点。成分股中，阿内卡矿业股份收跌4.10%，零跑H股、沃尔沃欧股、蔚来集团H股、跌2.86%-2.26%紧随其后，美国雅宝则收涨1.02%，普拉格动力公司涨2.13%，Olectra Greentech涨2.85%。</a> [15] <font color='grey'>- 05时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.92%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250911044532945800" target="_blank" class="news-link">金十图示：2025年09月10日（周三）富时中国A50指数期货技术面一览（日图）</a> [8] <font color='grey'>- 05时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.92%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250911042537432800" target="_blank" class="news-link">法国总统马克龙：特朗普和我在电话中交流了对以色列袭击卡塔尔后中东局势的担忧。</a> [11] <font color='grey'>- 05时13分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
