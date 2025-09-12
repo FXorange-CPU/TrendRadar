@@ -1,0 +1,175 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 119</p><p>生成时间: 2025-09-12 16:43:18</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">16</td>
+                    <td class="percentage">13.45%</td>
+                    <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31600956" target="_blank" class="news-link">福建舰首次通过台湾海峡意味着什么？专家解读</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250912/1067435057.html" target="_blank" class="news-link">以色列空袭多哈反映美国安保完全缺失，巴以和谈重启难度增大</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250912162536307800" target="_blank" class="news-link">美国能源部长：欧盟甲烷法案需要修正，否则将阻碍美国液化天然气的进口。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250912162041211800" target="_blank" class="news-link">韩国总统安全顾问：近期在美被拘的韩国工人是针对另外四名目标人员进行搜查的附带影响，我们的任务是与美国讨论关于签证的明确指导方针，以缓解韩国在美国的公司所存在的担忧。政府将协助加快美国签证办理流程或寻找适合中小企业的签证类别，韩国与美国达成共识，认为韩国需要为丰富或再处理核材料争取更多空间。</a> [6] <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250912161852323800" target="_blank" class="news-link">美国能源部长：我认为欧盟可以更快地逐步淘汰俄罗斯的石油和天然气。</a> [7] <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250912161736156800" target="_blank" class="news-link">美国能源部长：更快地让欧盟摆脱俄罗斯能源将有助于结束俄乌冲突。</a> [8] <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3755451" target="_blank" class="news-link">隔夜，美国8月CPI为美联储降息“铺平道路”</a> [10] <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E7%A6%8F%E5%BB%BA%E8%88%B0%E9%80%9A%E8%BF%87%E5%8F%B0%E6%B9%BE%E6%B5%B7%E5%B3%A1%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26pos%3D10%26c_type%3D31%26flag%3D1%26lcate%3D5001%26cate%3D5001%26realpos%3D10%26q%3D%2523%25E5%25A4%2596%25E4%25BA%25A4%25E9%2583%25A8%25E5%259B%259E%25E5%25BA%2594%25E7%25A6%258F%25E5%25BB%25BA%25E8%2588%25B0%25E9%2580%259A%25E8%25BF%2587%25E5%258F%25B0%25E6%25B9%25BE%25E6%25B5%25B7%25E5%25B3%25A1%2523%26stream_entry_id%3D31%26dgr%3D0%26band_rank%3D10%26filter_type%3Drealtimehot%26display_time%3D1757666410%26pre_seqid%3D1757666410422019488969" target="_blank" class="news-link">外交部回应福建舰通过台湾海峡</a> [10] <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250912161258784800" target="_blank" class="news-link">日本前首席外汇官员：日本央行应警惕日元长期疲软导致通胀加速的风险</a> [13] <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3661488_100_1" target="_blank" class="news-link">美国能源部长：欧盟甲烷排放法规需要修改，否则将阻止美国液化天然气进口。</a> [15] <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3661484_100_1" target="_blank" class="news-link">韩国国家安全顾问魏圣洛：韩国和美国已达成共识，认为韩国需要为丰富或再处理核材料争取更多空间。</a> [18] <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E7%A6%8F%E5%BB%BA%E8%88%B0%E9%80%9A%E8%BF%87%E5%8F%B0%E6%B9%BE%E6%B5%B7%E5%B3%A1" target="_blank" class="news-link">外交部回应福建舰通过台湾海峡</a> [19] <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3661483_100_1" target="_blank" class="news-link">韩国国家安全顾问魏圣洛：政府将帮助加快美国签证办理流程，或为小型企业寻找合适的签证类别。</a> [19] <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3661482_100_1" target="_blank" class="news-link">韩国国家安全顾问魏圣洛：如果美国对B-1签证持有者的可从事行为有明确说明，情况可能会更好。</a> [20] <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250912160549216800" target="_blank" class="news-link">日本前高级外汇官员：日本的利率过低，导致日元疲软。</a> [20] <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250912160541970800" target="_blank" class="news-link">日本前高级外汇官员：日本央行必须考虑到日元走弱可能加剧通胀这一担忧。</a> [21] <font color='grey'>- 16时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">10</td>
+                    <td class="percentage">8.4%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250912162833962800" target="_blank" class="news-link">西班牙能源部长：西班牙希望到2030年在电力运输领域获得77亿欧元的投资，在电力分配领域获得36亿欧元的投资。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250912162654009800" target="_blank" class="news-link">西班牙能源部长：西班牙将通过2030年提高电网投资上限。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250912162526963800" target="_blank" class="news-link">西班牙能源部长：西班牙在2020至2024年间共计批准了43吉瓦电力的接入申请。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3661509_100_1" target="_blank" class="news-link">西班牙能源部长：西班牙计划在2030年前投资77亿欧元用于电力配送（非输电）、36亿欧元用于电力输电（非配送）。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3661504_100_1" target="_blank" class="news-link">西班牙能源部长：西班牙预计到2030年期间输电电网需求量为27.7千兆瓦。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5082787" target="_blank" class="news-link">国药现代(600420.SH)：子公司通过药品GMP符合性检查</a> [6] <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5082786" target="_blank" class="news-link">国药现代(600420.SH)：碳酸氢钠注射液获得药品补充申请批准通知书</a> [7] <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2143557?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">龙净环保：全资子公司拟投资建设麻米措源网荷储一体化能源站项目</a> [11] <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3661489_100_1" target="_blank" class="news-link">西班牙能源部长：西班牙将提高2030年之前的电网投资上限。</a> [14] <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3661487_100_1" target="_blank" class="news-link">西班牙能源部长：西班牙在2020年至2024年期间批准了43千兆瓦的新电网连接。</a> [16] <font color='grey'>- 16时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">6</td>
+                    <td class="percentage">5.04%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250912/1067435484.html" target="_blank" class="news-link">中国外交部：中方对当前中东地区的局势不断升级深感担忧</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5082789" target="_blank" class="news-link">中国海外发展(00688.HK)：没收未领取的股息</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5082784" target="_blank" class="news-link">上海医药(02607.HK)：阿立哌唑片获得菲律宾药品注册证书</a> [9] <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3661490_0_1" target="_blank" class="news-link">富士康在印度的运营未受中国员工返回的影响</a> [13] <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250912160718409800" target="_blank" class="news-link">金十图示：2025年09月12日（周五）上海黄金交易所市场行情</a> [17] <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31600983" target="_blank" class="news-link">脱下救生衣给被困中国老人，韩国34岁海警被海浪卷走殉职</a> [20] <font color='grey'>- 16时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">3</td>
+                    <td class="percentage">2.52%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250912162803609800" target="_blank" class="news-link">金十数据整理：每日债券市场要闻速递（2025-09-12）</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250912160055668800" target="_blank" class="news-link">LME有色金属库存日报</a> [26] <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250912160052498800" target="_blank" class="news-link">LME注册及注销仓单日报</a> [27] <font color='grey'>- 16时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">3</td>
+                    <td class="percentage">2.52%</td>
+                    <td class="titles"><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45172905" target="_blank" class="news-link">Using Emacs Org-Mode With Databases: A getting-started guide</a> [9] <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5082780" target="_blank" class="news-link">飞荣达(300602.SZ)：目前是苹果的原材料供应商，部分产品间接供应给客户</a> [13] <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3DiPhone14%E6%9C%BA%E4%B8%BB%E6%98%AF%E7%81%B5%E5%8A%A8%E5%B2%9B%E5%B2%9B%E4%B8%BB&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26pos%3D21%26c_type%3D31%26flag%3D1%26lcate%3D5001%26cate%3D5001%26realpos%3D21%26q%3DiPhone14%25E6%259C%25BA%25E4%25B8%25BB%25E6%2598%25AF%25E7%2581%25B5%25E5%258A%25A8%25E5%25B2%259B%25E5%25B2%259B%25E4%25B8%25BB%26stream_entry_id%3D31%26dgr%3D0%26band_rank%3D21%26filter_type%3Drealtimehot%26display_time%3D1757666410%26pre_seqid%3D1757666410422019488969" target="_blank" class="news-link">iPhone14机主是灵动岛岛主</a> [21] <font color='grey'>- 16时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">3</td>
+                    <td class="percentage">2.52%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2143567?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">奇瑞捷豹路虎召回超10万辆国产汽车</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2143566?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">福建奔驰召回1107辆进口唯雅诺和威霆汽车</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2143562?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">小鹏召回47490辆小鹏P7+汽车</a> [7] <font color='grey'>- 16时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">3</td>
+                    <td class="percentage">2.52%</td>
+                    <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/09/12/c7690db6ff40431d820b49c93f0ac926.html" target="_blank" class="news-link">美媒：核能复兴推高全球铀原料需求</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3661505_100_1" target="_blank" class="news-link">共同社：日本将向美光科技位于广岛的工厂提供最高达5360亿日元的补贴。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2143550?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">百洋医药：与天津济坤医药科技签署战略合作协议</a> [15] <font color='grey'>- 16时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.68%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2143558?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中证指数修订中证港股通人工智能主题指数和中证香港人工智能主题指数编制方案</a> [9] <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2143031" target="_blank" class="news-link">科技股再掀热潮，AI 算力硬件持续活跃，固态电池或成潜在 “接棒者”</a> [12] <font color='grey'>- 16时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">马斯克 特斯拉 gork</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.84%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3661498_100_1" target="_blank" class="news-link">【行情】ETF涨幅前五，南方两倍看好特斯拉（09766.HK）上涨11.8%领涨。</a> [9 - 29] <font color='grey'>- 16时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">通义千问 Qwen</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.84%</td>
+                    <td class="titles"><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45219228" target="_blank" class="news-link">Qwen3-Next</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">半导体 GPU</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.84%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5082782" target="_blank" class="news-link">凯美特气(002549.SZ)：生产的电子特气可用于半导体、航天、医疗等领域</a> [11] <font color='grey'>- 16时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>12</td>
+                    <td class="word">社保 养老 旅游 教育</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.84%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2143551?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">蓝佛安：截止目前全国参加基本养老保险人数超10.7亿人 参加基本医疗保险人数达13.27亿人</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>13</td>
+                    <td class="word">外交部 卫健委 公安部 网信办 发改委 北戴河 中共中央 国务院 四中全会 三中全会 两会 政治局</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.84%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%EF%BC%9A%E2%80%9C%E5%8F%B0%E7%8B%AC%E2%80%9D%E6%98%AF%E6%AD%BB%E8%B7%AF%E4%B8%80%E6%9D%A1" target="_blank" class="news-link">外交部：“台独”是死路一条</a> [26] <font color='grey'>- 16时43分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
