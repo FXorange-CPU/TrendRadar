@@ -1,0 +1,159 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 111</p><p>生成时间: 2025-09-12 15:14:06</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">12</td>
+                    <td class="percentage">10.81%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250912/1067434725.html" target="_blank" class="news-link">美国专家认为飞入波兰的无人机是由乌克兰情报部门操控</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250912/1067433850.html" target="_blank" class="news-link">柯克遇刺案暴露美国体制性应对的失效</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250912145545381800" target="_blank" class="news-link">机构：受美国利率牵引 金价周线料连续第四周录得上扬</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250912145447008800" target="_blank" class="news-link">韩国总统首席秘书：政府将努力制定韩国工人进入美国的新签证制度。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3661309_100_1" target="_blank" class="news-link">韩国外长康京和：李在明总统对这起涉及无辜工人的事件非常关注。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3661306_100_1" target="_blank" class="news-link">韩国总统首席秘书：与美国的谈判将持续取得进展，不仅涉及关税问题，还将涉及安全问题。</a> [8 - 28] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2143374?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月12日电，日经225指数收盘上涨0.9%至44,768.12点，续创历史新高。韩国综合股价指数收盘上涨1.5%至3395.54点。</a> [9] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3661302_100_1" target="_blank" class="news-link">韩国总统首席秘书：LG公司部分工人正等待签证问题解决后赴美。</a> [10 - 30] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3661300_100_1" target="_blank" class="news-link">【行情】在美国Crane Nxt公司发起收购要约后，意大利安塔瑞斯（Antares Vision）股价上涨7.5%。</a> [12] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3661298_100_1" target="_blank" class="news-link">韩国副总理兼外交部长：对现有美国签证法律的灵活解释可能是一个临时解决方案。</a> [13] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E5%8F%91%E7%94%9F%E6%96%A9%E9%A6%96%E4%BA%8B%E4%BB%B6+%E5%87%B6%E6%89%8B%E6%B7%A1%E5%AE%9A%E6%89%94%E5%A4%B4%E9%A2%85" target="_blank" class="news-link">美国发生斩首事件 凶手淡定扔头颅</a> [21] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250912143350906800" target="_blank" class="news-link">韩国KOSPI指数本周累涨5.94%，创自2021年1月初以来的最大单周涨幅。</a> [28] <font color='grey'>- 15时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">5</td>
+                    <td class="percentage">4.5%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5082618" target="_blank" class="news-link">华自科技(300490.SZ)目前锂电池制造装备在手订单充足</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5082616" target="_blank" class="news-link">北纬科技(002148.SZ)：目前公司智能领域客户主要涉及智能配送设备、智能清扫车等</a> [7] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5082615" target="_blank" class="news-link">美信科技(301577.SZ)：公司产品可以应用在储能领域</a> [8]</div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5082613" target="_blank" class="news-link">胜宏科技(300476.SZ)：目前公司暂不涉及液冷业务</a> [10] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5082609" target="_blank" class="news-link">中材科技(002080.SZ)已完成半固态锂电池隔膜配方开发及上机试验</a> [14] <font color='grey'>- 15时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">4</td>
+                    <td class="percentage">3.6%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2143384?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月12日电，港股内房股午后震荡走强，远洋集团涨超17%，融创中国涨超10%，碧桂园、世茂集团等跟涨。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2143382?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">影视股再度活跃 中国电影6天3板</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3661319_100_1" target="_blank" class="news-link">中国财政部部长蓝佛安：地方隐性债务风险已降低。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2143361?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上海：加强普惠领域经营主体融资对接 助力乡村全面振兴</a> [12] <font color='grey'>- 15时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">3</td>
+                    <td class="percentage">2.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3661311_100_1" target="_blank" class="news-link">英国政府：制裁目标包括运输俄罗斯石油的“影子舰队”以及关键军事部件的供应商。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250912144928102800" target="_blank" class="news-link">数据显示：阿塞拜疆1月至8月石油产量达1840万桶。</a> [7] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250912144752866800" target="_blank" class="news-link">乌无人机袭击俄罗斯波罗的海石油终端 一艘船只起火</a> [10] <font color='grey'>- 15时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.8%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250912145828217800" target="_blank" class="news-link">金十数据整理：每日全球外汇市场要闻速递（2025-09-12）</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250912144840216800" target="_blank" class="news-link">金十数据整理：每日电动车行业动态汇总（2025-09-12）</a> [8] <font color='grey'>- 15时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.8%</td>
+                    <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E8%80%81%E5%8D%81%E4%B8%83%E7%94%A8%E4%B8%8A%E4%BA%86iPhone17&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26c_type%3D31%26lcate%3D5001%26flag%3D1%26pos%3D13%26stream_entry_id%3D31%26band_rank%3D12%26q%3D%25E8%2580%2581%25E5%258D%2581%25E4%25B8%2583%25E7%2594%25A8%25E4%25B8%258A%25E4%25BA%2586iPhone17%26dgr%3D0%26realpos%3D12%26cate%3D5001%26filter_type%3Drealtimehot%26display_time%3D1757661126%26pre_seqid%3D17576611269410291346157" target="_blank" class="news-link">老十七用上了iPhone17</a> [12] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1949165641127928749" target="_blank" class="news-link">博主「户晨风」称 iPhone17 将对 4000 元以上的手机市场进行核打击，你认同他这个观点吗？</a> [16] <font color='grey'>- 15时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.9%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2143191" target="_blank" class="news-link">“AI之王”当之无愧！英伟达“最大空头”倒戈上调评级：还能再涨19%</a> [13] <font color='grey'>- 15时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">字节 即梦 coze</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.9%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2143365?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【盘中宝】华为、字节、小米纷纷布局，机构称人形机器人进入工业场景已成为国内外确定性较高应用趋势，商业化落地可期，这家企业具备细分产品生产能力</a> [6] <font color='grey'>- 15时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">机器人 脑机接口</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.9%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5082611" target="_blank" class="news-link">视源股份(002841.SZ)商用清洁机器人目前已批量进入欧洲、东南亚及日本市场，实现良好增长</a> [12] <font color='grey'>- 15时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">芯片 光刻机 算力</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.9%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3661304_101_1" target="_blank" class="news-link">创业板指震荡跌超1%，存储芯片、有色板块逆势大涨</a> [9 - 29] <font color='grey'>- 15时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.9%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202509/1252114.html" target="_blank" class="news-link">特朗普吁支持者以和平方式回应柯克暗杀事件</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时14分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
