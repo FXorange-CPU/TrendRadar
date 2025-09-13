@@ -1,0 +1,111 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 12</p><p>生成时间: 2025-09-14 02:40:34</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">2</td>
+                    <td class="percentage">16.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45233266" target="_blank" class="news-link">Magical systems thinking</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时40分</font></div><br><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45189058" target="_blank" class="news-link">Ruby Executes JIT Code: The Hidden Mechanics Behind the Magic</a> [18] <font color='grey'>- 02时40分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">外交部 卫健委 公安部 网信办 发改委 北戴河 中共中央 国务院 四中全会 三中全会 两会 政治局</td>
+                    <td class="count">2</td>
+                    <td class="percentage">16.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3662924_100_1" target="_blank" class="news-link">巴基斯坦外交部：两国领导人重申致力于加强在多领域合作领域的双边关系。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 02时40分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3662923_100_1" target="_blank" class="news-link">巴基斯坦外交部：双方对巴美关系的积极发展势头表示满意，并讨论了近期的发展态势。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 02时40分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">1</td>
+                    <td class="percentage">8.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31605837" target="_blank" class="news-link">广东肇庆查处一处违法屠宰猫只窝点，涉案人员接受警方调查</a> [19] <font color='grey'>- 02时40分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">1</td>
+                    <td class="percentage">8.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3662925_100_1" target="_blank" class="news-link">委内瑞拉政府表示，美国海军驱逐舰于周五在委内瑞拉经济区水域拦截并登上一艘委内瑞拉金枪鱼渔船。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 02时40分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">1</td>
+                    <td class="percentage">8.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3662927_100_1" target="_blank" class="news-link">巴什科尔托斯坦州州长：俄罗斯石油公司在遭到无人机袭击后将继续生产。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 02时40分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
