@@ -1,0 +1,111 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 30</p><p>生成时间: 2025-09-16 07:35:34</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">4</td>
+                    <td class="percentage">13.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2145938?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">光基芯片执行AI任务能效提升十至百倍</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时35分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2145933?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">持续突破 国产AI芯片抢夺市场窗口期</a> [7] <font color='grey'>- 07时35分</font></div><br><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45220697" target="_blank" class="news-link">The Rising Sea: Foundations of Algebraic Geometry Notes</a> [11] <font color='grey'>- 07时35分</font></div><br><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45255337" target="_blank" class="news-link">Show HN: Pooshit – Sync local code to remote Docker containers</a> [14] <font color='grey'>- 07时35分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">3</td>
+                    <td class="percentage">10.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916071754421800" target="_blank" class="news-link">以军周一对加沙城发动地面进攻 美国希望速战速决</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916071100046800" target="_blank" class="news-link">美国国防部：美国国务院批准向秘鲁出售F-16战斗机，预计价值为34.2亿美元。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时35分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2145900" target="_blank" class="news-link">美国寻求扩大战略铀储备 核电概念股应声大涨</a> [12] <font color='grey'>- 07时35分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">2</td>
+                    <td class="percentage">6.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916072912930800" target="_blank" class="news-link">金十数据整理：中东局势跟踪（9月16日）</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时35分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2145942" target="_blank" class="news-link">【早报】中美就妥善解决TikIok问题达成基本框架共识</a> [7] <font color='grey'>- 07时35分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">2</td>
+                    <td class="percentage">6.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916071425999800" target="_blank" class="news-link">美国联邦住房金融局局长普尔特：那些假新闻，声称库克的“主要住所”问题不存在，但事实上，库克在“主要住所”上确实存在很大的问题。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916070632197800" target="_blank" class="news-link">据AXIOS网站：以色列官员称，以色列军方周一对加沙城发动地面进攻。内塔尼亚胡政府表示，这次进攻的目的是铲除哈马斯。</a> [6] <font color='grey'>- 07时35分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">1</td>
+                    <td class="percentage">3.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2144829?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【研选】农业农村部畜牧兽医局拟于今日召开生猪产能调控企业座谈会，分析师看好中长期生猪价格中枢抬升；量子技术是国家重点发展的前沿领域，公司是中国量子科技产业化的引领者</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时35分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
