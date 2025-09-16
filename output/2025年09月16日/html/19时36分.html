@@ -1,0 +1,175 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 86</p><p>生成时间: 2025-09-16 19:36:13</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">30</td>
+                    <td class="percentage">34.88%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202509/1652434.html" target="_blank" class="news-link">中美峰会在即 台湾会成为菜单吗？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916192528729800" target="_blank" class="news-link">美国财长贝森特：就业市场似乎处于平衡状态。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时36分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3666406_100_1" target="_blank" class="news-link">美国财长贝森特：中方认为有可能达成协议。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 19时36分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3666405_100_1" target="_blank" class="news-link">美国财长贝森特：11月10日前我们需要再次会面。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 19时36分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3666399_100_1" target="_blank" class="news-link">美国财长贝森特：（谈及通胀）许多出口商正在承担关税。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 19时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916192517132800" target="_blank" class="news-link">美国财长贝森特：（谈及通胀）许多出口商承担了关税。</a> [6] <font color='grey'>- 19时36分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3666386_101_1" target="_blank" class="news-link">美国财长贝森特：我们可以在关税问题上运用很多权力。</a> [8 - 28] <font color='grey'>- 19时36分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3666381_101_1" target="_blank" class="news-link">美国财长贝森特：市场正在消化从现在到年底降息75个基点的预期。</a> [10 - 30] <font color='grey'>- 19时36分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3666378_100_1" target="_blank" class="news-link">美国财长贝森特：（关于中美贸易）中方提出了长长的清单。</a> [11] <font color='grey'>- 19时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916191514407800" target="_blank" class="news-link">美国财长贝森特：（谈及关税）我们还有其他许多可用的权力。</a> [11] <font color='grey'>- 19时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916191434412800" target="_blank" class="news-link">美国财长贝森特：（谈及关税）对最高法院将支持政府充满信心。</a> [12] <font color='grey'>- 19时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916191416234800" target="_blank" class="news-link">美国财长贝森特：曲线的长端锚定得很好。</a> [13] <font color='grey'>- 19时36分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3666364_0_1" target="_blank" class="news-link">塔吉特扩大次日达服务范围，覆盖美国54%人口；迈克尔·费德尔克将出任CEO</a> [14] <font color='grey'>- 19时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916191401068800" target="_blank" class="news-link">美国财长贝森特：关税将帮助我们减少债务。</a> [14] <font color='grey'>- 19时36分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3666363_100_1" target="_blank" class="news-link">美国财长贝森特：长期利率非常稳固。</a> [15] <font color='grey'>- 19时36分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3666362_100_1" target="_blank" class="news-link">美国财长贝森特：（谈及利率）预计通胀率将会开始回落。</a> [16] <font color='grey'>- 19时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916191047097800" target="_blank" class="news-link">美国财长贝森特：长期利率非常稳固。</a> [16] <font color='grey'>- 19时36分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3666360_100_1" target="_blank" class="news-link">美国财长贝森特：（谈及利率）收益率曲线的前端出现倒挂。</a> [17] <font color='grey'>- 19时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916191037767800" target="_blank" class="news-link">美国财长贝森特：预计我们将看到通胀开始下降。</a> [17] <font color='grey'>- 19时36分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3666357_100_1" target="_blank" class="news-link">美国财长贝森特：现已开始致力于解决可负担性问题。</a> [18] <font color='grey'>- 19时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916191030617800" target="_blank" class="news-link">美国财长贝森特：收益率曲线的前端出现倒挂。</a> [18] <font color='grey'>- 19时36分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3666355_100_1" target="_blank" class="news-link">美国财长贝森特：（谈及美联储）美国总统特朗普认为美联储落后于形势。</a> [19] <font color='grey'>- 19时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916191014637800" target="_blank" class="news-link">卡塔尔表示，与美国的关系是战略性的，尤其是在国防方面。</a> [19] <font color='grey'>- 19时36分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3666354_100_1" target="_blank" class="news-link">美国财长贝森特：（谈及美联储）我们将观察美联储的立场是中性还是宽松。</a> [20] <font color='grey'>- 19时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916190958910800" target="_blank" class="news-link">美国财长贝森特：现在将开始着手应对可负担性问题。</a> [20] <font color='grey'>- 19时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916190929619800" target="_blank" class="news-link">美国财长贝森特：我们将观察美联储的立场是中性还是宽松。</a> [22] <font color='grey'>- 19时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916190856113800" target="_blank" class="news-link">美国财长贝森特：特朗普认为美联储落后于形势。</a> [23] <font color='grey'>- 19时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916190848062800" target="_blank" class="news-link">美国财长贝森特：如果特朗普总统认为通胀是一个问题，他会愿意接受加息。</a> [24] <font color='grey'>- 19时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916190821312800" target="_blank" class="news-link">美国财长贝森特：希望美联储跟上步伐。</a> [25] <font color='grey'>- 19时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916190815937800" target="_blank" class="news-link">美国财长贝森特：布拉德非常了解美联储的制度。</a> [26] <font color='grey'>- 19时36分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">5</td>
+                    <td class="percentage">5.81%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5084626" target="_blank" class="news-link">天承科技(688603.SH)：股东睿兴二期拟减持不超1.6803%股份</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时36分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5084620" target="_blank" class="news-link">签下宁德时代60亿海外大单 龙蟠科技（603906.SH/02465.HK）今日股价暴涨</a> [9] <font color='grey'>- 19时36分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5084619" target="_blank" class="news-link">呈和科技(688625.SH)：科汇投资合计减持1.24%公司股份</a> [10] <font color='grey'>- 19时36分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2146847?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">兄弟科技：2025年前三季度净利同比预增207%-253%</a> [11] <font color='grey'>- 19时36分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5084618" target="_blank" class="news-link">兄弟科技(002562.SZ)：预计前三季度净利润同比增长207.32%-253.42%</a> [11] <font color='grey'>- 19时36分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">马斯克 特斯拉 gork</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.49%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916192336419800" target="_blank" class="news-link">美国国家公路交通安全管理局：将调查特斯拉(TSLA.O)车门把手是否无法操作的问题。</a> [8] <font color='grey'>- 19时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916192036588800" target="_blank" class="news-link">美国汽车监管机构对特斯拉(TSLA.O)Model Y车门展开缺陷调查。</a> [10] <font color='grey'>- 19时36分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2146830?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美国汽车监管机构启动针对特斯拉Model Y车门缺陷的调查</a> [20] <font color='grey'>- 19时36分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3666402_100_1" target="_blank" class="news-link">美国财长贝森特：已看到人工智能带来的生产率提高。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 19时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916192457947800" target="_blank" class="news-link">美国财长贝森特：看到人工智能带来生产率提升。</a> [7] <font color='grey'>- 19时36分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.16%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3666396_100_1" target="_blank" class="news-link">美国财长贝森特：（关于英伟达是否在中美谈判中被提及）与谈判结果无关。</a> [6 - 26] <font color='grey'>- 19时36分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.16%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2146831?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月16日电，TD COWEN将谷歌母公司ALPHABET目标价从240美元上调至270美元。</a> [19] <font color='grey'>- 19时36分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">字节 即梦 coze</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.16%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2146846?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">字节游戏辟谣关闭上海工作室</a> [13] <font color='grey'>- 19时36分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">手机</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.16%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2146864?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">英国智能手机厂商Nothing完成2亿美元融资 估值13亿美元</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时36分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.16%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3666383_100_1" target="_blank" class="news-link">美国财长贝森特：（关于中美贸易）预计美国总统特朗普与中国国家主席习近平周五通话后最终协议将达成。</a> [9 - 29] <font color='grey'>- 19时36分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">地震 台风 洪灾 暴雨 泥石流 山体滑坡</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.16%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2146842?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">菲律宾东部热带低压生成 即将加强为今年第17号台风</a> [14] <font color='grey'>- 19时36分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">社保 养老 旅游 教育</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.16%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2146833?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">香港旅游业议会：预计十一黄金周将有150万内地旅客访港</a> [17] <font color='grey'>- 19时36分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>12</td>
+                    <td class="word">乡村经济 乡村振兴 裁员</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.16%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3666391_0_1" target="_blank" class="news-link">天空电视台因转向互联网平台将在英国裁员600人</a> [7 - 27] <font color='grey'>- 19时36分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>13</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.16%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5084625" target="_blank" class="news-link">泰山石油(000554.SZ)：拟签署加油站租赁经营合同</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时36分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
