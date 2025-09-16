@@ -1,0 +1,175 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 111</p><p>生成时间: 2025-09-16 16:20:25</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">7</td>
+                    <td class="percentage">6.31%</td>
+                    <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8mhF4ZXsmf7" target="_blank" class="news-link">菲船非法侵闯中国黄岩岛领海，外交部回应</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250916/1067476133.html" target="_blank" class="news-link">“铭记历史 共筑和平”知识竞答决赛在北京举行</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2146520?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">外交部：中国愿同东盟各国一道发挥好中国—东盟博览会平台作用</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2146211" target="_blank" class="news-link">菲3014号公务船故意冲撞中方正常执法海警船，中国海警回应</a> [12] <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2146502?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上海法院：刑事涉财产执行案件中首次成功处置虚拟货币</a> [13] <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916155152418800" target="_blank" class="news-link">金十图示：北京时间9月16日22:00将有欧美、美瑞、镑美、美日等外汇期权大单到期，6个行权价10亿以上大单，敬请管理风险。</a> [18] <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31618455" target="_blank" class="news-link">主管医生谈杭州52岁女子误触氢氟酸身亡：电解质紊乱、全身脏器衰竭</a> [19] <font color='grey'>- 16时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">4</td>
+                    <td class="percentage">3.6%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916160106490800" target="_blank" class="news-link">LME有色金属库存日报</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916160100976800" target="_blank" class="news-link">LME注册及注销仓单日报</a> [7] <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916154607283800" target="_blank" class="news-link">金十数据整理：每日房地产行业动态汇总（2025-09-16）</a> [23] <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916154016048800" target="_blank" class="news-link">金十数据整理：每日全球大宗商品市场要闻速递（2025-09-16）</a> [29] <font color='grey'>- 16时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">4</td>
+                    <td class="percentage">3.6%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5084393" target="_blank" class="news-link">中润光学(688307.SH)：应用于AI光模块的产品如棱镜、滤波片目前处于研发阶段</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916155943220800" target="_blank" class="news-link">欧盟委员会主席冯德莱恩：今日将签署首批人工智能超级工厂试点项目。</a> [10] <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2146507?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">AI创企Cohere启动巴黎办事处 进一步拓展欧洲业务</a> [11] <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916155211847800" target="_blank" class="news-link">欧盟委员会主席冯德莱恩：人工智能正在重塑全球科技竞争。</a> [16] <font color='grey'>- 16时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">3</td>
+                    <td class="percentage">2.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2146523?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">山东铁路旗下数字科技公司增资至30亿 增幅50%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5084389" target="_blank" class="news-link">海伦钢琴(300329.SZ)：公司与宇树科技没有股权关系</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5084387" target="_blank" class="news-link">银禧科技(300221.SZ)：目前主要产品为非金属3D打印材料，没有用于液冷微通道工艺</a> [7] <font color='grey'>- 16时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.8%</td>
+                    <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8mh0tqNSE7Y" target="_blank" class="news-link">“中方发出强烈信号，涉英伟达每年数十亿美元在华业务”</a> [6] <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2146493?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">豪威集团：公司已进入英伟达供应链 支持其NVIDIA DRIVE AGXThor生态系统</a> [20] <font color='grey'>- 16时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.8%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3665939_100_1" target="_blank" class="news-link">西日本电信：大阪府、京都府全境及兵库县部分地区的固定电话服务中断。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%9B%BD%E9%98%B2%E9%83%A8%E5%9B%9E%E5%BA%94%E7%A6%8F%E5%BB%BA%E8%88%B0%E9%80%9A%E8%BF%87%E5%8F%B0%E6%B9%BE%E6%B5%B7%E5%B3%A1" target="_blank" class="news-link">国防部回应福建舰通过台湾海峡</a> [18] <font color='grey'>- 16时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">马斯克 特斯拉 gork</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.9%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2146454" target="_blank" class="news-link">马斯克增持成发令枪 特斯拉机器人放量可期？A股投了信任票</a> [13] <font color='grey'>- 16时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">半导体 GPU</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.9%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2146525?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">意法半导体放弃意大利阿格拉特工厂裁员计划</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.9%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2146508?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">豪恩汽电：收到约24.77亿元全球汽车品牌ADAS摄像感知系统和AK2雷达系统产品定点信</a> [12] <font color='grey'>- 16时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">机器人 脑机接口</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.9%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2146495?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">9月16日连板股分析：连板股晋级率达七成 机器人板块全线爆发</a> [17] <font color='grey'>- 16时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.9%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3665933_0_1" target="_blank" class="news-link">特朗普起诉《纽约时报》，索赔150亿美元，指控其诽谤</a> [6 - 26] <font color='grey'>- 16时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>12</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.9%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250916160134201800" target="_blank" class="news-link">欧盟委员会主席冯德莱恩：欧盟将提出“电网计划”，重点关注能源基础设施中的八个关键瓶颈。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>13</td>
+                    <td class="word">外交部 卫健委 公安部 网信办 发改委 北戴河 中共中央 国务院 四中全会 三中全会 两会 政治局</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.9%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3665917_0_1" target="_blank" class="news-link">中美领导人是否将在本周通话？外交部回应</a> [20] <font color='grey'>- 16时20分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
