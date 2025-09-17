@@ -1,0 +1,151 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 95</p><p>生成时间: 2025-09-17 21:42:23</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">11</td>
+                    <td class="percentage">11.58%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250917205906810800" target="_blank" class="news-link">国际航空运输协会：美国要求达美航空和墨西哥航空解散合资企业是地缘政治局势的“自然发展”。</a> [8] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3668944_100_1" target="_blank" class="news-link">【行情】美国天然气价格上涨2%，至8周高位，因需求增加。</a> [7 - 27] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=731%E9%83%A8%E9%98%9F%E4%B8%8E%E7%BE%8E%E5%9B%BD%E7%9A%84%E5%85%B3%E7%B3%BB" target="_blank" class="news-link">731部队与美国的关系</a> [9] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3668910_100_1" target="_blank" class="news-link">国际航空运输协会高管：需要区分这些合资企业对消费者的影响和美国政府对达美航空与墨西哥航空合资企业的决定的政治影响。</a> [15] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2148208?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">日本鹿儿岛县吐噶喇列岛近海发生两次4.7级地震</a> [16] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250917205017020800" target="_blank" class="news-link">新房库存积压抑制建筑商扩大产能 美国新屋开工数大幅下降</a> [17] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3668892_0_1" target="_blank" class="news-link">乌克兰和美国建立重建和矿产供应链联合投资基金</a> [18] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250917204556272800" target="_blank" class="news-link">美国银行下月起最低工资提至25美元/时 覆盖全兼职计时岗位</a> [18] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31624501" target="_blank" class="news-link">美方再次翻炒“台湾地位未定”谬论，外交部：恶意误导国际舆论</a> [19] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250917204303521800" target="_blank" class="news-link">乌克兰总理：计划通过与美国的合资投资基金在2026年底之前实施三个大规模项目。</a> [19] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3668877_100_1" target="_blank" class="news-link">美联储数据显示，美国有效联邦基金利率为4.33%，交易额980亿美元，9月15日为4.33%，交易额910亿美元。</a> [20] <font color='grey'>- 21时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">5</td>
+                    <td class="percentage">5.26%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250917/1067495381.html" target="_blank" class="news-link">中国融入全球服务经济增长趋势</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250917210141083800" target="_blank" class="news-link">美联储：FOMC政策会议按计划于周三上午9点（北京时间21:00）开始。</a> [6] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2148218?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月17日电，纳斯达克中国金龙指数盘初大幅上涨2.0%，最新报8773.86点。</a> [9] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250917205802112800" target="_blank" class="news-link">据日本放送协会NHK：日本时间21:53（北京时间20:53），鹿儿岛县德岛群岛发生地震，震度低于5级。</a> [9] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31625046" target="_blank" class="news-link">北京香山论坛｜激辩！以军官否认在加沙滥杀无辜，阎学通当场驳斥</a> [12] <font color='grey'>- 21时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">4</td>
+                    <td class="percentage">4.21%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2148224?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月17日电，英伟达低开低走，跌幅扩大至2.2%。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3668953_101_1" target="_blank" class="news-link">【行情】美股开盘，道指涨0.04%，标普500指数涨0.02%，纳指跌0.01%。英伟达跌超1%，Amd跌近1%。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2148220?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月17日电，费城半导体指数低开，英伟达、英特尔、阿斯麦开盘均跌超1%。</a> [7] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3668889_0_1" target="_blank" class="news-link">英伟达CEO对中国芯片限制表示担忧，计划与特朗普会谈</a> [19] <font color='grey'>- 21时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">4</td>
+                    <td class="percentage">4.21%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5085295" target="_blank" class="news-link">法国驻华大使到访文远知行 体验自动驾驶出行解决方案</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250917210244855800" target="_blank" class="news-link">Lyft(LYFT.O)和Waymo宣布在纳什维尔市推出自动驾驶出行合作项目。Lyft(LYFT.O)盘前涨24%，Uber(UBER.N)跌3%。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2148135" target="_blank" class="news-link">厘清系统分类、明确试验方法 智能汽车组合驾驶辅助将迎国家标准“安全标尺”</a> [8] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1949506594984407698" target="_blank" class="news-link">2026 年起购买新能源汽车恢复征税，车购税至少缴 5％，对购车者和新能源汽车行业将产生怎样的影响？</a> [17] <font color='grey'>- 21时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.11%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3668920_100_1" target="_blank" class="news-link">国际航空运输协会高管：特朗普政府有“充分理由”推翻拜登时代航空公司的赔偿规则。</a> [13] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250917205254244800" target="_blank" class="news-link">鲍威尔发布会期间，特朗普将发言</a> [15] <font color='grey'>- 21时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">微软 Microsoft</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.05%</td>
+                    <td class="titles"><div class='new-title'>🆕 [MKT News] <a href="https://mktnews.net/flashDetail.html?id=019957cb-19fa-755e-85d6-e624660e40e6" target="_blank" class="news-link">【Will the Fed’s Rate Decision Move Markets Today? Here&#x27;s What to Watch】Eyes on Powell as the rate decision drops—will dissenters shake up the dot plot?&lt;br/&gt;&lt;b&gt;Fed Decision&lt;/b&gt;&lt;br/&gt;- The Federal Reserve will announce its interest rate decision at 2 p.m. ET, followed by Chair Jerome Powell’s closely monitored press conference at 2:30 p.m. ET. Investors are hoping the central bank will cut rates for the first time this year.&lt;br/&gt;- Traders think a rate cut is in the bag. Fed funds futures are pricing in a 100% likelihood of at least a quarter-point decrease today, according to CME’s FedWatch tool.&lt;br/&gt;- Powell’s commentary and the Fed’s Summary of Economic Projections, which includes a key grid known as the “dot plot,” should provide clues into the future of monetary policy.&lt;br/&gt;- Fed Governor Lisa Cook will get to vote after an appeals court blocked President Donald Trump from firing her ahead of the meeting. Governor Stephen Miran will also get a say following his Senate confirmation on Monday.&lt;br/&gt;- Mortgage rates dropped to a three-year low ahead of the meeting.&lt;br/&gt;&lt;b&gt;Tech Moves&lt;/b&gt;&lt;br/&gt;- Microsoft announced plans to spend $30 billion on infrastructure and operations tied to artificial intelligence in the country. Nvidia, Google, OpenAI and Salesforce all also said they would each make multi-billion dollar investments in the U.K.&lt;br/&gt;- Meta is set to unveil its most advanced smart glasses to date at its annual Connect event. The glasses, internally called Hypernova, are expected to cost $800.&lt;br/&gt;- Nvidia shares dipped more than 1.3% in the premarket after The Financial Times reported, citing sources, that China has banned tech companies in the country from buying Nvidia’s chips.&lt;br/&gt;&lt;b&gt;Policy Watch&lt;/b&gt;&lt;br/&gt;- Trump yesterday extended the deadline for ByteDance to divest TikTok’s U.S. business until December. If that sentence feels familiar, it’s because it’s the fourth such extension the president has granted for the popular short-form video app.&lt;br/&gt;&lt;b&gt;Economic Data Release&lt;/b&gt;&lt;br/&gt;- US housing starts declined last month to the weakest level since May, as elevated home inventories curbed builders’ willingness to expand output. New residential construction fell 8.5% to an annualized pace of 1.31 million units.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.05%</td>
+                    <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23iPhone17%E8%AF%84%E6%B5%8B%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26c_type%3D31%26pos%3D27%26realpos%3D26%26band_rank%3D26%26lcate%3D5001%26cate%3D5001%26filter_type%3Drealtimehot%26flag%3D1%26q%3D%2523iPhone17%25E8%25AF%2584%25E6%25B5%258B%2523%26dgr%3D0%26stream_entry_id%3D31%26display_time%3D1758116213%26pre_seqid%3D17581162139360139057815" target="_blank" class="news-link">iPhone17评测</a> [26] <font color='grey'>- 21时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.05%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2148204?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月17日电，密码管理平台1Password宣布与人工智能公司Perplexity合作推出Comet项目。</a> [19] <font color='grey'>- 21时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">芯片 光刻机 算力</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.05%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2148222?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">兆驰股份：公司光通信芯片已启动流片 未来将逐步实现自主供应</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">地震 台风 洪灾 暴雨 泥石流 山体滑坡</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.05%</td>
+                    <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E5%97%A8%E6%94%BE%E6%B4%BE%E5%9B%A0%E6%9A%B4%E9%9B%A8%E5%8F%96%E6%B6%88%E7%9B%B4%E6%92%AD&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26c_type%3D31%26pos%3D31%26realpos%3D30%26band_rank%3D30%26lcate%3D5001%26cate%3D5001%26filter_type%3Drealtimehot%26flag%3D1%26q%3D%25E5%2597%25A8%25E6%2594%25BE%25E6%25B4%25BE%25E5%259B%25A0%25E6%259A%25B4%25E9%259B%25A8%25E5%258F%2596%25E6%25B6%2588%25E7%259B%25B4%25E6%2592%25AD%26dgr%3D0%26stream_entry_id%3D31%26display_time%3D1758116213%26pre_seqid%3D17581162139360139057815" target="_blank" class="news-link">嗨放派因暴雨取消直播</a> [30] <font color='grey'>- 21时42分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
