@@ -1,0 +1,143 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 99</p><p>生成时间: 2025-09-19 21:04:37</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">22</td>
+                    <td class="percentage">22.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31635047" target="_blank" class="news-link">习近平同美国总统特朗普通电话</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250919204846335800" target="_blank" class="news-link">美国证交会主席阿特金斯：（谈公司治理）普遍存在过度工具化现象。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3755924" target="_blank" class="news-link">习近平同美国总统特朗普通电话</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时04分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250919/1067525349.html" target="_blank" class="news-link">俄外长与美国务卿将在联大第80次会议期间会晤</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250919204650854800" target="_blank" class="news-link">美国证交会主席阿特金斯：（关于财报披露规则）在公开市场方面，将很快提出相关提案。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250919204622890800" target="_blank" class="news-link">美国证交会主席阿特金斯：（谈私营公司和报告披露规则）过去几十年已发生很大变化。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250919204447785800" target="_blank" class="news-link">荷兰国际：预计日本央行将于下月加息</a> [8] <font color='grey'>- 21时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250919204334625800" target="_blank" class="news-link">美国证交会主席阿特金斯：（谈私募投资）流动性与估值是重大问题。</a> [10] <font color='grey'>- 21时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250919204315516800" target="_blank" class="news-link">美国证交会主席阿特金斯：随着公开市场的变化，谁会说普通投资者不应该被允许进行多元化投资。</a> [11] <font color='grey'>- 21时04分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E7%BE%8E%E5%9B%BD%E4%B8%BA%E4%BD%95%E5%B1%A1%E6%AC%A1%E9%98%BB%E6%8C%A0%E5%8A%A0%E6%B2%99%E5%81%9C%E7%81%AB%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26pos%3D13%26flag%3D1%26lcate%3D5001%26filter_type%3Drealtimehot%26c_type%3D31%26realpos%3D12%26q%3D%2523%25E7%25BE%258E%25E5%259B%25BD%25E4%25B8%25BA%25E4%25BD%2595%25E5%25B1%25A1%25E6%25AC%25A1%25E9%2598%25BB%25E6%258C%25A0%25E5%258A%25A0%25E6%25B2%2599%25E5%2581%259C%25E7%2581%25AB%2523%26dgr%3D0%26band_rank%3D12%26stream_entry_id%3D31%26cate%3D5001%26display_time%3D1758286137%26pre_seqid%3D175828613780102345912134" target="_blank" class="news-link">美国为何屡次阻挠加沙停火</a> [12] <font color='grey'>- 21时04分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3673302_100_1" target="_blank" class="news-link">美国明尼阿波利斯联储主席卡什卡利：希望经济繁荣且生产率激增，但很难预测这一点，也无法据此制定政策。</a> [12] <font color='grey'>- 21时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250919204251001800" target="_blank" class="news-link">美国证交会主席阿特金斯：（就私募投资）必须要有适当的监管框架。</a> [12] <font color='grey'>- 21时04分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3673299_100_1" target="_blank" class="news-link">美国明尼阿波利斯联储主席卡什卡利：即将进行的降息将相当于保险措施，以保持劳动力市场稳定。</a> [13] <font color='grey'>- 21时04分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3673298_100_1" target="_blank" class="news-link">美国明尼阿波利斯联储主席卡什卡利：没有听到很多关于招聘或解雇的传闻；企业正处于暂停状态，这意味着劳动力市场是脆弱的。</a> [14] <font color='grey'>- 21时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250919204124496800" target="_blank" class="news-link">美国证交会主席阿特金斯：将对有关季报披露一事进行全面审视。</a> [15] <font color='grey'>- 21时04分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3673294_100_1" target="_blank" class="news-link">美国明尼阿波利斯联储主席卡什卡利：市场对关税水平维持现状信心十足，但经济调整需要两年的时间。</a> [16] <font color='grey'>- 21时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250919204007782800" target="_blank" class="news-link">美国证交会主席阿特金斯：如今信息被更广泛地传播。</a> [16] <font color='grey'>- 21时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250919203826940800" target="_blank" class="news-link">美国证交会主席阿特金斯：原则上，提出改变是一个前进的好方式，随后将进行考虑。</a> [17] <font color='grey'>- 21时04分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3673292_100_1" target="_blank" class="news-link">美国明尼阿波利斯联储主席卡什卡利：鲍威尔达成了一项巨大的共识，这是他的荣誉。</a> [18] <font color='grey'>- 21时04分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3673291_100_1" target="_blank" class="news-link">美国明尼阿波利斯联储主席卡什卡利：本周美联储的讨论未涉及政治因素，米兰的到来与其他新任理事的履职一样。</a> [19] <font color='grey'>- 21时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250919203742073800" target="_blank" class="news-link">美国证交会主席阿特金斯：市场可以决定适当的（披露）节奏。</a> [19] <font color='grey'>- 21时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250919203722765800" target="_blank" class="news-link">美国证交会主席阿特金斯：（关于特朗普对企业季报的表态）已与特朗普总统讨论过此事。</a> [20] <font color='grey'>- 21时04分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">6</td>
+                    <td class="percentage">6.06%</td>
+                    <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/09/19/301f6e0bcbbc46df98573c75100e113f.html" target="_blank" class="news-link">巴媒：中国崛起的确势不可挡</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时04分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5087097" target="_blank" class="news-link">中国科教产业(01756.HK)拟适时将三所学校登记为营利性民办学校</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时04分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250919/1067525909.html" target="_blank" class="news-link">中国中央电视台报道，习近平与特朗普通话</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2150616?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">深圳核心区放开限购？官方辟谣</a> [8] <font color='grey'>- 21时04分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/295280552" target="_blank" class="news-link">为什么中国地铁速度始终是每小时 80 公里，不能更快了？</a> [13] <font color='grey'>- 21时04分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%8D%8E%E4%B8%BA%E8%B6%85%E8%8A%82%E7%82%B9%E9%9B%86%E7%BE%A4%E8%AE%A9%E4%B8%AD%E5%9B%BD%E7%AE%97%E5%8A%9B%E6%97%A0%E5%BF%A7%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26pos%3D21%26flag%3D1%26lcate%3D5001%26filter_type%3Drealtimehot%26c_type%3D31%26realpos%3D20%26q%3D%2523%25E5%258D%258E%25E4%25B8%25BA%25E8%25B6%2585%25E8%258A%2582%25E7%2582%25B9%25E9%259B%2586%25E7%25BE%25A4%25E8%25AE%25A9%25E4%25B8%25AD%25E5%259B%25BD%25E7%25AE%2597%25E5%258A%259B%25E6%2597%25A0%25E5%25BF%25A7%2523%26dgr%3D0%26band_rank%3D20%26stream_entry_id%3D31%26cate%3D5001%26display_time%3D1758286137%26pre_seqid%3D175828613780102345912134" target="_blank" class="news-link">华为超节点集群让中国算力无忧</a> [20] <font color='grey'>- 21时04分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.03%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3673305_100_1" target="_blank" class="news-link">美国明尼阿波利斯联储主席卡什卡利：对人工智能持乐观态度，但也可能这项技术的推广扩散速度比支持者所言的要慢，目前尚未看到人工智能对劳动力市场的明显影响。</a> [10 - 30] <font color='grey'>- 21时04分</font></div><br><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45299985" target="_blank" class="news-link">Burnend alive inside a Tesla as rescuers fail to open the car&#x27;s door</a> [18] <font color='grey'>- 21时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250919202435422800" target="_blank" class="news-link">美联储卡什卡利：对人工智能持乐观态度，未看到其对劳动力市场的影响。</a> [27] <font color='grey'>- 21时04分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.02%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2150630?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月19日电，据报道，谷歌在遭欧盟罚款30亿欧元后提交整改方案，暂不实施彻底业务拆分。</a> [7] <font color='grey'>- 21时04分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3673296_101_1" target="_blank" class="news-link">谷歌在遭遇30亿欧元罚款后准备向欧盟提出新方案，但未进行全面拆分。</a> [15] <font color='grey'>- 21时04分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.02%</td>
+                    <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=Tim%E4%B8%8E%E8%8B%B9%E6%9E%9C%E9%AB%98%E7%AE%A1%E4%B8%80%E8%B5%B7%E5%BC%80%E7%AE%B1%E6%96%B0iPhone" target="_blank" class="news-link">Tim与苹果高管一起开箱新iPhone</a> [7] <font color='grey'>- 21时04分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%8E%8B%E8%87%AA%E5%A6%82%E5%BC%80%E7%AE%B1iPhone17Air" target="_blank" class="news-link">王自如开箱iPhone17Air</a> [14] <font color='grey'>- 21时04分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.01%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250919202928571800" target="_blank" class="news-link">英特尔英伟达合作注入“及时雨” 50亿资金力撑晶圆代工战略</a> [24] <font color='grey'>- 21时04分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.01%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3673317_100_1" target="_blank" class="news-link">加拿大7月零售销售额下降0.8%，6月为增长1.6%（前值由增长1.5%修正），不含汽车的零售销售额则下降1.2%。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 21时04分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.01%</td>
+                    <td class="titles"><div class='new-title'>🆕 [MKT News] <a href="https://mktnews.net/flashDetail.html?id=019961dc-5cf9-7cc5-9c4d-27da5dd8d355" target="_blank" class="news-link">CHINA&#x27;S XI, TRUMP HOLD CALL - CHINESE STATE MEDIA</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时04分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.01%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3673289_100_1" target="_blank" class="news-link">油轮数据显示，印度8月俄罗斯石油进口量同比下降4.1%。</a> [20] <font color='grey'>- 21时04分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
