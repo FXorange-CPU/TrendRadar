@@ -1,0 +1,167 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 85</p><p>生成时间: 2025-09-22 22:15:50</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">9</td>
+                    <td class="percentage">10.59%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250922/1067549104.html" target="_blank" class="news-link">专家：美国知晓阿塞拜疆武器运往乌克兰，但军援不会影响冲突进程</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2152553?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月22日电，阿根廷股市上涨6%，因美国财长贝森特释放支持信号。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时15分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3675743_0_1" target="_blank" class="news-link">【行情】阿根廷股市上涨6%，因美国财长贝森特释放支持信号。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 22时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250922215000001800" target="_blank" class="news-link">美联储穆萨莱姆将于十分钟后就美国经济前景和货币政策发表讲话；欧元区9月消费者信心指数初值将于十分钟后公布。</a> [7] <font color='grey'>- 22时15分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3675722_100_1" target="_blank" class="news-link">【行情】Kenvue公司股价下跌3.6%，美国总统特朗普政府将于周一对自闭症相关研究结果进行发布。</a> [11] <font color='grey'>- 22时15分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3675728_0_1" target="_blank" class="news-link">消息人士：哈马斯将要求美国总统特朗普提供60天停火期。</a> [12] <font color='grey'>- 22时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250922214207681800" target="_blank" class="news-link">阿根廷股市上涨6%，因美国财长贝森特释放支持信号。</a> [13] <font color='grey'>- 22时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250922213550895800" target="_blank" class="news-link">美国金矿股普涨，Paramount Gold Nevada涨超6%，巴里克黄金(GOLD.N)涨超5%、哈莫尼黄金(HMY.N)涨超4%。</a> [16] <font color='grey'>- 22时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250922213151935800" target="_blank" class="news-link">哈马斯将要求美国总统特朗普提供60天停火期。</a> [21] <font color='grey'>- 22时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">马斯克 特斯拉 gork</td>
+                    <td class="count">4</td>
+                    <td class="percentage">4.71%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2152555?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月22日电，特斯拉股价创逾八个月新高，最新上涨2.8%。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3756025" target="_blank" class="news-link">美股盘初三大股指走低，黄金股普涨，特斯拉涨近3%，加密货币走低，以太坊大跌7%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时15分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3675746_100_1" target="_blank" class="news-link">【行情】特斯拉股价触及逾8个月新高，最新上涨2.5%。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 22时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250922214327433800" target="_blank" class="news-link">特斯拉(TSLA.O)股价创逾八个月新高，最新上涨2.5%。</a> [11] <font color='grey'>- 22时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">4</td>
+                    <td class="percentage">4.71%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2152554?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月22日电，苹果公司股价创逾八个月以来新高，最新上涨2.1%。此前韦德布什公司给出华尔街最高目标价310美元。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时15分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5087773" target="_blank" class="news-link">美股异动｜苹果盘初涨超2% 创逾八个月高位 iPhone 17受捧</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时15分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3675742_100_1" target="_blank" class="news-link">【行情】苹果股价触及逾八个月高位，现上涨2.1%。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 22时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250922214137757800" target="_blank" class="news-link">在韦德布什将预期目标价上调至310美元后，苹果(AAPL.O)创下八个月新高，最新上涨2.1%。</a> [14] <font color='grey'>- 22时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.53%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5087772" target="_blank" class="news-link">华南职业教育(06913.HK)与广东集盛建设订立装修及施工协议 总价为6697万元</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时15分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%9C%A8%E8%88%AA%E6%AF%8D%E4%B8%8A%E7%9C%8B%E4%B8%AD%E5%9B%BD%E6%88%98%E6%9C%BA%E8%B5%B7%E9%A3%9E%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26cate%3D5001%26dgr%3D0%26realpos%3D10%26stream_entry_id%3D31%26pos%3D10%26flag%3D0%26filter_type%3Drealtimehot%26lcate%3D5001%26c_type%3D31%26q%3D%2523%25E5%259C%25A8%25E8%2588%25AA%25E6%25AF%258D%25E4%25B8%258A%25E7%259C%258B%25E4%25B8%25AD%25E5%259B%25BD%25E6%2588%2598%25E6%259C%25BA%25E8%25B5%25B7%25E9%25A3%259E%2523%26band_rank%3D10%26display_time%3D1758550270%26pre_seqid%3D175855027016903027180141" target="_blank" class="news-link">在航母上看中国战机起飞</a> [10] <font color='grey'>- 22时15分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%B7%B1%E5%9C%B3%EF%BC%9A%E5%BB%BA%E8%AE%AE%E5%87%86%E5%A4%87%E8%87%B3%E5%B0%913%E5%A4%A9%E7%9A%84%E5%BA%94%E6%80%A5%E7%89%A9%E8%B5%84" target="_blank" class="news-link">深圳：建议准备至少3天的应急物资</a> [13] <font color='grey'>- 22时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.35%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250922215145753800" target="_blank" class="news-link">特朗普将出席联合国大会</a> [6] <font color='grey'>- 22时15分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%98%BF%E5%AF%8C%E6%B1%97%E5%BC%BA%E7%A1%AC%E5%9B%9E%E5%BA%94%E7%89%B9%E6%9C%97%E6%99%AE%EF%BC%9A%E5%87%86%E5%A4%87%E5%86%8D%E6%89%9320%E5%B9%B4" target="_blank" class="news-link">阿富汗强硬回应特朗普：准备再打20年</a> [26] <font color='grey'>- 22时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2152550?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月22日电，加密货币概念股IREN开盘逆势走强，现涨超6%，此前公司宣布已斥资约6.7亿美元采购英伟达和AMD的GPU，以加速其人工智能云业务增长。</a> [6] <font color='grey'>- 22时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles"><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45332814" target="_blank" class="news-link">CompileBench: Can AI Compile 22-year-old Code?</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">半导体 GPU</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2152548?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">费城半导体指数开盘走高 泰瑞达涨超6%</a> [8] <font color='grey'>- 22时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2152552?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月22日电，花旗集团将通用汽车的目标股价从每股61美元上调至75美元。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3675731_100_1" target="_blank" class="news-link">【行情】潘帕斯能源公司上涨12.3%，阿根廷BBVA银行上涨22.1%，南方天然气运输公司上涨13.7%。</a> [10 - 30] <font color='grey'>- 22时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">外交部 卫健委 公安部 网信办 发改委 北戴河 中共中央 国务院 四中全会 三中全会 两会 政治局</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250922215627120800" target="_blank" class="news-link">爱沙尼亚外交部长：俄罗斯的鲁莽行动违反了国际法。借此机会呼吁俄罗斯停止对乌克兰的攻击。欧洲没有双重标准。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>12</td>
+                    <td class="word">医疗改革 医保 防疫 禽流感 登革热 流感 新冠 基孔肯雅</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250922212641554800" target="_blank" class="news-link">巴西农业部：禽流感爆发结束后，欧盟对巴西重新开放鸡肉市场。</a> [29] <font color='grey'>- 22时15分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
