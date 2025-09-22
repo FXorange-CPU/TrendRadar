@@ -1,0 +1,151 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 50</p><p>生成时间: 2025-09-23 07:13:25</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">9</td>
+                    <td class="percentage">18.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250923/1067554432.html" target="_blank" class="news-link">俄总统阿富汗问题特别代表：美国未必敢于因巴格拉姆基地入侵阿富汗</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250923064527526800" target="_blank" class="news-link">刚果（金）总统：今天与美国签署一项战略伙伴关系。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250923064241389800" target="_blank" class="news-link">据美国财经网站investinglive：新西兰联储最早将于周三宣布新任联储主席人选，克里斯蒂安·霍克斯比目前担任临时主席。不过霍克斯比似乎无缘获得正式任命，据未经证实的消息称，新任主席将由目前不在该行理事会任职的女性担任（即外部人士）。</a> [6] <font color='grey'>- 07时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250923063827234800" target="_blank" class="news-link">美国总统特朗普：乌兹别克斯坦航空公司和波音(BA.N)的协议将为美国创造超过35,000个就业岗位。我们将继续在更多事项上合作。</a> [8] <font color='grey'>- 07时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250923063155988800" target="_blank" class="news-link">美国总统特朗普：祝贺乌兹别克斯坦总统米尔济约耶夫与波音(BA.N)签订一项重大协议。这笔交易价值超过80亿美元，乌兹别克斯坦航空公司正购买22架波音787梦想客机。</a> [10] <font color='grey'>- 07时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250923061818218800" target="_blank" class="news-link">土耳其总统埃尔多安：将在与美国总统特朗普的会晤期间就F-35战机进行谈判。</a> [11] <font color='grey'>- 07时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3676396_100_1" target="_blank" class="news-link">美国总统特朗普：这份合同价值超过80亿美元，乌兹别克斯坦航空将购买22架787梦想客机。</a> [12] <font color='grey'>- 07时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3676395_100_1" target="_blank" class="news-link">美国总统特朗普：要祝贺乌兹别克斯坦总统米尔济约耶夫与波音公司达成一项重大协议。</a> [13] <font color='grey'>- 07时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3676393_100_1" target="_blank" class="news-link">土耳其总统埃尔多安：将在本周与美国总统特朗普会晤期间就F-35采购问题进行谈判。</a> [14] <font color='grey'>- 07时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">3</td>
+                    <td class="percentage">6.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5087854" target="_blank" class="news-link">百胜中国(09987.HK)：卫哲获委任为食品安全与可持续发展委员会成员</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时13分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250923/1067554109.html" target="_blank" class="news-link">中国央行行长：中国银行业总位居世界第一 外汇储备规模连续20年位居世界第一</a> [6]</div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3676405_100_1" target="_blank" class="news-link">刚果总统齐塞克迪：昨日签署了与中国建立战略伙伴关系的协议。</a> [7 - 27] <font color='grey'>- 07时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">3</td>
+                    <td class="percentage">6.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2152681?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">知情官员：特朗普将提出加沙战后治理方案</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250923065245534800" target="_blank" class="news-link">据福克斯新闻：特朗普与众议院少数党领袖杰弗里斯和参议院少数党领袖舒默关于政府资金的会议将于周四举行。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时13分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250923/1067554337.html" target="_blank" class="news-link">白宫：特朗普将于9月23日会见泽连斯基以及阿根廷、卡塔尔领导人</a> <font color='red'><strong>[5]</strong></font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45340600" target="_blank" class="news-link">In Maine, prisoners are thriving in remote jobs, other states are taking notice</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时13分</font></div><br><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45307119" target="_blank" class="news-link">After 50 years the magic circle (finally) admits Penn and Teller</a> [16] <font color='grey'>- 07时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3676414_101_1" target="_blank" class="news-link">加密数字货币交易所Coinbase面向股票和加密数字货币Etf推出美国期货合约。新款（科技七巨头）Mag7+加密货币取票指数期货将允许机构投资者在单一产品上交易大型科技股和加密货币Etf。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 07时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2152677?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">科技股引领A股上涨 结构性行情持续演绎</a> [7] <font color='grey'>- 07时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250923063229681800" target="_blank" class="news-link">金十数据整理：昨日今晨重要新闻汇总（2025-09-23）</a> [9] <font color='grey'>- 07时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2152645" target="_blank" class="news-link">英伟达拟向OpenAI投资最高1000亿美元 并共建10吉瓦AI数据中心</a> [10] <font color='grey'>- 07时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3676415_101_1" target="_blank" class="news-link">谷歌公司在搜索结果中整合Solana聊天功能。用户现在可以从谷歌搜索页直接获取Solana实时价格数据。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 07时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3676399_101_1" target="_blank" class="news-link">美国总统特朗普：将在（已经达成共识的波音787飞机订单和铁路之外的）更多问题上合作。</a> [10 - 30] <font color='grey'>- 07时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">内卷 反内卷</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2152680?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">快递业“反内卷”在行动 竞争焦点从拼价格转向比服务</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时13分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
