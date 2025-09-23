@@ -1,0 +1,127 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 42</p><p>生成时间: 2025-09-24 02:21:35</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">12</td>
+                    <td class="percentage">28.57%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2153937?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">伊朗最高领袖：与美国谈判没有任何好处</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250924015042216800" target="_blank" class="news-link">瑞银集团正在提高其美国财富顾问的薪酬</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时21分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3678114_101_1" target="_blank" class="news-link">美国北达科塔州7月石油产量116.0878万桶/日。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 02时21分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3678110_101_1" target="_blank" class="news-link">阿根廷Caputo：已经与美国财长讨论“特定的数字”，但拒绝针对美国救助提供更多细节。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 02时21分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3678105_100_1" target="_blank" class="news-link">美国总统特朗普：不清楚在丹麦到底发生了什么。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 02时21分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3678104_101_1" target="_blank" class="news-link">美国总统特朗普：我们将在一个月内知道俄罗斯总统普京</a> [6 - 26] <font color='grey'>- 02时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250924013917296800" target="_blank" class="news-link">美国总统特朗普：我目前不知道丹麦到底发生了什么。</a> [8] <font color='grey'>- 02时21分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3678103_100_1" target="_blank" class="news-link">美国总统特朗普：认为匈牙利总理欧尔班将停止购买石油。</a> [7 - 27] <font color='grey'>- 02时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250924013330456800" target="_blank" class="news-link">美国总统特朗普：认为匈牙利总理欧尔班将停止购买石油。</a> [10] <font color='grey'>- 02时21分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3678098_100_1" target="_blank" class="news-link">【行情】美国股指走低，标普500指数下跌0.5%，纳斯达克指数下跌0.7%，道琼斯指数下跌0.2%。</a> [11] <font color='grey'>- 02时21分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3678096_100_1" target="_blank" class="news-link">乌克兰总统泽连斯基：将向美国总统特朗普通报战场局势，我们有好消息。</a> [12] <font color='grey'>- 02时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250924013036886800" target="_blank" class="news-link">乌克兰总统泽连斯基：将向美国总统特朗普简报战场情况，我们有好消息。</a> [14] <font color='grey'>- 02时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">5</td>
+                    <td class="percentage">11.9%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250924015453205800" target="_blank" class="news-link">特朗普：北约国家应该击落侵犯其领空的飞机</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时21分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3678102_100_1" target="_blank" class="news-link">福特汽车：尚未发布暂停驾驶受召回车辆的指令，亦未获悉与部分2021款车辆问题相关的任何事故。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 02时21分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3678101_100_1" target="_blank" class="news-link">美国总统特朗普：如果俄罗斯飞机进入北约国家领空，北约国家应该将其击落。</a> [8 - 28] <font color='grey'>- 02时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250924013505022800" target="_blank" class="news-link">美国总统特朗普：美国是否帮助北约击落俄罗斯飞机取决于具体情况。</a> [9] <font color='grey'>- 02时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250924013309380800" target="_blank" class="news-link">美国总统特朗普：北约国家应在俄罗斯飞机进入北约空域时将其击落。</a> [11] <font color='grey'>- 02时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">地震 台风 洪灾 暴雨 泥石流 山体滑坡</td>
+                    <td class="count">3</td>
+                    <td class="percentage">7.14%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2153936?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">秘鲁南部海域发生5.8级地震</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时21分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2153933?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月24日电，香港天文台发布9号台风信号。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250924014255801800" target="_blank" class="news-link">香港天文台发布9号台风信号。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.76%</td>
+                    <td class="titles"><div class='new-title'>🆕 [MKT News] <a href="https://mktnews.net/flashDetail.html?id=019977a4-5e30-7cc5-9c74-1663bbce69c6" target="_blank" class="news-link">【Takeaway from Powell’s Remarks at the Rhode Island Event】- &lt;b&gt;Fed Policy Stance&lt;/b&gt;: Interest rates remain “&lt;b&gt;still modestly restrictive&lt;/b&gt;” after the recent quarter-point cut; Fed is well-positioned to respond to evolving economic conditions.&lt;br/&gt;- &lt;b&gt;Two-Sided Risks&lt;/b&gt;: Easing too quickly could reignite inflation; staying too restrictive could weigh on labor markets. &lt;b&gt;No risk-free path exists&lt;/b&gt;.&lt;br/&gt;- &lt;b&gt;Labor Market&lt;/b&gt;: Conditions have softened; hiring is low, particularly for new entrants, and downside risks to employment persist.&lt;br/&gt;- &lt;b&gt;Inflation Outlook&lt;/b&gt;: Inflation remains somewhat elevated; tariff-driven price pressures are largely one-time and not a main factor. Long-run expectations remain near 2%.&lt;br/&gt;- &lt;b&gt;Economic Growth&lt;/b&gt;: Growth has moderated; effects of major policy shifts are still unfolding; uncertainty is affecting business investment and hiring.&lt;br/&gt;- &lt;b&gt;AI and Labor&lt;/b&gt;: AI may phase out some jobs but also create new roles; not the main driver of low hiring rates.&lt;br/&gt;- &lt;b&gt;Policy Approach&lt;/b&gt;: Fed is using a “risk-management” approach, considering a range of plausible outcomes rather than a preset course.&lt;br/&gt;- &lt;b&gt;Political Independence&lt;/b&gt;: Powell emphasized the Fed does &lt;b&gt;not take politics into account&lt;/b&gt;; claims of political bias are “cheap shots.”&lt;br/&gt;- &lt;b&gt;Market Impact&lt;/b&gt;: Treasury yields fell slightly; U.S. stock indexes were mostly unchanged; U.S. dollar edged up marginally.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时21分</font></div><br><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45304980" target="_blank" class="news-link">Markov Chains Are the Original Language Models</a> [17] <font color='grey'>- 02时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.76%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3678099_100_1" target="_blank" class="news-link">乌克兰总统泽连斯基：希望讨论如何阻止欧洲国家购买俄罗斯石油和天然气。</a> [10 - 30] <font color='grey'>- 02时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250924013159164800" target="_blank" class="news-link">乌克兰总统泽连斯基：希望讨论如何阻止欧洲人购买俄罗斯的石油和天然气。</a> [12] <font color='grey'>- 02时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">chatgpt Sam Altman openai</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.38%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2153935?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月24日电，OpenAI和甲骨文据称将宣布在得州扩建数据中心。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.38%</td>
+                    <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%B7%B1%E5%9C%B3%E5%85%A8%E5%B8%82%E5%85%AC%E5%85%B1%E4%BA%A4%E9%80%9A%E5%81%9C%E8%BF%90%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26cate%3D5001%26band_rank%3D27%26flag%3D1%26stream_entry_id%3D31%26lcate%3D5001%26realpos%3D27%26pos%3D28%26q%3D%2523%25E6%25B7%25B1%25E5%259C%25B3%25E5%2585%25A8%25E5%25B8%2582%25E5%2585%25AC%25E5%2585%25B1%25E4%25BA%25A4%25E9%2580%259A%25E5%2581%259C%25E8%25BF%2590%2523%26dgr%3D0%26c_type%3D31%26filter_type%3Drealtimehot%26display_time%3D1758651546%26pre_seqid%3D1758651546481017265911" target="_blank" class="news-link">深圳全市公共交通停运</a> [27] <font color='grey'>- 02时21分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
