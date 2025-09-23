@@ -1,0 +1,143 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 55</p><p>生成时间: 2025-09-24 02:47:20</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">18</td>
+                    <td class="percentage">32.73%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250924022153884800" target="_blank" class="news-link">市场消息：美国司法部正推进纽约总检察长Letitia James的欺诈案件。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时47分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250924021648013800" target="_blank" class="news-link">数据显示：美国高评级债券销售达到1720亿美元。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时47分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250924021622263800" target="_blank" class="news-link">加拿大央行行长麦克勒姆：对许多投资者而言，美元作为避险工具的价值已受到损害，特朗普试图影响美联储的行为，正引发人们对美国货币政策持续独立性的质疑。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时47分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3678151_101_1" target="_blank" class="news-link">欧盟委员会主席冯德莱恩与美国总统特朗普围绕“需要削减俄罗斯的化石燃料收入”达成共识。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 02时47分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250924021601002800" target="_blank" class="news-link">加拿大央行行长麦克勒姆：加拿大未能充分利用与非美国市场的贸易协定。</a> [7] <font color='grey'>- 02时47分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250924021555014800" target="_blank" class="news-link">加拿大央行行长麦克勒姆：鉴于与美国的全新关系，加拿大领导人需规划更加独立的发展道路，同时需寻找新市场。加拿大央行官员已准备好应对新的经济信息。</a> [8] <font color='grey'>- 02时47分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3678147_101_1" target="_blank" class="news-link">美国高评级债券销售达到1720亿美元。</a> [8 - 28] <font color='grey'>- 02时47分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3678145_100_1" target="_blank" class="news-link">加拿大央行行长麦克勒姆：对冲基金增持美国政府债务正在提高金融体系核心的杠杆率，存在脆弱性。</a> [10 - 30] <font color='grey'>- 02时47分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250924021541269800" target="_blank" class="news-link">加拿大央行行长麦克勒姆：与美国增加贸易摩擦意味着成本增加、收入减少。</a> [10] <font color='grey'>- 02时47分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250924021533260800" target="_blank" class="news-link">加拿大央行行长麦克勒姆：美国关税要求该国在经济上“改变方向”。</a> [12] <font color='grey'>- 02时47分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3678142_100_1" target="_blank" class="news-link">加拿大央行行长麦克勒姆：鉴于与美国之间的新关系，加拿大领导人需要开辟更独立的道路，需要寻找新的市场。</a> [13] <font color='grey'>- 02时47分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250924021523744800" target="_blank" class="news-link">加拿大央行行长麦克勒姆：对许多投资者而言，目前的问题是，美国在全球金融流动中的主导地位是否会减弱。</a> [14] <font color='grey'>- 02时47分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3678140_100_1" target="_blank" class="news-link">加拿大央行行长麦克勒姆：美国总统特朗普提出的“解放日”关税引发人们对美元避险作用的质疑。</a> [15] <font color='grey'>- 02时47分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250924021519959800" target="_blank" class="news-link">加拿大央行行长麦克勒姆：对冲基金增持美国国债正加剧金融体系核心的杠杆风险，当前存在脆弱性。</a> [15] <font color='grey'>- 02时47分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250924021512797800" target="_blank" class="news-link">加拿大央行行长麦克勒姆：美国贸易政策转变的“全面影响”尚未显现。</a> [16] <font color='grey'>- 02时47分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3678138_100_1" target="_blank" class="news-link">加拿大央行行长麦克勒姆：对许多投资者而言，目前的问题是美国在全球金融流动中的主导地位是否会逐渐衰退。</a> [17] <font color='grey'>- 02时47分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3678137_100_1" target="_blank" class="news-link">加拿大央行行长麦克勒姆：美国总统特朗普试图影响美联储的行为正在引发人们对美国货币政策持续独立性的质疑。</a> [18] <font color='grey'>- 02时47分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250924015920732800" target="_blank" class="news-link">伊朗最高领袖：与美国谈判没有任何好处</a> [24] <font color='grey'>- 02时47分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">3</td>
+                    <td class="percentage">5.45%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250924/1067571017.html" target="_blank" class="news-link">特朗普：联合国拥有巨大的潜力 但该组织在实现这一潜力方面“甚至还差得很远”</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250924021605863800" target="_blank" class="news-link">加拿大央行行长麦克勒姆：特朗普的“解放日”关税令美元的避险地位受到质疑。</a> [6] <font color='grey'>- 02时47分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E7%89%B9%E6%9C%97%E6%99%AE%E7%A7%B0%E6%89%80%E6%9C%89%E5%AD%95%E5%A6%87%E9%83%BD%E4%B8%8D%E8%AF%A5%E7%94%A8%E6%B3%B0%E8%AF%BA%E6%AD%A2%E7%97%9B%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26pos%3D29%26cate%3D5001%26flag%3D0%26lcate%3D5001%26stream_entry_id%3D31%26band_rank%3D28%26q%3D%2523%25E7%2589%25B9%25E6%259C%2597%25E6%2599%25AE%25E7%25A7%25B0%25E6%2589%2580%25E6%259C%2589%25E5%25AD%2595%25E5%25A6%2587%25E9%2583%25BD%25E4%25B8%258D%25E8%25AF%25A5%25E7%2594%25A8%25E6%25B3%25B0%25E8%25AF%25BA%25E6%25AD%25A2%25E7%2597%259B%2523%26dgr%3D0%26filter_type%3Drealtimehot%26realpos%3D28%26c_type%3D31%26display_time%3D1758652988%26pre_seqid%3D17586529889010173209141" target="_blank" class="news-link">特朗普称所有孕妇都不该用泰诺止痛</a> [28] <font color='grey'>- 02时47分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.82%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250924015944863800" target="_blank" class="news-link">据华尔街日报：蒙特利尔银行近日已探讨出售其部分美国分行，这些分行的存款总额约为60亿美元。</a> [23] <font color='grey'>- 02时47分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">微软 Microsoft</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.82%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3678152_101_1" target="_blank" class="news-link">Vertiv Holdings Co. (Vrt)股价跌幅重新扩大至6.99%，微软宣布已经开发出芯片内置的降温系统。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 02时47分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">chatgpt Sam Altman openai</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.82%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250924015611995800" target="_blank" class="news-link">美媒：OpenAI和甲骨文将宣布在得州扩建数据中心</a> [25] <font color='grey'>- 02时47分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.82%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3678148_101_1" target="_blank" class="news-link">加拿大央行行长Macklem：美国贸易政策可能会削弱美元的全球安全资产地位。</a> [7 - 27] <font color='grey'>- 02时47分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.82%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%AA%92%EF%BC%9A%E4%B8%AD%E5%9B%BD%E8%88%AA%E6%AF%8D%E8%83%BD%E5%8A%9B%E5%AE%9E%E7%8E%B0%E9%87%8D%E5%A4%A7%E9%A3%9E%E8%B7%83" target="_blank" class="news-link">美媒：中国航母能力实现重大飞跃</a> [27] <font color='grey'>- 02时47分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">地震 台风 洪灾 暴雨 泥石流 山体滑坡</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.82%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2153933?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">受台风“桦加沙”影响 香港天文台改发“九号风球”</a> [7] <font color='grey'>- 02时47分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.82%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3678153_100_1" target="_blank" class="news-link">欧盟委员会主席冯德莱恩：我们加大压力，禁止俄罗斯液化天然气进口到欧洲市场，并将目标对准第三国的炼油厂、石油贸易商和炼油厂。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 02时47分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
