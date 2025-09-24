@@ -1,0 +1,167 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 50</p><p>生成时间: 2025-09-25 07:13:44</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">9</td>
+                    <td class="percentage">18.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250925065020174800" target="_blank" class="news-link">据叙利亚国家通讯社：叙利亚总统沙拉在联合国大会期间会见美国总统特朗普。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3680368_100_1" target="_blank" class="news-link">特朗普政府官员：美国正在与G7和欧盟就更广泛的稀土贸易措施进行谈判，以防止可能包括关税、价格下限或其他措施的价格倾销。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 07时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3680362_101_1" target="_blank" class="news-link">报道：特朗普在美国Cftc主席提名人问题上改变主意</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 07时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3680360_100_1" target="_blank" class="news-link">叙利亚国家通讯社：叙利亚总统沙拉在联合国大会间隙与美国总统特朗普会面。</a> [6 - 26] <font color='grey'>- 07时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3680359_100_1" target="_blank" class="news-link">韩国总统李在明与美国财长贝森特讨论了美方达成关税协议的条件。</a> [7 - 27] <font color='grey'>- 07时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3680357_101_1" target="_blank" class="news-link">据知情人士透露，特朗普政府计划再次东营紧急授权，来阻止美国更多的煤炭火电站关闭。</a> [8 - 28] <font color='grey'>- 07时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3680343_100_1" target="_blank" class="news-link">波罗的海国家对美国在欧洲的军事部署抱有希望，但仍未消除疑虑。</a> [15] <font color='grey'>- 07时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3680339_101_1" target="_blank" class="news-link">美国航空公司和Faa被坠机遇难者妻子起诉</a> [16] <font color='grey'>- 07时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3680336_100_1" target="_blank" class="news-link">韩国总理金民锡向彭博新闻社表示，韩国在美国的投资项目将暂停，直至签证问题得到解决。</a> [18] <font color='grey'>- 07时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">4</td>
+                    <td class="percentage">8.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250925065639322800" target="_blank" class="news-link">特朗普政府官员：特朗普预计将于周四会见巴基斯坦总理谢里夫。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3680363_100_1" target="_blank" class="news-link">特朗普政府官员：总统特朗普预计于周四会见巴基斯坦总理谢里夫。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 07时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2155198?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">特朗普：联合国发生三件“非常险恶”事件 特勤局已介入</a> [8] <font color='grey'>- 07时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3680356_100_1" target="_blank" class="news-link">Politico：特朗普向阿拉伯领导人承诺不会让以色列吞并约旦河西岸。</a> [9 - 29] <font color='grey'>- 07时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2155196?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月25日电，英伟达CEO黄仁勋通过多次交易出售225,000股普通股，成交价格区间为每股174.82美元至184.38美元。</a> [10] <font color='grey'>- 07时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3680349_101_1" target="_blank" class="news-link">英伟达Ceo黄仁勋在9月22-24日通过20笔交易出售22.5万股股票，套现4020万美元。</a> [12] <font color='grey'>- 07时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">地震 台风 洪灾 暴雨 泥石流 山体滑坡</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250925063621557800" target="_blank" class="news-link">据欧洲地中海地震中心：委内瑞拉瓦莱拉西北62公里处发生6.3级地震。</a> [6] <font color='grey'>- 07时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2155199?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">委内瑞拉西北部发生6.2级地震</a> [7] <font color='grey'>- 07时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250925062912875800" target="_blank" class="news-link">金十数据整理：昨日今晨重要新闻汇总（2025-09-25）</a> [7] <font color='grey'>- 07时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45366566" target="_blank" class="news-link">Everything that&#x27;s wrong with Google Search in one image</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">字节 即梦 coze</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2154315?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【研选】可控核聚变时代加速到来，核聚变“国家队”将在上海新建高温超导聚变装置；公司打造的算力矩阵已构建起开放兼容的生态系统，与腾讯、阿里、字节等多个知名的云厂商建立了密切的合作关系</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3680337_101_1" target="_blank" class="news-link">知名投资者“木头姐”：人工智能让招聘门槛更高</a> [17] <font color='grey'>- 07时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3680365_100_1" target="_blank" class="news-link">英国汽车制造商和贸易商协会：8月份英国汽车产量同比下降18.2%至38693辆。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 07时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2155167?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">习近平在联合国气候变化峰会发表视频致辞 宣布中国新一轮国家自主贡献</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3756174" target="_blank" class="news-link">科技继续拖累，三大美股指两连跌，中概股大反弹，阿里涨超8%，伦铜涨至一年新高</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>12</td>
+                    <td class="word">国产剧 电影 科幻</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1954124699404572364" target="_blank" class="news-link">辛芷蕾威尼斯封后之作《日掛中天》定档 11 月 7 日上映，对于这部电影你有哪些期待？</a> [12] <font color='grey'>- 07时13分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
