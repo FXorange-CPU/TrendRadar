@@ -1,0 +1,183 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 125</p><p>生成时间: 2025-09-25 18:15:41</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">13</td>
+                    <td class="percentage">10.4%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202509/2553216.html" target="_blank" class="news-link">中国中央汇金通过买进本地ETF获利逾500亿美元</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时15分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5089437" target="_blank" class="news-link">中国电力(02380.HK)发行20亿元绿色中期票据(蓝色债券)</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时15分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202509/2553213.html" target="_blank" class="news-link">中国国防部：福建舰试验训练按计划顺利推进</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时15分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202509/2553212.html" target="_blank" class="news-link">六美企被列入中国出口管制管控或不可靠实体清单</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时15分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3681211_100_1" target="_blank" class="news-link">中国香港金融监管机构发布路线图，旨在将香港打造成全球固定收益及货币中心。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 18时15分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202509/2553211.html" target="_blank" class="news-link">报告称中国电气化率已高于欧美</a> [6] <font color='grey'>- 18时15分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3681207_100_1" target="_blank" class="news-link">香港特区政府：8月向中国内地总出口黄金量为40.892吨，此前为58.296吨。8月向中国内地净出口黄金量为26.746吨，此前为43.923吨。</a> [6 - 26] <font color='grey'>- 18时15分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202509/2553209.html" target="_blank" class="news-link">中国誓言不断提升北斗系统全球应用水平</a> [8] <font color='grey'>- 18时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250925174853419800" target="_blank" class="news-link">金十图示：2018年9月至2025年8月中国香港对内地黄金净出口量一览</a> [14] <font color='grey'>- 18时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250925174354979800" target="_blank" class="news-link">香港特区政府：8月向中国内地总出口黄金量为40.892吨，此前为58.296吨。8月向中国内地净出口黄金量为26.746吨，此前为43.923吨。</a> [17] <font color='grey'>- 18时15分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3681181_100_1" target="_blank" class="news-link">中国中铁：中标重大工程，中标价合计502.2亿元。</a> [18] <font color='grey'>- 18时15分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2156085?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中国中铁：中标多个重大工程 中标价合计约502.15亿元</a> [19] <font color='grey'>- 18时15分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E6%B7%B1%E5%9C%B3%E6%89%A7%E8%A1%8C%E5%8A%9B%E5%A4%AA%E5%BC%BA%E4%BA%86&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26flag%3D1%26lcate%3D5001%26cate%3D5001%26band_rank%3D30%26q%3D%25E6%25B7%25B1%25E5%259C%25B3%25E6%2589%25A7%25E8%25A1%258C%25E5%258A%259B%25E5%25A4%25AA%25E5%25BC%25BA%25E4%25BA%2586%26dgr%3D0%26stream_entry_id%3D31%26realpos%3D30%26pos%3D31%26c_type%3D31%26filter_type%3Drealtimehot%26display_time%3D1758795260%26pre_seqid%3D17587952603500236845333" target="_blank" class="news-link">深圳执行力太强了</a> [30] <font color='grey'>- 18时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">6</td>
+                    <td class="percentage">4.8%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250925/1067600072.html" target="_blank" class="news-link">克宫：美国保持和平调解乌克兰局势的政治意愿</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3681202_0_1" target="_blank" class="news-link">外汇期权警示非农数据或因美国政府停摆而推迟</a> [9 - 29] <font color='grey'>- 18时15分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2156100?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月25日电，梅赛德斯-奔驰就美国降低关税发表评论表示，欢迎美欧协议的实施，并呼吁采取进一步措施减少自由贸易壁垒。</a> [10] <font color='grey'>- 18时15分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3681190_100_1" target="_blank" class="news-link">德国车企梅赛德斯：（关于美国降低关税）欢迎欧盟与美国实施的协议，呼吁进一步采取措施以减少自由贸易壁垒。</a> [14] <font color='grey'>- 18时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250925173931642800" target="_blank" class="news-link">外汇期权警示非农数据或因美国政府停摆而推迟</a> [19] <font color='grey'>- 18时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250925173309690800" target="_blank" class="news-link">梅赛德斯-奔驰就美国降低关税表示，欢迎美欧协议的实施，呼吁采取更多措施，进一步降低自由贸易壁垒。</a> [20] <font color='grey'>- 18时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">地震 台风 洪灾 暴雨 泥石流 山体滑坡</td>
+                    <td class="count">3</td>
+                    <td class="percentage">2.4%</td>
+                    <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1954461315100795876" target="_blank" class="news-link">受台风影响福建海滩出现遍地生蚝，市民称都是活的能捡几百斤，为什么会有这么多生蚝？这些生蚝能吃吗？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时15分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1954560005647853093" target="_blank" class="news-link">珠海一司机台风天驾车造浪，致周边商铺玻璃门损坏，被行拘十日，有哪些警示意义？激起水流破坏力有多大？</a> [20] <font color='grey'>- 18时15分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%A6%99%E6%B8%AF%E4%B8%80%E7%94%B7%E5%AD%90%E5%8F%B0%E9%A3%8E%E5%A4%A9%E7%A9%BF%E6%B3%B3%E8%A3%A4%E6%88%8F%E6%B0%B4%E5%BC%95%E5%85%AC%E6%84%A4" target="_blank" class="news-link">香港一男子台风天穿泳裤戏水引公愤</a> [28] <font color='grey'>- 18时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.6%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202509/2553208.html" target="_blank" class="news-link">国泰航空正与股东商讨订购更多飞机</a> [9] <font color='grey'>- 18时15分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5089427" target="_blank" class="news-link">鼎丰集团汽车(06878.HK)：Conyers Trust Company已辞任公司注册办事处及助理秘书</a> [12] <font color='grey'>- 18时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.6%</td>
+                    <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/09/25/b3e2f5e158314564960c933cf80273e2.html" target="_blank" class="news-link">克宫：特朗普“转变”受到泽连斯基影响</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时15分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%89%B9%E6%9C%97%E6%99%AE%E5%9C%A8%E8%81%94%E5%90%88%E5%9B%BD%E5%A4%A7%E4%BC%9A%E8%AE%B2%E4%BA%86%E4%BB%80%E4%B9%88" target="_blank" class="news-link">特朗普在联合国大会讲了什么</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.8%</td>
+                    <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/09/25/993d57b8eb544425a96d28131139075b.html" target="_blank" class="news-link">日媒：英伟达“向客户投资”策略引垄断担忧</a> [9] <font color='grey'>- 18时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">字节 即梦 coze</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.8%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/hkMacao/202509/2553210.html" target="_blank" class="news-link">抖音副总裁辟谣字节跳动即将港股上市</a> [7] <font color='grey'>- 18时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.8%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202509/2553215.html" target="_blank" class="news-link">中国AI概念股重启涨势 创业板创三年新高</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">半导体 GPU</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.8%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2155616?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【风口研报·公司】凭借轻量化材料布局+头部客户优势，公司积极开辟人形机器人、液冷、半导体等新赛道，业绩加速扭亏且极具成长潜力；锑的战略价值进一步凸显，关企业有望受益价格中枢上移</a> [15] <font color='grey'>- 18时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">手机</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.8%</td>
+                    <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/09/25/e50994f729a046b3aee0f8083377ddcf.html" target="_blank" class="news-link">日本一地出台手机防沉迷新规</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">芯片 光刻机 算力</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.8%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2156116" target="_blank" class="news-link">【数据看盘】三路资金豪掷近7亿抢筹浪潮信息 机构甩卖多只算力股</a> [12] <font color='grey'>- 18时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>12</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.8%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5089430" target="_blank" class="news-link">联易融科技-W(09959.HK)9月25日耗资747.2万港元回购223万股</a> [9] <font color='grey'>- 18时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>13</td>
+                    <td class="word">乡村经济 乡村振兴 裁员</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.8%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3681193_100_1" target="_blank" class="news-link">德国商报：德国博世寻求进一步裁员。</a> [12] <font color='grey'>- 18时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>14</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.8%</td>
+                    <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1954231249397835507" target="_blank" class="news-link">00 后女孩网售 5 盒精神药品思诺思被判贩毒，重审期间检方撤诉，如何从法律角度解读？</a> [9] <font color='grey'>- 18时15分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
