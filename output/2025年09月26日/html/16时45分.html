@@ -1,0 +1,119 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 60</p><p>生成时间: 2025-09-26 16:45:04</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">5</td>
+                    <td class="percentage">8.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250926161958749800" target="_blank" class="news-link">爱尔兰贸易部长：欧盟与美国的贸易协议将制药关税上限定为15%，这一情况依然存在，并凸显了该协议的价值。</a> [12] <font color='grey'>- 16时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250926161400816800" target="_blank" class="news-link">部分美国家具公司的股票盘前下跌。</a> [15] <font color='grey'>- 16时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250926161148560800" target="_blank" class="news-link">道明证券：受食品能源价格加速上涨推动 美国整体PCE月率或有所上升</a> [17] <font color='grey'>- 16时45分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31683233" target="_blank" class="news-link">内塔尼亚胡为防被捕，绕路去美国参加联大演讲</a> [20] <font color='grey'>- 16时45分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%97%A5%E6%9C%AC%E9%A6%96%E7%9B%B8%E5%80%99%E9%80%89%E4%BA%BA%E8%B0%81%E8%83%BD%E8%83%9C%E5%87%BA" target="_blank" class="news-link">日本首相候选人谁能胜出</a> [26] <font color='grey'>- 16时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">4</td>
+                    <td class="percentage">6.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250926/1067615512.html" target="_blank" class="news-link">中国外交部：中俄巴伊联合声明强调尊重阿富汗主权，反对再建军事基地</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20250926/1067615417.html" target="_blank" class="news-link">媒体：欧盟计划对中国钢铁及其产品征收25%至50%关税</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%9C%A8%E4%B8%AD%E5%9B%BD%E6%9C%80%E5%8C%97%E5%B0%8F%E5%AD%A6%E7%9C%8B%E5%8D%87%E6%97%97" target="_blank" class="news-link">在中国最北小学看升旗</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时45分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7%E8%80%81%E6%B4%8B%E6%88%BF%E4%BB%8E1.5%E4%BA%BF%E9%99%8D%E8%87%B38299%E4%B8%87%E4%BB%8D%E6%B5%81%E6%8B%8D" target="_blank" class="news-link">上海老洋房从1.5亿降至8299万仍流拍</a> [29] <font color='grey'>- 16时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250926162358995800" target="_blank" class="news-link">金十数据整理：每日债券市场要闻速递（2025-09-26）</a> [10] <font color='grey'>- 16时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250926161327480800" target="_blank" class="news-link">金十数据整理：每日投行/机构观点梳理（2025-09-26）</a> [16] <font color='grey'>- 16时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">机器人 脑机接口</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5089981" target="_blank" class="news-link">富维股份(600742.SH)：将积极拓展与机器人相关的镁合金业务</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时45分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5089979" target="_blank" class="news-link">明泰铝业(601677.SH)：有机器人专用散热器铝材及软包电池铝箔的市场化供应</a> [6] <font color='grey'>- 16时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250926163700172800" target="_blank" class="news-link">德国VFA制药协会：特朗普的关税计划将重创德国这一制药中心。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250926162257960800" target="_blank" class="news-link">德国化工协会（VCI）：对特朗普宣布拟自10月起对外国制药产品征收100%关税一事深表关切。</a> [11] <font color='grey'>- 16时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5089975" target="_blank" class="news-link">美股异动｜奇景光电盘前涨超2.3%，WiseEye超低功耗AI智慧感测方案量产</a> [10] <font color='grey'>- 16时45分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
