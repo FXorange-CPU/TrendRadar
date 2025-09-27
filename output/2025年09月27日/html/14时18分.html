@@ -1,0 +1,167 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 43</p><p>生成时间: 2025-09-27 14:18:57</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">地震 台风 洪灾 暴雨 泥石流 山体滑坡</td>
+                    <td class="count">3</td>
+                    <td class="percentage">6.98%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2158019?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">台风“博罗依”进入南海 海南将防汛防风应急响应提升至三级</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时18分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2157996?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">甘肃陇西5.6级地震已致8人受伤 转移安置群众7812人</a> [6] <font color='grey'>- 14时18分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E9%99%87%E8%A5%BF%E5%9C%B0%E9%9C%87%E8%87%B48%E4%BC%A4%E8%BD%AC%E7%A7%BB%E5%AE%89%E7%BD%AE7812%E4%BA%BA%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26q%3D%2523%25E9%2599%2587%25E8%25A5%25BF%25E5%259C%25B0%25E9%259C%2587%25E8%2587%25B48%25E4%25BC%25A4%25E8%25BD%25AC%25E7%25A7%25BB%25E5%25AE%2589%25E7%25BD%25AE7812%25E4%25BA%25BA%2523%26filter_type%3Drealtimehot%26band_rank%3D17%26c_type%3D31%26pos%3D18%26stream_entry_id%3D31%26cate%3D5001%26flag%3D1%26lcate%3D5001%26realpos%3D17%26dgr%3D0%26display_time%3D1758952310%26pre_seqid%3D175895230996402365807151" target="_blank" class="news-link">陇西地震致8伤转移安置7812人</a> [17] <font color='grey'>- 14时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">国产剧 电影 科幻</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.65%</td>
+                    <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%BF%97%E6%84%BF%E5%86%9B%E8%80%81%E5%85%B5%E5%8F%82%E6%BC%94%E7%94%B5%E5%BD%B1%E5%BF%97%E6%84%BF%E5%86%9B3%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26q%3D%2523%25E5%25BF%2597%25E6%2584%25BF%25E5%2586%259B%25E8%2580%2581%25E5%2585%25B5%25E5%258F%2582%25E6%25BC%2594%25E7%2594%25B5%25E5%25BD%25B1%25E5%25BF%2597%25E6%2584%25BF%25E5%2586%259B3%2523%26filter_type%3Drealtimehot%26band_rank%3D8%26c_type%3D31%26pos%3D9%26stream_entry_id%3D31%26cate%3D5001%26flag%3D1%26lcate%3D5001%26realpos%3D8%26dgr%3D0%26display_time%3D1758952310%26pre_seqid%3D175895230996402365807151" target="_blank" class="news-link">志愿军老兵参演电影志愿军3</a> [8] <font color='grey'>- 14时18分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2250848" target="_blank" class="news-link">电影志愿军铁道兵真实原型</a> [27] <font color='grey'>- 14时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250927132557673800" target="_blank" class="news-link">9月26日芝加哥商业交易所（CME）能源类商品成交量报告已在金十数据中心更新！欢迎点击查看</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">微软 Microsoft</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/09/27/983f176c4f0c461ca2eeefce1c304cf6.html" target="_blank" class="news-link">施压微软！特朗普威胁“让政治对手付出代价”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1954822852353164807" target="_blank" class="news-link">如何看待谷歌宣布将结合 Gemini 和安卓手机系统，于明年推出一款「安卓电脑操作系统」？</a> [13] <font color='grey'>- 14时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">chatgpt Sam Altman openai</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2157899" target="_blank" class="news-link">特朗普或考虑对乌提供远程武器 苹果据悉开发类ChatGPT应用 | 环球市场</a> [13] <font color='grey'>- 14时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/355691918" target="_blank" class="news-link">如何看待国内开源项目的不可持续性？</a> [20] <font color='grey'>- 14时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2157997?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月27日电，电动汽车制造商Lucid表示，2026年需要筹集更多资金，希望Uber入股Lucid将成为该公司的转折点。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%231%E5%B9%B4%E8%BF%98%E6%B8%85%E7%99%BE%E4%B8%87%E8%B4%9F%E5%80%BA%E5%85%A8%E5%AE%B6%E5%9C%A8%E6%9D%AD%E5%B7%9E%E5%AE%89%E5%AE%B6%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26q%3D%25231%25E5%25B9%25B4%25E8%25BF%2598%25E6%25B8%2585%25E7%2599%25BE%25E4%25B8%2587%25E8%25B4%259F%25E5%2580%25BA%25E5%2585%25A8%25E5%25AE%25B6%25E5%259C%25A8%25E6%259D%25AD%25E5%25B7%259E%25E5%25AE%2589%25E5%25AE%25B6%2523%26filter_type%3Drealtimehot%26band_rank%3D30%26c_type%3D31%26pos%3D31%26stream_entry_id%3D31%26cate%3D5001%26flag%3D1%26lcate%3D5001%26realpos%3D30%26dgr%3D0%26display_time%3D1758952310%26pre_seqid%3D175895230996402365807151" target="_blank" class="news-link">1年还清百万负债全家在杭州安家</a> [30] <font color='grey'>- 14时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5090434" target="_blank" class="news-link">红板科技冲击沪主板，聚焦PCB产品，净利润存在波动</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2157922" target="_blank" class="news-link">特朗普“翻脸比翻书快”？据称正考虑对乌提供远程武器，但未明确承诺！</a> [9] <font color='grey'>- 14时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>12</td>
+                    <td class="word">小米 雷军</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%B0%8F%E7%B1%B317%E7%B3%BB%E5%88%97%E5%BC%80%E5%94%AE+%E5%A4%9A%E5%9C%B0%E9%97%A8%E5%BA%97%E6%8E%92%E9%95%BF%E9%98%9F" target="_blank" class="news-link">小米17系列开售 多地门店排长队</a> [25] <font color='grey'>- 14时18分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
