@@ -1,0 +1,151 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 90</p><p>生成时间: 2025-10-01 22:42:24</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">27</td>
+                    <td class="percentage">30.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2161547?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月1日电，美国上周EIA原油库存增加179.2万桶，预估为增加104.8万桶，前值为减少60.7万桶。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/01/315e527bf79a4781a22cb85e9a9e4ff2.html" target="_blank" class="news-link">特朗普称倘若自己未获诺奖，将是对美国的“侮辱”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001223429576800" target="_blank" class="news-link">美国财长贝森特：财政部正瞄准伊朗的武器采购。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001223402091800" target="_blank" class="news-link">美国官员：政府暂停向纽约市提供180亿美元基础设施资金</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3691818_101_1" target="_blank" class="news-link">美国众议院议长约翰逊：美国众议院将于下周复会。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2161542?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月1日电，据报道，美国暂停180亿美元纽约基础设施拨款。</a> [7] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001223051923800" target="_blank" class="news-link">美国至9月26日当周EIA原油产量引伸需求数据 1908.2万桶/日，前值2008.3万桶/日。</a> [9] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3756588" target="_blank" class="news-link">“小非农”意外萎缩！美国9月ADP就业人数减少3.2万人，年内降息两次预期上升</a> [10] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001223046075800" target="_blank" class="news-link">美国至9月26日当周EIA车用汽油总产量引伸需求数据 943.71万桶/日，前值985.94万桶/日。</a> [10] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3691805_101_1" target="_blank" class="news-link">【行情】Agroz美国IPO首日平开，报4美元。</a> [11] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001223034011800" target="_blank" class="news-link">美国至9月26日当周EIA蒸馏燃油产量引伸需求数据 499.44万桶/日，前值529.37万桶/日。</a> [11] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001223015101800" target="_blank" class="news-link">美国至9月26日当周EIA精炼厂设备利用率 91.4%，预期92.1%，前值93%。</a> [12] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3691797_101_1" target="_blank" class="news-link">【行情】AA Mission Acquisition Corp. II美国IPO首日破发，报9.98美元，此前给出的IPO发行价为每股10美元。</a> [13] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001223011730800" target="_blank" class="news-link">美国至9月26日当周EIA战略石油储备库存 74.2万桶，前值23万桶。</a> [13] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001223003476800" target="_blank" class="news-link">美国至9月26日当周EIA新配方汽油库存 -0.4万桶，前值0.4万桶。</a> [14] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001223003416800" target="_blank" class="news-link">美国至9月26日当周EIA精炼油库存 57.8万桶，预期-113.8万桶，前值-168.5万桶。</a> [15] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001223003415800" target="_blank" class="news-link">美国至9月26日当周EIA汽油库存 412.5万桶，预期67.5万桶，前值-108.1万桶。</a> [16] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001223003138800" target="_blank" class="news-link">美国至9月26日当周EIA原油库存 179.2万桶，预期104.8万桶，前值-60.7万桶。</a> [17] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001223003047800" target="_blank" class="news-link">美国至9月26日当周EIA原油进口 7.1万桶，前值159.6万桶。</a> [18] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001223002901800" target="_blank" class="news-link">美国至9月26日当周EIA成品油进口 46万桶/日，前值-40.3万桶/日。</a> [19] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001223002876800" target="_blank" class="news-link">美国至9月26日当周EIA俄克拉荷马州库欣原油库存 -27.1万桶，前值17.7万桶。</a> [20] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001223002877800" target="_blank" class="news-link">美国至9月26日当周EIA取暖油库存 18.7万桶，前值-18.9万桶。</a> [21] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001223002834800" target="_blank" class="news-link">美国至9月26日当周EIA汽油产量 -36.3万桶/日，前值30万桶/日。</a> [22] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001223002806800" target="_blank" class="news-link">美国至9月26日当周EIA精炼油产量 -2.5万桶/日，前值2.9万桶/日。</a> [23] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001223002746800" target="_blank" class="news-link">美国至9月26日当周EIA投产原油量 -30.8万桶/日，前值5.2万桶/日。</a> [24] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001222735492800" target="_blank" class="news-link">美国众议院议长约翰逊：我们无法采取任何措施让临时法案对民主党更有利。</a> [25] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001222611057800" target="_blank" class="news-link">美国众议院议长约翰逊：众议院将于下周回归。</a> [26] <font color='grey'>- 22时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">5</td>
+                    <td class="percentage">5.56%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2161546?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月1日电，美光科技涨超3%，创下历史新高。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3691815_101_1" target="_blank" class="news-link">【行情】美光科技涨超3%，创历史新高。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3691785_101_1" target="_blank" class="news-link">比尔·格罗斯表示要对当前科技股估值水平保持“谨慎”</a> [19] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3691783_101_1" target="_blank" class="news-link">【行情】纳斯达克生物科技指数上涨2.2%，触及2021年以来最高水平。</a> [20] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001222602279800" target="_blank" class="news-link">美光科技(MU.O)涨超3%，创下历史新高。</a> [27] <font color='grey'>- 22时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202510/0153725.html" target="_blank" class="news-link">中国成为安第斯共同体观察员国</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31714919" target="_blank" class="news-link">中国人民解放军南部战区位黄岩岛领海领空及周边区域组织战备警巡</a> [18] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%2314%E4%BA%BF%E4%B8%AD%E5%9B%BD%E4%BA%BA%E5%BF%83%E5%90%8C%E6%AD%A4%E6%84%BF%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26band_rank%3D26%26realpos%3D26%26pos%3D25%26lcate%3D5001%26c_type%3D31%26filter_type%3Drealtimehot%26q%3D%252314%25E4%25BA%25BF%25E4%25B8%25AD%25E5%259B%25BD%25E4%25BA%25BA%25E5%25BF%2583%25E5%2590%258C%25E6%25AD%25A4%25E6%2584%25BF%2523%26flag%3D1%26cate%3D5001%26stream_entry_id%3D31%26dgr%3D0%26display_time%3D1759329550%26pre_seqid%3D175932955043902369316134" target="_blank" class="news-link">14亿中国人心同此愿</a> [26] <font color='grey'>- 22时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001224020166800" target="_blank" class="news-link">巴西国家石油局：巴西8月石油产量达到390万桶/日，较去年同期增长16.6%。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3691813_100_1" target="_blank" class="news-link">沙特阿美石油公司下调10月液化石油气官方售价，阿尔及利亚国家石油公司上调价格。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3691789_0_1" target="_blank" class="news-link">欧佩克+会议强调遵守石油产量协议</a> [16] <font color='grey'>- 22时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001223224405800" target="_blank" class="news-link">金十数据整理：美国当周EIA数据最值一览</a> [7] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001223102540800" target="_blank" class="news-link">金十数据整理：美国当周EIA库存数据六大看点一览</a> [8] <font color='grey'>- 22时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/01/4ca9f2f216a243c3ac8bcf2a3fd41b5a.html" target="_blank" class="news-link">梅德韦杰夫讽刺特朗普“派潜艇”说法：“黑猫压根儿就不在那里”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/01/87cc7fc5468c44409c2bfb0d1d65dd29.html" target="_blank" class="news-link">“压制亲巴勒斯坦示威者”，特朗普政府被判非法</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">地震 台风 洪灾 暴雨 泥石流 山体滑坡</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2161538?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">印尼马鲁古省西南海域发生6.1级地震</a> [10] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%8F%B2%E5%BE%8B%E5%AE%BE%E5%9C%B0%E9%9C%87%E6%97%B6%E6%AD%A3%E9%80%89%E7%BE%8E+%E4%BD%B3%E4%B8%BD%E6%83%8A%E6%85%8C%E9%80%83%E7%A6%BB" target="_blank" class="news-link">菲律宾地震时正选美 佳丽惊慌逃离</a> [30] <font color='grey'>- 22时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">社保 养老 旅游 教育</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/hkMacao/202510/0153724.html" target="_blank" class="news-link">陈茂波：弘扬中华文化与爱国主义教育一脉相承</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/464519099" target="_blank" class="news-link">退休后旅游有意义吗?</a> [19] <font color='grey'>- 22时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.11%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001223634525800" target="_blank" class="news-link">谷歌裁减云部门员工 持续优化效率</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.11%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001223348456800" target="_blank" class="news-link">马自达北美业务部：9月汽车总销量报26169辆。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时42分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
