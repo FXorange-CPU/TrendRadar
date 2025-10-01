@@ -1,0 +1,143 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 82</p><p>生成时间: 2025-10-01 19:13:45</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">9</td>
+                    <td class="percentage">10.98%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001190002482800" target="_blank" class="news-link">美国至9月26日当周MBA抵押贷款再融资活动指数 1278.6，前值1609.8。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001190002481800" target="_blank" class="news-link">美国至9月26日当周MBA抵押贷款购买指数 172.7，前值174.5。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001190002459800" target="_blank" class="news-link">美国至9月26日当周MBA抵押贷款申请活动指数 339.1，前值388.3。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001185927183800" target="_blank" class="news-link">瑞士科学工业总干事：继此前宣布在美国建厂的计划后，大型瑞士制药公司有望免于10月1日实施的药品关税。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2161478?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月1日电，美国电影院线（AMC）宣布消除4000万美元债务。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3691337_100_1" target="_blank" class="news-link">俄罗斯方面仍在等待美国总统特朗普对莫斯科就《新削减战略武器条约》相关提议做出的回应。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3691321_100_1" target="_blank" class="news-link">韩国总统办公室：如有必要，韩国将愿意参与“星际之门”项目的融资。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001185225407800" target="_blank" class="news-link">杰富瑞：将美国航空集团(AAL.O)目标价上调至13美元，此前为12美元。</a> [13] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001184718515800" target="_blank" class="news-link">韩国总统办公室：韩国愿意在必要时参与资助“星门计划”。</a> [19] <font color='grey'>- 19时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">5</td>
+                    <td class="percentage">6.1%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2161482?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月1日电，谷歌高管温斯坦坦言，人工智能将导致部分岗位被替代；他还表示，欧洲的AI监管需要简化。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3691336_101_1" target="_blank" class="news-link">谷歌欧洲、中东及非洲地区负责人：人工智能将导致部分岗位被取代。欧洲的人工智能监管需要简化。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001185302570800" target="_blank" class="news-link">谷歌欧洲，中东及非洲地区负责人：欧洲的AI监管急需简化。</a> [11] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001185253485800" target="_blank" class="news-link">谷歌欧洲，中东及非洲地区负责人：人工智能将导致部分岗位被取代。</a> [12] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3691275_100_1" target="_blank" class="news-link">韩国总统办公室：谷歌正就人工智能合作事宜与韩国两三家企业进行洽谈。</a> [17] <font color='grey'>- 19时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">chatgpt Sam Altman openai</td>
+                    <td class="count">5</td>
+                    <td class="percentage">6.1%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2161480?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月1日电，韩国总统办公室表示，OpenAI将与三星合作建设JVS项目，SK海力士将在韩国建设两个数据中心，初期容量为20兆瓦。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3691325_100_1" target="_blank" class="news-link">韩国总统办公室：OpenAI将与三星合作建设JVS项目，SK海力士将在韩国建设两个数据中心，初期容量为20兆瓦。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2161475?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月1日电， 韩国总统办公室表示，OpenAI计划在2029年订购90万片存储芯片晶圆。</a> [8] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001184822961800" target="_blank" class="news-link">韩国总统办公室：OpenAI将与三星合作建设JVS项目，SK海力士将在韩国建设两个数据中心，初期容量为20兆瓦。</a> [16] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001183726451800" target="_blank" class="news-link">韩国总统办公室：OpenAI寻求在2029年订购90万片存储芯片。</a> [26] <font color='grey'>- 19时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.66%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001185653892800" target="_blank" class="news-link">现代汽车第三季度销量增长13%，达到239,069辆。</a> [7] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001185614814800" target="_blank" class="news-link">现代汽车9月份销量增长14%，达到71,003辆。</a> [8] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3691300_100_1" target="_blank" class="news-link">理想汽车：9月交付新车33951辆，按年回升19%。</a> [12] <font color='grey'>- 19时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.66%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251001/1067689841.html" target="_blank" class="news-link">俄国防部：俄军对乌克兰能源设施和登陆艇生产车间进行打击</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001185815887800" target="_blank" class="news-link">瑞士科学工业总干事：瑞士企业正在考虑在药品定价方面采用“类似方案”以省去中间商差价。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001185552055800" target="_blank" class="news-link">交易商表示，俄罗斯计划10月从黑海图阿普谢港（Tuapse）出口的石油产品量为88.8万吨，而9月该港口的石油产品计划出口量为109.8万吨。</a> [9] <font color='grey'>- 19时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.44%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2161474?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月1日电，斯特兰蒂斯集团（Stellantis）宣布，启动创新实验室与转型学院，旨在共同开发解决方案并在全集团范围内推广人工智能应用。</a> [9] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001184735796800" target="_blank" class="news-link">市场消息：英国AI基础设施公司Nscale已完成一轮规模为4.33亿美元的Pre-C轮SAFE融资。</a> [18] <font color='grey'>- 19时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2161476?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月1日电，据报道，英国AI基础设施公司Nscale已完成一轮规模为4.33亿美元的Pre-C轮SAFE融资。投资者包括Blue Owl、戴尔、英伟达和诺基亚。</a> [7] <font color='grey'>- 19时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001184815019800" target="_blank" class="news-link">中国核聚变装置又有新突破</a> [17] <font color='grey'>- 19时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">外交部 卫健委 公安部 网信办 发改委 北戴河 中共中央 国务院 四中全会 三中全会 两会 政治局</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251001/1067689749.html" target="_blank" class="news-link">俄外交部发言人：摩尔多瓦对反对派的迫害是独裁行径</a> <font color='red'><strong>[2]</strong></font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
