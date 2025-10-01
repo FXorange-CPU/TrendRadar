@@ -1,0 +1,151 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 87</p><p>生成时间: 2025-10-01 18:16:11</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">9</td>
+                    <td class="percentage">10.34%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2161454?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月1日电，标普全球市场情报数据显示，美国6个月期主权信用违约互换利差升至17个基点，创下2个半月以来的新高。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时16分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202510/0153712.html" target="_blank" class="news-link">吴慷仁王力宏侯佩岑等台湾艺人发文贺大陆国庆</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001175112246800" target="_blank" class="news-link">克里姆林宫：（就美国国防部长赫格塞思称美国应为确保和平做好战争准备）我们同样更倾向于加强武装力量以维护和平。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时16分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3691167_100_1" target="_blank" class="news-link">俄罗斯克宫：（就美国国防部长海格塞斯称美国应为确保和平做好战争准备）我们同样更倾向于加强武装力量以维护和平。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 18时16分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3691157_100_1" target="_blank" class="news-link">韩国三星电子：三星物产、三星重工业将开发离岸漂浮数据中心。</a> [8 - 28] <font color='grey'>- 18时16分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8n6HsbSdXBm" target="_blank" class="news-link">韩国阅兵大秀武器，李在明：未来将收回作战指挥权</a> [10] <font color='grey'>- 18时16分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3691121_100_1" target="_blank" class="news-link">日本三井矿山：预计下半年锌产量同比下降6.6%。</a> [15] <font color='grey'>- 18时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001173750063800" target="_blank" class="news-link">标普全球市场情报数据显示，美国6个月期主权信用违约互换利差升至17个基点，创下2个半月以来的新高。</a> [16] <font color='grey'>- 18时16分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%BA%B7%E4%BA%AC%E5%92%8C%E5%B0%86%E6%88%90%E9%9F%A9%E5%9B%BD%E9%A6%96%E4%BD%8D%E5%A5%B3%E6%80%A7%E9%A9%BB%E7%BE%8E%E5%A4%A7%E4%BD%BF" target="_blank" class="news-link">康京和将成韩国首位女性驻美大使</a> [23] <font color='grey'>- 18时16分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">chatgpt Sam Altman openai</td>
+                    <td class="count">8</td>
+                    <td class="percentage">9.2%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2161456?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">韩国三星电子：将与OpenAI合作以迎合DRAM芯片需求激增</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001175147312800" target="_blank" class="news-link">SK电信与OpenAI签署谅解备忘录，将在韩国西南部建设Stargate Korea。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时16分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2161446?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">OpenAI首席执行官访问韩国 与SK三星等讨论AI合作</a> [9] <font color='grey'>- 18时16分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3691151_100_1" target="_blank" class="news-link">韩国三星电子：将与OpenAI合作以迎合DRAM芯片需求激增。</a> [10 - 30] <font color='grey'>- 18时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001174715286800" target="_blank" class="news-link">三星电子：三星SDS将与OpenAI就STARGATE人工智能(AI)数据中心的设计、建设及运营进行合作。</a> [10] <font color='grey'>- 18时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001174508984800" target="_blank" class="news-link">三星电子：将与OpenAI合作以迎合DRAM芯片需求激增。</a> [12] <font color='grey'>- 18时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001174453321800" target="_blank" class="news-link">三星电子：预计OpenAI的DRAM芯片需求将达到每月90万块晶圆。</a> [13] <font color='grey'>- 18时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001172838637800" target="_blank" class="news-link">OpenAI首席执行官访问韩国，与SK三星等讨论AI合作</a> [21] <font color='grey'>- 18时16分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">7</td>
+                    <td class="percentage">8.05%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202510/0153715.html" target="_blank" class="news-link">国庆中秋假期首日 中国铁路预计发送旅客2300万人次</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时16分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202510/0153714.html" target="_blank" class="news-link">中国官媒：曲解K字签证误导公众 引发不必要焦虑</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时16分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8D%97%E9%83%A8%E6%88%98%E5%8C%BA%E3%80%81%E4%B8%AD%E5%9B%BD%E6%B5%B7%E8%AD%A6%E5%8F%91%E5%A3%B0" target="_blank" class="news-link">南部战区、中国海警发声</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时16分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251001/1067689107.html" target="_blank" class="news-link">调查：仅14%中国人有未偿还贷款</a> <font color='red'><strong>[5]</strong></font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202510/0153711.html" target="_blank" class="news-link">中国海警在黄岩岛海域举行国庆升旗仪式</a> [6] <font color='grey'>- 18时16分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2161449?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上海铁路今日发送旅客预计创历史新高</a> [7] <font color='grey'>- 18时16分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202510/0153709.html" target="_blank" class="news-link">普京中国国庆致贺电 称北京国际舞台地位获巩固</a> [8] <font color='grey'>- 18时16分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.3%</td>
+                    <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8n67YRAZcl3" target="_blank" class="news-link">全美高级将领大会细节：特朗普讲话70分钟，台下沉默70分钟</a> [6] <font color='grey'>- 18时16分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%E5%AE%A3%E5%B8%83%E2%80%9C20%E7%82%B9%E8%AE%A1%E5%88%92%E2%80%9D+%E4%B8%AD%E6%96%B9%E8%A1%A8%E6%80%81" target="_blank" class="news-link">特朗普宣布“20点计划” 中方表态</a> [28] <font color='grey'>- 18时16分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">社保 养老 旅游 教育</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.3%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202510/0153713.html" target="_blank" class="news-link">浙江鼓励旅游经营者实行“七天无理由退货”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时16分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E7%AC%AC%E4%B8%80%E5%A4%A9%E5%87%BA%E5%8E%BB%E6%97%85%E6%B8%B8%E7%9A%84%E4%BA%BA%E5%B7%B2%E7%BB%8F%E8%80%81%E5%AE%9E&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26stream_entry_id%3D31%26flag%3D1%26lcate%3D5001%26realpos%3D28%26filter_type%3Drealtimehot%26dgr%3D0%26c_type%3D31%26q%3D%25E7%25AC%25AC%25E4%25B8%2580%25E5%25A4%25A9%25E5%2587%25BA%25E5%258E%25BB%25E6%2597%2585%25E6%25B8%25B8%25E7%259A%2584%25E4%25BA%25BA%25E5%25B7%25B2%25E7%25BB%258F%25E8%2580%2581%25E5%25AE%259E%26cate%3D5001%26band_rank%3D28%26pos%3D27%26display_time%3D1759313013%26pre_seqid%3D17593130137650238497208" target="_blank" class="news-link">第一天出去旅游的人已经老实</a> [28] <font color='grey'>- 18时16分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.3%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2161450?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月1日电，西方石油美股盘前涨超1%。伯克希尔·哈撒韦公司据悉接近达成收购西方石油石化业务部门的协议，收购交易价值100亿美元。</a> [6] <font color='grey'>- 18时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001172939148800" target="_blank" class="news-link">西方石油(OXY.N)盘前上涨1.3%，此前报道称，伯克希尔正与该公司就以约100亿美元收购其OxyChem业务进行谈判。</a> [20] <font color='grey'>- 18时16分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.15%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3691132_100_1" target="_blank" class="news-link">【行情】西方石油公司股票盘前上涨1.3%，此前华尔街日报报道称伯克希尔公司正在谈判以约100亿美元的价格收购西方石油公司的Oxychem部门。</a> [13] <font color='grey'>- 18时16分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.15%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2161451?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月1日电，蔚来美股盘前涨超2%，此前其9月交付34,749辆汽车，创下新的月度纪录，同比增长64.1%。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时16分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">国产剧 电影 科幻</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.15%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001174355609800" target="_blank" class="news-link">据猫眼专业版数据，电影《刺杀小说家2》上映首日， 总票房破5000万。</a> [14] <font color='grey'>- 18时16分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">乡村经济 乡村振兴 裁员</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.15%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251001172558492800" target="_blank" class="news-link">埃克森美孚全球裁员波及新加坡 2027年底或裁15%员工</a> [22] <font color='grey'>- 18时16分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
