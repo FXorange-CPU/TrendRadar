@@ -1,0 +1,151 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 100</p><p>生成时间: 2025-10-02 16:19:21</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">9</td>
+                    <td class="percentage">9.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8n7oEi2Ejfh" target="_blank" class="news-link">防泄密？美国防部被曝要开展随机测谎</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时19分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3692936_0_1" target="_blank" class="news-link">乌克兰总统泽连斯基：与美国谈到了远程导弹问题。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 16时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251002160435891800" target="_blank" class="news-link">乌克兰总统泽连斯基：与美国谈到了远程导弹问题。</a> [6] <font color='grey'>- 16时19分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8n7ojTAW660" target="_blank" class="news-link">跟美国讨好处，欧盟对华钢铁进口还有坏招</a> [7] <font color='grey'>- 16时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251002160141635800" target="_blank" class="news-link">美国股指期货涨跌不一，道指期货跌0.04%，标普500指数期货涨0.11%，纳指期货涨0.27%。</a> [7] <font color='grey'>- 16时19分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3692930_100_1" target="_blank" class="news-link">【行情】美国E-MINI标普500指数期货上涨0.1%，道琼斯指数期货下跌0.05%，纳斯达克100指数期货上涨0.24%。</a> [7 - 27] <font color='grey'>- 16时19分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2161802?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美国外卖巨头Doordash完成对英国对手Deliveroo的收购</a> [13] <font color='grey'>- 16时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251002155320226800" target="_blank" class="news-link">据日本共同社：日本和美国正在安排特朗普于10月27日访问日本。</a> [15] <font color='grey'>- 16时19分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3692903_0_1" target="_blank" class="news-link">日本共同社：日本和美国正在安排特朗普于10月27日访问日本。</a> [16] <font color='grey'>- 16时19分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">外交部 卫健委 公安部 网信办 发改委 北戴河 中共中央 国务院 四中全会 三中全会 两会 政治局</td>
+                    <td class="count">5</td>
+                    <td class="percentage">5.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251002/1067702846.html" target="_blank" class="news-link">俄外交部：俄伊战略伙伴关系条约于10月2日生效</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3692902_100_1" target="_blank" class="news-link">英国外交部：英方对以色列拦截加沙援助船队一事“深感担忧”。</a> [17] <font color='grey'>- 16时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251002153659664800" target="_blank" class="news-link">希腊外交部长：加沙援助船队的39艘船只正抵达阿什杜德港，船上所有人员均安全。</a> [23] <font color='grey'>- 16时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251002153615500800" target="_blank" class="news-link">英国外交部就以色列阻止加沙援助船队发表声明称，已与以色列当局取得联系，明确表示期望局势能够安全解决。</a> [25] <font color='grey'>- 16时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251002153454598800" target="_blank" class="news-link">英国外交部就以色列阻止加沙援助船队发表声明称，我们对“全球坚韧船队”的局势深感关切，我们正与多名涉事英国国民的家属保持联系。</a> [27] <font color='grey'>- 16时19分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251002160114976800" target="_blank" class="news-link">LME有色金属库存日报</a> [8] <font color='grey'>- 16时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251002160111698800" target="_blank" class="news-link">LME注册及注销仓单日报</a> [9] <font color='grey'>- 16时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251002152841854800" target="_blank" class="news-link">金十数据整理：每日全球外汇市场要闻速递（2025-10-02）</a> [30] <font color='grey'>- 16时19分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251002160651614800" target="_blank" class="news-link">中国地震台网正式测定：10月02日16时00分在新疆克孜勒苏州阿合奇县（北纬40.93度，东经78.01度）发生3.6级地震，震源深度10千米。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时19分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3692940_0_1" target="_blank" class="news-link">中国与马来西亚探讨稀土加工项目</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 16时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251002155622975800" target="_blank" class="news-link">金十图示：北京时间10月2日22:00将有欧美、澳美、美日等外汇期权大单到期，12个行权价10亿以上大单，敬请管理风险。</a> [13] <font color='grey'>- 16时19分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2161820?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">香港恒生科技指数收涨3.36% 中芯国际涨超12%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时19分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2161710" target="_blank" class="news-link">恒生科技指数突破6600点创阶段新高 港股科技股“狂飙”逻辑何在？</a> [13] <font color='grey'>- 16时19分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">chatgpt Sam Altman openai</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45410068" target="_blank" class="news-link">I built ChatGPT with Minecraft redstone [video]</a> [11] <font color='grey'>- 16时19分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [GitHub] <a href="https://github.com/tile-ai/tilelang" target="_blank" class="news-link">tile-ai / tilelang</a> <font color='red'><strong>[2]</strong></font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251002161109564800" target="_blank" class="news-link">港股收盘，恒生指数收涨1.61%，恒生科技指数收涨3.36%，中芯国际(00981.HK)收涨12.7%，快手(01024.HK)涨8.57%，蔚来汽车(09866.HK)涨6.62%。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时19分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">手机</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%B3%B0%E5%9B%BD%E7%94%B7%E5%AD%90%E6%89%BE%E5%9B%9E%E6%89%8B%E6%9C%BA%E7%9B%B8%E5%86%8C%E6%83%8A%E7%8E%B0%E5%B0%B8%E9%AA%A8%E7%85%A7" target="_blank" class="news-link">泰国男子找回手机相册惊现尸骨照</a> [26] <font color='grey'>- 16时19分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251002160508681800" target="_blank" class="news-link">乌克兰总统泽连斯基：（谈及远程武器问题）一切取决于特朗普的决定。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时19分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
