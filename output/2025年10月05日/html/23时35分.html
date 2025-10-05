@@ -1,0 +1,119 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 40</p><p>生成时间: 2025-10-05 23:35:09</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">15</td>
+                    <td class="percentage">37.5%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251005231511019800" target="_blank" class="news-link">美国亚拉巴马州发生大规模枪击案 致2死12伤</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时35分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2162706?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美国亚拉巴马州发生大规模枪击案 致2死12伤</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251005231009671800" target="_blank" class="news-link">美国总统特朗普：（被问及普京延长核武器协议一年的提议时）这听起来是个好主意。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251005230839581800" target="_blank" class="news-link">美国总统特朗普：民主党人正在导致政府停摆，可能引发裁员，这完全取决于他们。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251005230827870800" target="_blank" class="news-link">美国国防部长赫格塞思：已获得在加勒比海开展缉毒打击行动所需的所有授权。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时35分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3696260_100_1" target="_blank" class="news-link">美国国防部长海格塞斯：已获得加勒比地区袭击所需的一切授权。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 23时35分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3696259_100_1" target="_blank" class="news-link">美国总统特朗普：（被问及俄罗斯总统普京提出的将核军控协议延长一年的提议时表示）这听起来像是个好主意。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 23时35分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3696257_100_1" target="_blank" class="news-link">美国总统特朗普：政府停摆是民主党造成的，可能的裁员也应由民主党承担。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 23时35分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3696253_100_1" target="_blank" class="news-link">美国总统特朗普：尚未看到波特兰市的提议。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 23时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251005230437116800" target="_blank" class="news-link">美国总统特朗普：尚未看到波特兰的命令。（外媒更正，非要求）</a> [6] <font color='grey'>- 23时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251005230344479800" target="_blank" class="news-link">美国总统特朗普：希望修复《平价医疗法案》。</a> [7] <font color='grey'>- 23时35分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3696252_100_1" target="_blank" class="news-link">美国总统特朗普：想要修改《平价医疗法案》。</a> [6 - 26] <font color='grey'>- 23时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251005230308819800" target="_blank" class="news-link">美国总统特朗普：加沙协议是以色列的重大利好。</a> [8] <font color='grey'>- 23时35分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3696251_100_1" target="_blank" class="news-link">美国总统特朗普：加沙协议对以色列来说是一份非常有利的协议。</a> [7 - 27] <font color='grey'>- 23时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3756696" target="_blank" class="news-link">风向有变？华尔街开始讨论：投资者如何应对美国经济“过热”</a> [10] <font color='grey'>- 23时35分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">2</td>
+                    <td class="percentage">5.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3696255_0_1" target="_blank" class="news-link">美国指数在政府停摆和人工智能热潮中创下历史新高</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 23时35分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2162673" target="_blank" class="news-link">大模型激战正酣！大厂节前、节中进展不停 争夺下一代操作系统主导权</a> [12] <font color='grey'>- 23时35分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">2</td>
+                    <td class="percentage">5.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31730142" target="_blank" class="news-link">王楚钦夺得中国大满贯男单冠军，加冕本届赛事“三冠王”</a> [14] <font color='grey'>- 23时35分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%96%E7%95%8C%E5%91%A8%E5%88%8A%E8%A7%A3%E8%AF%BB%E4%B8%AD%E5%9B%BD%E6%BD%AE%E6%B5%81%E6%96%87%E5%8C%96" target="_blank" class="news-link">世界周刊解读中国潮流文化</a> [20] <font color='grey'>- 23时35分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">地震 台风 洪灾 暴雨 泥石流 山体滑坡</td>
+                    <td class="count">2</td>
+                    <td class="percentage">5.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2162705?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">国家防总向粤桂琼调拨中央应急抢险救灾物资 支持防汛防台风工作</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时35分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%BF%99%E4%B8%AA%E5%81%87%E6%9C%9F%E4%BB%BF%E4%BD%9B%E2%80%9C%E6%8D%85%E4%BA%86%E5%8F%B0%E9%A3%8E%E7%AA%9D%E2%80%9D" target="_blank" class="news-link">这个假期仿佛“捅了台风窝”</a> [22] <font color='grey'>- 23时35分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.5%</td>
+                    <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1955587882535358914" target="_blank" class="news-link">为什么现在年轻人更倾向选择国产品牌汽车？</a> [12] <font color='grey'>- 23时35分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.5%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2162707?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">俄国防部：俄军集中攻击并摧毁乌军工企业和能源设施</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时35分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
