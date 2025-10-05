@@ -1,0 +1,143 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 51</p><p>生成时间: 2025-10-05 11:33:29</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">5</td>
+                    <td class="percentage">9.8%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2162588?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">受台风“麦德姆”环流影响 广东茂名博贺港出现超警戒潮位</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时33分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2162581?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中国银行协助境外机构发行熊猫债累计5856亿元</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时33分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251005/1067738357.html" target="_blank" class="news-link">中国外长将于10月7日至12日访问意大利和瑞士</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2259558" target="_blank" class="news-link">麦德姆将巅峰登陆广东西部</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时33分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2162579?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">广东发布山洪灾害风险预警 涉湛江、茂名、阳江3市</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时33分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">地震 台风 洪灾 暴雨 泥石流 山体滑坡</td>
+                    <td class="count">3</td>
+                    <td class="percentage">5.88%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2162582?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">海南又来台风：多个景区关闭 酒店承诺不涨房价</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时33分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2162580?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">受台风“麦德姆”影响 国铁南宁局今起停运部分列车</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时33分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8F%B0%E9%A3%8E%E9%BA%A6%E5%BE%B7%E5%A7%86%E7%99%BB%E9%99%86%E5%BC%BA%E5%BA%A6%E6%88%96%E8%B6%85%E6%A1%A6%E5%8A%A0%E6%B2%99" target="_blank" class="news-link">台风麦德姆登陆强度或超桦加沙</a> [30] <font color='grey'>- 11时33分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.92%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251005104632109800" target="_blank" class="news-link">美国国家飓风中心：飓风普里西拉正缓慢向西北方向移动，墨西哥西南部沿海部分地区已发布热带风暴警报。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时33分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345549&amp;amp;topic_name=IG%E5%85%A8%E9%98%9F%E7%8E%B0%E8%BA%AB%E9%9F%A9%E5%9B%BD%2C%E6%89%BEGEN%E5%8F%96%E7%BB%8F%3F" target="_blank" class="news-link">IG全队现身韩国,找GEN取经?</a> [6] <font color='grey'>- 11时33分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles"><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45444062" target="_blank" class="news-link">Machine Learnability as a Measure of Order in Aperiodic Sequences</a> [19] <font color='grey'>- 11时33分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles"><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45477661" target="_blank" class="news-link">AI-powered open-source code laundering</a> [18] <font color='grey'>- 11时33分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251005102039386800" target="_blank" class="news-link">波兰武装部队：俄罗斯对乌克兰发动袭击后，波兰紧急出动飞机以确保领空安全。</a> [7] <font color='grey'>- 11时33分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">手机</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E7%8E%8B%E6%BA%90%E8%80%81%E5%B9%B2%E9%83%A8%E7%9C%8B%E6%89%8B%E6%9C%BA&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26pos%3D25%26c_type%3D31%26q%3D%25E7%258E%258B%25E6%25BA%2590%25E8%2580%2581%25E5%25B9%25B2%25E9%2583%25A8%25E7%259C%258B%25E6%2589%258B%25E6%259C%25BA%26cate%3D5001%26dgr%3D0%26band_rank%3D25%26filter_type%3Drealtimehot%26stream_entry_id%3D31%26flag%3D1%26realpos%3D25%26lcate%3D5001%26display_time%3D1759633573%26pre_seqid%3D17596335737000238163903" target="_blank" class="news-link">王源老干部看手机</a> [25] <font color='grey'>- 11时33分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251005105710719800" target="_blank" class="news-link">黎真主党领导人警告：特朗普“20点计划”充满危险，但是否接受取决于哈马斯</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时33分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">新能源</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1957475739583620155" target="_blank" class="news-link">女子开新能源车排队 3 小时充电 1 小时，一路充了 5 次电，这反映了新能源车长途出行的哪些痛点？</a> [14] <font color='grey'>- 11时33分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
