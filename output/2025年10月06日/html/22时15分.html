@@ -1,0 +1,159 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 56</p><p>生成时间: 2025-10-06 22:15:08</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">9</td>
+                    <td class="percentage">16.07%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251006214507525800" target="_blank" class="news-link">美国银行：将摩根士丹利(MS.N)目标价从154美元上调至170美元。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时15分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2162964?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月6日电，美国9月全球供应链压力指数为0.03，前值-0.08。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时15分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2162962?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月6日电，美国银行将高盛目标股价从782美元上调至850美元。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时15分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3697522_0_1" target="_blank" class="news-link">美国总统特朗普：日本刚刚选出了首位女性首相。日本首位女首相是“重大消息”。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 22时15分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3697521_100_1" target="_blank" class="news-link">据当地媒体报道，巴西总统卢拉与美国总统特朗普的视频会议正在进行中。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 22时15分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2162960?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月6日电，美国银行将摩根士丹利目标价从154美元上调至170美元。</a> [6] <font color='grey'>- 22时15分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3697491_0_1" target="_blank" class="news-link">伊拉克从土库曼斯坦进口天然气协议因美国反对而暂停</a> [15] <font color='grey'>- 22时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251006212144759800" target="_blank" class="news-link">哥伦比亚外长：美国在加勒比海的军事行动对该地区构成威胁</a> [15] <font color='grey'>- 22时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251006211341652800" target="_blank" class="news-link">日本自民党总裁高市早苗基本敲定党内四大要职</a> [17] <font color='grey'>- 22时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">马斯克 特斯拉 gork</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.57%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251006213225668800" target="_blank" class="news-link">特斯拉(TSLA.O)开涨2.7%。</a> [8] <font color='grey'>- 22时15分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3697500_0_1" target="_blank" class="news-link">特斯拉活动引发对低成本Model Y的猜测</a> [12] <font color='grey'>- 22时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.57%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2162965?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月6日电，高盛将英伟达目标价从200美元上调至210美元。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251006213048252800" target="_blank" class="news-link">美股开盘，道指平开，标普500指数开涨0.3%，纳指涨0.5%，AMD(AMD.O)大涨35%，公司宣布与OpenAI签订芯片供应协议，且后者有望获得AMD最多10%的股份，英伟达(NVDA.O)开跌1%，英特尔(INTC.O)涨2%。</a> [12] <font color='grey'>- 22时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">AMD</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.57%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251006213146212800" target="_blank" class="news-link">AMD(AMD.O)股价因与OpenAI达成协议飙升38%，市值增加1010亿美元。</a> [10] <font color='grey'>- 22时15分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3697484_101_1" target="_blank" class="news-link">【行情】AMD股价飙升38%，市值增加1010亿美元，受与OpenAI达成协议推动。</a> [18] <font color='grey'>- 22时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.57%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251006213800909800" target="_blank" class="news-link">美光科技(MU.O)盘初上涨5%。</a> [7] <font color='grey'>- 22时15分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3697493_100_1" target="_blank" class="news-link">【行情】迈威尔科技上涨3.4%，应用材料上涨3%。</a> [14] <font color='grey'>- 22时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.79%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251006212006332800" target="_blank" class="news-link">金十数据整理：每日美股市场要闻速递（2025-10-06）</a> [16] <font color='grey'>- 22时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.79%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3697503_0_1" target="_blank" class="news-link">法国检察官调查苹果Siri的隐私问题</a> [11] <font color='grey'>- 22时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.79%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3697486_0_1" target="_blank" class="news-link">扎克伯格承认人工智能泡沫风险，Meta优先考虑积极的人工智能投资</a> [17] <font color='grey'>- 22时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">半导体 GPU</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.79%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251006214236255800" target="_blank" class="news-link">美股芯片股走高，费城半导体指数上涨4.3%，美光科技(MU.O)涨超6%，戴尔(DELL.N)涨超5%，台积电(TSM.N)涨超4%，阿斯麦(ASML.O)、博通(AVGO.O)涨超1%。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">手机</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.79%</td>
+                    <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2261536" target="_blank" class="news-link">手机如何拍月亮</a> [14] <font color='grey'>- 22时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">芯片 光刻机 算力</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.79%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5092536" target="_blank" class="news-link">美股芯片股普涨</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时15分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
