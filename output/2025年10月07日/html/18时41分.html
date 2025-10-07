@@ -1,0 +1,151 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 65</p><p>生成时间: 2025-10-07 18:41:24</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">10</td>
+                    <td class="percentage">15.38%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2163189?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">韩国五大商业银行金条月销售额首次突破千亿韩元</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时41分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251007/1067769140.html" target="_blank" class="news-link">阿富汗外长：不会允许美国重返巴格拉姆空军基地</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3698889_101_1" target="_blank" class="news-link">政府停摆导致经济数据真空 凯雷数据揭示美国就业市场疲态</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 18时41分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3698884_100_1" target="_blank" class="news-link">卡塔尔外交部发言人：如果美国总统特朗普提出的加沙地带和平计划失败，目前讨论替代方案为时尚早。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 18时41分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3698871_100_1" target="_blank" class="news-link">卡塔尔外交部发言人：美国总统特朗普提出的加沙地带和平计划共有20点，其中许多细节仍有待完善。</a> [8 - 28] <font color='grey'>- 18时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251007182413758800" target="_blank" class="news-link">卡塔尔外交部发言人：如果美国总统特朗普的计划落空，现在谈论任何替代方案还为时过早。</a> [9] <font color='grey'>- 18时41分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3698868_100_1" target="_blank" class="news-link">Qmmm Holdings：未曾参与任何价格操纵活动，将全力配合美国证券交易委员会和纳斯达克证券交易所的调查。</a> [9 - 29] <font color='grey'>- 18时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251007182133128800" target="_blank" class="news-link">卡塔尔外交部发言人：卡塔尔正与美国密切合作，以达成协议，落实一项并非临时性的加沙停火计划。</a> [16] <font color='grey'>- 18时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251007181124720800" target="_blank" class="news-link">道明证券：日本央行可能在10月按兵不动，然后在12月加息</a> [21] <font color='grey'>- 18时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251007180525894800" target="_blank" class="news-link">雪佛龙报告称，美国加州埃尔塞贡多炼油厂发生紧急燃烧。</a> [22] <font color='grey'>- 18时41分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">8</td>
+                    <td class="percentage">12.31%</td>
+                    <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/07/fd37a329db9c4537990b5719154fd337.html" target="_blank" class="news-link">外媒：与特朗普首次通话，卢拉要求取消加征关税</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时41分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8nFaTJe1n5V" target="_blank" class="news-link">卢拉与特朗普通电话：40%关税，给我撤了</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时41分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/07/e0eb2c1bdab348068432258d3869085c.html" target="_blank" class="news-link">美拟铸造特朗普肖像1美元硬币</a> [6] <font color='grey'>- 18时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251007182541900800" target="_blank" class="news-link">卡塔尔外交部发言人：目前特朗普计划中面临的障碍包括落实问题。</a> [6] <font color='grey'>- 18时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251007182452619800" target="_blank" class="news-link">卡塔尔外交部发言人：特朗普加沙计划的许多细节仍需达成一致。</a> [7] <font color='grey'>- 18时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251007182352477800" target="_blank" class="news-link">卡塔尔外交部发言人：我们致力于推进特朗普的计划，结束加沙战争。</a> [10] <font color='grey'>- 18时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251007182335295800" target="_blank" class="news-link">卡塔尔外交部发言人：有关特朗普计划的谈判今天在沙姆沙伊赫恢复。</a> [11] <font color='grey'>- 18时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251007181551266800" target="_blank" class="news-link">卡塔尔外交部发言人：特朗普的加沙计划有20个要点，其中许多细节仍需进一步落实。</a> [19] <font color='grey'>- 18时41分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">外交部 卫健委 公安部 网信办 发改委 北戴河 中共中央 国务院 四中全会 三中全会 两会 政治局</td>
+                    <td class="count">5</td>
+                    <td class="percentage">7.69%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251007183057419800" target="_blank" class="news-link">卡塔尔外交部发言人：哈马斯交出人质将意味着战争结束。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251007182737848800" target="_blank" class="news-link">卡塔尔外交部发言人：现在谈论哈马斯驻多哈办事处的未来还为时过早。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时41分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3698886_100_1" target="_blank" class="news-link">卡塔尔外交部发言人：目前讨论哈马斯在多哈办事处的未来发展为时尚早。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 18时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251007182322649800" target="_blank" class="news-link">卡塔尔外交部发言人：昨天在沙姆沙伊赫就加沙问题进行了4个小时的细致谈判。</a> [12] <font color='grey'>- 18时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251007181841457800" target="_blank" class="news-link">卡塔尔外交部发言人：目前对加沙谈判既无法乐观，也无法悲观。</a> [18] <font color='grey'>- 18时41分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">claude Anthropic</td>
+                    <td class="count">3</td>
+                    <td class="percentage">4.62%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2163187?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月7日电，IBM美股盘前涨超5%，IBM与Anthropic合作，通过可靠的安全性与治理推动企业软件开发。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251007183058702800" target="_blank" class="news-link">美媒：Anthropic携手IBM 抢攻企业级AI市场</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251007181443952800" target="_blank" class="news-link">IBM(IBM.N)美股盘前涨超5%，IBM与Anthropic合作，通过可靠的安全性与治理推动企业软件开发。</a> [20] <font color='grey'>- 18时41分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.08%</td>
+                    <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8nGDglPyAQI" target="_blank" class="news-link">载有42人大巴在冰岛侧翻，车上有多名中国游客</a> [11] <font color='grey'>- 18时41分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%86%B0%E5%B2%9B%E4%B8%80%E5%A4%A7%E5%B7%B4%E4%BE%A7%E7%BF%BB+%E8%BD%A6%E4%B8%8A%E4%B8%80%E5%8D%8A%E6%98%AF%E4%B8%AD%E5%9B%BD%E6%B8%B8%E5%AE%A2" target="_blank" class="news-link">冰岛一大巴侧翻 车上一半是中国游客</a> [23] <font color='grey'>- 18时41分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">马斯克 特斯拉 gork</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.54%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3698838_100_1" target="_blank" class="news-link">特斯拉柏林工厂经理表示，全新精简版Model Y的售价将&quot;降低约10%”。</a> [14] <font color='grey'>- 18时41分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">chatgpt Sam Altman openai</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.54%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3698876_100_1" target="_blank" class="news-link">OpenAI：持续观察到威胁行为者将AI应用于旧攻击套路，以加快攻击速度，而非从我们的模型中获得新的攻击能力。</a> [6 - 26] <font color='grey'>- 18时41分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.54%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3698890_101_1" target="_blank" class="news-link">【行情】Iren美股盘前一度涨超11%，此前报道称其获得了新的多年期人工智能云合同。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 18时41分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">社保 养老 旅游 教育</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.54%</td>
+                    <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31737349" target="_blank" class="news-link">一男子旅游点炒蛏子和螃蟹两个菜661元后续：商家退款400元</a> [13] <font color='grey'>- 18时41分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.54%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3698874_0_1" target="_blank" class="news-link">白宫与辉瑞达成药品定价协议：辉瑞股价飙升</a> [7 - 27] <font color='grey'>- 18时41分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
