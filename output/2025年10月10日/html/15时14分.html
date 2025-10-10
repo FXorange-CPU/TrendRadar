@@ -1,0 +1,183 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 97</p><p>生成时间: 2025-10-10 15:14:38</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">10</td>
+                    <td class="percentage">10.31%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2165374?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">日本公明党将脱离执政联盟</a> [9] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2164979" target="_blank" class="news-link">国际金银价格冲高回落 美国财政部干预阿根廷汇市 | 环球市场</a> [13] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251010145907241800" target="_blank" class="news-link">日本公明党党首：不会支持自民党候选人出任新首相。</a> [13] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2165355?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月10日电，日经225指数收跌1.01%，报48088.8点；韩国KOSPI指数收涨1.71%，报3610.01点。</a> [15] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3704713_100_1" target="_blank" class="news-link">日本广播协会：日本公明党将退出与自民党的执政联盟，公明党党首已向自民党党首高市早苗表明退出执政联盟的意向。</a> [15] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251010145333508800" target="_blank" class="news-link">日本公明党党首：我们不能在国会中投票支持自民党党首高市早苗出任首相。</a> [18] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251010145249127800" target="_blank" class="news-link">日本公明党党首：希望暂时重置与自民党的执政联盟关系。</a> [19] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251010145217591800" target="_blank" class="news-link">日本公明党党首：自民党做出了坚定的承诺。</a> [20] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251010145041155800" target="_blank" class="news-link">日本公明党党首：由于一系列丑闻，公众仍对政治抱有不信任态度。</a> [24] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251010144853011800" target="_blank" class="news-link">日本公明党党首：在涉及金钱与政治的问题上，我们无法与自民党达成一致。</a> [28] <font color='grey'>- 15时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">5</td>
+                    <td class="percentage">5.15%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251010150627733800" target="_blank" class="news-link">金十图示：2025年10月10日（周五）富时中国A50指数期货技术面一览（5小时图）</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2165383?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美将我多家实体列入出口管制“实体清单” 商务部回应：将采取必要措施坚决维护中国实体合法权益</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3704736_0_1" target="_blank" class="news-link">中国商务部：美方不断泛化国家安全概念，滥用出口管制措施，滥施长臂管辖，对包括中国企业在内的多家实体实施穿透性制裁。美方此举严重损害企业合法权益，破坏全球产业链供应链安全稳定，中方对此坚决反对。中方敦促美方尽快纠正错误做法，并将采取必要措施，坚决维护中国实体的合法权益。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251010150205562800" target="_blank" class="news-link">金十图示：2025年10月10日（周五）上海金午盘价为898.59元/克，较国际金价(909.13元/克)，低10.54元/克</a> [7] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E4%B8%AD%E5%9B%BD%E7%AF%AE%E5%8D%8F%E4%B8%8ENBA%E8%BE%BE%E6%88%90%E6%88%98%E7%95%A5%E5%90%88%E4%BD%9C%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26filter_type%3Drealtimehot%26band_rank%3D15%26flag%3D1%26cate%3D5001%26lcate%3D5001%26c_type%3D31%26dgr%3D0%26stream_entry_id%3D31%26realpos%3D15%26q%3D%2523%25E4%25B8%25AD%25E5%259B%25BD%25E7%25AF%25AE%25E5%258D%258F%25E4%25B8%258ENBA%25E8%25BE%25BE%25E6%2588%2590%25E6%2588%2598%25E7%2595%25A5%25E5%2590%2588%25E4%25BD%259C%2523%26pos%3D16%26display_time%3D1760080303%26pre_seqid%3D176008030348502374359139" target="_blank" class="news-link">中国篮协与NBA达成战略合作</a> [15] <font color='grey'>- 15时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">4</td>
+                    <td class="percentage">4.12%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3704740_100_1" target="_blank" class="news-link">日本公明党党首Saito：我们不能在国会中投票支持自民党总裁高市早苗出任首相。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3704737_100_1" target="_blank" class="news-link">日本公明党党首Saito：希望暂时重置自民党与公明党的执政联盟关系。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3704731_100_1" target="_blank" class="news-link">日本公明党党首Saito：在涉及财政与政治的问题上，我们无法与自民党达成一致。</a> [7 - 27] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5093744" target="_blank" class="news-link">中电鑫龙(002298.SZ)：目前暂未与阿里巴巴在ai芯片方面展开业务合作</a> [10] <font color='grey'>- 15时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">半导体 GPU</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.09%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251010150201266800" target="_blank" class="news-link">金十图示：2025年10月10日（周五）富时中国A50指数成分股今日收盘行情一览：酿酒、半导体板块午后延续跌势，银行股涨跌互现</a> [8] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2165366?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">深圳：半导体与集成电路产业生态持续优化</a> [12] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3704711_0_1" target="_blank" class="news-link">中国收紧美国半导体芯片进口检查</a> [16] <font color='grey'>- 15时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.09%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202510/1054404.html" target="_blank" class="news-link">特朗普持续施压下 纽约总检察长被刑事起诉</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251010/1067832009.html" target="_blank" class="news-link">俄总统助理：泽连斯基关于用“战斧”导弹换取特朗普诺奖提名的言论非常荒谬</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%89%B9%E6%9C%97%E6%99%AE%E8%B0%88%E8%8E%B7%E5%A5%96%E5%8F%AF%E8%83%BD%E6%80%A7" target="_blank" class="news-link">特朗普谈获奖可能性</a> [11] <font color='grey'>- 15时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">社保 养老 旅游 教育</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.09%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2165353?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">海南：鼓励发展夜间经济 允许在重点旅游区内设置通宵营业酒吧和娱乐演艺场所</a> [16] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2165352?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">海南：鼓励发展低空旅游 推动在具备条件的旅游景区、环岛旅游公路驿站等区域建设低空飞行器起降场地</a> [17] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2165351?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">海南：逐步放宽或取消外商投资旅游业限制 吸引更多国际资本参与海南旅游业发展</a> [18] <font color='grey'>- 15时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.09%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3704730_100_1" target="_blank" class="news-link">乌克兰最高将领：袭击已导致俄罗斯石油炼制量下降21%。</a> [8 - 28] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2165371?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">俄30枚导弹450架无人机袭乌能源设施</a> [10] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251010144800844800" target="_blank" class="news-link">乌克兰总参谋长：乌克兰上个月对俄罗斯领土发动了70次打击，袭击导致俄罗斯的石油炼制量下降了21%。</a> [29] <font color='grey'>- 15时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">地震 台风 洪灾 暴雨 泥石流 山体滑坡</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.06%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2165389?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">菲律宾火山地震研究所取消海啸预警</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202510/1054399.html" target="_blank" class="news-link">菲律宾地震震级下调至7.4级 至少一人死亡</a> [6] <font color='grey'>- 15时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.03%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251010145444821800" target="_blank" class="news-link">金十数据整理：每日电动车行业动态汇总（2025-10-10）</a> [16] <font color='grey'>- 15时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">马斯克 特斯拉 gork</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.03%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5093745" target="_blank" class="news-link">标榜股份(301181.SZ)：与特斯拉无直接销售业务</a> [9]</div></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">AMD</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.03%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5093753" target="_blank" class="news-link">研报掘金丨群益证券(香港)：予通富微电“买进”评级，AMD获超大订单，公司直接受益</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>12</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.03%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251010150615505800" target="_blank" class="news-link">美国国家公路交通安全管理局：丰田汽车(TM.N)召回54,631辆美国车辆，克莱斯勒召回62,910辆美国车辆。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>13</td>
+                    <td class="word">手机</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.03%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5093749" target="_blank" class="news-link">亚世光电(002952.SZ)：产品柔性显示屏暂未应用于手机</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>14</td>
+                    <td class="word">机器人 脑机接口</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.03%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5093750" target="_blank" class="news-link">高澜股份(300499.SZ)：产品暂未应用于机器人及无人机领域</a> <font color='red'><strong>[4]</strong></font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
