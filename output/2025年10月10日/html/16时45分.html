@@ -1,0 +1,167 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 110</p><p>生成时间: 2025-10-10 16:45:01</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">7</td>
+                    <td class="percentage">6.36%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2165554?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">芯原股份在上海新设天遂芯愿科技公司</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时45分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2165553?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">用友网络：退出深圳淮海方舟信息产业股权投资基金</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时45分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202510/1054418.html" target="_blank" class="news-link">美媒：中国占据全球能源出口主导地位</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时45分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3704905_100_1" target="_blank" class="news-link">惠誉：中国浙江省在财政实力与债务增长间取得平衡。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 16时45分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8nL5MY6k32a" target="_blank" class="news-link">中国成全球头号电力王国，“美国愚蠢后退，中国就是赢家”</a> [9] <font color='grey'>- 16时45分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3704881_0_1" target="_blank" class="news-link">中国在美国会谈前实施新的出口管制和港口费用</a> [15] <font color='grey'>- 16时45分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E4%B8%AD%E5%9B%BD%E5%AD%95%E5%A6%87%E6%B3%B0%E5%9B%BD%E5%9D%A0%E5%B4%96%E6%A1%88%E6%97%B6%E9%97%B4%E7%BA%BF%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26flag%3D1%26c_type%3D31%26realpos%3D21%26cate%3D5001%26q%3D%2523%25E4%25B8%25AD%25E5%259B%25BD%25E5%25AD%2595%25E5%25A6%2587%25E6%25B3%25B0%25E5%259B%25BD%25E5%259D%25A0%25E5%25B4%2596%25E6%25A1%2588%25E6%2597%25B6%25E9%2597%25B4%25E7%25BA%25BF%2523%26dgr%3D0%26stream_entry_id%3D31%26pos%3D20%26band_rank%3D21%26lcate%3D5001%26filter_type%3Drealtimehot%26display_time%3D1760085823%26pre_seqid%3D176008582362102368461117" target="_blank" class="news-link">中国孕妇泰国坠崖案时间线</a> [21] <font color='grey'>- 16时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">5</td>
+                    <td class="percentage">4.55%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202510/1054420.html" target="_blank" class="news-link">为应对美国“军事侵略”，委内瑞拉开展演练</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251010160832569800" target="_blank" class="news-link">公明党退出执政联盟 加剧日本政局不确定性</a> [12] <font color='grey'>- 16时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251010160737580800" target="_blank" class="news-link">日本央行行长植田和男将于10月14日至19日访问美国。</a> [13] <font color='grey'>- 16时45分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3704866_100_1" target="_blank" class="news-link">【行情】美国E-MINI标普500指数期货上涨0.09%，道琼斯指数期货上涨0.12%，纳斯达克100指数期货上涨0.1%。</a> [17] <font color='grey'>- 16时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251010160050329800" target="_blank" class="news-link">马来西亚财政部：受美国关税影响，预计2026年GDP增速将下降0.76个百分点。</a> [23] <font color='grey'>- 16时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">3</td>
+                    <td class="percentage">2.73%</td>
+                    <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/10/937b16e12eb7496d8d6bd963520ab511.html" target="_blank" class="news-link">特朗普：伊利诺伊州州长和芝加哥市长“应入狱”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时45分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/Chronicles/202510/1054421.html" target="_blank" class="news-link">提名特朗普获诺贝尔和平奖，乌议会投票未通过</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251010160511612800" target="_blank" class="news-link">金十整理：密集外交斡旋换诺奖？特朗普全球“灭火”八个月，最终能否如愿？</a> [14] <font color='grey'>- 16时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.82%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251010160158859800" target="_blank" class="news-link">LME有色金属库存日报</a> [19] <font color='grey'>- 16时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251010160156412800" target="_blank" class="news-link">LME注册及注销仓单日报</a> [20] <font color='grey'>- 16时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">半导体 GPU</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.82%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5093860" target="_blank" class="news-link">港股收评：恒指跌1.73%近日回撤超千点，科技、半导体、黄金板块齐挫</a> [7] <font color='grey'>- 16时45分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3704888_0_1" target="_blank" class="news-link">美国取消关税豁免威胁马来西亚半导体出口和GDP</a> [13] <font color='grey'>- 16时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.82%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2165525?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">香港恒生指数收跌1.73% 恒生科技指数跌3.27%</a> [12] <font color='grey'>- 16时45分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2165519?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">合百集团：公司参投基金通过产投壹号基金投资长鑫科技集团股份有限公司4.5亿元</a> [15] <font color='grey'>- 16时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.82%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251010161430636800" target="_blank" class="news-link">马来西亚总理宣布加强税收 以应对石油收入下降与经济放缓</a> [6] <font color='grey'>- 16时45分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2165518?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">陕西能源：控股子公司麟北煤业收到行政处罚决定书 罚款94万元并停产整顿5日</a> [18] <font color='grey'>- 16时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">马斯克 特斯拉 gork</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.91%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5093852" target="_blank" class="news-link">国机汽车(600335.SH)：为特斯拉提供汽车进口和国内流通业务</a> [15] <font color='grey'>- 16时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.91%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2165550?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">亚马逊云科技推出Agentic AI应用Quick Suite</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">手机</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.91%</td>
+                    <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1959941266411332932" target="_blank" class="news-link">都 2025 年了，为什么国产安卓手机厂商还在死磕系统流畅？</a> [18] <font color='grey'>- 16时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">国产剧 电影 科幻</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.91%</td>
+                    <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1959555215436002691" target="_blank" class="news-link">2025 年国庆档电影总票房 18.35 亿元，观影人次 5007 万，如何评价此成绩？你最喜欢哪部？</a> [15] <font color='grey'>- 16时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>12</td>
+                    <td class="word">外交部 卫健委 公安部 网信办 发改委 北戴河 中共中央 国务院 四中全会 三中全会 两会 政治局</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.91%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E8%B5%96%E6%B8%85%E5%BE%B7%E2%80%9C%E5%8F%8C%E5%8D%81%E2%80%9D%E8%AE%B2%E8%AF%9D" target="_blank" class="news-link">外交部回应赖清德“双十”讲话</a> [9] <font color='grey'>- 16时45分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
