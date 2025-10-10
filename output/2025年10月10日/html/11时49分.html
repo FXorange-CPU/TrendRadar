@@ -1,0 +1,127 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 38</p><p>生成时间: 2025-10-10 11:49:16</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">3</td>
+                    <td class="percentage">7.89%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251010/1067828325.html" target="_blank" class="news-link">中国—西班牙贸易投资对接会签署9项合作协议</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251010/1067828088.html" target="_blank" class="news-link">美媒：特朗普政府削减氢能项目开支恐使美国落后于中国</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1954833317456242307" target="_blank" class="news-link">电影《阿凡达 3》中国内地定档 12 月 19 日，同步北美，你对这部影片有哪些期待？</a> [20] <font color='grey'>- 11时49分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.63%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5093720" target="_blank" class="news-link">大行评级丨Cantor Fitzgerald：英伟达“为奔驰而生”，目标价300美元，市值上望至7.3万亿美元</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时49分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.63%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5093717" target="_blank" class="news-link">广发证券：CXL存储池化助力AI推理 建议关注CXL互连芯片相关厂商</a> [6]</div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">半导体 GPU</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.63%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5093718" target="_blank" class="news-link">A股午评：沪指跌0.51%，创业板指跌3.4%，半导体、电池、黄金板块集体回调</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时49分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">机器人 脑机接口</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.63%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5093715" target="_blank" class="news-link">资金持续抢筹！机器人ETF、有色金属ETF基金五连“吸金”</a> [8] <font color='grey'>- 11时49分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">小米 雷军</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.63%</td>
+                    <td class="titles"><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345642&amp;amp;topic_name=%E5%B0%8F%E7%B1%B3SU7%E5%9D%A0%E6%B5%B7%21%E5%88%B9%E8%BD%A6%E5%A4%B1%E7%81%B5%E5%BC%95%E4%BC%97%E7%8C%9C" target="_blank" class="news-link">小米SU7坠海!刹车失灵引众猜</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时49分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">地震 台风 洪灾 暴雨 泥石流 山体滑坡</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.63%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%8F%B2%E5%BE%8B%E5%AE%BE7.4%E7%BA%A7%E5%9C%B0%E9%9C%87+%E5%B7%B2%E8%A7%A6%E5%8F%91%E6%B5%B7%E5%95%B8%E9%A2%84%E8%AD%A6" target="_blank" class="news-link">菲律宾7.4级地震 已触发海啸预警</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时49分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
