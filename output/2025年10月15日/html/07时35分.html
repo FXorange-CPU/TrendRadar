@@ -1,0 +1,119 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 58</p><p>生成时间: 2025-10-15 07:35:22</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">13</td>
+                    <td class="percentage">22.41%</td>
+                    <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%9B%BD%E4%B9%92%E7%94%B7%E5%9B%A23%E6%AF%942%E9%80%86%E8%BD%AC%E6%97%A5%E6%9C%AC%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26c_type%3D31%26q%3D%2523%25E5%259B%25BD%25E4%25B9%2592%25E7%2594%25B7%25E5%259B%25A23%25E6%25AF%25942%25E9%2580%2586%25E8%25BD%25AC%25E6%2597%25A5%25E6%259C%25AC%2523%26dgr%3D0%26cate%3D5001%26band_rank%3D1%26stream_entry_id%3D31%26filter_type%3Drealtimehot%26realpos%3D1%26flag%3D1%26pos%3D0%26lcate%3D5001%26display_time%3D1760484699%26pre_seqid%3D17604846997330058086" target="_blank" class="news-link">国乒男团3比2逆转日本</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251015071836893800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：很明显美联储主席鲍威尔会降息。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时35分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2169551?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">连夜裁员出乌龙 美国卫生部“误裁”778名员工</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251015071252764800" target="_blank" class="news-link">连夜裁员出乌龙 美国卫生部​​​​​​​“误裁”778名员工</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时35分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%97%A5%E6%9C%AC%E9%98%9F%E9%9B%86%E4%BD%93%E5%87%9D%E5%9B%BA%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26c_type%3D31%26q%3D%2523%25E6%2597%25A5%25E6%259C%25AC%25E9%2598%259F%25E9%259B%2586%25E4%25BD%2593%25E5%2587%259D%25E5%259B%25BA%2523%26dgr%3D0%26cate%3D5001%26band_rank%3D6%26stream_entry_id%3D31%26filter_type%3Drealtimehot%26realpos%3D6%26flag%3D1%26pos%3D6%26lcate%3D5001%26display_time%3D1760484699%26pre_seqid%3D17604846997330058086" target="_blank" class="news-link">日本队集体凝固</a> [6] <font color='grey'>- 07时35分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3711382_101_1" target="_blank" class="news-link">美国白宫国家经济委员会主任Hassett：很明显美联储主席鲍威尔将降息。</a> [6 - 29] <font color='grey'>- 07时35分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31779813" target="_blank" class="news-link">《足球小将》成真！日本成为本世纪首支击败巴西的亚洲球队</a> [8] <font color='grey'>- 07时35分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%9B%BD%E4%B9%92%E7%94%B7%E5%9B%A23%E6%AF%942%E9%80%86%E8%BD%AC%E6%97%A5%E6%9C%AC%E6%99%8B%E7%BA%A7%E5%86%B3%E8%B5%9B" target="_blank" class="news-link">国乒男团3比2逆转日本晋级决赛</a> [10] <font color='grey'>- 07时35分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3711365_100_1" target="_blank" class="news-link">美国总统特朗普：我完全支持阿根廷总统米莱。</a> [10] <font color='grey'>- 07时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251015065521712800" target="_blank" class="news-link">美国总统特朗普：希望阿根廷人民明白米莱做得有多好，并在即将到来的中期选举中支持他的工作。</a> [10] <font color='grey'>- 07时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251015065425938800" target="_blank" class="news-link">美国总统特朗普：与阿根廷总统米莱会面，非常愉快。</a> [11] <font color='grey'>- 07时35分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3711363_100_1" target="_blank" class="news-link">美国总统特朗普：与阿根廷总统米莱的会晤十分愉快。</a> [12] <font color='grey'>- 07时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251015065410189800" target="_blank" class="news-link">美国总统特朗普：阿根廷总统米莱获得我的全力支持。</a> [12] <font color='grey'>- 07时35分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.45%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2169543" target="_blank" class="news-link">【早报】李强发声，事关扩内需；央行出手！今日将开展6000亿元买断式逆回购操作</a> [6] <font color='grey'>- 07时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251015065818766800" target="_blank" class="news-link">金十数据整理：俄乌冲突最新24小时局势跟踪（10月15日）</a> [9] <font color='grey'>- 07时35分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.45%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251015/1067902112.html" target="_blank" class="news-link">委驻俄大使：委俄两国在石油勘探和开采领域积极开展合作</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5095888" target="_blank" class="news-link">联合能源集团(00467.HK)：完成收购APEX INTERNATIONAL ENERGY HOLDINGS I的全部股份</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时35分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.72%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251015072036706800" target="_blank" class="news-link">新西兰联储首席经济学家康威：人工智能投资与气候变化可能对中性利率构成上行压力。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时35分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.72%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3757142" target="_blank" class="news-link">贸易忧虑再起，科技股拖累大盘，道指逆市收高，黄金连创新高后回落，原油下挫</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时35分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.72%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251015070604374800" target="_blank" class="news-link">特朗普政府称停摆以来已解雇4108名联邦雇员</a> [6] <font color='grey'>- 07时35分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
