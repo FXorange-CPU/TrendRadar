@@ -1,0 +1,127 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 102</p><p>生成时间: 2025-10-14 19:13:01</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">8</td>
+                    <td class="percentage">7.84%</td>
+                    <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%9F%A9%E5%9B%BD%E6%97%A0%E6%B3%95%E5%BD%BB%E5%BA%95%E5%8E%BB%E6%B1%89%E5%AD%97%E7%9A%84%E8%83%8C%E5%90%8E" target="_blank" class="news-link">韩国无法彻底去汉字的背后</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251014/1067892428.html" target="_blank" class="news-link">俄总统新闻秘书：俄希望美国的影响将有助于推动基辅达成和解</a> <font color='red'><strong>[5]</strong></font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2169248?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美国10年期公债收益率自9月17日以来首次跌至4%</a> [7] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3709849_100_1" target="_blank" class="news-link">美国银行：将雅保公司股票评级从“买入”下调至“中性”，并将目标股价从95美元上调至100美元。</a> [14] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3709846_100_1" target="_blank" class="news-link">日本时事通讯社：日本自民党总裁高市早苗正安排周三分别与三大在野党领导人举行一对一会谈。</a> [15] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3709835_100_1" target="_blank" class="news-link">美国富国银行：中期目标股东有形权益回报率为17%-18%。</a> [20] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%9F%A9%E5%9B%BD22%E5%B2%81%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%9C%A8%E6%9F%AC%E9%81%AD%E8%B4%A9%E5%8D%96%E8%87%B4%E6%AD%BB" target="_blank" class="news-link">韩国22岁大学生在柬遭贩卖致死</a> [29] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E6%B0%91%E4%BC%97%E2%80%9C%E5%8B%92%E7%B4%A7%E8%A3%A4%E8%85%B0%E5%B8%A6%E8%BF%87%E6%97%A5%E5%AD%90%E2%80%9D" target="_blank" class="news-link">美国民众“勒紧裤腰带过日子”</a> [30] <font color='grey'>- 19时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">7</td>
+                    <td class="percentage">6.86%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2169250?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">遇见小面港股IPO及境内未上市股份“全流通”获中国证监会备案</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5095704" target="_blank" class="news-link">中国心连心化肥(01866.HK)拟10月24日举行董事会会议以审批三季度业绩</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2169245?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">轻松健康集团港股IPO获中国证监会备案</a> [6] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5095702" target="_blank" class="news-link">上海医药(02607.HK)：多西环素胶囊获得美国FDA批准文号</a> [7] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5095701" target="_blank" class="news-link">上海港湾(605598.SH)：商业航天业务和钙钛矿太阳能业务占公司营收比例不足1%</a> [8] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2169236?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上海港湾：商业航天和钙钛矿太阳能业务占营收比例不足1%且尚未盈利 三名高管10月14日合计减持9.05万股</a> [14] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2169235?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中国广核：前三季度核电机组总发电量同比增长2.67%</a> [15] <font color='grey'>- 19时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">5</td>
+                    <td class="percentage">4.9%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5095708" target="_blank" class="news-link">医渡科技(02158.HK)10月14日耗资858万港元回购147万股</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5095680" target="_blank" class="news-link">磁谷科技(688448.SH)：徐龙祥拟减持不超过0.86%股份</a> [11] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2169237?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">磁谷科技：股东徐龙祥拟减持不超过0.86%公司股份</a> [13] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5095676" target="_blank" class="news-link">琏升科技(300051.SZ)：终止发行股份及支付现金购买资产并募集配套资金</a> [15] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2169230?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">琏升科技：终止购买兴储世纪69.71%股份</a> [19] <font color='grey'>- 19时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">4</td>
+                    <td class="percentage">3.92%</td>
+                    <td class="titles"><div class='new-title'>🆕 [GitHub] <a href="https://github.com/alibaba/spring-ai-alibaba" target="_blank" class="news-link">alibaba / spring-ai-alibaba</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45578117" target="_blank" class="news-link">KDE celebrates the 29th birthday and kicks off the yearly fundraiser</a> [8] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%A7%E9%9B%81%E5%A1%94%E7%8E%84%E5%A5%98%E9%93%9C%E5%83%8F%E9%95%BF%E6%BB%A1%E9%9D%92%E8%8B%94%E7%B3%BBAI%E7%94%9F%E6%88%90" target="_blank" class="news-link">大雁塔玄奘铜像长满青苔系AI生成</a> [11] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45578318" target="_blank" class="news-link">Prime Minister Anthony Albanese&#x27;s mobile phone number made available online</a> [11] <font color='grey'>- 19时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.98%</td>
+                    <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1961377347790926575" target="_blank" class="news-link">11 月 1 日起国产小客车新车上牌全业务数字化办理，不用再到车管所验车，会对汽车行业带来哪些影响？</a> [12] <font color='grey'>- 19时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">小米 雷军</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.98%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5095706" target="_blank" class="news-link">小米集团-W(01810.HK)10月14日耗资1.95亿港元回购400万股</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.98%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3709865_100_1" target="_blank" class="news-link">国际能源署：预计2026年全球石油市场将出现巨大供应过剩。</a> [10 - 30] <font color='grey'>- 19时13分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
