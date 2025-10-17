@@ -1,0 +1,111 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 78</p><p>生成时间: 2025-10-17 15:14:48</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">20</td>
+                    <td class="percentage">25.64%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251017144252132800" target="_blank" class="news-link">日本央行副行长内田真一：随着关税不确定性缓解，部分日本制造商的市场情绪正在改善。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251017/1067949498.html" target="_blank" class="news-link">美国副总统：俄乌尚未准备好就解决冲突达成协议</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251017143846618800" target="_blank" class="news-link">日本央行副行长内田真一：将审慎评估经济、物价及金融市场状况。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3717114_0_1" target="_blank" class="news-link">日本央行副行长内田真一：随着关税不确定性缓解，部分日本制造商的市场情绪正在改善。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3717112_0_1" target="_blank" class="news-link">日本央行副行长内田真一：将审慎评估经济、物价及金融市场状况。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3717102_100_1" target="_blank" class="news-link">日本央行副行长内田真一：需要关注全球贸易政策对经济、金融和外汇市场的影响。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251017143753757800" target="_blank" class="news-link">美国副总统：俄乌尚未准备好就解决冲突达成协议</a> [6] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251017143504558800" target="_blank" class="news-link">日本央行副行长内田真一：日本经济正在温和复苏，但同时也出现了一些疲软迹象。</a> [7] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3717101_100_1" target="_blank" class="news-link">日本央行副行长内田真一：将不带任何先入之见地判断经济和物价是否正朝着央行预测的方向发展。</a> [6 - 26] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251017143434376800" target="_blank" class="news-link">日本央行副行长内田真一：短观调查显示商业信心整体稳健。</a> [8] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3717100_100_1" target="_blank" class="news-link">日本央行副行长内田真一：如果经济和物价走势符合我们的预测，将继续加息。</a> [7 - 27] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3717099_100_1" target="_blank" class="news-link">日本央行副行长内田真一：海外经济发展的不确定性仍然很高。</a> [8 - 28] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251017143341729800" target="_blank" class="news-link">日本央行副行长内田真一：需警惕全球贸易政策对经济、金融和外汇市场的影响。</a> [9] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3717095_100_1" target="_blank" class="news-link">日本央行副行长内田真一：潜在通胀可能将停滞一段时间，随后重新加速。</a> [10 - 30] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3717093_100_1" target="_blank" class="news-link">日本央行副行长内田真一：短观调查显示随着美国关税前景的不确定性减弱，一些制造业者的商业信心转为正面。</a> [11] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3717090_100_1" target="_blank" class="news-link">日本央行副行长内田真一：日本经济已实现温和复苏，但出现了一些疲软迹象。</a> [12] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2172591?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月17日电，日本央行副行长内田真一表示，如果经济和物价走势符合预测，将继续加息。</a> [13] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2172587?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月17日电，日本央行副行长内田真一表示，日本经济虽显现部分疲软信号，但正处于温和复苏进程中。他指出，短观调查显示，随着美国关税前景不确定性消退，部分制造企业的商业信心已转为乐观。</a> [15] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2172585?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月17日电，日经225指数收跌1.44%，报47582.15点；韩国KOSPI指数收涨0.01%，报3748.89点。</a> [17] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E4%B8%80%E5%B0%8F%E5%AD%A6%E8%AF%BE%E9%97%B4%E9%BD%90%E8%B7%B3%E7%A7%91%E7%9B%AE%E4%B8%89" target="_blank" class="news-link">日本一小学课间齐跳科目三</a> [27] <font color='grey'>- 15时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">4</td>
+                    <td class="percentage">5.13%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2172616?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">9月中国快递发展指数同比提升3.9%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5097444" target="_blank" class="news-link">良信股份(002706.SZ)：与中核集团等单位正在针对核岛国产化联合进行深入研发</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2172609?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">深圳水贝市场金饰克价突破1000元</a> [7] <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2172583?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">2025中国产业转移发展对接活动（海南）在海口举行</a> [18] <font color='grey'>- 15时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.56%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251017144609679800" target="_blank" class="news-link">金十数据整理：每日全球外汇市场要闻速递（2025-10-17）</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251017144016444800" target="_blank" class="news-link">金十数据整理：每日电动车行业动态汇总（2025-10-17）</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.28%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%AF%94%E4%BA%9A%E8%BF%AA%E5%AE%A3%E5%B8%83%E5%8F%AC%E5%9B%9E%E9%83%A8%E5%88%86%E6%B1%BD%E8%BD%A6" target="_blank" class="news-link">比亚迪宣布召回部分汽车</a> [29] <font color='grey'>- 15时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.28%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251017/1067949777.html" target="_blank" class="news-link">专家：特朗普试图阻止乌克兰冲突的努力与向基辅供武相矛盾</a> <font color='red'><strong>[2]</strong></font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
