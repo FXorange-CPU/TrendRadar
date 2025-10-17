@@ -1,0 +1,103 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 43</p><p>生成时间: 2025-10-17 23:39:17</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">4</td>
+                    <td class="percentage">9.3%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202510/1755029.html" target="_blank" class="news-link">瑞典外交大臣访华 要求中国释放书商桂敏海</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/hkMacao/202510/1755025.html" target="_blank" class="news-link">美豪华邮轮因拒缴港务费取消上海行程</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202510/1755024.html" target="_blank" class="news-link">受英国制裁后 中国港口仍持续接收俄罗斯液化天然气</a> [6]</div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202510/1755023.html" target="_blank" class="news-link">中国扩大海南离岛免税商品范围</a> [7] <font color='grey'>- 23时39分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.65%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251017231254843800" target="_blank" class="news-link">墨西哥总统辛鲍姆：墨西哥与美国的贸易谈判进展顺利。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3718249_100_1" target="_blank" class="news-link">消息人士：美国军方于周四在加勒比海实施空袭后，已通过直升机救出幸存者，目前将他们关押在一艘军舰上。</a> <font color='red'><strong>[4 - 25]</strong></font> <font color='grey'>- 23时39分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.65%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3718252_100_1" target="_blank" class="news-link">秘鲁市场监管机构：临时总统Jeri已解除了秘鲁国家石油公司总裁的职务。</a> <font color='red'><strong>[2 - 23]</strong></font> <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251017225637712800" target="_blank" class="news-link">乌克兰特种作战部队称，乌方袭击了俄罗斯在克里米亚的石油库。</a> [8] <font color='grey'>- 23时39分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/Chronicles/202510/1755028.html" target="_blank" class="news-link">中国商务部长王文涛会见苹果CEO库克：中美经贸波动原因在美</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时39分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
