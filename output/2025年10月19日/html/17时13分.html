@@ -1,0 +1,119 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 45</p><p>生成时间: 2025-10-19 17:13:44</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">5</td>
+                    <td class="percentage">11.11%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251019164848503800" target="_blank" class="news-link">韩国总统顾问：美韩贸易谈判在多数问题上取得切实进展。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时13分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251019/1067968048.html" target="_blank" class="news-link">习近平就日本前首相村山富市逝世向日本首相石破茂致唁电</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5098138" target="_blank" class="news-link">鸿富瀚(301086.SZ)：股东恒美国际拟减持不超1.50%股份</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3719114_100_1" target="_blank" class="news-link">韩国总统顾问：在亚太经合组织期间，韩国与美国达成贸易协议的可能性更大。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 17时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3719112_100_1" target="_blank" class="news-link">韩国总统顾问：美韩贸易会谈期间，两国在多数问题上取得具体进展。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 17时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.44%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5098136" target="_blank" class="news-link">泰和科技(300801.SZ)：董事、总经理姚娅拟减持不超0.278%股份</a> [6] <font color='grey'>- 17时13分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5098134" target="_blank" class="news-link">扬杰科技(300373.SZ)：前三季度净利润9.74亿元，同比增长45.51%</a> [8] <font color='grey'>- 17时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">DeepSeek 梁文锋</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2171483?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【财联社早知道】国常会要求推动AI与物流深度融合，机构称物流领域AI技术的整体渗透率已超37%，这家公司已完成DeepSeek大模型的本地化部署，公司表示将持续推动AI技术在物流行业的创新应用</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%83%91%E4%B8%BD%E6%96%87%E6%94%AF%E6%8C%81%E8%80%85%E6%BF%80%E5%8A%A8%E8%90%BD%E6%B3%AA%EF%BC%9A%E6%88%91%E6%98%AF%E4%B8%AD%E5%9B%BD%E4%BA%BA" target="_blank" class="news-link">郑丽文支持者激动落泪：我是中国人</a> [28] <font color='grey'>- 17时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">芯片 光刻机 算力</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2173772?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">士兰微：拟200亿元共同投建12英寸高端模拟集成电路芯片制造生产线项目</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%85%A8%E7%BE%8E700%E4%B8%87%E4%BA%BA%E6%B6%8C%E4%B8%8A%E8%A1%97%E5%A4%B4%E6%8A%97%E8%AE%AE%E7%89%B9%E6%9C%97%E6%99%AE" target="_blank" class="news-link">全美700万人涌上街头抗议特朗普</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时13分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
