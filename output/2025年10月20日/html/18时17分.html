@@ -1,0 +1,135 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 100</p><p>生成时间: 2025-10-20 18:17:10</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">19</td>
+                    <td class="percentage">19.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2174711?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月20日电，日本自民党与维新会表示，将采取财政措施刺激投资。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3720164_0_1" target="_blank" class="news-link">日本自民党与维新会一致同意削减国会席位。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3720163_0_1" target="_blank" class="news-link">日本自民党与维新会同意寻求重启核反应堆。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3720160_0_1" target="_blank" class="news-link">日本财务大臣加藤胜信：政府推进了使日本成为资产管理中心的政策。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3720146_100_1" target="_blank" class="news-link">俄罗斯克宫：总统普京与美国总统特朗普在布达佩斯的峰会筹备工作才刚刚开始。</a> [6 - 26] <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3720144_100_1" target="_blank" class="news-link">俄罗斯克宫：峰会的目标是推动解决乌克兰冲突取得进展，并发展与美国之间的双边关系。</a> [7 - 27] <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3720143_100_1" target="_blank" class="news-link">俄罗斯克宫：（就俄罗斯总统普京向美国总统特朗普提出的乌克兰问题建议）俄罗斯方面已发布了关于此次通话的所有希望公开的信息。</a> [8 - 28] <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251020180900012800" target="_blank" class="news-link">Alphabet(GOOG.O)美股盘前涨幅收窄，最新上涨0.1%；美国国家公路交通安全管理局已启动对约2000辆Waymo车辆的初步评估。</a> [9] <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251020180758113800" target="_blank" class="news-link">波音(BA.N)美股盘前上涨1.4%，此前美国联邦航空管理局（FAA）表示，波音公司可将737 MAX的月产量提升至42架。</a> [10] <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251020180650258800" target="_blank" class="news-link">亚马逊云服务(AWS)：可以确认依赖于美国东部1区的全球服务和功能已经恢复。</a> [11] <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251020180235578800" target="_blank" class="news-link">日本维新会党魁吉村洋文：本届国会预计不太可能最终解决资金问题。</a> [14] <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251020175701982800" target="_blank" class="news-link">日本首相候选人高市早苗：已同意提交一项削减议席数量的议案。</a> [16] <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251020175628335800" target="_blank" class="news-link">日本自民党与维新会称，将采取财政措施刺激投资。</a> [17] <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251020175549768800" target="_blank" class="news-link">日本首相候选人高市早苗：目前可能通过临时合作来通过法案。</a> [18] <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251020175436946800" target="_blank" class="news-link">市场消息：日本自民党与维新会一致同意削减国会席位。</a> [19] <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251020175348857800" target="_blank" class="news-link">日本首相候选人高市早苗：将与维新会一起集中精力实施政策。</a> [20] <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251020175311141800" target="_blank" class="news-link">日本自民党和维新会同意寻求重启核反应堆事宜。</a> [21] <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251020175225305800" target="_blank" class="news-link">日本首相候选人高市早苗：我们是一个推动日本政治向前发展的联盟。</a> [23] <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251020175158933800" target="_blank" class="news-link">日本财务大臣加藤胜信：政府推进了使日本成为资产管理中心的政策。</a> [24] <font color='grey'>- 18时17分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">6</td>
+                    <td class="percentage">6.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2174712?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">第三期人工智能能力建设研讨班在上海举行</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251020181126040800" target="_blank" class="news-link">IBM(IBM.N)：IBM与GROQ合作，助力企业人工智能部署实现速度与规模的双重提升。</a> [6] <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345970&amp;amp;topic_name=Blg%E5%A4%A7%E5%8F%98%E5%A4%A9%2C%E5%8A%9F%E5%8B%8B%E6%95%99%E7%BB%83Bail%E5%8D%B8%E4%BB%BB%E7%A6%BB%E9%98%9F" target="_blank" class="news-link">Blg大变天,功勋教练Bail卸任离队</a> [8] <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5098615" target="_blank" class="news-link">研报掘金丨开源证券：国邦医药盈利能力持续提升，维持“买入”评级</a> [10] <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251020180102311800" target="_blank" class="news-link">国际铝业协会（IAI）：9月份全球原铝产量为608万吨。</a> [15] <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2174689?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">阿里夸克正推进一项AI业务 涉对话式AI应用</a> [17] <font color='grey'>- 18时17分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">6</td>
+                    <td class="percentage">6.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5098617" target="_blank" class="news-link">长城科技(603897.SH)：第三季度净利润同比增长5.82%</a> [8] <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2174702?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">吉峰科技：股东王新明、王红艳及一致行动人山南神宇计划减持不超过3%股份</a> [10] <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2174698?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月20日电，巴克莱将美光科技目标价从195美元上调至240美元。</a> [13] <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5098611" target="_blank" class="news-link">汇聚科技(01729.HK)因根据股份计划获行使增发14万股</a> [14] <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5098610" target="_blank" class="news-link">鼎通科技(688668.SH)第三季度净利润为6117.5万元，同比增长110.67%</a> [15] <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251020175107006800" target="_blank" class="news-link">巴克莱：将美光科技(MU.O)目标价从195美元上调至240美元。</a> [25] <font color='grey'>- 18时17分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">4</td>
+                    <td class="percentage">4.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8nbhhn7EKrh" target="_blank" class="news-link">7年来首次，9月归零！中国还是没买美国大豆</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2174705?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月20日电，渣打将中国2025年GDP增长预测上调至4.9%。</a> [7] <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3720129_100_1" target="_blank" class="news-link">俄罗斯天然气工业股份公司CEO：“西伯利亚力量”天然气管道1号今年将向中国供应逾380亿立方米天然气。</a> [10 - 30] <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3720125_100_1" target="_blank" class="news-link">中国央行：将于10月23日出售1200亿元28天期现金定存。</a> [12] <font color='grey'>- 18时17分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251020181226449800" target="_blank" class="news-link">印尼总统：印尼将在未来三年内生产国产汽车，相关预算已到位。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251020181106254800" target="_blank" class="news-link">美国国家公路交通安全管理局：对Waymo自动驾驶系统在校车停靠时的表现进行初步评估调查。</a> [7] <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2174681?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中国汽车流通协会拟于11月6日成立传统经典车分会</a> [20] <font color='grey'>- 18时17分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">chatgpt Sam Altman openai</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251020181236971800" target="_blank" class="news-link">OpenAI：所有受影响的服务现已完全恢复。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251020174853570800" target="_blank" class="news-link">OpenAI：正在观察受影响服务的恢复情况，我们正在密切关注。</a> [28] <font color='grey'>- 18时17分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E9%AA%91%E6%89%8B%E5%8F%96%E8%B5%B0%E8%8B%B9%E6%9E%9C17Promax%E5%90%8E%E5%A4%B1%E8%81%94%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26filter_type%3Drealtimehot%26realpos%3D25%26c_type%3D31%26lcate%3D5001%26cate%3D5001%26q%3D%2523%25E9%25AA%2591%25E6%2589%258B%25E5%258F%2596%25E8%25B5%25B0%25E8%258B%25B9%25E6%259E%259C17Promax%25E5%2590%258E%25E5%25A4%25B1%25E8%2581%2594%2523%26dgr%3D0%26band_rank%3D25%26flag%3D1%26pos%3D26%26stream_entry_id%3D31%26display_time%3D1760955016%26pre_seqid%3D17609550167150312270523" target="_blank" class="news-link">骑手取走苹果17Promax后失联</a> [25] <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251020174944532800" target="_blank" class="news-link">Evercore ISI：将苹果(AAPL.O)股票纳入战术跑赢名单。</a> [27] <font color='grey'>- 18时17分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251020/1067978479.html" target="_blank" class="news-link">俄国防部：俄军打击保障乌克兰军工综合的能源设施</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251020175257979800" target="_blank" class="news-link">欧盟敲定俄能源“断供”时间表：2028年全面停止进口俄油俄气</a> [22] <font color='grey'>- 18时17分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
