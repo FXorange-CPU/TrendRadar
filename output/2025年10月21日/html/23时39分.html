@@ -1,0 +1,151 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 90</p><p>生成时间: 2025-10-21 23:39:57</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">30</td>
+                    <td class="percentage">33.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251021233445371800" target="_blank" class="news-link">美国副总统万斯：伊朗不能拥有核武器。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251021233428967800" target="_blank" class="news-link">美国至10月21日6周国债竞拍-得标利率配置百分比 90.14%，前值57.24%。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251021233416930800" target="_blank" class="news-link">美国至10月21日6周国债竞拍-投标倍数 2.93，前值2.62。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251021233410024800" target="_blank" class="news-link">美国至10月21日6周国债竞拍-得标利率 3.94%，前值4.01%。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3723030_100_1" target="_blank" class="news-link">美国副总统万斯：如果哈马斯不合作，它将被彻底摧毁。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3723029_100_1" target="_blank" class="news-link">美国副总统万斯：目前尚不清楚部分已故人质遗体位于加沙何处。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3723028_100_1" target="_blank" class="news-link">波兰官员与美国官员讨论了增加美国液化天然气对中欧供应事宜。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251021233352461800" target="_blank" class="news-link">美国副总统万斯：美国总统特朗普希望与伊朗人保持良好关系。</a> [6] <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3723027_100_1" target="_blank" class="news-link">美国副总统万斯：我对停火协议能够维持下去持有很大信心。</a> [6 - 26] <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251021233337622800" target="_blank" class="news-link">加拿大总理卡尼：有望下周前与美国达成关税协议</a> [8] <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3723026_100_1" target="_blank" class="news-link">美国副总统万斯：我们不会向以色列强行施加任何东西。</a> [7 - 27] <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3723025_100_1" target="_blank" class="news-link">美国副总统万斯：土耳其可发挥建设性作用。</a> [8 - 28] <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251021233309929800" target="_blank" class="news-link">美国副总统万斯：美国不会在加沙部署地面部队。</a> [9] <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3723023_100_1" target="_blank" class="news-link">美国副总统万斯：作为特朗普加沙计划的一部分，以色列必须就哪些部队将在以色列境内部署达成一致。</a> [9 - 29] <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251021233146472800" target="_blank" class="news-link">美国副总统万斯：除非哈马斯解除武装，否则会发生非常糟糕的事情。</a> [11] <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251021233127128800" target="_blank" class="news-link">花旗：预计美国政府停摆的结束等因素，可能将在未来2到3周内推动黄金市场实现盘整。</a> [12] <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3723006_100_1" target="_blank" class="news-link">美国副总统万斯：以色列指挥中心正在监测停火行动的开展情况。</a> [13] <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251021232917834800" target="_blank" class="news-link">美国副总统万斯：我们的许多海湾阿拉伯朋友都希望与以色列实现关系正常化。</a> [14] <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3723003_0_1" target="_blank" class="news-link">美国白宫高级官员：总统特朗普与俄罗斯总统普京近期无会面计划。</a> [15] <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3723002_100_1" target="_blank" class="news-link">美国副总统万斯：特朗普加沙计划的实施情况好于预期。</a> [16] <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251021232458136800" target="_blank" class="news-link">美国副总统万斯：不会为哈马斯遵守协议设定最后期限。</a> [18] <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251021232403325800" target="_blank" class="news-link">美国副总统万斯：如果哈马斯不合作，它将被彻底摧毁。</a> [19] <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251021232355604800" target="_blank" class="news-link">美国副总统万斯：我坚信这份和平将长久延续。</a> [20] <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251021232338313800" target="_blank" class="news-link">美国副总统万斯：目前尚不清楚一些遇难人质的遗体位于加沙的何处。</a> [21] <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251021232248850800" target="_blank" class="news-link">美国副总统万斯：（谈人质问题）这需要一点时间。</a> [23] <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%8F%B0%E6%B9%BE%E5%90%8D%E5%98%B4%E8%B5%96%E5%B2%B3%E8%B0%A6%E8%AF%B4%E6%9C%9F%E5%BE%85%E4%B8%A4%E5%B2%B8%E7%BB%9F%E4%B8%80%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26c_type%3D31%26lcate%3D5001%26cate%3D5001%26q%3D%2523%25E5%258F%25B0%25E6%25B9%25BE%25E5%2590%258D%25E5%2598%25B4%25E8%25B5%2596%25E5%25B2%25B3%25E8%25B0%25A6%25E8%25AF%25B4%25E6%259C%259F%25E5%25BE%2585%25E4%25B8%25A4%25E5%25B2%25B8%25E7%25BB%259F%25E4%25B8%2580%2523%26flag%3D1%26dgr%3D0%26stream_entry_id%3D31%26band_rank%3D24%26pos%3D25%26realpos%3D24%26filter_type%3Drealtimehot%26display_time%3D1761060826%26pre_seqid%3D17610608268470230409179" target="_blank" class="news-link">台湾名嘴赖岳谦说期待两岸统一</a> [24] <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251021232153822800" target="_blank" class="news-link">美国副总统万斯：我非常乐观地认为，停火将会持续下去。</a> [25] <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251021232137674800" target="_blank" class="news-link">美国副总统万斯：我们不会强加任何东西给以色列。</a> [26] <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251021232124226800" target="_blank" class="news-link">美国副总统万斯：作为特朗普加沙计划的一部分，以色列必须就哪些部队将在以色列境内部署达成一致。</a> [27] <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251021232034543800" target="_blank" class="news-link">美国副总统万斯：土耳其在加沙协议中可以发挥作用。</a> [29] <font color='grey'>- 23时39分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">8</td>
+                    <td class="percentage">8.89%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3723017_100_1" target="_blank" class="news-link">特朗普特使库什纳：以色列与哈马斯正在过渡至和平时期的姿态。</a> [10 - 30] <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3723016_100_1" target="_blank" class="news-link">特朗普特使库什纳：以色列与联合国在加沙人道主义援助问题上保持密切协调。</a> [11] <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3723015_100_1" target="_blank" class="news-link">特朗普特使库什纳：我们正在取得进展，准备将已故人质遗体运出加沙。</a> [12] <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251021232751597800" target="_blank" class="news-link">特朗普特使库什纳：目前正在考虑在现由以色列控制的地区启动重建工作。</a> [15] <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251021232641306800" target="_blank" class="news-link">特朗普特使库什纳：没有任何重建资金将用于哈马斯控制的地区。</a> [16] <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3723035_100_1" target="_blank" class="news-link">特朗普特使库什纳：目前正在考虑在以色列控制区域开始重建工作。</a> [21] <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3723034_100_1" target="_blank" class="news-link">特朗普特使库什纳：重建资金不会注入哈马斯控制区域。</a> [22] <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251021231935527800" target="_blank" class="news-link">特朗普特使库什纳：以色列与联合国在加沙人道主义援助问题上保持着密切协调。</a> [30] <font color='grey'>- 23时39分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202510/2155334.html" target="_blank" class="news-link">学者：北京为高市早苗划出中日关系“历史”“台湾”两道红线</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202510/2155330.html" target="_blank" class="news-link">中国出口管制生效在即 全球车企竞相寻求稀土替代来源</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%9C%AA%E6%9D%A5%E7%9A%84%E4%B8%AD%E5%9B%BD%E5%BE%88%E9%85%B7%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26c_type%3D31%26lcate%3D5001%26cate%3D5001%26q%3D%2523%25E6%259C%25AA%25E6%259D%25A5%25E7%259A%2584%25E4%25B8%25AD%25E5%259B%25BD%25E5%25BE%2588%25E9%2585%25B7%2523%26flag%3D1%26dgr%3D0%26stream_entry_id%3D31%26band_rank%3D10%26pos%3D11%26realpos%3D10%26filter_type%3Drealtimehot%26display_time%3D1761060826%26pre_seqid%3D17610608268470230409179" target="_blank" class="news-link">未来的中国很酷</a> [10] <font color='grey'>- 23时39分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=iPad%20Pro%20M5%E4%BD%93%E9%AA%8C" target="_blank" class="news-link">iPad Pro M5体验</a> [8] <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251021232224285800" target="_blank" class="news-link">市场消息：奈飞(NFLX.O)与康卡斯特（Comcast）有意收购华纳兄弟影业（Warner Bros. Studios）。</a> [24] <font color='grey'>- 23时39分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5099499" target="_blank" class="news-link">美股异动｜Adobe涨超3.3%，推出Adobe AI Foundry新服务</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45656223" target="_blank" class="news-link">LLMs Can Get &quot;Brain Rot&quot;</a> [7] <font color='grey'>- 23时39分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">半导体 GPU</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2176229?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月21日电，利弗莫尔证券显示，广东天域半导体股份有限公司通过港交所上市聆讯，独家保荐人为中信证券。</a> [9] <font color='grey'>- 23时39分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3723005_100_1" target="_blank" class="news-link">中国商务部长王文涛：中方高度重视中荷经贸合作。荷方针对安世半导体采取的有关措施，严重影响全球产供链稳定。中方敦促荷方从维护全球产供链安全稳定的大局出发，秉持契约精神和市场化、法治化原则，尽快妥善解决问题，保护中国投资者合法权益，营造公平、透明、可预期的营商环境。卡雷曼斯表示，荷方高度重视荷中经贸关系，愿与中方密切沟通，为安世半导体问题寻找建设性的解决方案。</a> [14] <font color='grey'>- 23时39分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.11%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251021232106307800" target="_blank" class="news-link">金十数据整理：金银价格双双上演高空跳水，狂飙急刹之后将何去何从？</a> [28] <font color='grey'>- 23时39分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">DeepSeek 梁文锋</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.11%</td>
+                    <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=DeepSeek%E6%96%B0%E6%A8%A1%E5%9E%8B%E9%80%9F%E8%A7%88" target="_blank" class="news-link">DeepSeek新模型速览</a> [29] <font color='grey'>- 23时39分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.11%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202510/2155333.html" target="_blank" class="news-link">英伟达台湾建总部计划卡关 卓荣泰：一定要留住英伟达</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时39分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.11%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2176237?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">谷歌日内跌幅扩大至4%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时39分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
