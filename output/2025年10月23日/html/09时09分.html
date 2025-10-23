@@ -1,0 +1,183 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 160</p><p>生成时间: 2025-10-23 09:09:02</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">29</td>
+                    <td class="percentage">18.12%</td>
+                    <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E9%9F%A9%E5%9B%BD%E4%BA%BA%E5%BC%80%E5%A7%8B%E6%8B%85%E5%BF%83%E4%BB%A5%E5%90%8E%E5%90%83%E4%B8%8D%E4%B8%8A%E8%B1%86%E8%85%90%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26filter_type%3Drealtimehot%26c_type%3D31%26cate%3D5001%26band_rank%3D1%26stream_entry_id%3D31%26lcate%3D5001%26pos%3D0%26realpos%3D1%26q%3D%2523%25E9%259F%25A9%25E5%259B%25BD%25E4%25BA%25BA%25E5%25BC%2580%25E5%25A7%258B%25E6%258B%2585%25E5%25BF%2583%25E4%25BB%25A5%25E5%2590%258E%25E5%2590%2583%25E4%25B8%258D%25E4%25B8%258A%25E8%25B1%2586%25E8%2585%2590%2523%26flag%3D1%26dgr%3D0%26display_time%3D1761181627%26pre_seqid%3D176118162789601175892118" target="_blank" class="news-link">韩国人开始担心以后吃不上豆腐</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251023090027465800" target="_blank" class="news-link">美国总统特朗普政府正商谈入股量子计算公司。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2177785?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月23日电，韩国央行将基准利率维持在2.50%不变，预估为2.50%。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202510/2355423.html" target="_blank" class="news-link">伍国：美国未来真正问题是本土民族主义</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251023085036109800" target="_blank" class="news-link">韩国央行维持利率不变，符合市场预期。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251023085007728800" target="_blank" class="news-link">韩国至10月23日央行利率决定 2.5%，预期2.50%，前值2.50%。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3726365_100_1" target="_blank" class="news-link">美国国务卿卢比奥：哈马斯对加沙巴勒斯坦人的镇压令人发指。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3726364_100_1" target="_blank" class="news-link">韩国央行将利率维持在2.50%不变，符合预期。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3726363_100_1" target="_blank" class="news-link">美国国务卿鲁比奥：中东以外的国家已准备好为加沙国际部队贡献力量。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3726357_100_1" target="_blank" class="news-link">美国国务卿鲁比奥：以色列议会吞并约旦河西岸的计划对加沙和平协议构成威胁。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202510/2355420.html" target="_blank" class="news-link">高市早苗延续安倍印太路线 台学者：或弥补美国缺位</a> [7] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251023084410353800" target="_blank" class="news-link">美国国务卿鲁比奥：只要有机会实现和平，我们始终愿意与俄罗斯开展接触。</a> [7] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3726356_100_1" target="_blank" class="news-link">美国国务卿鲁比奥：我们仍然希望与俄罗斯方面会晤。</a> [6 - 26] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251023084241340800" target="_blank" class="news-link">美国国务卿鲁比奥：以色列议会推进西岸地区吞并计划是对加沙和平协议的威胁。</a> [8] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3726354_203_1" target="_blank" class="news-link">美国总统特朗普（Truthsocial）：芝加哥周末发生枪击事件，14人中枪，4人死亡！失败的州长普利兹克和同样可悲的市长现在有什么要说的？请联邦政府介入，并且立刻介入！！！</a> [7 - 27] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251023084221231800" target="_blank" class="news-link">美国国务卿鲁比奥：我们仍希望与俄罗斯方面会面。</a> [9] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2177682" target="_blank" class="news-link">特朗普称取消与普京会晤 美国国债总额首次超过38万亿美元 | 环球市场</a> [11] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1964083471371699532" target="_blank" class="news-link">李在明称韩国要成为全球第四大防务强国，韩国经济结构遇到了什么问题，为何突然要强化军工产业？</a> [11] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3726333_203_1" target="_blank" class="news-link">美国总统特朗普 (Truthsocial)：请前总统奥巴马回答他是否真的认为2020年乔·拜登比他在2012年多获得了1500万张选票（6590万张比8100万张）。此外，请他解释一下为什么乔·拜登在2020年赢得了每一个关键摇摆州的黑人选票，即“击败”了奥巴马，尽管黑人选民讨厌他，但在其他州却并非如此？2020年大选是一场非法骗局/闹剧，我们伟大国家的人民将永远铭记！</a> [11] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202510/2355413.html" target="_blank" class="news-link">不满普京“不诚实” 美国制裁俄两大石油公司</a> [14] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3726325_0_1" target="_blank" class="news-link">加拿大总理卡尼：美国已经从根本上改变了其贸易方针。这不是一个平稳的过渡，而是一种决裂。加拿大与美国长达数十年的经济融合进程已经结束。我们与美国的关系将永远不会再像从前一样。现在不是保持谨慎的时候。</a> [14] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3726319_203_1" target="_blank" class="news-link">美国总统特朗普 (Truthsocial)：我刚刚在椭圆形办公室与爱达荷州的杰出州长布拉德·利特尔共度了一段时光。他做得非常出色，我完全支持他！</a> [15] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2177726?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月23日电，日经225指数开盘跌0.99%；韩国KOSPI指数跌1.3%。</a> [19] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2177725?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月23日电，10年期日本国债的收益率下降1个基点至1.64%。</a> [20] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251023075551915800" target="_blank" class="news-link">日本至10月17日当周外资买进日债 -7亿日元，前值1994亿日元。</a> [22] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251023075547485800" target="_blank" class="news-link">日本至10月17日当周买进外国股票 -2881亿日元，前值593亿日元。</a> [23] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251023075002701800" target="_blank" class="news-link">日本至10月17日当周外资买进日股 7526亿日元，前值由18850亿日元修正为18866亿日元。</a> [26] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251023075002679800" target="_blank" class="news-link">日本至10月17日当周买进外国债券 -6697亿日元，前值由5964亿日元修正为6013亿日元。</a> [27] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2279420" target="_blank" class="news-link">网友调侃台湾男星逃兵役</a> [30] <font color='grey'>- 09时09分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">8</td>
+                    <td class="percentage">5.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251023090102921800" target="_blank" class="news-link">上海黄金交易所黄金T+D 10月23日（周四）早盘盘初下跌1.53%报932.51元/克；&lt;br/&gt;上海黄金交易所白银T+D 10月23日（周四）早盘盘初上涨0.11%报11320.0元/千克。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251023/1068026492.html" target="_blank" class="news-link">欧盟批准对俄实施第19轮制裁，含四家中国石油公司</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5100323" target="_blank" class="news-link">永东股份(002753.SZ)：2024年度向特定对象发行A股股票申请收到中国证监会同意注册批复</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251023/1068026253.html" target="_blank" class="news-link">办公室主任违规捐赠涉密机，中国国安部：警惕硬盘泄密风险</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251023/1068026134.html" target="_blank" class="news-link">特朗普表示希望与中国达成核领域协议</a> <font color='red'><strong>[5]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251023085000001800" target="_blank" class="news-link">中国9月Swift人民币在全球支付中占比将于十分钟后公布。</a> [6] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202510/2355417.html" target="_blank" class="news-link">中国召集外资企业说明 力图消除稀土供应担忧</a> [10] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31823959" target="_blank" class="news-link">观察｜上海经济数据里的“大城韧劲”</a> [19] <font color='grey'>- 09时09分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">7</td>
+                    <td class="percentage">4.38%</td>
+                    <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2278733" target="_blank" class="news-link">特朗普向司法部索赔2.3亿美元</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2177789?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">特朗普又称莫迪承诺减少从俄进口石油</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251023/1068026387.html" target="_blank" class="news-link">特朗普：俄罗斯提出的《新削减战略武器条约》倡议是好事</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E7%89%B9%E6%9C%97%E6%99%AE%E8%AF%B4%E6%98%AF%E6%97%B6%E5%80%99%E5%88%B6%E8%A3%81%E4%BF%84%E7%BD%97%E6%96%AF%E4%BA%86%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26filter_type%3Drealtimehot%26c_type%3D31%26cate%3D5001%26band_rank%3D4%26stream_entry_id%3D31%26lcate%3D5001%26pos%3D3%26realpos%3D4%26q%3D%2523%25E7%2589%25B9%25E6%259C%2597%25E6%2599%25AE%25E8%25AF%25B4%25E6%2598%25AF%25E6%2597%25B6%25E5%2580%2599%25E5%2588%25B6%25E8%25A3%2581%25E4%25BF%2584%25E7%25BD%2597%25E6%2596%25AF%25E4%25BA%2586%2523%26flag%3D1%26dgr%3D0%26display_time%3D1761181627%26pre_seqid%3D176118162789601175892118" target="_blank" class="news-link">特朗普说是时候制裁俄罗斯了</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202510/2355419.html" target="_blank" class="news-link">特朗普将赴亚细安峰会 塑造“和平缔造者”形象甚于战略宣示</a> [8] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2177703" target="_blank" class="news-link">从宣布到取消 特朗普与普京会晤为何被“急踩刹车”？</a> [10] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%E6%99%AE%E4%BA%AC%E4%BC%9A%E6%99%A4%E4%B8%BA%E4%BD%95%E8%A2%AB%E2%80%9C%E6%80%A5%E8%B8%A9%E5%88%B9%E8%BD%A6%E2%80%9D" target="_blank" class="news-link">特朗普普京会晤为何被“急踩刹车”</a> [15] <font color='grey'>- 09时09分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">4</td>
+                    <td class="percentage">2.5%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2177683" target="_blank" class="news-link">【早报】特朗普：取消与普京会面；公募基金业绩比较基准规则征求意见稿即将发布</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251023083908936800" target="_blank" class="news-link">金十数据整理：隔日全球股市走势回顾（2025-10-23）</a> [11] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251023075225207800" target="_blank" class="news-link">金十数据中心工具</a> [24] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251023075022633800" target="_blank" class="news-link">金十数据整理：每日科技要闻速递（10月23日）</a> [25] <font color='grey'>- 09时09分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.88%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5100324" target="_blank" class="news-link">宝鼎科技(002552.SZ)：招远市国资局将持有金都国投100%的股权转让至招金集团</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5100322" target="_blank" class="news-link">硅宝科技(300019.SZ)：全资子公司补缴税款及滞纳金3272.13万元</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2177738?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">硅宝科技：全资子公司补缴税款</a> [13] <font color='grey'>- 09时09分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">马斯克 特斯拉 gork</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.25%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2177772?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">马斯克：特斯拉正在努力“超额生产”AI5芯片</a> [6] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5100314" target="_blank" class="news-link">美股异动｜特斯拉盘后一度跌近5%，三季度调整后净利润17.7亿美元同比降29%</a> [12] <font color='grey'>- 09时09分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.25%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3757674" target="_blank" class="news-link">谷歌称量子芯片“Willow”现重大突破：算法可重复验证，五年内或迎实用化</a> [9] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2177734?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【电报解读】谷歌芯片实现量子计算突破，报告预计2030年全球量子计算规模或超千亿美元，这家公司参与多个量子计算机项目研发</a> [11] <font color='grey'>- 09时09分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.25%</td>
+                    <td class="titles"><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45609478" target="_blank" class="news-link">Play abstract strategy board games online with friends or against bots</a> [8] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2177557" target="_blank" class="news-link">AI饿坏电网！资管巨头警告：缺口“我们这代人都填不平”</a> [9] <font color='grey'>- 09时09分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">机器人 脑机接口</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.25%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5100325" target="_blank" class="news-link">首程控股被投企业松延动力发布全球首款万元内高性能人形机器人“Bumi小布米”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5100317" target="_blank" class="news-link">中信建投：人形机器人进入持续催化验证期 Q4坚定看多板块行情</a> [9] <font color='grey'>- 09时09分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.25%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2177729?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">俄称打击乌能源设施 乌称控制一定居点</a> [18] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251023080012968800" target="_blank" class="news-link">俄称打击乌能源设施 乌称控制一定居点</a> [21] <font color='grey'>- 09时09分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.62%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2177759?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">小米汽车副总裁李肖爽否认宣传“SOS 1秒接通”：系造谣诋毁 将追责</a> [7] <font color='grey'>- 09时09分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>12</td>
+                    <td class="word">钓鱼岛 台海 南海</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.62%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202510/2355418.html" target="_blank" class="news-link">沈泽玮：郑丽文新时代国民党如何牵动台海局势？</a> [9] <font color='grey'>- 09时09分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>13</td>
+                    <td class="word">国产剧 电影 科幻</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.62%</td>
+                    <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%B8%AF%E7%8F%A0%E6%BE%B3%E5%A4%A7%E6%A1%A5%E7%94%B5%E5%BD%B1%E7%BA%A7%E6%97%A5%E5%87%BA%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26filter_type%3Drealtimehot%26c_type%3D31%26cate%3D5001%26band_rank%3D8%26stream_entry_id%3D31%26lcate%3D5001%26pos%3D7%26realpos%3D8%26q%3D%2523%25E6%25B8%25AF%25E7%258F%25A0%25E6%25BE%25B3%25E5%25A4%25A7%25E6%25A1%25A5%25E7%2594%25B5%25E5%25BD%25B1%25E7%25BA%25A7%25E6%2597%25A5%25E5%2587%25BA%2523%26flag%3D1%26dgr%3D0%26display_time%3D1761181627%26pre_seqid%3D176118162789601175892118" target="_blank" class="news-link">港珠澳大桥电影级日出</a> [8] <font color='grey'>- 09时09分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>14</td>
+                    <td class="word">社保 养老 旅游 教育</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.62%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8D%97%E6%9E%81%E6%97%85%E6%B8%B8%E4%BB%B7%E6%A0%BC%E5%A4%A7%E8%B7%B3%E6%B0%B4+%E5%A4%9A%E5%AE%B6%E6%97%85%E8%A1%8C%E7%A4%BE%E5%9B%9E%E5%BA%94" target="_blank" class="news-link">南极旅游价格大跳水 多家旅行社回应</a> [30] <font color='grey'>- 09时09分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
