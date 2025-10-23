@@ -1,0 +1,111 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 43</p><p>生成时间: 2025-10-24 02:48:15</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">17</td>
+                    <td class="percentage">39.53%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2178975?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">普京：美国新制裁不会对俄罗斯经济产生重大影响</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时48分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251024/1068042026.html" target="_blank" class="news-link">普京：俄罗斯与沙特销售的石油更多，而美国消费的最多</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251024021527247800" target="_blank" class="news-link">哥伦比亚总统佩特罗：美国总统特朗普不太可能对石油征收关税，哥伦比亚可以缓解对其他出口的影响。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时48分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251024021254824800" target="_blank" class="news-link">美国天然气期货日内跌超3.00%，现报3.346美元/百万英热。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时48分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3728783_100_1" target="_blank" class="news-link">【行情】美国原油期货结算价为61.79美元/桶，上涨3.29美元，涨幅5.62%。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 02时48分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3728781_100_1" target="_blank" class="news-link">美国内政部：将重新开放阿拉斯加沿海平原供油气租赁。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 02时48分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251024020649810800" target="_blank" class="news-link">美国白宫：（关于宴会厅建设成本）数字为3亿美元。</a> [6] <font color='grey'>- 02时48分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251024020449525800" target="_blank" class="news-link">美国白宫：制裁给俄罗斯带来了很大压力。</a> [7] <font color='grey'>- 02时48分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251024020344612800" target="_blank" class="news-link">美国白宫：（就对俄制裁）是否会有更多制裁取决于总统特朗普。</a> [8] <font color='grey'>- 02时48分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251024020253049800" target="_blank" class="news-link">美国白宫：（就美国政府停摆）政府将支持延长营养援助。</a> [9] <font color='grey'>- 02时48分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251024015720824800" target="_blank" class="news-link">美国白宫：美国国务卿鲁比奥和俄罗斯外长拉夫罗夫的通话并非实施新制裁的唯一原因。</a> [12] <font color='grey'>- 02时48分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251024015658670800" target="_blank" class="news-link">美国白宫：（谈及牛肉问题）：立即解决之道是通过进口增加供应。</a> [13] <font color='grey'>- 02时48分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251024015637835800" target="_blank" class="news-link">美国白宫：特朗普对乌克兰和俄罗斯越来越感到失望。</a> [14] <font color='grey'>- 02时48分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251024015624513800" target="_blank" class="news-link">美国白宫：特朗普（对俄乌冲突）越来越感到沮丧。</a> [15] <font color='grey'>- 02时48分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251024015506511800" target="_blank" class="news-link">美国白宫：特朗普希望看到俄罗斯采取行动，而不仅仅是空谈。</a> [17] <font color='grey'>- 02时48分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251024015455047800" target="_blank" class="news-link">美国白宫：美国国务卿鲁比奥认为与俄罗斯外长拉夫罗夫的通话富有成效。</a> [18] <font color='grey'>- 02时48分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251024015419318800" target="_blank" class="news-link">美国白宫：（特朗普）与普京的会晤并非完全排除在外。</a> [19] <font color='grey'>- 02时48分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">5</td>
+                    <td class="percentage">11.63%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251024/1068041883.html" target="_blank" class="news-link">俄专家评特朗普取消与普京布达佩斯会晤：对俄施压逻辑下的预料之举</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251024021249818800" target="_blank" class="news-link">特朗普称将取消向旧金山派出国民警卫队</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时48分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251024020956621800" target="_blank" class="news-link">特朗普政府宣布开放阿拉斯加沿海平原进行石油钻探。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时48分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2178969?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">特朗普称将取消向旧金山派出国民警卫队</a> [6] <font color='grey'>- 02时48分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3728771_100_1" target="_blank" class="news-link">哥伦比亚总统佩特罗：特朗普不太可能对石油产品征收关税，哥伦比亚可以减轻对其他出口产品的影响。</a> [6 - 26] <font color='grey'>- 02时48分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">3</td>
+                    <td class="percentage">6.98%</td>
+                    <td class="titles"><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45684736" target="_blank" class="news-link">OpenMaxIO is a community-maintained fork of MinIO</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时48分</font></div><br><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45684689" target="_blank" class="news-link">Show HN: I built a tech news aggregator that works the way my brain does</a> [8] <font color='grey'>- 02时48分</font></div><br><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45684934" target="_blank" class="news-link">Armed police swarm student after AI mistakes bag of Doritos for a weapon</a> [24] <font color='grey'>- 02时48分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">chatgpt Sam Altman openai</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45684236" target="_blank" class="news-link">OpenAI Acquires Software Applications Incorporated, Maker of Sky</a> [28] <font color='grey'>- 02时48分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">地震 台风 洪灾 暴雨 泥石流 山体滑坡</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2178972?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">新疆喀什地区伽师县发生4.0级地震 震源深度40千米</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时48分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
