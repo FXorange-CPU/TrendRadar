@@ -1,0 +1,151 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 56</p><p>生成时间: 2025-10-29 12:46:11</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">15</td>
+                    <td class="percentage">26.79%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251029123440083800" target="_blank" class="news-link">美国总统特朗普：经济安全就是国家安全。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时46分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251029123125103800" target="_blank" class="news-link">美国总统特朗普：简化新能源和采矿项目的审批流程。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时46分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251029122942604800" target="_blank" class="news-link">美国总统特朗普：美国正在改革钢铁生产并提高产量。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时46分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202510/2956008.html" target="_blank" class="news-link">特朗普称不确定是否会与习近平讨论台湾问题</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时46分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251029122713757800" target="_blank" class="news-link">美国总统特朗普：韩国正在购买大量我们的武器。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时46分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251029122632354800" target="_blank" class="news-link">美国总统特朗普：我们正在为投资者快速发放许可。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时46分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251029122319085800" target="_blank" class="news-link">美国总统特朗普：当美国繁荣时，我们的联盟和印太地区也将繁荣。</a> [7] <font color='grey'>- 12时46分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251029122248320800" target="_blank" class="news-link">美国总统特朗普：我们将拥有一个非常繁荣的造船业。</a> [8] <font color='grey'>- 12时46分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251029122213781800" target="_blank" class="news-link">美国总统特朗普：我们是韩国的真诚伙伴。</a> [10] <font color='grey'>- 12时46分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251029122156402800" target="_blank" class="news-link">美国总统特朗普：不会让美联储加息。</a> [12] <font color='grey'>- 12时46分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251029122125147800" target="_blank" class="news-link">美国总统特朗普：美国工厂正在蓬勃发展。</a> [13] <font color='grey'>- 12时46分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251029122115641800" target="_blank" class="news-link">美国总统特朗普：预计下季度GDP增长4%。</a> [14] <font color='grey'>- 12时46分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251029122108424800" target="_blank" class="news-link">美国总统特朗普：到我第二个任期结束时，可能将有21万亿-22万亿美元的投资流入美国。</a> [15] <font color='grey'>- 12时46分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251029122054233800" target="_blank" class="news-link">美国总统特朗普：我们已确保超过18万亿美元的新投资承诺。</a> [16] <font color='grey'>- 12时46分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251029121746214800" target="_blank" class="news-link">马来西亚贸易部长：尽管与美国达成协议，但稀土出口禁令仍然存在</a> [17] <font color='grey'>- 12时46分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">3</td>
+                    <td class="percentage">5.36%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2184435?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">加码韩国AI基础设施 亚马逊追加50亿美元投资在韩数据中心</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时46分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2184425?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">交通运输部：加快建设综合交通运输大模型</a> [7] <font color='grey'>- 12时46分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2184421?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">交通运输部：系统推动人工智能技术在交通运输领域规模化创新应用</a> [9] <font color='grey'>- 12时46分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">3</td>
+                    <td class="percentage">5.36%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251029/1068120403.html" target="_blank" class="news-link">美防长指责中国增强军事实力及在亚洲采取侵略性行动</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2184429?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">摩根亚太：未来将进一步为中国市场引入全球客户资金流</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时46分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31850127" target="_blank" class="news-link">离谱！一个玩偶让美联社破防？中国花滑选手遭国际滑联调查</a> [19] <font color='grey'>- 12时46分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.79%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2184072" target="_blank" class="news-link">英伟达官宣拟10亿美元入股诺基亚 携手加速AI-RAN与6G革命</a> [13] <font color='grey'>- 12时46分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">半导体 GPU</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.79%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251029122205634800" target="_blank" class="news-link">美国总统特朗普：半导体制造业正迅速回流美国。</a> [11] <font color='grey'>- 12时46分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">芯片 光刻机 算力</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.79%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251029122241983800" target="_blank" class="news-link">美国总统特朗普：期望美国在芯片产业中占据重要地位。</a> [9] <font color='grey'>- 12时46分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.79%</td>
+                    <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1966809012960977218" target="_blank" class="news-link">特朗普称美航母电磁弹射又贵又难用，要求改回蒸汽弹射，蒸汽弹射与电磁弹射分别有哪些特点？究竟哪个更好？</a> [15] <font color='grey'>- 12时46分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">国产剧 电影 科幻</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.79%</td>
+                    <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%94%B5%E5%BD%B1%E4%B8%BA%E4%BD%95%E8%AE%A9%E4%BA%BA%E8%BF%B7%E6%81%8B" target="_blank" class="news-link">电影为何让人迷恋</a> [12] <font color='grey'>- 12时46分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.79%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2184424?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">午间公告：仙琚制药产品拟中选全国药品集采 蒙泰转债即将停止转股</a> [8] <font color='grey'>- 12时46分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">外交部 卫健委 公安部 网信办 发改委 北戴河 中共中央 国务院 四中全会 三中全会 两会 政治局</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.79%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202510/2956011.html" target="_blank" class="news-link">四中全会公报未提“和平统一” 国台办：决不承诺放弃使用武力</a> <font color='red'><strong>[1]</strong></font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
