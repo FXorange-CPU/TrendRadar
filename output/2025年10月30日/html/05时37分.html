@@ -1,0 +1,135 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 35</p><p>生成时间: 2025-10-30 05:37:30</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">7</td>
+                    <td class="percentage">20.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251030/1068134354.html" target="_blank" class="news-link">巴黎法院作出裁决将俄罗斯篮球运动员卡萨特金引渡至美国</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3740611_101_1" target="_blank" class="news-link">Global X投资策略主管Scott Helfstein：由于政府停摆，美联储掌握的信息比往常更少，更多依赖高频和信心数据。挑战在于这些软数据在过去几个季度里持续低估了美国经济的实力。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 05时37分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3740604_100_1" target="_blank" class="news-link">美国总统特朗普：已批准韩国建造核动力潜艇。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 05时37分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3740588_100_1" target="_blank" class="news-link">美国总统特朗普：已批准他们建造一艘核动力潜艇。</a> [6 - 26] <font color='grey'>- 05时37分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3740584_100_1" target="_blank" class="news-link">美国总统特朗普：他们已同意大规模采购美国的石油和天然气，韩国财团和商人对美国的投资将超过6000亿美元。</a> [8 - 28] <font color='grey'>- 05时37分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3740583_100_1" target="_blank" class="news-link">美国总统特朗普：韩国已同意向美国支付3500亿美元，以换取美国降低对韩国征收的关税。</a> [9 - 29] <font color='grey'>- 05时37分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3740580_100_1" target="_blank" class="news-link">美国总统特朗普计划提名白宫顾问Ryan Baasch担任联邦贸易委员会委员。</a> [10 - 30] <font color='grey'>- 05时37分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">2</td>
+                    <td class="percentage">5.71%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2185496?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月30日电，富时中国A50指数期货夜盘收跌0.11%，报15690点。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时37分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3740598_101_1" target="_blank" class="news-link">【行情】加拿大标普/TSX综合指数收跌0.90%，报30144.78点，微幅高开之后走低，美联储主席鲍威尔讲话前持稳于30300点附近。周三（10月29日）北美尾盘，加拿大10年期基准国债收益率涨11.5个基点，报3.158%，全天持续、平滑地上涨。两年期加债收益率涨8.5个基点，报2.440%，北京时间21:45加拿大央行公布利率决定之后显著拉升、02:35鲍威尔谈及利率前景之后再次拉升；五年期加债收益率涨11.7个基点，报2.742%。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 05时37分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">微软 Microsoft</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.86%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251030045448137800" target="_blank" class="news-link">微软季度净利同比增长12% Azure云端收入增长40%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时37分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.86%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251030044830557800" target="_blank" class="news-link">AI热潮助推云业务增长 谷歌营收飙升</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时37分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.86%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2185494?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月30日电，Meta首席财务官称，自9月在Meta AI中推出Vibes功能以来，发现该应用内的媒体生成量增长了超过10倍。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时37分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.86%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3740544_101_1" target="_blank" class="news-link">特朗普政府接触三个资金渠道，希望能实现在政府停摆期间于周五对军队发工资。</a> [15] <font color='grey'>- 05时37分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">社保 养老 旅游 教育</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.86%</td>
+                    <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1965044332710040309" target="_blank" class="news-link">大学课堂抬头率低成普遍现象，作为教育者，你有哪些切实可行的方法能让学生主动抬头听课？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时37分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">外交部 卫健委 公安部 网信办 发改委 北戴河 中共中央 国务院 四中全会 三中全会 两会 政治局</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.86%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251030/1068133832.html" target="_blank" class="news-link">叙利亚外交部：叙利亚正式承认科索沃为主权国家</a> <font color='red'><strong>[3]</strong></font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
