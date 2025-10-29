@@ -1,0 +1,127 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 50</p><p>生成时间: 2025-10-30 01:15:11</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">微软 Microsoft</td>
+                    <td class="count">5</td>
+                    <td class="percentage">10.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251030010457971800" target="_blank" class="news-link">Microsoft 365：已解除这些系统的封锁，并重新分配流量以支持恢复工作。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 01时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251030010430098800" target="_blank" class="news-link">Microsoft 365：已定位出现连接问题的内部基础设施组件。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 01时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251030004523362800" target="_blank" class="news-link">据网络状况监测网站DownDetector：用户报告显示，微软(MSFT.O)Copilot服务在美国出现问题。</a> [19] <font color='grey'>- 01时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251030004313624800" target="_blank" class="news-link">Microsoft 365：正在将受影响流量重定向至备用基础设施作为临时解决方案。</a> [20] <font color='grey'>- 01时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251030004223090800" target="_blank" class="news-link">微软(MSFT.O)：正在调查有关Microsoft 365服务出现问题的报告。</a> [21] <font color='grey'>- 01时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">4</td>
+                    <td class="percentage">8.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251030010642407800" target="_blank" class="news-link">美国地质勘探局：冰岛霍芬西北偏西105公里处发生5.4级地震。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时15分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3739810_203_1" target="_blank" class="news-link">美国总统特朗普（Truthsocial）：感谢韩国的盛情欢迎！</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 01时15分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3739814_203_1" target="_blank" class="news-link">美国总统特朗普（TruthSocial）：韩国是美国珍视的朋友和亲密盟友，正如我们在这座美丽的城市所看到的那样，韩国确实是世界上最了不起的国家之一。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 01时15分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3739780_100_1" target="_blank" class="news-link">美国菲利普斯66公司：拟议中的西部门户管道为Wood River、Ponca City和Borger炼油厂提供了一次协同发展的机会。</a> [6 - 26] <font color='grey'>- 01时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251030004737589800" target="_blank" class="news-link">空客：A330项目月产量稳定在4架飞机的水平。</a> [13] <font color='grey'>- 01时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251030004708102800" target="_blank" class="news-link">空客：预计2025年将交付约820架商用飞机。</a> [15] <font color='grey'>- 01时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2185414?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月30日电，据网络状况监测网站DownDetector，用户报告显示美国地区的谷歌出现问题。</a> [6] <font color='grey'>- 01时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45749017" target="_blank" class="news-link">Tailscale Peer Relays</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 01时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">地震 台风 洪灾 暴雨 泥石流 山体滑坡</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251030/1068131410.html" target="_blank" class="news-link">越南洪灾造成9人遇难、5人失踪</a> <font color='red'><strong>[3]</strong></font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3739796_101_1" target="_blank" class="news-link">【行情】MSCI北欧国家指数微幅上涨，报362.27点。在十个板块中，北欧电信服务板块涨幅最大。能源相关产品和服务供应商Fortum Oyj（富腾集团）涨4.9%，在一众北欧个股里领跑。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 01时15分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
