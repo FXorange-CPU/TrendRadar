@@ -1,0 +1,151 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 101</p><p>生成时间: 2025-10-29 14:24:10</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">11</td>
+                    <td class="percentage">10.89%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251029/1068121251.html" target="_blank" class="news-link">特朗普：美国经济增长率远超专家预期</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251029141341463800" target="_blank" class="news-link">日本40年期国债收益率跌1.5个基点至3.360%。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2184541?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">比亚迪首款K-Car车型Racco面向日本市场首发</a> [6] <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251029141108122800" target="_blank" class="news-link">日本20年期国债收益率跌0.5个基点，至2.570%。</a> [7] <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2184157" target="_blank" class="news-link">大批轰-6K贴近台湾岛</a> [13] <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251029135845843800" target="_blank" class="news-link">安联：日本央行可能会避免留下无限期维持利率的印象</a> [13] <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251029135719056800" target="_blank" class="news-link">韩国总统李在明：将确保韩国国防费支出稳步推进。</a> [14] <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251029135233900800" target="_blank" class="news-link">美国总统特朗普：我们擅长制造其他东西，但造船业没有做好。造船是非常必要的。</a> [16] <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3737723_100_1" target="_blank" class="news-link">东京燃气公司CEO：公司并未就延长萨哈林2号液化天然气长期供应合同与日本政府进行谈判。</a> [18] <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3737721_0_1" target="_blank" class="news-link">美国总统特朗普：我们擅长制造其他东西，但造船业没有做好。造船是非常必要的。</a> [19] <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251029135003920800" target="_blank" class="news-link">韩国总统李在明：韩国企业将继续投资于美国，我们也将继续支持美国振兴制造业和造船业方面的合作与努力。</a> [20] <font color='grey'>- 14时24分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">10</td>
+                    <td class="percentage">9.9%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2184552?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中国驻英国使馆发言人就英首相斯塔默涉华言论答记者问</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5104984" target="_blank" class="news-link">大行评级丨瑞银：金沙中国第三季业绩符合预期 评级“中性”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3737807_100_1" target="_blank" class="news-link">中国外汇管理局：将便利优质企业涉外员工薪酬外汇资金使用。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3737804_100_1" target="_blank" class="news-link">中国外汇管理局：将扩大跨境贸易高水平开放试点范围。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3737802_100_1" target="_blank" class="news-link">中国外汇管理局：将进一步便利结汇。</a> [6 - 26] <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3737790_100_1" target="_blank" class="news-link">中国商务部：支持符合条件的商业地产项目发行不动产投资信托基金（REITs）。</a> [7 - 27] <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3737781_100_1" target="_blank" class="news-link">中国商务部：整治“内卷式”竞争，建立公正平等、创新自由的营商环境。</a> [8 - 28] <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2184540?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">何立峰会见中国证监会国际顾问委员会委员时指出 中国正进一步深化资本市场改革开放</a> [10] <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E9%9F%A9%E7%BD%91%E7%8B%82%E5%A4%B8%E9%9F%A9%E5%A5%B3%E7%9A%84%E4%B8%8A%E6%B5%B7%E6%B1%89%E6%9C%8D%E5%A6%86%E9%80%A0&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26cate%3D5001%26stream_entry_id%3D31%26lcate%3D5001%26band_rank%3D22%26pos%3D23%26q%3D%25E9%259F%25A9%25E7%25BD%2591%25E7%258B%2582%25E5%25A4%25B8%25E9%259F%25A9%25E5%25A5%25B3%25E7%259A%2584%25E4%25B8%258A%25E6%25B5%25B7%25E6%25B1%2589%25E6%259C%258D%25E5%25A6%2586%25E9%2580%25A0%26dgr%3D0%26filter_type%3Drealtimehot%26c_type%3D31%26flag%3D1%26realpos%3D22%26display_time%3D1761718503%26pre_seqid%3D176171850364202608070125" target="_blank" class="news-link">韩网狂夸韩女的上海汉服妆造</a> [22] <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E8%BF%99%E5%B0%B1%E6%98%AF%E4%B8%AD%E5%9B%BD%E5%8F%B0%E6%B9%BE%E7%9C%81%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26cate%3D5001%26stream_entry_id%3D31%26lcate%3D5001%26band_rank%3D30%26pos%3D31%26q%3D%2523%25E8%25BF%2599%25E5%25B0%25B1%25E6%2598%25AF%25E4%25B8%25AD%25E5%259B%25BD%25E5%258F%25B0%25E6%25B9%25BE%25E7%259C%2581%2523%26dgr%3D0%26filter_type%3Drealtimehot%26c_type%3D31%26flag%3D0%26realpos%3D30%26display_time%3D1761718503%26pre_seqid%3D176171850364202608070125" target="_blank" class="news-link">这就是中国台湾省</a> [30] <font color='grey'>- 14时24分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">5</td>
+                    <td class="percentage">4.95%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251029141540666800" target="_blank" class="news-link">沙特阿美战略执行副总裁：天然气正定位为推动与人工智能相关需求增长的关键助力。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2184549?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【盘中宝】AI浪潮下该细分领域需求旺盛，机构称机器人、汽车电子等新兴领域加速发展有望同步拉动行业需求，这家企业产品进入小批量测试阶段</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3737813_100_1" target="_blank" class="news-link">沙特阿美石油公司执行副总裁战略：天然气正在定位自身作为人工智能相关需求增长的关键推动因素。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1961814182115632287" target="_blank" class="news-link">老年人需要 AI 吗？当未来已来，我们能为长辈做些什么小事？</a> [10] <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2184524?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">商务部等5部门：加强人工智能、物联网、云计算、区块链、扩展现实等技术在城市商业体系中集成应用</a> [17] <font color='grey'>- 14时24分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">3</td>
+                    <td class="percentage">2.97%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251029141331595800" target="_blank" class="news-link">俄罗斯亚马尔液化天然气公司表示，将暂停受美国制裁的雅库特液化天然气项目，以专注于其他开发项目，例如为数字和高科技设施提供天然气。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3737803_100_1" target="_blank" class="news-link">俄罗斯Yatek公司：暂停受美国制裁的雅库特液化天然气项目，将重点放在其他发展项目上，例如为数字和高科技设施提供天然气。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5104976" target="_blank" class="news-link">研报掘金丨民生证券：维持奥海科技“推荐”评级，新兴业务占比有望进一步提升</a> [13] <font color='grey'>- 14时24分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">3</td>
+                    <td class="percentage">2.97%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3737763_100_1" target="_blank" class="news-link">印度大宗商品交易所：技术故障的主要问题与交易网关的数据处理有关。</a> [10 - 30] <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3737730_100_1" target="_blank" class="news-link">挪威国家石油公司（Equinor）：预计2025年计划内维护活动将使石油产量减少约3万桶油当量/日。</a> [16] <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3737728_100_1" target="_blank" class="news-link">挪威国家石油公司（Equinor）：预计2025年油气产量将比2024年增长4%。</a> [17] <font color='grey'>- 14时24分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.99%</td>
+                    <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/29/2182e32ac6554795ae2b854328c2cd9d.html" target="_blank" class="news-link">黄仁勋：禁止中国获得美国AI芯片“对我们伤害更大”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时24分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.99%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251029135119256800" target="_blank" class="news-link">特朗普矛头再指鲍威尔 要求美联储降息</a> [18] <font color='grey'>- 14时24分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">小米 雷军</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.99%</td>
+                    <td class="titles"><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346392&amp;amp;topic_name=%E5%B0%8F%E7%B1%B3%E7%8B%82%E6%8F%BD%E8%BD%A6%E6%A6%9C%E7%AC%AC%E4%B8%80%2C%E8%B4%A8%E7%96%91%E9%93%BA%E5%A4%A9%E7%9B%96%E5%9C%B0" target="_blank" class="news-link">小米狂揽车榜第一,质疑铺天盖地</a> [8] <font color='grey'>- 14时24分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">内卷 反内卷</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.99%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2184523?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">商务部等5部门：整治“内卷式”竞争 建立公正平等、创新自由的营商环境</a> [18] <font color='grey'>- 14时24分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">社保 养老 旅游 教育</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.99%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5104986" target="_blank" class="news-link">持续践行金融&quot;五篇大文章&quot; 渤海银行成功承销市场首批养老产业债务融资工具</a> <font color='red'><strong>[3]</strong></font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
