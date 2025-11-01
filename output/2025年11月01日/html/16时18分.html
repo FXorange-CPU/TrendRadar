@@ -1,0 +1,143 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 50</p><p>生成时间: 2025-11-01 16:18:02</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">3</td>
+                    <td class="percentage">6.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251101155546350800" target="_blank" class="news-link">现代汽车美国公司：10月份总销量为70,118辆，较2024年10月相比下降了2%。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251101154755379800" target="_blank" class="news-link">乐道汽车10月交付17342台，同比增长301.5%</a> [6] <font color='grey'>- 16时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251101153153335800" target="_blank" class="news-link">蔚来汽车(NIO.N)：2025年10月交付40,397辆汽车，同比增长92.6%。2025年年初至今交付241,618辆，同比增长41.9%。</a> [12] <font color='grey'>- 16时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">3</td>
+                    <td class="percentage">6.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2188622?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">郑丽文就任中国国民党主席</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251101160123011800" target="_blank" class="news-link">郑丽文就任中国国民党主席</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时18分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2188616?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">李在明：期待在深圳再次相聚 见证新的发展篇章</a> [6] <font color='grey'>- 16时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">3</td>
+                    <td class="percentage">6.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3747455_100_1" target="_blank" class="news-link">加拿大总理办公室：总理卡尼今日在亚太经合组织经济领导人会议期间会见了日本首相高市早苗。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 16时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251101153948039800" target="_blank" class="news-link">加拿大总理办公室：加拿大总理卡尼与日本首相高市早苗讨论了在每年320亿美元的双边货物贸易额基础上，进一步拓展加拿大与日本之间富有成效的经济关系的潜力。</a> [9] <font color='grey'>- 16时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251101153831791800" target="_blank" class="news-link">加拿大总理办公室：今天，加拿大总理卡尼在亚太经合组织领导人会议间隙会见了日本首相高市早苗。</a> [10] <font color='grey'>- 16时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3747456_100_1" target="_blank" class="news-link">加拿大总理办公室：卡尼与高市早苗确认将致力于深化双边贸易和投资，尤其是在能源和技术领域的合作。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 16时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251101151312165800" target="_blank" class="news-link">乌克兰军事情报部门：袭击了俄罗斯莫斯科地区的石油产品管道。</a> [13] <font color='grey'>- 16时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">半导体 GPU</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1967886377577342546" target="_blank" class="news-link">商务部回应安世半导体相关问题，将综合考虑企业实际情况，对符合条件的出口予以豁免，如何解读？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251101154043125800" target="_blank" class="news-link">加拿大总理办公室：加拿大总理卡尼与日本首相高市早苗重申了他们深化双边贸易与投资的决心，特别是在能源和科技领域。</a> [8] <font color='grey'>- 16时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8nvYkTEOR3A" target="_blank" class="news-link">特朗普亚洲行背后的三个因素：同盟、稀土和朝鲜</a> [6] <font color='grey'>- 16时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">新能源</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251101160620680800" target="_blank" class="news-link">国家能源局：9月全国新增建档立卡新能源发电项目共7218个</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">医疗改革 医保 防疫 禽流感 登革热 流感 新冠 基孔肯雅</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%87%BA%E8%A1%8C%E5%BE%97%E6%B5%81%E6%84%9F%E6%80%8E%E4%B9%88%E5%8A%9E%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26flag%3D1%26c_type%3D31%26cate%3D5001%26q%3D%2523%25E5%2587%25BA%25E8%25A1%258C%25E5%25BE%2597%25E6%25B5%2581%25E6%2584%259F%25E6%2580%258E%25E4%25B9%2588%25E5%258A%259E%2523%26stream_entry_id%3D31%26filter_type%3Drealtimehot%26dgr%3D0%26lcate%3D5001%26band_rank%3D13%26realpos%3D13%26pos%3D14%26display_time%3D1761984866%26pre_seqid%3D17619848662700342817816&amp;launchid=10000360-page_H5" target="_blank" class="news-link">出行得流感怎么办</a> [13] <font color='grey'>- 16时18分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
