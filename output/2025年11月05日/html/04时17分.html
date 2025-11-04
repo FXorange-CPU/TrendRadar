@@ -1,0 +1,135 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 45</p><p>生成时间: 2025-11-05 04:17:44</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">7</td>
+                    <td class="percentage">15.56%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251105040152269800" target="_blank" class="news-link">据福克斯新闻记者：多位美国众议院共和党消息人士表示，众议院可能会在周末重新开会，试图达成一致。但这不会解决医疗保健问题。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251105040139273800" target="_blank" class="news-link">据福克斯新闻记者：美国参议院共和党领袖图恩表示，目前尚不清楚两党是否就新的临时拨款法案截止日达成一致。这可能会持续到1月份。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251105035715973800" target="_blank" class="news-link">美国参议院共和党领袖图恩：就新的临时拨款法案截止日期进行对话。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时17分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3753107_101_1" target="_blank" class="news-link">美国参议院多数派领导人John Thune：已经围绕临时开支立法草案的新版截止日期进行沟通。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 04时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251105034700270800" target="_blank" class="news-link">IBM(IBM.N)：第四季度，我们正在实施一项行动，该行动将影响到百分之几的全球员工。可能会影响部分美国岗位，预计美国员工总数将与去年持平。</a> [8] <font color='grey'>- 04时17分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3753098_100_1" target="_blank" class="news-link">IBM发言人：此次裁员可能影响部分美国岗位，预计美国就业人数同比持平。</a> [8 - 28] <font color='grey'>- 04时17分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3753086_101_1" target="_blank" class="news-link">【行情】美国WTI原油12月期货收报60.56美元/桶。</a> [10 - 30] <font color='grey'>- 04时17分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">马斯克 特斯拉 gork</td>
+                    <td class="count">3</td>
+                    <td class="percentage">6.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3753102_101_1" target="_blank" class="news-link">【行情】纳指跌幅扩大至2%，标普500指数跌1.2%；科技板块跌2.2%，可选消费、电信、工业板块至多跌1.89%，半导体指数跌3.3%。特斯拉跌4.7%，苹果目前涨0.48%。纳斯达克100指数的成分股中，Palantir跌9.4%，CDW跌8.6%，汤森路透跌6.3%，美光科技跌6.2%，新思科技和MSTR跌6.1%，英特尔跌5.6%，特斯拉跌4.9%，英伟达跌3.8%，安森美半导体跌3.6%，林德则涨1.7%，VRSK涨2%，万豪国际涨3.7%。</a> [7 - 27] <font color='grey'>- 04时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251105034345980800" target="_blank" class="news-link">纳指尾盘跌幅扩大至2%，英伟达(NVDA.O)跌近4%，特斯拉(TSLA.O)跌4.7%。</a> [10] <font color='grey'>- 04时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251105031420233800" target="_blank" class="news-link">特斯拉CEO马斯克：（AI5）芯片样品预计将于2026年推出，计划于2027年量产。</a> [17] <font color='grey'>- 04时17分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">月球 登月 火星 宇宙 飞船</td>
+                    <td class="count">3</td>
+                    <td class="percentage">6.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2191190?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">普京：俄军事核技术将用于建造月球基地</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时17分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3753080_101_1" target="_blank" class="news-link">普京：俄军事核技术将用于建造月球基地</a> [11] <font color='grey'>- 04时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251105032658970800" target="_blank" class="news-link">普京：俄军事核技术将用于建造月球基地</a> [14] <font color='grey'>- 04时17分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251105032507471800" target="_blank" class="news-link">据华尔街日报：特朗普政府正与礼来公司和诺和诺德谈判，计划通过TrumpRx（特朗普药房）处方药直销平台以优惠价格提供减肥药物。</a> [16] <font color='grey'>- 04时17分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3753108_100_1" target="_blank" class="news-link">法国外长塞儒尔内：欧盟计划在12月宣布一项倡议，使小型电动汽车更易负担。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 04时17分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3753072_100_1" target="_blank" class="news-link">特朗普政府正与礼来公司和诺和诺德公司谈判，计划通过Trumprx以较低价格供应减肥药。</a> [12] <font color='grey'>- 04时17分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">地震 台风 洪灾 暴雨 泥石流 山体滑坡</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251105034450272800" target="_blank" class="news-link">欧洲地中海地震中心：俄罗斯萨哈东北部地区发生5.7级地震。</a> [9] <font color='grey'>- 04时17分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">外交部 卫健委 公安部 网信办 发改委 北戴河 中共中央 国务院 四中全会 三中全会 两会 政治局</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251105032950258800" target="_blank" class="news-link">伊朗外交部发言人表示，两名被扣押在伊朗的法国公民已获保释。</a> [13] <font color='grey'>- 04时17分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
