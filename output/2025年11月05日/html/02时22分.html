@@ -1,0 +1,111 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 30</p><p>生成时间: 2025-11-05 02:22:11</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">7</td>
+                    <td class="percentage">23.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251105015532363800" target="_blank" class="news-link">美国里根国际机场在跑道检查后准备重新开放，航班将从1号跑道起飞。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时22分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251105/1068223520.html" target="_blank" class="news-link">克宫：俄罗斯未向美国提供接触线地图</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251105013730997800" target="_blank" class="news-link">美国众议院少数党领袖杰弗瑞斯：（就里根国家机场因安全问题实施地面停飞一事）达菲需要开始表现得像一位交通部长，而不是真人秀明星。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时22分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3752999_101_1" target="_blank" class="news-link">红杉资本管理合伙人Roelof Botha（南非裔美国风险投资家）离职。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 02时22分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3752997_101_1" target="_blank" class="news-link">美国里根机场：已经重新开放跑道，航班正在恢复。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 02时22分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3752970_101_1" target="_blank" class="news-link">彭博社：摩根士丹利发行45亿欧元（折合52亿美元）债券，使得美国公司本周在欧元区单一货币市场的债务融资规模达到154亿欧元——创单周历史新高。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 02时22分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1969137460408713977" target="_blank" class="news-link">美国前副总统切尼于 11 月 4 日去世，如何评价他的一生？</a> [13] <font color='grey'>- 02时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">4</td>
+                    <td class="percentage">13.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2191180?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月5日电，亚马逊发函，要求Perplexity AI停止用AI agent进行购物。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时22分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3752986_101_1" target="_blank" class="news-link">亚马逊发函，要求Perplexity AI停止用AI Agent进行购物。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 02时22分</font></div><br><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45813267" target="_blank" class="news-link">Exploring a space-based, scalable AI infrastructure system design</a> [6] <font color='grey'>- 02时22分</font></div><br><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45813417" target="_blank" class="news-link">The Rust Foundation Maintainers Fund</a> [17] <font color='grey'>- 02时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">1</td>
+                    <td class="percentage">3.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2191181?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月5日电，周二（11月4日），美联储隔夜逆回购协议（RRP）使用规模为169.83亿美元，上个交易日报237.92亿美元。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">3.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45813734" target="_blank" class="news-link">Michael Burry a.k.a. &quot;Big Short&quot;,discloses $1.1B bet against Nvidia&amp;Palantir</a> [7] <font color='grey'>- 02时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">社保 养老 旅游 教育</td>
+                    <td class="count">1</td>
+                    <td class="percentage">3.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251105/1068223612.html" target="_blank" class="news-link">俄经济发展部：今年俄中双向旅游客流预计达350万人次</a> <font color='red'><strong>[1]</strong></font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
