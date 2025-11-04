@@ -1,0 +1,111 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 43</p><p>生成时间: 2025-11-05 06:14:37</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">11</td>
+                    <td class="percentage">25.58%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251105/1068226280.html" target="_blank" class="news-link">韩国自主建造的核动力潜艇或于2040年之前下水</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2191209?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月5日电，美国至10月31日当周API原油库存增加652.1万桶。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时14分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251105/1068225875.html" target="_blank" class="news-link">俄投资者现在可在未经美国许可的情况下解冻其在欧盟部分资产</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251105054440290800" target="_blank" class="news-link">美国至10月31日当周API成品油进口 2.8万桶/日，前值9.9万桶/日。</a> [6] <font color='grey'>- 06时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251105054319151800" target="_blank" class="news-link">美国至10月31日当周API投产原油量 -1.8万桶/日，前值-46.1万桶/日。</a> [7] <font color='grey'>- 06时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251105054306692800" target="_blank" class="news-link">美国至10月31日当周API精炼油库存 -245.9万桶，前值-436万桶。</a> [8] <font color='grey'>- 06时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3753415_101_1" target="_blank" class="news-link">美国石油协会（API）数据显示，上周，美国API原油库存增加650万桶，之前一周减少400万桶。</a> [8 - 28] <font color='grey'>- 06时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251105054257847800" target="_blank" class="news-link">美国至10月31日当周API汽油库存 -565.3万桶，前值-634.9万桶。</a> [9] <font color='grey'>- 06时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3753413_101_1" target="_blank" class="news-link">美国参议院共和党成员们受邀11月5日前往白宫。</a> [9 - 29] <font color='grey'>- 06时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251105054246581800" target="_blank" class="news-link">美国至10月31日当周API原油库存 652.1万桶，前值-402万桶。</a> [10] <font color='grey'>- 06时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251105052000001800" target="_blank" class="news-link">美国至10月31日当周API原油库存将于十分钟后公布。</a> [18] <font color='grey'>- 06时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">AMD</td>
+                    <td class="count">3</td>
+                    <td class="percentage">6.98%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251105052751985800" target="_blank" class="news-link">AMD(AMD.O)盘后走弱，跌超3%。</a> [14] <font color='grey'>- 06时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251105052518936800" target="_blank" class="news-link">AMD第四季度营收指引高于预期</a> [16] <font color='grey'>- 06时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251105051623431800" target="_blank" class="news-link">AMD(AMD.O)2025年Q3营收92.46亿美元，去年同期68.19亿美元，市场预期87.4亿美元。AMD预计第四季度营收96亿美元。</a> [19] <font color='grey'>- 06时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.65%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3753430_100_1" target="_blank" class="news-link">现代汽车：尽早确认USMCA延期将立即解锁逾200亿美元的美国新投资额——美国贸易代表署备案文件</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 06时14分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3753418_100_1" target="_blank" class="news-link">庞巴迪公司：加拿大取消商务飞机奢侈税将导致未来几年创造约500-600个就业岗位。</a> [7 - 27] <font color='grey'>- 06时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251105054144455800" target="_blank" class="news-link">金十数据整理：俄乌冲突最新24小时局势跟踪（11月5日）</a> [11] <font color='grey'>- 06时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45814461" target="_blank" class="news-link">Amazon Demands Perplexity Stop AI Agent from Making Purchases</a> [30] <font color='grey'>- 06时14分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
