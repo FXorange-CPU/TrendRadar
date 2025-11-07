@@ -1,0 +1,135 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 46</p><p>生成时间: 2025-11-07 13:15:47</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">11</td>
+                    <td class="percentage">23.91%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251107124419261800" target="_blank" class="news-link">日本首相高市早苗：可以说日本的经济政策已经发生了变化。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251107/1068263737.html" target="_blank" class="news-link">俄会展基金会：美国将耗资超万亿美元建立针对俄中的“金穹”反导系统</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251107124152443800" target="_blank" class="news-link">日本首相高市早苗：目标是降低日本债务与GDP之比。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202511/0756741.html" target="_blank" class="news-link">耿爽：美国是全球应对气候变化合作最大障碍</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251107123752665800" target="_blank" class="news-link">日本首相高市早苗：挑选安倍经济学支持者组成关键经济小组。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3761058_0_1" target="_blank" class="news-link">日本首相高市早苗：目标是降低日本债务与GDP之比。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251107123735822800" target="_blank" class="news-link">日本首相高市早苗取消了为期一年的基本预算盈余目标。</a> [6] <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251107122922594800" target="_blank" class="news-link">日本首相高市早苗：“安倍经济学” 需以 “积极型” 投资拉动增长。</a> [8] <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251107122424959800" target="_blank" class="news-link">日本首相高市早苗：财政民粹主义与高市内阁的政策不同。</a> [9] <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251107122312471800" target="_blank" class="news-link">日本首相高市早苗：安倍经济学由于新冠疫情失去动力。</a> [10] <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1968986596247332188" target="_blank" class="news-link">如何评价「美国政府停摆缺人，全美机场 4295 个航班延误」？此轮政府停摆还将持续多久？</a> [14] <font color='grey'>- 13时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">3</td>
+                    <td class="percentage">6.52%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2193988?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月7日电，凯德投资据悉考虑将其在中国以外的资产与丰树合并。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346843&amp;amp;topic_name=%E9%9F%A9%E7%BD%91%E7%BA%A2%E6%8A%B9%E9%BB%91%E4%B8%AD%E5%9B%BD%E6%B8%B8%E5%AE%A2%2C%E6%8C%A8%E8%AD%A6%E6%96%B9%E9%93%81%E6%8B%B3" target="_blank" class="news-link">韩网红抹黑中国游客,挨警方铁拳</a> [6] <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2193979?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中国互联网络信息中心发布《从互联网大数据看中小企业发展（2025）》</a> [8] <font color='grey'>- 13时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">马斯克 特斯拉 gork</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.35%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2193990?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">马斯克：特斯拉将建月产百万片晶圆的芯片厂</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2193983?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">马斯克预计FSD有望明年初在华全面获批</a> [6] <font color='grey'>- 13时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">半导体 GPU</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.35%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2193515?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【盘中宝·数据】锂电池+化工+半导体+光伏+电网设备，五大热点一周以来获融资净买入情况（附表）</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2193977?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【机构调研】这家半导体测试设备供应商三季度斩获单笔超过三亿元DRAM业务订单</a> [9] <font color='grey'>- 13时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">手机</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.17%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2193968?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">IDC：第三季度中国智能手机市场延续下滑趋势</a> [13] <font color='grey'>- 13时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">机器人 脑机接口</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.17%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2193967?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">蓝思科技智能机器人新总部将于11月18日启用</a> [10] <font color='grey'>- 13时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">内卷 反内卷</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.17%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2193965?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">“反内卷”新规显效 第十一批国采中选价差史上最小</a> [11] <font color='grey'>- 13时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">国产剧 电影 科幻</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.17%</td>
+                    <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%A6%82%E4%BD%95%E7%9C%8B%E4%B8%9C%E4%BA%AC%E7%94%B5%E5%BD%B1%E8%8A%82%E8%AF%84%E5%A5%96%E4%BA%89%E8%AE%AE" target="_blank" class="news-link">如何看东京电影节评奖争议</a> [15] <font color='grey'>- 13时15分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
