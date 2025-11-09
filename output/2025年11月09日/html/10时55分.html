@@ -1,0 +1,167 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 93</p><p>生成时间: 2025-11-09 10:55:43</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">9</td>
+                    <td class="percentage">9.68%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202511/0956886.html" target="_blank" class="news-link">政府停摆冲击美国航空业 航班大面积削减与延误</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时55分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2195100?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">韩国全罗南道可居岛附近海域渔船倾覆致3人失踪</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时55分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346902&amp;amp;topic_name=%E6%97%A5%E6%9C%AC%E5%8F%91%E7%86%8A%E9%9A%BE%E8%B4%A2%2C%E7%8C%8E%E7%86%8A%E6%97%85%E6%B8%B8%E7%8B%82%E6%8D%9E%E9%87%91" target="_blank" class="news-link">日本发熊难财,猎熊旅游狂捞金</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时55分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3763184_100_1" target="_blank" class="news-link">匈牙利外长：美国对匈牙利购买俄罗斯能源的制裁豁免是无限期的。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 10时55分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3763180_101_1" target="_blank" class="news-link">美国联邦航空局暂停所有麦道11型货机飞行</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 10时55分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202511/0956879.html" target="_blank" class="news-link">萧美琴：台湾国际处境非常困难但不孤单</a> [8] <font color='grey'>- 10时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3758977" target="_blank" class="news-link">非农“没了”，下周的美国CPI也要“没了”，美联储12月还能“闭眼降息”吗？</a> [9] <font color='grey'>- 10时55分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2195083?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美国联邦航空局暂停所有麦道11型货机飞行</a> [13] <font color='grey'>- 10时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251109090605915800" target="_blank" class="news-link">美国联邦航空管理局（FAA）发布命令，暂停所有麦道11型货机（MD-11）飞行，直至完成安全检查。</a> [15] <font color='grey'>- 10时55分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">8</td>
+                    <td class="percentage">8.6%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3758978" target="_blank" class="news-link">中国10月CPI同比增0.2%，核心CPI创2024年3月最高，PPI环比年内首次上涨</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251109093119163800" target="_blank" class="news-link">中国10月PPI月率 0.1%，前值0%。</a> [8] <font color='grey'>- 10时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251109093027591800" target="_blank" class="news-link">中国10月PPI年率 -2.1%，预期-2.20%，前值-2.30%。</a> [10] <font color='grey'>- 10时55分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2195085?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">北京打造国家数据要素综合试验区</a> [11] <font color='grey'>- 10时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251109093027374800" target="_blank" class="news-link">中国10月CPI年率 0.2%，预期-0.10%，前值-0.30%。</a> [11] <font color='grey'>- 10时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251109093027362800" target="_blank" class="news-link">中国10月CPI月率 0.2%，前值0.1%。</a> [12] <font color='grey'>- 10时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251109092000001800" target="_blank" class="news-link">中国10月CPI年率将于十分钟后公布。</a> [13] <font color='grey'>- 10时55分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8F%B0%E6%B9%BE%E6%B0%91%E4%BC%97%E9%AB%98%E5%96%8A%EF%BC%9A%E6%88%91%E4%BB%AC%E9%83%BD%E6%98%AF%E4%B8%AD%E5%9B%BD%E4%BA%BA" target="_blank" class="news-link">台湾民众高喊：我们都是中国人</a> [22] <font color='grey'>- 10时55分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.15%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3758976" target="_blank" class="news-link">黄仁勋亲赴台积电“要产能”，称“没有台积电、就没有英伟达”</a> [6] <font color='grey'>- 10时55分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2195053" target="_blank" class="news-link">黄仁勋亲赴台积电“讨要更多芯片” 回应存储短缺、涨价等问题</a> [13] <font color='grey'>- 10时55分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.15%</td>
+                    <td class="titles"><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45859471" target="_blank" class="news-link">Largest cargo sailboat completes first Atlantic crossing</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时55分</font></div><br><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=45861897" target="_blank" class="news-link">Judge says Education Dept partisan out-of-office emails violated First Amendment</a> [8] <font color='grey'>- 10时55分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.08%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251109094110849800" target="_blank" class="news-link">据华尔街日报：消息人士称，Visa和万事达卡即将与商家就一桩已有20年历史的案件达成和解，Visa和万事达卡将降低信用卡交换费，在未来数年内平均降幅约为十分之一个百分点。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时55分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.08%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%A1%95%E5%A3%AB%E8%AE%BA%E6%96%87%E7%81%AB%E4%BA%86+%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E7%8E%8B%E5%85%B4%E5%85%B4%E5%9B%9E%E5%BA%94" target="_blank" class="news-link">硕士论文火了 宇树科技王兴兴回应</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时55分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.08%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202511/0956881.html" target="_blank" class="news-link">消息：特朗普有意以他的名冠名NFL华盛顿指挥官队新球场</a> [6] <font color='grey'>- 10时55分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">小米 雷军</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.08%</td>
+                    <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%9D%8E%E7%A6%8F%E8%B4%B5%E7%9B%B4%E6%92%AD%E9%97%B4%E5%8D%96%E5%B0%8F%E7%B1%B3%E4%B8%8A%E6%9E%B6%E7%A7%92%E7%A9%BA%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26filter_type%3Drealtimehot%26c_type%3D31%26cate%3D5001%26pos%3D15%26band_rank%3D15%26lcate%3D5001%26stream_entry_id%3D31%26realpos%3D15%26q%3D%2523%25E6%259D%258E%25E7%25A6%258F%25E8%25B4%25B5%25E7%259B%25B4%25E6%2592%25AD%25E9%2597%25B4%25E5%258D%2596%25E5%25B0%258F%25E7%25B1%25B3%25E4%25B8%258A%25E6%259E%25B6%25E7%25A7%2592%25E7%25A9%25BA%2523%26flag%3D0%26dgr%3D0%26display_time%3D1762655226%26pre_seqid%3D176265522615202455294113&amp;launchid=10000360-page_H5" target="_blank" class="news-link">李福贵直播间卖小米上架秒空</a> [15] <font color='grey'>- 10时55分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">新能源</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.08%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2195087?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">新能源车迎消费高峰 购置税明年起将从全免调为减半</a> [10] <font color='grey'>- 10时55分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">地震 台风 洪灾 暴雨 泥石流 山体滑坡</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.08%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8F%B0%E9%A3%8E%E2%80%9C%E5%87%A4%E5%87%B0%E2%80%9D%E5%B7%B2%E5%8A%A0%E5%BC%BA%E4%B8%BA%E8%B6%85%E5%BC%BA%E5%8F%B0%E9%A3%8E%E7%BA%A7" target="_blank" class="news-link">台风“凤凰”已加强为超强台风级</a> [26] <font color='grey'>- 10时55分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.08%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202511/0956883.html" target="_blank" class="news-link">匈牙利总理称获美俄能源制裁“无限期”豁免</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时55分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>12</td>
+                    <td class="word">外交部 卫健委 公安部 网信办 发改委 北戴河 中共中央 国务院 四中全会 三中全会 两会 政治局</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.08%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251109/1068285628.html" target="_blank" class="news-link">俄外交部：限制对俄签证是欧洲的自毁行为</a> <font color='red'><strong>[3]</strong></font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
