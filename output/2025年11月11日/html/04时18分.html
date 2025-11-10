@@ -1,0 +1,111 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 42</p><p>生成时间: 2025-11-11 04:18:31</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">12</td>
+                    <td class="percentage">28.57%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2196532?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月11日电，美国参议院多数党领袖图恩表示，临时拨款法案投票仍处于停滞状态，尚不清楚能否今天投票。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251111035347655800" target="_blank" class="news-link">印度新德里红堡附近发生爆炸后，美国驻新德里大使馆发出安全警报。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2196530?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月11日电，美国国会预算办公室估算美国10月份预算赤字为2190亿美元。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251111034354213800" target="_blank" class="news-link">美国财长贝森特称，财政部和国税局发布关于加密货币交易所交易产品的新指南。ETP 指引为持有数字资产提供明确路径。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3765589_101_1" target="_blank" class="news-link">美国参议院多数党领袖John Thune：（临时拨款立法草案的投票程序）仍然处于停滞状态。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251111034023830800" target="_blank" class="news-link">美国参议院共和党领袖图恩：不确定今天是否可以投票。</a> [7] <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251111033726471800" target="_blank" class="news-link">美国参议院共和党领袖图恩：（临时拨款立法草案的投票程序）仍然处于停滞状态。</a> [8] <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3765585_101_1" target="_blank" class="news-link">【行情】美国纽交所12月汽油期货收报1.9711美元/加仑，纽交所12月取暖油期货收报2.5104美元/加仑。</a> [7 - 27] <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3765584_100_1" target="_blank" class="news-link">【行情】美国原油期货结算价报60.13美元/桶，上涨38美分，涨幅0.64%。</a> [8 - 28] <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3765580_101_1" target="_blank" class="news-link">美国国会预算办公室（CBO）：美国10月预算赤字2190亿美元。</a> [10 - 30] <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251111032243883800" target="_blank" class="news-link">美国国会预算办公室（CBO）估计，美国10月预算赤字为2190亿美元。</a> [11] <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251111032128401800" target="_blank" class="news-link">佩洛西之女放弃竞逐美国国会席位，转战州议会</a> [13] <font color='grey'>- 04时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">马斯克 特斯拉 gork</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.76%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3765588_101_1" target="_blank" class="news-link">先锋领航三季度增持特斯拉 减持苹果</a> [6 - 26] <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251111033417884800" target="_blank" class="news-link">先锋领航三季度增持特斯拉 减持苹果</a> [10] <font color='grey'>- 04时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.76%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251111/1068305167.html" target="_blank" class="news-link">News18电视台：1名新德里汽车爆炸案嫌犯被抓获</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251111032134581800" target="_blank" class="news-link">一架小型飞机在美国佛罗里达州附近坠毁。</a> [12] <font color='grey'>- 04时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.38%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251111031535141800" target="_blank" class="news-link">苹果(AAPL.O)公司因销量疲软推迟发布下一代iPhone Air。</a> [14] <font color='grey'>- 04时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.38%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251111/1068304871.html" target="_blank" class="news-link">特朗普要求所有航空调度员立即返回工作岗位</a> <font color='red'><strong>[2]</strong></font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
