@@ -1,0 +1,111 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 28</p><p>生成时间: 2025-11-11 02:48:14</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">3</td>
+                    <td class="percentage">10.71%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251111023044205800" target="_blank" class="news-link">上海黄金交易所黄金T+D 11月10日（周一）晚盘收盘上涨1.57%报942.0元/克；&lt;br/&gt;上海黄金交易所白银T+D 11月10日（周一）晚盘收盘上涨2.13%报11860.0元/千克。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时48分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3765559_100_1" target="_blank" class="news-link">巴西农业部：十家巴西企业获得中国出口高粱的出口许可。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 02时48分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3765556_100_1" target="_blank" class="news-link">巴西农业部：五家巴西企业获得中国出口DDG/DDGS产品的出口许可。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 02时48分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">3</td>
+                    <td class="percentage">10.71%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2196522?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美国财政部称暂停对叙利亚实施《凯撒法案》制裁</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时48分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251111022542433800" target="_blank" class="news-link">叙利亚领导人沙拉和美国总统特朗普的会晤结束。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时48分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251111022225926800" target="_blank" class="news-link">美国财政部称暂停对叙利亚实施《凯撒法案》制裁</a> [7] <font color='grey'>- 02时48分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">1</td>
+                    <td class="percentage">3.57%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2196520?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月11日电，美联储隔夜逆回购协议（RRP）周一使用规模为71.52亿美元，上个交易日报49.03亿美元。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时48分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">马斯克 特斯拉 gork</td>
+                    <td class="count">1</td>
+                    <td class="percentage">3.57%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251111023658524800" target="_blank" class="news-link">市场消息：特斯拉(TSLA.O)董事会主席登霍尔姆感谢特斯拉股东的支持，感谢他们批准首席执行官埃隆·马斯克的薪酬方案。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时48分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">3.57%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251111022453538800" target="_blank" class="news-link">乌克兰总统泽连斯基：乌克兰国家核能发电公司（Energoatom）提供了乌克兰最大份额的电力，必须杜绝腐败。任何参与腐败计划的人都将被追究责任。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时48分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
