@@ -1,0 +1,127 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 45</p><p>生成时间: 2025-11-11 14:51:23</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">5</td>
+                    <td class="percentage">11.11%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251111144617789800" target="_blank" class="news-link">金十数据整理：每日电动车行业动态汇总（2025-11-11）</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251111143254983800" target="_blank" class="news-link">金十数据整理：每日全球外汇市场要闻速递（2025-11-11）</a> [9] <font color='grey'>- 14时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251111142537430800" target="_blank" class="news-link">11月10日芝加哥商业交易所（CME）能源类商品成交量报告已在金十数据中心更新！欢迎点击查看</a> [11] <font color='grey'>- 14时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251111142533548800" target="_blank" class="news-link">11月10日芝加哥商业交易所（CME）金属类商品成交量报告已在金十数据中心更新！欢迎点击查看</a> [12] <font color='grey'>- 14时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251111142528729800" target="_blank" class="news-link">11月10日芝加哥商业交易所（CME）外汇类商品成交量报告已在金十数据中心更新！欢迎点击查看</a> [13] <font color='grey'>- 14时51分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">3</td>
+                    <td class="percentage">6.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3759077" target="_blank" class="news-link">美国政府关门或再持续数天，参院还要走程序，众院何时表决未定</a> [10] <font color='grey'>- 14时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251111141831980800" target="_blank" class="news-link">市场消息：美国特使库什纳与以色列总理内塔尼亚胡讨论加沙和平协议第二阶段事宜。</a> [14] <font color='grey'>- 14时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251111141249112800" target="_blank" class="news-link">韩国央行：在强劲的房价预期下，降息对经济的影响有限。</a> [16] <font color='grey'>- 14时51分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.44%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2196975?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【盘中宝】为支持高功耗高性能AI计算日益增长的需求，头部厂商正推动这类产品在AI数据中心领域应用，这家公司客户已成功进入英伟达等行业巨头的供应链</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251111144340905800" target="_blank" class="news-link">软银集团：已于10月以58.3亿美元的价格出售所持英伟达股份。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时51分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">机器人 脑机接口</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.44%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2196969?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">机器人概念局部活跃 上纬新材20cm涨停</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时51分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2196973?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上纬新材发布机器人新品预告 证券部回应：未收到剥离原有业务信息</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时51分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">chatgpt Sam Altman openai</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251111144640620800" target="_blank" class="news-link">软银集团：OpenAI的共同投资者承诺参与全部100亿美元的银团融资。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时51分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2196978?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上海市药品监督管理局：鼓励发展药品现代物流</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时51分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251111141752635800" target="_blank" class="news-link">能源官员称，印度可能无法实现2030年绿氢产量500万吨的目标。</a> [15] <font color='grey'>- 14时51分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
