@@ -1,0 +1,191 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 100</p><p>生成时间: 2025-11-11 18:18:10</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">14</td>
+                    <td class="percentage">14.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202511/1157068.html" target="_blank" class="news-link">中国促欧盟为中企提供非歧视营商环境</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202511/1157067.html" target="_blank" class="news-link">中国奢侈品需求现回暖迹象 LV、迪奥据报将开新店</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5115819" target="_blank" class="news-link">中国飞鹤(06186.HK)11月11日耗资5348万港元回购1200万股</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202511/1157065.html" target="_blank" class="news-link">中国空军首次发布有人无人协同画面 “玄龙”机型曝光</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3766824_100_1" target="_blank" class="news-link">中国央行报告：继续优化货币政策中间变量，逐步淡化对数量目标的关注。</a> <font color='red'><strong>[4 - 25]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251111/1068319438.html" target="_blank" class="news-link">中国外交部：美国拒绝履行自身人权审议义务，是典型的双标</a> [6]</div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202511/1157063.html" target="_blank" class="news-link">彭博：中国收紧国企海外发债规定</a> [7] <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202511/1157062.html" target="_blank" class="news-link">美国前副国务卿：北京在印太大博弈中有所斩获“无庸置疑”</a> [8] <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5115814" target="_blank" class="news-link">深圳燃气(601139.SH)：董事肖春林辞职</a> [8] <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202511/1157061.html" target="_blank" class="news-link">段永平向北京师范大学捐赠2.2亿元人民币</a> [9] <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2197344?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月11日电，平安资产管理对中国电信H股持股比例增至6.11%，此前为5.99%，平均购买价格为5.7651港元/股。</a> [13] <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251111175559210800" target="_blank" class="news-link">星展银行CEO：星展银行近期在上海开设了财富中心，如果进展顺利，将开设更多。</a> [17] <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC%E8%AD%A6%E6%96%B9%E5%88%91%E6%8B%981%E5%90%8D%E2%80%9C%E6%8E%8F%E8%9B%8B%E7%94%B7%E2%80%9D" target="_blank" class="news-link">北京警方刑拘1名“掏蛋男”</a> [29] <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=2025%E5%B9%B4%E4%B8%AD%E5%9B%BD%E9%87%91%E9%B8%A1%E7%99%BE%E8%8A%B1%E7%94%B5%E5%BD%B1%E8%8A%82%E4%BB%8A%E6%97%A5%E5%BC%80%E5%B9%95" target="_blank" class="news-link">2025年中国金鸡百花电影节今日开幕</a> [30] <font color='grey'>- 18时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">4</td>
+                    <td class="percentage">4.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5115818" target="_blank" class="news-link">麦迪科技(603990.SH)：汪建华已减持71.07万股公司股份</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5115812" target="_blank" class="news-link">鼎通科技(688668.SH)：拟1.26亿元收购蓝海视界70%股权</a> [10] <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2197346?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">邦基科技：拟终止重大资产重组事项</a> [12] <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5115809" target="_blank" class="news-link">邦基科技(603151.SH)：终止重大资产重组事项</a> [13]</div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2197362?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月11日电，英伟达盘前跌超1%。消息面上，软银集团清仓英伟达并套现58亿美元。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3759120" target="_blank" class="news-link">科技股估值飙升带动软银Q3利润大涨，旗下基金清仓英伟达、追投OpenAI</a> [10] <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251111174555427800" target="_blank" class="news-link">英伟达(NVDA.O)盘前跌幅扩大至1%，报道称软银集团清仓英伟达并套现58亿美元。</a> [22] <font color='grey'>- 18时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202511/1157066.html" target="_blank" class="news-link">赖清德称韩国瑜应声援沈伯洋 维护立法院尊严</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3766803_100_1" target="_blank" class="news-link">韩国国有智库认为没有大幅降息的必要。</a> [11] <font color='grey'>- 18时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">小米 雷军</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2197353?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">南向资金今日净买入近45亿港元 小米集团-W获净买入居前</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2197354?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">南向资金今日净买入44.67亿港元 小米净买额居首</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251111175811195800" target="_blank" class="news-link">金十数据整理：特朗普过去24小时都忙了什么？（2025-11-11）</a> [15] <font color='grey'>- 18时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">微软 Microsoft</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2197349?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月11日电，据报道，微软将在葡萄牙数据中心投资100亿美元。</a> [9] <font color='grey'>- 18时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251111180516272800" target="_blank" class="news-link">据消息人士称，谷歌计划在德国的基础设施领域投资数亿欧元。</a> [7] <font color='grey'>- 18时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">chatgpt Sam Altman openai</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3766822_100_1" target="_blank" class="news-link">德国法院支持德国音乐版权协会起诉OpenAI侵权。</a> <font color='red'><strong>[5 - 26]</strong></font> <font color='grey'>- 18时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2197339?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月11日电，据报道，苹果正考虑为下一代iPhone Air机型增配第二颗摄像头。</a> [15] <font color='grey'>- 18时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3766828_100_1" target="_blank" class="news-link">中国央行报告：研究制定“十五五”金融科技发展规划，推进金融AI大模型应用。</a> <font color='red'><strong>[2 - 23]</strong></font> <font color='grey'>- 18时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>12</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://v.ifeng.com/c/8oCJypfQOqh" target="_blank" class="news-link">摩托、汽车、步行，俄军借大雾掩护进入红军城(图)</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>13</td>
+                    <td class="word">内卷 反内卷</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2197335?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">崔东树：国家以旧换新政策效果突出 内卷降价现象明显减弱</a> [18] <font color='grey'>- 18时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>14</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3766813_100_1" target="_blank" class="news-link">俄罗斯副总理诺瓦克：目前正持续关注一些收购机会，尤其是在德国能源服务领域和Inven Capital，近期无大规模交易计划。</a> [9 - 30] <font color='grey'>- 18时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>15</td>
+                    <td class="word">外交部 卫健委 公安部 网信办 发改委 北戴河 中共中央 国务院 四中全会 三中全会 两会 政治局</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202511/1157064.html" target="_blank" class="news-link">大陆外交官扬言“斩首”高市 台外交部：战狼言行令人大开眼界</a> [6] <font color='grey'>- 18时18分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
