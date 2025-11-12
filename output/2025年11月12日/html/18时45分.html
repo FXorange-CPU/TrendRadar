@@ -1,0 +1,143 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 99</p><p>生成时间: 2025-11-12 18:45:53</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">15</td>
+                    <td class="percentage">15.15%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112181700138800" target="_blank" class="news-link">惠誉：即使美国政府重新开放，仍不清楚运力限制是否会在感恩节前取消</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5116599" target="_blank" class="news-link">WKK INTL (HOLD)(00532.HK)：台湾港建前三季度税后净利为1.5亿新台币 同比增加约99.3%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112180859459800" target="_blank" class="news-link">日本政府最高经济顾问委员会的两名新成员呼吁采取比去年规模更大的经济刺激措施。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2198563?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月12日电，日本前央行副行长WAKATABE表示，日本GDP势将大幅下滑，食品价格也将下跌。</a> [7] <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3768985_100_1" target="_blank" class="news-link">日本政府最高经济顾问委员会的两名新成员呼吁采取比去年规模更大的经济刺激措施。</a> [6 - 26] <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2198562?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月12日电，日本政府最高经济小组的两名新成员呼吁采取比去年更大的经济刺激措施。</a> [8] <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8oDxH771UUt" target="_blank" class="news-link">被赖清德喊话声援沈伯洋，韩国瑜：自己生病，让别人吃药</a> [9] <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2198558?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月12日电，日本政府最高经济顾问委员会的两名新成员呼吁采取比去年规模更大的经济刺激措施。</a> [9] <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3768955_100_1" target="_blank" class="news-link">日本首相高市早苗：将与日本央行密切协调，以实现经济增长。</a> [9 - 29] <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3768952_100_1" target="_blank" class="news-link">日本首相高市早苗：适当的货币政策非常重要。</a> [10 - 30] <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112180237187800" target="_blank" class="news-link">日本首相高市早苗：将与日本央行密切协调，以实现经济增长。</a> [11] <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112180225824800" target="_blank" class="news-link">日本首相高市早苗在财政经济政策会议后表示，我们交换了关于一揽子计划和增长战略的意见。</a> [12] <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112180129856800" target="_blank" class="news-link">日本首相高市早苗：适当的货币政策非常重要。</a> [13] <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2198536?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月12日电，日本首相高市早苗称，将与日本央行密切协调，以实现经济增长。</a> [14] <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31932244" target="_blank" class="news-link">日本向“台独”分子授勋，外交部：在涉台问题上的又一错误举动</a> [19] <font color='grey'>- 18时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">6</td>
+                    <td class="percentage">6.06%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5116601" target="_blank" class="news-link">国产化妆品“一姐”珀莱雅港股IPO，今年第三季度业绩下滑</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2198571?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">欧盟中国商会：81%在欧中企认为营商环境不确定性增高 但中企仍展现出强大韧性</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%8A%93%E9%A9%AC%E4%BD%86%E5%A5%BD%E7%9C%8B%E7%9A%84%E5%9B%BD%E4%BA%A7%E6%96%B0%E5%89%A7" target="_blank" class="news-link">抓马但好看的国产新剧</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5116594" target="_blank" class="news-link">中国中车(601766.SH)2025年半年度权益分派：每股派利0.11元</a> [8] <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2198527?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">深圳家装补贴带动消费超139亿元</a> [19] <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1969830985005772801" target="_blank" class="news-link">我是来自比利时的游戏制作人 Tibau，想问问中国玩家如何评价我们做的游戏《无人在线》?</a> [20] <font color='grey'>- 18时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.02%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112180704966800" target="_blank" class="news-link">谷歌：支持美国国会通过的关键两党法案，以保护民众免受网络钓鱼侵害。</a> [6] <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3768972_100_1" target="_blank" class="news-link">谷歌：支持美国国会内保护人们免受钓鱼攻击的关键两党议案。</a> [7 - 27] <font color='grey'>- 18时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.02%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112180638505800" target="_blank" class="news-link">芯片初创公司D-Matrix融资2.75亿美元 拟扩大AI推理芯片生产和分销</a> [7] <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3768924_100_1" target="_blank" class="news-link">英国金融行为监管局：通过与新加坡金管局在人工智能领域的战略合作，加强国际影响力。</a> [13] <font color='grey'>- 18时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">小米 雷军</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.02%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2198572?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">高盛：小米集团SU7 Pro/Max提车周期缩短 提升产能持续展现出卓越执行力</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2303628" target="_blank" class="news-link">罗福莉已加入小米</a> [17] <font color='grey'>- 18时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.02%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112181359040800" target="_blank" class="news-link">摩根大通：将西方石油(OXY.N)目标股价从50美元上调至51美元。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2198565?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月12日电，摩根大通将西方石油目标价从50美元上调至51美元。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.01%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E5%B8%82%E5%80%BC%E4%B8%80%E6%99%9A%E8%92%B8%E5%8F%911%E4%B8%87%E4%BA%BF+%E5%8F%91%E7%94%9F%E4%BA%86%E5%95%A5" target="_blank" class="news-link">英伟达市值一晚蒸发1万亿 发生了啥</a> [30] <font color='grey'>- 18时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">地震 台风 洪灾 暴雨 泥石流 山体滑坡</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.01%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112180304965800" target="_blank" class="news-link">据CGTN：塞浦路斯发生地震，目前尚无人员伤亡或财产损失报告。</a> [8] <font color='grey'>- 18时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">社保 养老 旅游 教育</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.01%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112181344993800" target="_blank" class="news-link">西班牙财政部官员：荷兰养老金改革将使我们受益，因为基金可以向风险更高的资产进行多元化配置。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时45分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
