@@ -1,0 +1,127 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 65</p><p>生成时间: 2025-11-12 19:13:46</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">8</td>
+                    <td class="percentage">12.31%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2198624?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美联股份港股发行上市及境内未上市股份“全流通”获中国证监会备案</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2198617?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">诺比侃港股IPO及境内未上市股份“全流通”获中国证监会备案</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2198616?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中国证监会：境外投资者持有A股市值超3.5万亿元</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3769024_0_1" target="_blank" class="news-link">欧佩克将于GMT时间13:00（北京时间21:00）发布11月份石油市场月度报告。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2198605?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">深圳新星：回购股份价格上限调整至不超过41元/股</a> [8] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112182653849800" target="_blank" class="news-link">欧佩克将于GMT时间13:00（北京时间21:00）发布11月份石油市场月度报告。</a> [9] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5116613" target="_blank" class="news-link">畅联股份(603648.SH)：与上海外高桥生物医药产业发展有限公司正式签署《出资协议》</a> [13] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2302086" target="_blank" class="news-link">是时候来北京看银杏了</a> [15] <font color='grey'>- 19时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">4</td>
+                    <td class="percentage">6.15%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112183443601800" target="_blank" class="news-link">雪佛龙(CVX.N)：计划到2030年将石油和天然气产量每年增长2%至3%。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2198612?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月12日电，雪佛龙公司计划每年将石油和天然气产量增长2%-3%。</a> [6] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2198596?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">保加利亚能源部长否认该国燃料储备短缺</a> [13] <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2198588?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月12日电，摩根大通将马拉松石油公司目标价从183美元上调至211美元。</a> [16] <font color='grey'>- 19时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">3</td>
+                    <td class="percentage">4.62%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112184110534800" target="_blank" class="news-link">以色列总统办公室：赫尔佐格总统收到美国总统特朗普的来信，信中呼吁他考虑赦免总理内塔尼亚胡。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3769048_100_1" target="_blank" class="news-link">以色列总统办公室：总统赫尔佐格收到美国总统特朗普的来信，呼吁其考虑赦免总理内塔尼亚胡。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 19时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251112182802656800" target="_blank" class="news-link">道富：美国政府迎来开门曙光，股市期待“疲软得刚好的”数据</a> [8] <font color='grey'>- 19时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.54%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2198618?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中国汽车芯片创新联盟：与若干家汽车主机厂成立了RISC-V工作组</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.54%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2198599?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">品茗科技：如股票交易持续异常波动 公司可能按照相关规则要求申请停牌核查</a> [12] <font color='grey'>- 19时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">小米 雷军</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.54%</td>
+                    <td class="titles"><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28347059&amp;amp;topic_name=%E8%BD%A6%E5%9C%88%E6%89%93%E5%87%BB%E9%BB%91%E5%85%AC%E5%85%B3%2C%E5%B0%8F%E7%B1%B3KOL%E8%A2%AB%E5%9B%A2%E7%81%AD" target="_blank" class="news-link">车圈打击黑公关,小米KOL被团灭</a> [6] <font color='grey'>- 19时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">外交部 卫健委 公安部 网信办 发改委 北戴河 中共中央 国务院 四中全会 三中全会 两会 政治局</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.54%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2198582?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">国家发改委社会司召开高质量户外运动目的地建设工作部署会</a> [20] <font color='grey'>- 19时13分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
