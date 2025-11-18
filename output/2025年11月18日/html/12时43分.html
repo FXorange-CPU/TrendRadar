@@ -1,0 +1,127 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 56</p><p>生成时间: 2025-11-18 12:43:55</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">9</td>
+                    <td class="percentage">16.07%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251118/1068443220.html" target="_blank" class="news-link">中国首个采用冷却塔的“华龙一号”核电站正式开建</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8oNRzKTV88A" target="_blank" class="news-link">日媒：中国多家大型旅行社停售日本游产品</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时43分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202511/1857605.html" target="_blank" class="news-link">中国在黄海南部实弹射击 离日本最近离岛约870公里</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时43分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5119461" target="_blank" class="news-link">中国Robotaxi出海第一撞：全程合法合规，对方人类司机全责！</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时43分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3779424_100_1" target="_blank" class="news-link">中国海关数据显示，10月铝进口量同比增长10.4%。</a> <font color='red'><strong>[2 - 23]</strong></font> <font color='grey'>- 12时43分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3779406_0_1" target="_blank" class="news-link">中国央行行长潘功胜会见德意志联邦银行行长约阿希姆·纳格尔。</a> <font color='red'><strong>[4 - 25]</strong></font> <font color='grey'>- 12时43分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2203516?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">有机硅实控人会议今日正在上海召开</a> [7] <font color='grey'>- 12时43分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2203520?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中国人民银行行长潘功胜会见德意志联邦银行行长约阿希姆·纳格尔</a> [10] <font color='grey'>- 12时43分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8oNNgjx5Lh1" target="_blank" class="news-link">韩国出现针对中国游客的示威游行，韩驻华大使回应</a> [11] <font color='grey'>- 12时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">7</td>
+                    <td class="percentage">12.5%</td>
+                    <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8oNXuGw69Q8" target="_blank" class="news-link">日媒：高市早苗或是日本存亡危机</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251118123844483800" target="_blank" class="news-link">日本40年期国债收益率上升8个基点至3.68%。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时43分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2203537?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月18日电，日本225指数下跌3%至48,813.06点。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时43分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202511/1857604.html" target="_blank" class="news-link">贸易商：中粮集团购买至少84万吨美国大豆 下月起装运</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时43分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2203528?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月18日电，韩国KOSPI指数下跌3%至3,965.43点。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时43分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3779417_100_1" target="_blank" class="news-link">【行情】韩国KOSPI指数下跌3.1%至3964.56点。</a> <font color='red'><strong>[3 - 24]</strong></font> <font color='grey'>- 12时43分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8oNFZFZqI34" target="_blank" class="news-link">高市早苗，又惹恼韩国</a> [6] <font color='grey'>- 12时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">半导体 GPU</td>
+                    <td class="count">3</td>
+                    <td class="percentage">5.36%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202511/1857606.html" target="_blank" class="news-link">台湾拟将量子计算机和先进半导体设备纳入管制范围</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时43分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5119459" target="_blank" class="news-link">港股午评：恒指跌1.47%失守26000点，科技股继续承压，半导体股逆势活跃</a> [6] <font color='grey'>- 12时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251118121957822800" target="_blank" class="news-link">日经指数承压跌破49000点 半导体板块回落</a> [9] <font color='grey'>- 12时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.57%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5119460" target="_blank" class="news-link">港股异动丨小鹏汽车大跌近10%，Q4营收指引不及预期，遭花旗下调目标价</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时43分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5119458" target="_blank" class="news-link">大行评级丨花旗：下调小鹏汽车美股和港股目标价逾3%</a> [7] <font color='grey'>- 12时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">机器人 脑机接口</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.79%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2203517?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">蓝思科技：全资子公司蓝思智能机器人新基地今日投产</a> [9] <font color='grey'>- 12时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.79%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2203515?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">港股午评：恒生指数跌1.47%失守26000点 恒生科技指数跌1.67%</a> [12] <font color='grey'>- 12时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">社保 养老 旅游 教育</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.79%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202511/1857607.html" target="_blank" class="news-link">俞敏洪南极发信贺新东方周年庆 员工称无法与旅游老板共情</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时43分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
