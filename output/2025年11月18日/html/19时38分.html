@@ -1,0 +1,166 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 54</p><p>生成时间: 2025-11-18 19:38:47</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>bilibili-hot-search</li><li>tieba</li><li>zhihu</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">5</td>
+                    <td class="percentage">9.26%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202511/1857635.html" target="_blank" class="news-link">中国大量采购美国大豆 但价格高昂</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时38分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251118/1068450331.html" target="_blank" class="news-link">中国福建舰开展入列后首次海上实兵训练</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2204092?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">前10月广州外贸进出口突破万亿元</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时38分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5119961" target="_blank" class="news-link">联合水务(603291.SH)：上海衡联拟减持不超过58.25万股</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时38分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5119950" target="_blank" class="news-link">中国卫生集团(00673.HK)拟11月28日举行董事会会议以审批中期业绩</a> [14] <font color='grey'>- 19时38分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251118/1068450058.html" target="_blank" class="news-link">克宫：向基辅政权供应任何飞机都不会改变前线局势</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2204075?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">小米卢伟冰：2026年非常有挑战 汽车毛利率较今年有所下降</a> [14]</div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5119963" target="_blank" class="news-link">磁谷科技(688448.SH)：徐龙祥累计减持0.86%股份</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时38分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5119955" target="_blank" class="news-link">脑洞科技(02203.HK)耗资100万美元购入3.43万股阿特斯阳光电力股份</a> [9] <font color='grey'>- 19时38分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5119960" target="_blank" class="news-link">能源及能量环球(01142.HK)拟11月28日举行董事会会议以审批中期业绩</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时38分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3780124_100_1" target="_blank" class="news-link">摩尔多瓦能源部长：摩尔多瓦无意将俄罗斯卢克石油公司在摩尔多瓦的资产国有化。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 19时38分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">外交部 卫健委 公安部 网信办 发改委 北戴河 中共中央 国务院 四中全会 三中全会 两会 政治局</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3780179_100_1" target="_blank" class="news-link">西班牙外交部国务秘书：今天将宣布一项对乌克兰的重大援助计划。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时38分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3780179_100_1" target="_blank" class="news-link">西班牙外交部国务秘书：我们今天将宣布一项对乌克兰的重大援助计划。</a> [21] <font color='grey'>- 19时38分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.85%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251118192424676800" target="_blank" class="news-link">斯蒂费尔：将英伟达(NVDA.O)目标股价从212美元上调至250美元。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时38分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">AMD</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.85%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2204081?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月18日电，AMD与法国源讯集团旗下的Eviden部门合作，将联合为欧洲新型百亿亿次超级计算机提供算力支持，这也是首台落户法国的该级别超算。</a> [10] <font color='grey'>- 19时38分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.85%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2203876" target="_blank" class="news-link">iPhone中国销量强势增长！10月销量同比增长37% 市占高达25%</a> [11] <font color='grey'>- 19时38分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">手机</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.85%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%90%E6%89%8B%E6%9C%BA%E4%B8%A2%E5%9C%A8%E6%96%B0%E7%96%863%E5%B9%B4%E5%90%8E%E8%A2%AB%E4%BA%BA%E9%80%81%E5%9B%9E%E5%B9%BF%E4%B8%9C" target="_blank" class="news-link">女子手机丢在新疆3年后被人送回广东</a> [28] <font color='grey'>- 19时38分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.85%</td>
+                    <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8oNyBnxVy6U" target="_blank" class="news-link">对日本，韩国也受不了了：绝对无法容忍！</a> [7] <font color='grey'>- 19时38分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">小米 雷军</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.85%</td>
+                    <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2310534" target="_blank" class="news-link">小米三季度净利润113.11亿</a> [16] <font color='grey'>- 19时38分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
