@@ -1,0 +1,151 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 85</p><p>生成时间: 2025-11-18 23:18:03</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">16</td>
+                    <td class="percentage">18.82%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202511/1857659.html" target="_blank" class="news-link">图瓦卢总理：十分重视与台湾的特殊关系</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3759603" target="_blank" class="news-link">全球市场恐慌发酵：美股指低开低走，欧股全线下跌，日本股债汇三杀，现货黄金反弹至4060美元</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2204298?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月18日电，美国11月份NAHB住宅建筑商指数升至38，预估37。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251118225000000800" target="_blank" class="news-link">美国8月工厂订单月率、11月NAHB房产市场指数将于十分钟后公布。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2204296?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月18日电，美国8月份工厂订单增长1.4%，预估为1.4%。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3780718_101_1" target="_blank" class="news-link">前美国财长萨默斯将退出公共舞台，为与爱泼斯坦联系承担“全部责任”</a> <font color='red'><strong>[5 - 26]</strong></font> <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251118224631018800" target="_blank" class="news-link">墨西哥总统辛鲍姆：美国后来表示，除非墨西哥提出请求，否则不会介入。</a> [7] <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3780711_100_1" target="_blank" class="news-link">墨西哥总统辛鲍姆重申，美国不会对墨西哥采取军事干预措施，此前美国总统特朗普曾发表相关言论。</a> [6 - 27] <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3780704_100_1" target="_blank" class="news-link">美国银行：将霍尼韦尔公司评级从“买入”下调至“逊于大盘”，目标股价从265美元下调至205美元。</a> [8 - 29] <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202511/1857650.html" target="_blank" class="news-link">最新民调：超过五成台湾民众不赞成赖清德执政方式</a> [10] <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251118224533830800" target="_blank" class="news-link">美国民主党参议员桑德斯敦促参议院民主党人在与共和党人就延长《平价医疗法案》税收抵免的谈判中团结一致。桑德斯希望民主党提出的方案能够延长《平价医疗法案》的税收抵免，废除共和党削减1万亿美元的医疗保健的计划，扩大医疗保险覆盖范围，并降低处方药价格。</a> [10] <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202511/1857649.html" target="_blank" class="news-link">港籍陆男吸收台湾六名现退役军官发展间谍组织</a> [11] <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251118224325036800" target="_blank" class="news-link">美国股市延续跌势，纳斯达克指数下跌1.00%。</a> [11] <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2204280?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">民间数据再响警报 美国10月底就业形势似不妙</a> [13] <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251118224142428800" target="_blank" class="news-link">谈及特朗普关于美国可能军事干预墨西哥的言论，墨西哥总统辛鲍姆重申“这不会发生”</a> [13] <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251118223716127800" target="_blank" class="news-link">美国银行：将霍尼韦尔(HON.O)评级从买入下调至跑输大市评级；将目标价从265美元下调至205美元。</a> [14] <font color='grey'>- 23时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">8</td>
+                    <td class="percentage">9.41%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202511/1857658.html" target="_blank" class="news-link">中国大陆就美国对台3.3亿美元军售提出严正交涉</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202511/1857656.html" target="_blank" class="news-link">日媒：中国外交官刘劲松不满意日中磋商结果</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251118/1068452004.html" target="_blank" class="news-link">普京：针对中国公民的访俄免签制度将于近期生效</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202511/1857652.html" target="_blank" class="news-link">高市面临重大外交考验 中国反击力度或超预期</a> [8] <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202511/1857651.html" target="_blank" class="news-link">中日关系紧张 约50万中国旅客取消赴日旅行</a> [9] <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2204290?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">广州安居集团发布通告，持续收购存量商品房用作保障房</a> [9] <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2204285?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中国共产党同德国社民党第二届战略对话举行</a> [10] <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5120044" target="_blank" class="news-link">中国水业集团(01129.HK)接获清盘呈请</a> [11] <font color='grey'>- 23时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.53%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3780737_101_1" target="_blank" class="news-link">丰田拟在美国五个州投资9.12亿美元，提振混合动力汽车生产</a> <font color='red'><strong>[1 - 22]</strong></font> <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2204291?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">丰田拟在美国五个州投资9.12亿美元 提振混合动力汽车生产</a> [8] <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202511/1857648.html" target="_blank" class="news-link">寻求提升国际知名度 中国国产C919飞机首次亮相中东</a> [12] <font color='grey'>- 23时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">微软 Microsoft</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.35%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2204301?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">英伟达和微软将向投资人工智能初创公司Anthropic合计投资至多150亿美元</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5120046" target="_blank" class="news-link">美股三大指数集体低开，亚马逊、微软跌近2%</a> [9] <font color='grey'>- 23时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.35%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251118225508306800" target="_blank" class="news-link">英伟达(NVDA.O)跌近3%，AMD(AMD.O)跌近5%。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2204295?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月18日电，英伟达跌超3%，AMD跌超5%。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.35%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251118225023047800" target="_blank" class="news-link">特朗普的移民事务负责人汤姆·霍曼：目前团队已经到位，但我们将进一步加强部署。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251118224959604800" target="_blank" class="news-link">特朗普的移民事务负责人汤姆·霍曼：计划在不久的将来前往纽约市开展（移民执法）行动。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2204279?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月18日电，美股Olema Pharmaceuticals上涨167%触发熔断。奥本海默维持Olema Pharmaceuticals买入评级，并将目标价从22美元上调至45美元。</a> [14] <font color='grey'>- 23时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">半导体 GPU</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251118223207687800" target="_blank" class="news-link">美股半导体板块普跌，纳微半导体(NVTS.O)跌1.7%、美光科技(MU.O)跌2.5%、台积电(TSM.N)跌1.5%。</a> [18] <font color='grey'>- 23时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">芯片 光刻机 算力</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2204293?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月18日电，美股存储芯片股走低，闪迪跌近10%，美光科技跌4.15%，西部数据跌3.8%。</a> [6] <font color='grey'>- 23时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">钓鱼岛 台海 南海</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E5%BE%B7%E5%9B%BD%E6%94%BF%E5%BA%9C%E6%B6%89%E5%8F%B0%E6%B5%B7%E8%A8%80%E8%AE%BA" target="_blank" class="news-link">外交部回应德国政府涉台海言论</a> [20] <font color='grey'>- 23时18分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
