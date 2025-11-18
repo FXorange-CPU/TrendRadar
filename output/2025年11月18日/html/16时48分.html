@@ -1,0 +1,135 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 50</p><p>生成时间: 2025-11-18 16:48:19</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">11</td>
+                    <td class="percentage">22.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251118162208558800" target="_blank" class="news-link">欧洲斯托克波动率指数跳升至10月17日（美国地区银行股暴跌）以来最高水平，上涨2.4点至22.6。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251118162108231800" target="_blank" class="news-link">美国政府网站数据显示，10月18日当周首次申请失业金人数为23.2万人。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251118161830181800" target="_blank" class="news-link">莱茵金属：目标从2030年起成为美国的电力巨头，并持续发展。2030年武器与弹药业务板块销售额潜力达140亿至160亿欧元。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2203786?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月18日电，美国劳工部官网显示，10月18日当周美国首次申请失业救济人数为23.2万人。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3779813_0_1" target="_blank" class="news-link">美国政府网站数据显示，10月18日当周首次申请失业金人数为23.2万人。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3779806_100_1" target="_blank" class="news-link">【行情】欧洲斯托克波动率指数触及自美国区域银行10月17日崩盘以来的最高水平，现上涨2.4点至22.6。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251118161024287800" target="_blank" class="news-link">消息人士：美国中东问题特使威特科夫将于周三访问土耳其，并将加入与泽连斯基的会谈。</a> [9] <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%97%A5%E6%9C%AC%E5%AE%98%E5%91%98%E4%BD%8E%E5%A4%B4%E5%90%AC%E4%B8%AD%E6%96%B9%E8%AE%B2%E8%AF%9D%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26cate%3D5001%26lcate%3D5001%26stream_entry_id%3D31%26q%3D%2523%25E6%2597%25A5%25E6%259C%25AC%25E5%25AE%2598%25E5%2591%2598%25E4%25BD%258E%25E5%25A4%25B4%25E5%2590%25AC%25E4%25B8%25AD%25E6%2596%25B9%25E8%25AE%25B2%25E8%25AF%259D%2523%26dgr%3D0%26band_rank%3D14%26filter_type%3Drealtimehot%26realpos%3D14%26c_type%3D31%26pos%3D14%26flag%3D1%26display_time%3D1763455118%26pre_seqid%3D176345511816602805830141&amp;launchid=10000360-page_H5" target="_blank" class="news-link">日本官员低头听中方讲话</a> [14] <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%A5%E4%BA%BA%E5%A3%AB%EF%BC%9A%E4%B8%AD%E6%97%A5%E5%85%B3%E7%B3%BB%E6%81%B6%E5%8C%96%E6%98%AF%E6%97%A5%E6%9C%AC%E6%B0%91%E4%BC%97%E5%8F%97%E8%8B%A6" target="_blank" class="news-link">日人士：中日关系恶化是日本民众受苦</a> [28] <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%EF%BC%9A%E7%BB%9D%E4%B8%8D%E5%85%81%E8%AE%B8%E6%97%A5%E6%9C%AC%E5%86%9B%E5%9B%BD%E4%B8%BB%E4%B9%89%E5%A4%8D%E6%B4%BB" target="_blank" class="news-link">外交部：绝不允许日本军国主义复活</a> [30] <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E6%97%A5%E6%9C%AC%E6%8B%9F%E6%81%A2%E5%A4%8D%E5%A4%A7%E4%BD%90%E5%86%9B%E9%98%B6%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26cate%3D5001%26lcate%3D5001%26stream_entry_id%3D31%26q%3D%2523%25E5%25A4%2596%25E4%25BA%25A4%25E9%2583%25A8%25E5%259B%259E%25E5%25BA%2594%25E6%2597%25A5%25E6%259C%25AC%25E6%258B%259F%25E6%2581%25A2%25E5%25A4%258D%25E5%25A4%25A7%25E4%25BD%2590%25E5%2586%259B%25E9%2598%25B6%2523%26dgr%3D0%26band_rank%3D30%26filter_type%3Drealtimehot%26realpos%3D30%26c_type%3D31%26pos%3D30%26flag%3D1%26display_time%3D1763455118%26pre_seqid%3D176345511816602805830141&amp;launchid=10000360-page_H5" target="_blank" class="news-link">外交部回应日本拟恢复大佐军阶</a> [30] <font color='grey'>- 16时48分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">6</td>
+                    <td class="percentage">12.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5119616" target="_blank" class="news-link">惠泰医疗(688617.SH)：全资子公司湖南埃普特医疗器械有限公司取得医疗器械注册证</a> [6] <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/11/18/73b71482f77a40e397a7f84f336fd639.html" target="_blank" class="news-link">德媒：德国可以从中国学到什么</a> [7] <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2203702" target="_blank" class="news-link">外交部：日方必须给中国人民一个交代</a> [10] <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31989771" target="_blank" class="news-link">日本外务省官员离开中国外交部，面对媒体提问未给出任何表态</a> [20] <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2309842" target="_blank" class="news-link">中国海军在南海开展实战化训练</a> [25] <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%86%9B%E5%8F%B7%E5%85%A8%E8%8B%B1%E6%96%87%E5%8F%91%E6%96%87%E8%AD%A6%E5%91%8A%E6%97%A5%E6%9C%AC" target="_blank" class="news-link">中国军号全英文发文警告日本</a> [29] <font color='grey'>- 16时48分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">4</td>
+                    <td class="percentage">8.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5119617" target="_blank" class="news-link">熵基科技(301330.SZ)：通过旗下熵云脑机科技持续推进脑机交互技术创新</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5119615" target="_blank" class="news-link">熵基科技(301330.SZ)：龙之源是公司上市以来第一个收购项目</a> [7] <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5119613" target="_blank" class="news-link">华懋科技(603306.SH)：富创优越为多家全球光模块龙头提供从100G至1.6T全速率高端光模块PCBA的EMS</a> [9] <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5119612" target="_blank" class="news-link">国晟科技(603778.SH)：第二期员工持股计划持有707.3万股已全部出售完毕</a> [10] <font color='grey'>- 16时48分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">机器人 脑机接口</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5119618" target="_blank" class="news-link">宁波方正(300998.SZ)：拟与华翔启源加快建设通用机器人产业</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2203785?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">宁波方正：与宁波华翔启源科技签署战略合作协议 就机器人行星精密结构件、关节模组等进行合作</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时48分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">外交部 卫健委 公安部 网信办 发改委 北戴河 中共中央 国务院 四中全会 三中全会 两会 政治局</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2203784?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">叙利亚拟向中方移交恐怖组织“东伊运”武装分子？外交部回应</a> [6] <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251118161341654800" target="_blank" class="news-link">德国外交部长：联合国安理会在加沙问题上的安全决议是个好消息。</a> [6] <font color='grey'>- 16时48分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251118160833869800" target="_blank" class="news-link">金十数据整理：每日债券市场要闻速递（2025-11-18）</a> [11] <font color='grey'>- 16时48分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/11/18/8902d4d66f744aacb2f26792d9227fd0.html" target="_blank" class="news-link">“对墨西哥不满意”，特朗普不排除打击墨西哥贩毒集团</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时48分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3779805_100_1" target="_blank" class="news-link">【行情】波兰能源指数跌幅扩大，最新下跌5.7%。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 16时48分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
