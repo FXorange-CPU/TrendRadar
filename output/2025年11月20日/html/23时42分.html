@@ -1,0 +1,135 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 95</p><p>生成时间: 2025-11-20 23:42:22</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">24</td>
+                    <td class="percentage">25.26%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2206738?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月20日电，美国上周EIA天然气库存 -140亿立方英尺，预期-130亿立方英尺，前值450亿立方英尺。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时42分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2206737?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月20日电，美联储哈玛克表示，就业数据看起来喜忧参半。就业报告“略微稳定”，但也符合预期；对于美国经济而言，高通胀仍然是一个实实在在的问题。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时42分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3785237_0_1" target="_blank" class="news-link">美国副总统万斯：我认为我们即将推出一项伟大的医疗保健计划。</a> <font color='red'><strong>[5 - 26]</strong></font> <font color='grey'>- 23时42分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2206734?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月20日电，美国10月二手房销售增至410万套年率；预期为408万套。</a> [6] <font color='grey'>- 23时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251120233052125800" target="_blank" class="news-link">美国副总统万斯：我认为我们即将推出一项伟大的医疗保健计划</a> [6] <font color='grey'>- 23时42分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3785234_101_1" target="_blank" class="news-link">美国能源信息署（EIA）：美国11月14日当周EIA天然气库存变动减少140亿立方英尺，预期减少150亿立方英尺，前值450亿立方英尺。</a> [6 - 27] <font color='grey'>- 23时42分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3785232_100_1" target="_blank" class="news-link">美国能源信息署（EIA）：美国东部天然气库存减少90亿立方英尺。</a> [7 - 28] <font color='grey'>- 23时42分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3785231_100_1" target="_blank" class="news-link">美国能源信息署（EIA）：截至9月19日当周，美国太平洋天然气库存增加10亿立方英尺。</a> [8 - 29] <font color='grey'>- 23时42分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2206731?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">最新民调显示多数美国人对该国经济持负面看法</a> [9] <font color='grey'>- 23时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251120233017858800" target="_blank" class="news-link">美国至11月14日当周EIA天然气库存变化值录得-140亿立方英尺，为2025年8月22日当周以来最大降幅。美国至11月14日当周EIA天然气库存变化值录得-140亿立方英尺，结束2025年8月29日当周以来增长趋势。</a> [9] <font color='grey'>- 23时42分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2206712" target="_blank" class="news-link">美国9月非农大超预期 失业率升至4.4% 美联储12月决策更趋复杂</a> [10] <font color='grey'>- 23时42分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3785229_100_1" target="_blank" class="news-link">美国能源信息署（EIA）：美国盐丘洞穴天然气库存减少10亿立方英尺。</a> [10] <font color='grey'>- 23时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251120233002815800" target="_blank" class="news-link">美国至11月14日当周EIA天然气库存 -140亿立方英尺，预期-130亿立方英尺，前值450亿立方英尺。</a> [10] <font color='grey'>- 23时42分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2206728?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">日本在野党质询政府水产品出口困境</a> [11] <font color='grey'>- 23时42分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3785228_100_1" target="_blank" class="news-link">美国能源信息署（EIA）：美国中西部天然气库存减少50亿立方英尺。</a> [11] <font color='grey'>- 23时42分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3785226_100_1" target="_blank" class="news-link">美国克利夫兰联储主席哈马克：我们的利率水平已接近中性利率。</a> [12] <font color='grey'>- 23时42分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3785225_101_1" target="_blank" class="news-link">美国克利夫兰联储主席哈马克：正密切关注私人信用市场。</a> [13] <font color='grey'>- 23时42分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3785224_101_1" target="_blank" class="news-link">美国克利夫兰联储主席哈马克：希望看到加强对常备回购便利工具的应用程度。</a> [14] <font color='grey'>- 23时42分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3785220_100_1" target="_blank" class="news-link">美国克利夫兰联储主席哈马克：预计将看到货币市场出现波动。</a> [16] <font color='grey'>- 23时42分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3785219_100_1" target="_blank" class="news-link">美国克利夫兰联储主席哈马克：在房地产方面，投入成本是一个实际问题。</a> [17] <font color='grey'>- 23时42分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3785214_100_1" target="_blank" class="news-link">美国克利夫兰联储主席哈马克：此前预期就业市场将降温，而相关数据证实了这一点。</a> [19] <font color='grey'>- 23时42分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%97%A5%E6%9C%AC%E8%B0%8B%E5%88%9221%E4%B8%87%E4%BA%BF%E6%97%A5%E5%85%83%E7%BB%8F%E6%B5%8E%E5%88%BA%E6%BF%80%E8%AE%A1%E5%88%92%23&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">日本谋划21万亿日元经济刺激计划</a> [20] <font color='grey'>- 23时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251120232233043800" target="_blank" class="news-link">美国铝业巨头诺维利斯公司(Novelis)：今天上午奥斯威戈工厂发生了一起火灾。纽约奥斯威戈工厂所有人员已安全撤离。火势现已得到控制。</a> [24] <font color='grey'>- 23时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251120232000001800" target="_blank" class="news-link">美国至11月14日当周EIA天然气库存将于十分钟后公布。</a> [29] <font color='grey'>- 23时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.16%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2206735?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">谷歌推出新一代图像生成与编辑模型NANO BANANA PRO</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时42分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2206732?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【电报解读】谷歌新版Nano Banana上线！机构称多模态模型在生成能力上取得进一步进展，有望带来AI应用相关领域的关注度和增长速度的“双提升”，这家公司的B端服务已在近30个行业实现成熟应用</a> [8] <font color='grey'>- 23时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251120233021177800" target="_blank" class="news-link">谷歌推出Nano Banana Pro图像生成模型</a> [8] <font color='grey'>- 23时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.16%</td>
+                    <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%B8%80%E4%BA%BA%E4%B8%80%E5%8F%A5%E4%B8%BA%E4%B8%AD%E5%9B%BD%E4%BD%93%E8%82%B2%E5%8A%A0%E6%B2%B9%23&amp;t=31&amp;band_rank=3&amp;Refer=top" target="_blank" class="news-link">一人一句为中国体育加油</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时42分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%2350%E5%A4%9A%E4%B8%87%E5%90%8D%E4%B8%AD%E5%9B%BD%E6%B8%B8%E5%AE%A2%E5%8F%96%E6%B6%88%E5%8E%9F%E5%AE%9A%E6%97%A5%E6%9C%AC%E8%A1%8C%E7%A8%8B%23&amp;t=31&amp;band_rank=10&amp;Refer=top" target="_blank" class="news-link">50多万名中国游客取消原定日本行程</a> [10] <font color='grey'>- 23时42分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%BD%97%E6%99%8B%E8%BF%99%E4%B8%80%E5%B9%B4%E9%83%BD%E5%9C%A8%E5%8C%97%E4%BA%AC%E7%85%A7%E9%A1%BE%E7%88%B6%E4%BA%B2%23&amp;t=31&amp;band_rank=16&amp;Refer=top" target="_blank" class="news-link">罗晋这一年都在北京照顾父亲</a> [16] <font color='grey'>- 23时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.05%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251120232856708800" target="_blank" class="news-link">金十数据整理：欧盘美盘重要新闻汇总（2025-11-20）</a> [13] <font color='grey'>- 23时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">马斯克 特斯拉 gork</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.05%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5121843" target="_blank" class="news-link">美股异动丨特斯拉涨超5%，已获准在亚利桑那州运营Robotaxi</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.05%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5121842" target="_blank" class="news-link">费城半导体指数涨超2.5%，英伟达、博通涨超4%</a> [6] <font color='grey'>- 23时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.05%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%E9%87%8D%E6%8F%90%EF%BC%9A%E6%88%91%E5%AF%B9%E6%99%AE%E4%BA%AC%E6%8C%BA%E5%A4%B1%E6%9C%9B" target="_blank" class="news-link">特朗普重提：我对普京挺失望</a> [29] <font color='grey'>- 23时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">社保 养老 旅游 教育</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.05%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251120/1068485300.html" target="_blank" class="news-link">专家提出俄中教育年的三项重要任务</a> <font color='red'><strong>[1]</strong></font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
