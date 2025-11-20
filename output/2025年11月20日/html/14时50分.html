@@ -1,0 +1,111 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 42</p><p>生成时间: 2025-11-20 14:50:13</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">5</td>
+                    <td class="percentage">11.9%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202511/2057790.html" target="_blank" class="news-link">移民速度放缓 未来美国劳动力人口或萎缩</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251120140744681800" target="_blank" class="news-link">德国财政部长克林贝伊尔：（就G20峰会）很遗憾美国将不会出席，但届时仍有许多其他国家可以进行会谈。</a> [10] <font color='grey'>- 14时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251120140523216800" target="_blank" class="news-link">日本40年期国债收益率上升4.0个基点至3.745%。</a> [11] <font color='grey'>- 14时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251120135834000800" target="_blank" class="news-link">日本央行审议委员小枝淳子：希望继续仔细研究日元走势如何影响物价。</a> [14] <font color='grey'>- 14时50分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8D%B0%E5%BA%A6%E6%83%B3%E6%9B%BF%E4%BB%A3%E6%97%A5%E6%9C%AC%E5%AF%B9%E5%8D%8E%E5%87%BA%E5%8F%A3%E6%B0%B4%E4%BA%A7%E5%93%81" target="_blank" class="news-link">印度想替代日本对华出口水产品</a> [29] <font color='grey'>- 14时50分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">4</td>
+                    <td class="percentage">9.52%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5121074" target="_blank" class="news-link">小摩：将英伟达目标价上调至250美元</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时50分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2206075?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月20日电，摩根大通将英伟达目标股价从215美元上调至250美元。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251120142010211800" target="_blank" class="news-link">摩根大通：将英伟达(NVDA.O)目标股价从215美元上调至250美元。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3759753" target="_blank" class="news-link">英伟达业绩提振全球市场情绪，日经225涨超3%，纳指100期货涨1.9%，比特币升至9.2万美元，金价跌至4070美元</a> [10] <font color='grey'>- 14时50分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">4</td>
+                    <td class="percentage">9.52%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3783918_100_1" target="_blank" class="news-link">首尔：中国已告知韩国，原定本月举行的中日韩文化部长会议已被推迟。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时50分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2206078?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">报告：2025年中国芯片设计产业销售预计同比增长29.4% 重回高速增长区间</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时50分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3783916_100_1" target="_blank" class="news-link">花旗：中国决策者暂按兵不动为“十五五”开局蓄力，预计明年1月降准降息。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 14时50分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3783918_100_1" target="_blank" class="news-link">韩国方面表示，中国已告知韩国，原定本月举行的中日韩文化部长会议已被推迟。</a> [21] <font color='grey'>- 14时50分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">3</td>
+                    <td class="percentage">7.14%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251120142513872800" target="_blank" class="news-link">11月19日芝加哥商业交易所（CME）金属类商品成交量报告已在金十数据中心更新！欢迎点击查看</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251120142511969800" target="_blank" class="news-link">11月19日芝加哥商业交易所（CME）外汇类商品成交量报告已在金十数据中心更新！欢迎点击查看</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251120142509553800" target="_blank" class="news-link">11月19日芝加哥商业交易所（CME）能源类商品成交量报告已在金十数据中心更新！欢迎点击查看</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时50分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.38%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251120140519580800" target="_blank" class="news-link">野村：可灵AI需推新功能以应对激烈竞争</a> [12] <font color='grey'>- 14时50分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
