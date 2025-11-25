@@ -1,0 +1,167 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 93</p><p>生成时间: 2025-11-25 17:43:51</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">11</td>
+                    <td class="percentage">11.83%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251125171039971800" target="_blank" class="news-link">乌克兰国家安全负责人：此访旨在“完成”与美国总统特朗普的和平协议的“最后阶段”。</a> [6] <font color='grey'>- 17时43分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2210380?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">日本熊本5.7级地震 震源深度10公里</a> [7] <font color='grey'>- 17时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251125170929374800" target="_blank" class="news-link">乌克兰国家安全负责人：预计总统泽连斯基将于11月“尽早”访问美国。</a> [7] <font color='grey'>- 17时43分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3790885_100_1" target="_blank" class="news-link">乌克兰国家安全与国防委员会秘书乌梅罗夫：此次访问旨在“完成”与美国总统特朗普的和平协议的“最后阶段”。</a> [6 - 26] <font color='grey'>- 17时43分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3790882_100_1" target="_blank" class="news-link">乌克兰国家安全与国防委员会秘书乌梅罗夫：预计总统泽连斯基将于11月“尽早”访问美国。</a> [7 - 27] <font color='grey'>- 17时43分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3790881_0_1" target="_blank" class="news-link">日本放送协会：日本九州地区发生强烈地震，熊本县测得的日本震度最高达到5强。</a> [8 - 28] <font color='grey'>- 17时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251125170727898800" target="_blank" class="news-link">据日本放送协会：日本九州地区发生强烈地震，熊本县测得的日本震度最高达到5强。</a> [9] <font color='grey'>- 17时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251125170514328800" target="_blank" class="news-link">据日本放送协会：日本地震后未发布海啸预警。</a> [10] <font color='grey'>- 17时43分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3790874_0_1" target="_blank" class="news-link">日本放送协会NHK：日本政府向九州南部地区发出了紧急地震警报。</a> [12] <font color='grey'>- 17时43分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3790865_100_1" target="_blank" class="news-link">【行情】美国E-MINI标普500指数期货下跌0.17%，纳斯达克100指数期货下跌0.31%，道琼斯指数期货下跌0.15%。</a> [15] <font color='grey'>- 17时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251125170200098800" target="_blank" class="news-link">据日本放送协会NHK：日本政府向九州南部地区发出了紧急地震警报。</a> [15] <font color='grey'>- 17时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">7</td>
+                    <td class="percentage">7.53%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5123949" target="_blank" class="news-link">中国飞鹤(06186.HK)11月25日耗资907.8万港元回购220万股</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时43分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5123948" target="_blank" class="news-link">中国银行(03988.HK)：迪拜分行发行的票据于纳斯达克迪拜交易所上市</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时43分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5123946" target="_blank" class="news-link">硬蛋创新(00400.HK)：科通技术拟发行新股份及于中国一间证券交易所上市</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时43分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1975656579337573667" target="_blank" class="news-link">国外游戏里对中国元素的运用，是否还停留在「旗袍、功夫、红灯笼」的刻板印象里？如果是的话为什么？</a> [6] <font color='grey'>- 17时43分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5123944" target="_blank" class="news-link">中国石油化工股份(00386.HK)11月25日耗资116.24万港元回购26.6万股</a> [6] <font color='grey'>- 17时43分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5123938" target="_blank" class="news-link">财通证券(601108.SH)：公开发行不超过50亿元短期公司债券获得中国证监会注册批复</a> [12] <font color='grey'>- 17时43分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%8F%88%E4%B8%80%E6%89%B9%E6%9E%9C%E8%94%AC%E9%80%81%E8%BE%BE%E4%B8%AD%E5%9B%BD%E7%A9%BA%E9%97%B4%E7%AB%99%23&amp;t=31&amp;band_rank=19&amp;Refer=top" target="_blank" class="news-link">又一批果蔬送达中国空间站</a> [19] <font color='grey'>- 17时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.23%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5123945" target="_blank" class="news-link">安克创新赴港IPO，谷歌前员工创办，旗下充电宝曾因安全问题被召回</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251125170751435800" target="_blank" class="news-link">谷歌母公司Alphabet盘前上涨2.6%，此前有消息称Meta公司正洽谈斥资数十亿美元购买谷歌的芯片。</a> [8] <font color='grey'>- 17时43分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2210357?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月25日电，谷歌美股盘前涨超2.5%。谷歌开始向Meta等大型客户推销在其自有数据中心部署TPU芯片的方案，试图将AI芯片从谷歌云租赁业务拓展至更广阔的市场。</a> [19] <font color='grey'>- 17时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.23%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251125171619335800" target="_blank" class="news-link">分析：若无AI繁荣，美国经济肯定会陷入衰退</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时43分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2210387?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">富达国际：人工智能投资热潮仍将主导2026年市场</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时43分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2210324" target="_blank" class="news-link">【每日收评】三大指数放量反弹！全市场连续两日逾百股涨超9%，AI概念股再度活跃</a> [13] <font color='grey'>- 17时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.23%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3790890_100_1" target="_blank" class="news-link">西方制裁发酵，印度对俄罗斯石油的爆买潮12月预计将结束。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 17时43分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2210386?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">华润双鹤：获得比索洛尔氨氯地平片药品注册证书</a> [6] <font color='grey'>- 17时43分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2209629" target="_blank" class="news-link">流感类药品订单增长明显 机构称流感高峰带动相关标的持续上涨</a> [12] <font color='grey'>- 17时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.15%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251125170112634800" target="_blank" class="news-link">LME注册及注销仓单日报</a> [16] <font color='grey'>- 17时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251125170110166800" target="_blank" class="news-link">LME有色金属库存日报</a> [17] <font color='grey'>- 17时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.15%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251125170502405800" target="_blank" class="news-link">英伟达(NVDA.O)盘前下跌2.5%，此前一交易日上涨超过2%。</a> [11] <font color='grey'>- 17时43分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2210372?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月25日电，英伟达盘前下跌2.6%，报道称谷歌人工智能芯片TPU获Meta洽购，价值数十亿美元。</a> [12] <font color='grey'>- 17时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.15%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2210374?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月25日电，香港交易所信息显示，摩根大通在小鹏汽车-WH股的持股比例于11月19日从4.85%升至5.16%，购买的平均股价为85.9904港元。</a> [9] <font color='grey'>- 17时43分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2210359?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月25日电，美股中概股盘前涨跌互现，哔哩哔哩涨3%，蔚来涨2%，阿里巴巴涨1%，百度涨0.6%，小鹏汽车跌0.2%。</a> [18] <font color='grey'>- 17时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.15%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2210389?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">德意志银行：科技股引发股市全线下跌的可能性不大</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时43分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3790889_101_1" target="_blank" class="news-link">德意志银行策略师：科技股引发股市全线下跌的可能性不大</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 17时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">芯片 光刻机 算力</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.08%</td>
+                    <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1976380708353234914" target="_blank" class="news-link">摩尔线程中签率仅为 0.024%，创下了哪些 IPO 记录，其与沐曦股份有何区别，他们能重振芯片板块么？</a> [12] <font color='grey'>- 17时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">外交部 卫健委 公安部 网信办 发改委 北戴河 中共中央 国务院 四中全会 三中全会 两会 政治局</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.08%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251125171126184800" target="_blank" class="news-link">欧盟官员：欧盟各国外交部长将于周三就乌克兰问题举行视频会议。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>12</td>
+                    <td class="word">医疗改革 医保 防疫 禽流感 登革热 流感 新冠 基孔肯雅</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.08%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%B5%81%E6%84%9F%E9%AB%98%E5%8F%91%E6%9C%89%E5%8C%BB%E9%99%A2%E6%82%A3%E8%80%85%E6%8E%92%E5%88%B01200%E5%A4%9A%E5%8F%B7" target="_blank" class="news-link">流感高发有医院患者排到1200多号</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时43分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
