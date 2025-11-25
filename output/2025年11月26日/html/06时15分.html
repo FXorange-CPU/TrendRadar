@@ -1,0 +1,159 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 50</p><p>生成时间: 2025-11-26 06:15:46</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">14</td>
+                    <td class="percentage">28.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2210918?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月26日电，美国上周API原油库存增加185.9万桶，前置增加444.8万桶。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时15分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3792192_101_1" target="_blank" class="news-link">美国石油协会（Api）数据显示，上周，美国Api原油库存 -185.9万桶，之前一周 +444.8万桶。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 06时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251126054842304800" target="_blank" class="news-link">古巴外交部长：美国正寻求以暴力手段推翻委内瑞拉政府，这将构成“极其危险且不负责任的行动”。</a> [8] <font color='grey'>- 06时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251126053903641800" target="_blank" class="news-link">前日本央行理事：日元疲软提升央行12月加息可能性</a> [9] <font color='grey'>- 06时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251126053639476800" target="_blank" class="news-link">美国至11月21日当周API投产原油量 33.7万桶/日，前值30.3万桶/日。</a> [10] <font color='grey'>- 06时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251126053634154800" target="_blank" class="news-link">美国至11月21日当周API成品油进口 24.5万桶/日，前值-33.6万桶/日。</a> [11] <font color='grey'>- 06时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251126053626722800" target="_blank" class="news-link">美国至11月21日当周API原油进口 -31.9万桶，前值39.6万桶。</a> [12] <font color='grey'>- 06时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251126053618968800" target="_blank" class="news-link">美国至11月21日当周API取暖油库存 -13.7万桶，前值-31.7万桶。</a> [13] <font color='grey'>- 06时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251126053610677800" target="_blank" class="news-link">美国至11月21日当周API库欣原油库存 -33.6万桶，前值-79万桶。</a> [14] <font color='grey'>- 06时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251126053557471800" target="_blank" class="news-link">美国至11月21日当周API精炼油库存 75.3万桶，前值57.7万桶。</a> [15] <font color='grey'>- 06时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251126053551639800" target="_blank" class="news-link">美国至11月21日当周API汽油库存 53.9万桶，前值154.6万桶。</a> [16] <font color='grey'>- 06时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251126053541296800" target="_blank" class="news-link">美国至11月21日当周API原油库存 -185.9万桶，前值444.8万桶。</a> [17] <font color='grey'>- 06时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251126053113592800" target="_blank" class="news-link">乌克兰总统泽连斯基幕僚长叶尔马克：已与美国陆军部长德里斯科尔通电话，预计其将于本周访问基辅。</a> [18] <font color='grey'>- 06时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251126052000000800" target="_blank" class="news-link">美国至11月21日当周API原油库存将于十分钟后公布。</a> [23] <font color='grey'>- 06时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">6</td>
+                    <td class="percentage">12.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=46047958" target="_blank" class="news-link">Unifying our mobile and desktop domains</a> [14] <font color='grey'>- 06时15分</font></div><br><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=46011712" target="_blank" class="news-link">Auditing JDBC Drivers at Scale with AI led to 85000 bounty</a> [19] <font color='grey'>- 06时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251126052005700800" target="_blank" class="news-link">戴尔第四财季指引乐观 AI服务器销售强劲成驱动力</a> [22] <font color='grey'>- 06时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251126051715916800" target="_blank" class="news-link">惠普(HPQ.N)首席执行官：惠普将加大对某些领域的投资，以将人工智能融入其产品组合中。</a> [24] <font color='grey'>- 06时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251126051639703800" target="_blank" class="news-link">惠普(HPQ.N)首席执行官：惠普预计将借助人工智能加速产品和软件的开发。</a> [25] <font color='grey'>- 06时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251126051604849800" target="_blank" class="news-link">惠普(HPQ.N)计划在全球范围内裁减4000至6000名员工，以推动全公司范围内采用人工智能。</a> [27] <font color='grey'>- 06时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3792175_101_1" target="_blank" class="news-link">纳斯达克生物科技指数收涨将近1.4%，表现接近道指。成分股Esperion收涨16.09%，Ars Pharmaceuticals涨15.50%，Anavex Life Sciences涨12.34%，Personalis涨12.31%，Autolus Therapeutics涨12.10%，Aura Biosciences涨11.09%。Ac Immune则收跌5.84%表现倒数第三，Lenz Therapeutics跌6.51%，Cullinan Oncology Llc.跌8.82%。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 06时15分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%2320%E5%B2%81%E5%B0%8F%E8%8B%B9%E6%9E%9C%E8%BA%AB%E9%AB%98%E5%B7%B2%E8%B6%851%E7%B1%B37%23&amp;t=31&amp;band_rank=28&amp;Refer=top" target="_blank" class="news-link">20岁小苹果身高已超1米7</a> [28] <font color='grey'>- 06时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251126055503377800" target="_blank" class="news-link">金十数据整理：俄乌冲突最新24小时局势跟踪（11月25日）</a> [7] <font color='grey'>- 06时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=46048996" target="_blank" class="news-link">Google Antigravity exfiltrates data via indirect prompt injection attack</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">半导体 GPU</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251126055645815800" target="_blank" class="news-link">戴尔(DELL.N)首席运营官：前所未有的成本快速上涨不仅影响DRAM，还波及NAND、硬盘以及尖端半导体节点。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251126060947205800" target="_blank" class="news-link">美国国防部：波音(BA.N)获得25亿美元的修改合同，用于此前已授予的第12批生产飞机、G081、订阅和许可合同。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3792182_101_1" target="_blank" class="news-link">（美股）费城金银指数收涨0.68%，报301.82点。纽约证交所Arca金矿开采商指数收涨0.77%，报2179.87点；北京时间22:30美股开盘之前持稳于2172点附近——保持微幅上涨状态、之后出现一波V形反转行情。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 06时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32040611" target="_blank" class="news-link">快评｜特朗普与中方通话后致电高市早苗，专家：“背后信号不言自明”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">外交部 卫健委 公安部 网信办 发改委 北戴河 中共中央 国务院 四中全会 三中全会 两会 政治局</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251126/1068566474.html" target="_blank" class="news-link">俄外交部发言人扎哈罗娃：喜欢中餐</a> <font color='red'><strong>[1]</strong></font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">医疗改革 医保 防疫 禽流感 登革热 流感 新冠 基孔肯雅</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%B5%81%E6%84%9F%E9%AB%98%E5%B3%B0%E6%97%B6%E9%97%B4%E5%B7%B2%E7%A1%AE%E5%AE%9A%23&amp;t=31&amp;band_rank=12&amp;Refer=top" target="_blank" class="news-link">流感高峰时间已确定</a> [12] <font color='grey'>- 06时15分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
