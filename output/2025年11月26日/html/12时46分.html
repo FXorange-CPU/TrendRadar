@@ -1,0 +1,119 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 33</p><p>生成时间: 2025-11-26 12:46:07</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">4</td>
+                    <td class="percentage">12.12%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202511/2658285.html" target="_blank" class="news-link">绿色和平：中国今年核准煤电装机规模有望降至四年低点</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时46分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5124425" target="_blank" class="news-link">中国动向(03818.HK)上半财年纯利增长48.9%至2.04亿元 每股拟派2.08分</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2211100" target="_blank" class="news-link">广东：探索将并购重组、资产盘活等纳入国企考核体系 提高资产证券化水平</a> [12] <font color='grey'>- 12时46分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E5%8D%B0%E5%BA%A6%E4%BA%BA%E7%96%91%E4%BC%BC%E5%9C%A8%E4%B8%8A%E6%B5%B7%E5%9C%B0%E9%93%81%E5%88%86%E4%BA%AB%E6%89%8B%E6%8A%93%E9%A5%AD&amp;t=31&amp;band_rank=18&amp;Refer=top" target="_blank" class="news-link">印度人疑似在上海地铁分享手抓饭</a> [18] <font color='grey'>- 12时46分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">3</td>
+                    <td class="percentage">9.09%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251126/1068572395.html" target="_blank" class="news-link">美国五角大楼为波兰等国订购近47亿美元的“阿帕奇”直升机</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%97%A5%E6%9C%AC%E6%B0%91%E4%BC%97%E6%8E%92%E9%98%9F%E6%95%B0%E5%B0%8F%E6%97%B6%E9%80%81%E5%88%AB%E5%A4%A7%E7%86%8A%E7%8C%AB%23&amp;t=31&amp;band_rank=8&amp;Refer=top" target="_blank" class="news-link">日本民众排队数小时送别大熊猫</a> [8] <font color='grey'>- 12时46分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%97%A5%E6%9C%AC%E6%B0%91%E4%BC%97%E5%86%8D%E9%9B%86%E4%BC%9A%E8%A6%81%E6%B1%82%E9%AB%98%E5%B8%82%E6%92%A4%E5%9B%9E%E5%A6%84%E8%A8%80%23&amp;t=31&amp;band_rank=27&amp;Refer=top" target="_blank" class="news-link">日本民众再集会要求高市撤回妄言</a> [27] <font color='grey'>- 12时46分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">6.06%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3792683_100_1" target="_blank" class="news-link">【行情】恒生指数午间收报26013点，上涨118点；恒生科技指数午间收报5640点，上涨28点；美团升逾5%；港铁公司创下新高。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 12时46分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2211241?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">港股午评：恒指涨0.46%重回26000点 恒生科技指数涨0.51%</a> [8] <font color='grey'>- 12时46分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">外交部 卫健委 公安部 网信办 发改委 北戴河 中共中央 国务院 四中全会 三中全会 两会 政治局</td>
+                    <td class="count">2</td>
+                    <td class="percentage">6.06%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2211253?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">国家发改委：轻微失信信息原则上不予公示</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时46分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8F%91%E6%94%B9%E5%A7%94%EF%BC%9A%E8%BD%BB%E5%BE%AE%E5%A4%B1%E4%BF%A1%E4%BF%A1%E6%81%AF%E5%8E%9F%E5%88%99%E4%B8%8A%E4%B8%8D%E4%BA%88%E5%85%AC%E7%A4%BA" target="_blank" class="news-link">发改委：轻微失信信息原则上不予公示</a> [19] <font color='grey'>- 12时46分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">1</td>
+                    <td class="percentage">3.03%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2211111" target="_blank" class="news-link">Gemini+TPU双线破局！顶级科技投资人“火上浇油”：七巨头中Alphabet最值得持有</a> [13] <font color='grey'>- 12时46分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">1</td>
+                    <td class="percentage">3.03%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2211247?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">贝达药业：盐酸恩沙替尼胶囊术后辅助治疗适应症药品注册申请获受理</a> [7] <font color='grey'>- 12时46分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
