@@ -1,0 +1,191 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 205</p><p>生成时间: 2025-12-01 11:22:56</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">25</td>
+                    <td class="percentage">12.2%</td>
+                    <td class="titles"><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251201/1068643318.html" target="_blank" class="news-link">日本一钢铁厂发生爆炸并引发火灾，大火仍未扑灭</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E5%9B%BD%E8%84%9A%E7%AB%9F%E6%8B%BF%E6%88%98%E7%8A%AF%E7%85%A7%E7%89%87%E5%90%88%E5%BD%B1" target="_blank" class="news-link">日本国脚竟拿战犯照片合影</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2215502?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">商务部：鄢东副部长会见韩国驻华大使卢载宪</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251201/1068643103.html" target="_blank" class="news-link">媒体：马杜罗向美国表示愿意辞职 但最早要在一年半以后</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251201/1068642624.html" target="_blank" class="news-link">日本北海道附近海域发生4.5级地震</a> [7]</div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251201/1068642511.html" target="_blank" class="news-link">马杜罗向欧佩克表示美国有意获取资源并造成能源危机威胁</a> [8]</div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3798414_0_1" target="_blank" class="news-link">日本首相高市早苗：政府有责任创造有利于工资增长的条件。</a> [7 - 27] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3798401_100_1" target="_blank" class="news-link">日本首相高市早苗：我们将继续实施财政管理，同时密切关注利率走势及其他因素。</a> [8 - 28] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202512/0158689.html" target="_blank" class="news-link">美国加州生日派对枪击事件 酿四死包括三儿童</a> [9] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251201/1068642403.html" target="_blank" class="news-link">FlightAware：美国因暴风雪而有8500多个航班延误</a> [9]</div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3798384_100_1" target="_blank" class="news-link">日本央行行长植田和男：日元疲软会推高消费者通胀。</a> [11] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202512/0158686.html" target="_blank" class="news-link">美国叙利亚联手摧毁15处ISIS武器库</a> [12] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3798383_100_1" target="_blank" class="news-link">日本央行行长植田和男：在制定政策时，必须注意汇率波动对通胀预期和潜在通胀的影响。</a> [12] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3798381_100_1" target="_blank" class="news-link">日本央行行长植田和男：日元贬值推高消费者通胀。</a> [13] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251201/1068641941.html" target="_blank" class="news-link">美国国务卿：美国认为他们充分理解俄罗斯在乌克兰问题上的立场</a> [13]</div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3798380_100_1" target="_blank" class="news-link">日本央行行长植田和男：汇率走势应稳定并反映基本面，这一点至关重要。</a> [14] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3798379_100_1" target="_blank" class="news-link">日本央行行长植田和男：工资和物价同步上涨的机制能否持续，是实施货币政策的关键。</a> [15] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E8%8B%B1%E8%B6%85%E6%97%A5%E6%9C%AC%E5%9B%BD%E8%84%9A%E6%89%8B%E6%8C%81%E6%97%A5%E5%86%9B%E5%86%9B%E5%AE%98%E5%8D%A1%E7%89%87%E5%90%88%E5%BD%B1%23&amp;t=31&amp;band_rank=19&amp;Refer=top" target="_blank" class="news-link">英超日本国脚手持日军军官卡片合影</a> [19] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3798373_100_1" target="_blank" class="news-link">日本央行行长植田和男：美国关税正对制造业企业的利润构成压力，但未看到其对资本支出的影响显著扩大。</a> [19] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32075486" target="_blank" class="news-link">美国宣称“全面关闭”委内瑞拉领空，多国批评：“非法”“专横”</a> [20] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3798372_100_1" target="_blank" class="news-link">消息人士：贡渥集团正在考虑推动美国能源发展，以加强与华盛顿的关系。</a> [20] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251201103056196800" target="_blank" class="news-link">日本首相高市早苗：政府有责任创造有利于工资增长的条件。</a> [20] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251201102607171800" target="_blank" class="news-link">日本首相高市早苗：我们将继续实施财政管理，同时密切关注利率走势及其他因素。</a> [23] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251201101617389800" target="_blank" class="news-link">分析师：油价受俄乌和谈进展和美国制裁支撑走高</a> [27] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%AB%98%E5%B8%82%E5%AE%A3%E7%A7%B0%E6%97%A5%E6%9C%AC%E5%8F%88%E5%9B%9E%E6%9D%A5%E4%BA%86%23&amp;t=31&amp;band_rank=28&amp;Refer=top" target="_blank" class="news-link">高市宣称日本又回来了</a> [28] <font color='grey'>- 11时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">23</td>
+                    <td class="percentage">11.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E8%8B%B1%E8%B6%85%E7%90%83%E9%98%9F%E5%90%91%E4%B8%AD%E5%9B%BD%E7%90%83%E8%BF%B7%E9%81%93%E6%AD%89%23&amp;t=31&amp;band_rank=1&amp;Refer=top" target="_blank" class="news-link">英超球队向中国球迷道歉</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/0158696.html" target="_blank" class="news-link">日本歌手广州演唱会如期举行 网民赞“有契约精神”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/0158695.html" target="_blank" class="news-link">万科再陷困局 中国民间房企销售数据未按时公布</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202512/0158693.html" target="_blank" class="news-link">中国官媒再批高市涉台言论：为日本军事介入台海预制铺垫</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2215491?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">机构：11月深圳一二手房网签总量7116套 环比涨3.9%、同比降57.3%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5126903" target="_blank" class="news-link">港股异动丨加密货币概念股下挫 中国央行首次重磅定调稳定币</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3798431_100_1" target="_blank" class="news-link">中国国务院安委会部署开展高层建筑重大火灾风险隐患排查整治行动。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251201/1068642715.html" target="_blank" class="news-link">中国神二十返回舱玻璃裂纹为三角形，“肇事”空间碎片不到1毫米</a> [6]</div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3798424_100_1" target="_blank" class="news-link">中国国家发改委：加强煤炭运行调节，促进市场平稳运行，造好今冬明春能源保供工作。</a> [6 - 26] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3798399_100_1" target="_blank" class="news-link">惠誉：2025年第四季度中国地方政府将拥有更多资金支持新投资。</a> [9 - 29] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2215489?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">广州：11月二手住宅网签套数突破9000宗 环比增长逾20%</a> [10] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3798387_100_1" target="_blank" class="news-link">【行情】中国A股稀土产业指数早盘涨2.4%，市场权衡行业博弈格局。</a> [10 - 30] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2215487?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上海闵行金融投资发展公司增资至50亿 增幅400%</a> [13] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251201105716052800" target="_blank" class="news-link">金十图示：2025年12月01日（周一）中国科技互联网公司市值排名TOP 50一览</a> [13] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2215481?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">北京已进入流感高峰期 流行株为甲型H3N2</a> [14] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/0158681.html" target="_blank" class="news-link">智库：持续反腐背景下 中国军工企业营收下滑</a> [17] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32075098" target="_blank" class="news-link">福建永安75亿元水电项目被指偷工减料背后：多个核心标段均由中国电建下属企业包揽</a> [19] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2215462?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上海智算领航私募基金登记成立 出资额50.4亿</a> [20] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%BD%90%E8%BE%BE%E5%86%85%E5%9C%A8%E4%B8%AD%E5%9B%BD%E5%92%8C%E5%A4%A7%E5%A6%88%E4%BB%AC%E8%B8%A2%E6%AF%BD%E5%AD%90" target="_blank" class="news-link">齐达内在中国和大妈们踢毽子</a> [24] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2321492" target="_blank" class="news-link">杭州灵隐寺免门票首日名额已约满</a> [25] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251201101746189800" target="_blank" class="news-link">金十图示：2025年12月01日（周一）上海金早盘价为961.25元/克，较国际金价(965.51元/克)，低4.26元/克</a> [25] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%A4%AE%E8%A7%86%E6%8F%AD%E7%A7%98%E4%B8%AD%E5%9B%BD%E8%88%AA%E5%A4%A9%E5%91%98%E6%94%B9%E7%AD%BE%E9%A3%9E%E8%88%B9%E5%9B%9E%E5%9C%B0%E7%90%83%23&amp;t=31&amp;band_rank=26&amp;Refer=top" target="_blank" class="news-link">央视揭秘中国航天员改签飞船回地球</a> [26] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%86%9B%E5%8F%B7%E6%B5%B7%E5%A4%96%E8%B4%A6%E5%8F%B7%E9%87%8D%E7%A3%85%E5%8F%91%E5%B8%83" target="_blank" class="news-link">中国军号海外账号重磅发布</a> [28] <font color='grey'>- 11时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">9</td>
+                    <td class="percentage">4.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3760417" target="_blank" class="news-link">特朗普称“已决定新美联储主席人选”，哈塞特“市场对新主席消息的反应非常非常积极”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202512/0158692.html" target="_blank" class="news-link">特朗普政府将重新审查来自19个国家的绿卡持有人</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8oizWNiI4Dt" target="_blank" class="news-link">特朗普：已确定美联储主席继任者，很快就会宣布</a> [7] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3760404" target="_blank" class="news-link">特朗普与委总统通话，直接要求对方下台！</a> [9] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2215261" target="_blank" class="news-link">鲍威尔要辞职？特朗普：已选定下任美联储主席 将很快公布！</a> [9] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202512/0158685.html" target="_blank" class="news-link">特朗普证实与委内瑞拉总统通话 但并透露内容</a> [13] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202512/0158684.html" target="_blank" class="news-link">特朗普：美乌会谈“很可能”达成协议</a> [14] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251201103320124800" target="_blank" class="news-link">芝商所上周五经历数小时故障，白银刷新历史新高！特朗普已敲定下任美联储主席人选，美乌新会谈“富有成效但仍有工作要做”....美油卖出信号强烈，后市情绪如何？欢迎前往“数据库-嘉盛市场晴雨表”查看并订阅（数据每10分钟更新1次）</a> [18] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%EF%BC%9A%E5%B7%B2%E9%80%89%E5%AE%9A%E4%B8%8B%E4%BB%BB%E7%BE%8E%E8%81%94%E5%82%A8%E4%B8%BB%E5%B8%AD" target="_blank" class="news-link">特朗普：已选定下任美联储主席</a> [23] <font color='grey'>- 11时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">手机</td>
+                    <td class="count">5</td>
+                    <td class="percentage">2.44%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5126904" target="_blank" class="news-link">A股异动丨努比亚手机概念股活跃，道明光学涨停，中兴通讯、同兴达逼近涨停</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E2%80%9C%E6%89%8B%E6%9C%BA%E5%A3%B3%E7%88%B1%E9%A9%AC%E4%BB%95%E2%80%9D%E4%B8%80%E5%B9%B4%E7%8B%82%E5%8D%9636%E4%BA%BF" target="_blank" class="news-link">“手机壳爱马仕”一年狂卖36亿</a> [6] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2215495?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社12月1日电，中兴通讯港股短线拉升涨超10%。据中兴通讯消息，目前，搭载豆包手机助手技术预览版的工程样机努比亚M153少量发售。</a> [8] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2215479?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社12月1日电，据中兴通讯消息，目前，搭载豆包手机助手技术预览版的工程样机努比亚M153少量发售。</a> [16] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2215475?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">内存芯片价格快速上涨 业内预计手机产品将迎涨价潮</a> [18] <font color='grey'>- 11时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.46%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251201111003612800" target="_blank" class="news-link">比亚迪汽车（日本）：在日本推出插电式混合动力SUV“海狮6（SEALION 6）”，将于1月下旬开始交付。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251201110752364800" target="_blank" class="news-link">金十图示：2025年12月01日（周一）全球汽车制造商市值变化</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%B0%8F%E7%B1%B3%E6%B1%BD%E8%BD%A6%E7%8E%B0%E8%BD%A6%E9%80%89%E8%B4%AD%E5%8D%B3%E5%B0%86%E5%BC%80%E5%90%AF%23&amp;t=31&amp;band_rank=27&amp;Refer=top" target="_blank" class="news-link">小米汽车现车选购即将开启</a> [27] <font color='grey'>- 11时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.98%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2215253" target="_blank" class="news-link">人民日报钟声：日本所谓“台湾地位未定”论，是对历史的无知和现实的误判</a> [11] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/0158682.html" target="_blank" class="news-link">人民日报：岂容劣迹网红“换马甲”复出</a> [16] <font color='grey'>- 11时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.98%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2215480?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中国聚变能源公司：与同方股份探讨“人工智能赋能聚变研发”等议题</a> [15] <font color='grey'>- 11时22分</font></div><br><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=46094037" target="_blank" class="news-link">AI just proved Erdos Problem #124</a> [19] <font color='grey'>- 11时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">机器人 脑机接口</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.49%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5126896" target="_blank" class="news-link">财通证券：高端化+出口驱动总量 智驾+机器人带动产业升级</a> [11] <font color='grey'>- 11时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.49%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251201110329695800" target="_blank" class="news-link">金十图示：2025年12月01日（周一）全球主要科技与互联网公司市值变化</a> [7] <font color='grey'>- 11时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">地震 台风 洪灾 暴雨 泥石流 山体滑坡</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.49%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%A7%E5%90%8C%E5%8D%8A%E5%A4%9C3%E7%82%B9%E5%8F%91%E7%94%9F%E5%9C%B0%E9%9C%87%E7%B3%BB%E8%B0%A3%E8%A8%80" target="_blank" class="news-link">大同半夜3点发生地震系谣言</a> [11] <font color='grey'>- 11时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">钓鱼岛 台海 南海</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.49%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8F%B0%E6%B5%B7%E5%86%9B%E9%99%86%E6%88%98%E9%98%9F%E4%B8%80%E5%86%9B%E5%AE%98%E5%93%A8%E4%BA%AD%E5%86%85%E5%BC%80%E6%9E%AA%E8%BA%AB%E4%BA%A1" target="_blank" class="news-link">台海军陆战队一军官哨亭内开枪身亡</a> [21] <font color='grey'>- 11时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>12</td>
+                    <td class="word">国产剧 电影 科幻</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.49%</td>
+                    <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%94%B5%E5%BD%B1%E9%A9%AC%E8%85%BE%E4%BD%A0%E5%88%AB%E8%B5%B0%E5%AE%9A%E6%A1%A3%23&amp;t=31&amp;band_rank=5&amp;Refer=top" target="_blank" class="news-link">电影马腾你别走定档</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>13</td>
+                    <td class="word">社保 养老 旅游 教育</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.49%</td>
+                    <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32062877" target="_blank" class="news-link">特稿｜母语还是英语？非洲人口大国的教育之争与文化拉扯</a> [18] <font color='grey'>- 11时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>14</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.49%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3798429_100_1" target="_blank" class="news-link">马来西亚国家石油公司将11月马来西亚原油价格定为71.20美元。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 11时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>15</td>
+                    <td class="word">医疗改革 医保 防疫 禽流感 登革热 流感 新冠 基孔肯雅</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.49%</td>
+                    <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E8%B0%81%E5%9C%A8%E4%B9%B0200%E5%85%83%E4%B8%80%E7%B2%92%E7%9A%84%E6%B5%81%E6%84%9F%E8%8D%AF&amp;t=31&amp;band_rank=15&amp;Refer=top" target="_blank" class="news-link">谁在买200元一粒的流感药</a> [15] <font color='grey'>- 11时22分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
