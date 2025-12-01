@@ -1,0 +1,151 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 87</p><p>生成时间: 2025-12-01 14:26:51</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">21</td>
+                    <td class="percentage">24.14%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3798683_101_1" target="_blank" class="news-link">Arthur Hayes谈今日暴跌：日本央行暗示加息导致</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 14时26分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2215620?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社12月1日电，日本20年期国债收益率上涨5.5个基点至2.88%，创1999年6月以来最高水平。</a> [8] <font color='grey'>- 14时26分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2215618?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社12月1日电，日本央行行长植田和男表示，希望在将利率提高至0.75%后，再进一步阐述未来加息路径。</a> [9] <font color='grey'>- 14时26分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3798662_100_1" target="_blank" class="news-link">韩国市场监管机构负责人：近期数据泄露事件凸显加强监管的必要性。</a> [9 - 29] <font color='grey'>- 14时26分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3798655_100_1" target="_blank" class="news-link">韩国市场监管机构负责人：将于本月就对私募股权公司MBK合伙人的处罚作出决定。</a> [11] <font color='grey'>- 14时26分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3798653_100_1" target="_blank" class="news-link">韩国市场监管机构负责人：将审查有关外汇风险的投资者保护措施。</a> [12] <font color='grey'>- 14时26分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251201133705595800" target="_blank" class="news-link">日本30年期国债收益率短暂触及3.395%，创历史新高。</a> [12] <font color='grey'>- 14时26分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251201133455324800" target="_blank" class="news-link">日本20年期国债收益率上涨5.5个基点，至2.88%，创1999年6月以来最高水平。</a> [13] <font color='grey'>- 14时26分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3798632_100_1" target="_blank" class="news-link">日本央行行长植田和男：政府刺激计划中的其他措施可能会推高经济增速，并从理论上推高潜在通胀，但目前尚难以判断具体影响。</a> [15] <font color='grey'>- 14时26分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251201133148905800" target="_blank" class="news-link">日本央行行长植田和男：政府一揽子计划中的其他措施可能会推高经济增长率，并在理论上提振潜在通胀，但目前尚难断言具体幅度。</a> [15] <font color='grey'>- 14时26分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3798630_100_1" target="_blank" class="news-link">日本央行行长植田和男：政府刺激计划中遏制物价上涨的措施将有助于推动整体CPI下降。</a> [16] <font color='grey'>- 14时26分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251201133111515800" target="_blank" class="news-link">日本央行行长植田和男：政府刺激计划中遏制物价的措施将有助于拉低整体CPI。</a> [16] <font color='grey'>- 14时26分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3798625_100_1" target="_blank" class="news-link">日本央行行长植田和男：希望仔细分析美国政府停摆期间无法获得的数据，以确定不会出现重大负面信息。</a> [17] <font color='grey'>- 14时26分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3798623_0_1" target="_blank" class="news-link">日本央行行长植田和男：当前利率低于中性水平。</a> [18] <font color='grey'>- 14时26分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251201133042053800" target="_blank" class="news-link">韩国特别检察官：起诉首尔市长违反政治资金法。</a> [18] <font color='grey'>- 14时26分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3798622_100_1" target="_blank" class="news-link">日本央行行长植田和男：在利率上调至0.75%后，将进一步阐述未来的加息路径。</a> [19] <font color='grey'>- 14时26分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251201133001843800" target="_blank" class="news-link">日本央行行长植田和男：希望仔细审视，在美国政府停摆期间未能获取的数据中，是否不会出现重大负面信息。</a> [19] <font color='grey'>- 14时26分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%97%A5%E6%9C%AC%E5%90%91%E9%9D%92%E5%B0%91%E5%B9%B4%E7%81%8C%E8%BE%93%E5%86%9B%E5%9B%BD%E4%B8%BB%E4%B9%89%23&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">日本向青少年灌输军国主义</a> [20] <font color='grey'>- 14时26分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3798619_0_1" target="_blank" class="news-link">日本央行行长植田和男：我们此前重点关注的不确定性因素，即美国关税影响和美国经济前景，与几个月前相比已显著缓解。</a> [20] <font color='grey'>- 14时26分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251201132840345800" target="_blank" class="news-link">日本央行行长植田和男：当前利率低于中性水平。</a> [20] <font color='grey'>- 14时26分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251201132828427800" target="_blank" class="news-link">日本央行行长植田和男：希望在我们将利率提高至0.75%后，再进一步阐述未来加息路径。</a> [21] <font color='grey'>- 14时26分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">5</td>
+                    <td class="percentage">5.75%</td>
+                    <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/12/01/5434adaf45394ea7ab6186161e21c6df.html" target="_blank" class="news-link">《疯狂动物城2》在中国票房创纪录</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时26分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251201/1068645499.html" target="_blank" class="news-link">报告：2024年全球军工百强企业收入创新高，中国排名第二</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/12/01/69fc805747c0431ab78871bc633b63fe.html" target="_blank" class="news-link">港媒：中国将生物制造作为新增长引擎</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时26分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5126934" target="_blank" class="news-link">大行评级丨里昂：列出安踏、裕元集团及新秀丽为中国消费板块三大首选股</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时26分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E9%A9%BB%E5%A1%94%E5%90%89%E5%85%8B%E6%96%AF%E5%9D%A6%E5%A4%A7%E4%BD%BF%E9%A6%86%E5%86%8D%E6%AC%A1%E6%8F%90%E9%86%92" target="_blank" class="news-link">中国驻塔吉克斯坦大使馆再次提醒</a> [22] <font color='grey'>- 14时26分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.3%</td>
+                    <td class="titles"><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=46103811" target="_blank" class="news-link">Google Antigravity Deletes D Drive</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时26分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3798663_101_1" target="_blank" class="news-link">亚马逊和谷歌共推多云网络服务，加快云端互联</a> [8 - 28] <font color='grey'>- 14时26分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.3%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251201135422296800" target="_blank" class="news-link">消息人士：Vinfast的增程电动汽车计划尚处于初步阶段。</a> [6] <font color='grey'>- 14时26分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251201135404045800" target="_blank" class="news-link">消息人士：Vinfast考虑采用小型汽油发动机延长电动汽车续航里程；Vinfast已发布招聘启事，寻求REEV技术专家，并考虑在其最顶级SUV VF9车型上采用REEV技术。</a> [7] <font color='grey'>- 14时26分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">AMD</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.15%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5126936" target="_blank" class="news-link">大行评级丨里昂：上调AMD目标价至230美元 维持“持有”评级</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时26分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.15%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251201134848484800" target="_blank" class="news-link">印度电信部要求苹果(AAPL.O)等智能手机制造商预装政府推出的网络安全应用程序。</a> [8] <font color='grey'>- 14时26分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.15%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3798658_0_1" target="_blank" class="news-link">汇丰银行与Mistral AI合作整合生成式人工智能工具</a> [10 - 30] <font color='grey'>- 14时26分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.15%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5126937" target="_blank" class="news-link">探索打造业务增长&quot;第二曲线&quot; 康桥悦生活开启服务与科技融合新征程</a> <font color='red'><strong>[2]</strong></font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.15%</td>
+                    <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8ojG5nBjIJr" target="_blank" class="news-link">美防长被爆在一次打击行动中下令杀光所有人，特朗普回应</a> [6] <font color='grey'>- 14时26分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">小米 雷军</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.15%</td>
+                    <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E9%9B%B7%E5%86%9B&amp;t=31&amp;band_rank=19&amp;Refer=top" target="_blank" class="news-link">雷军</a> [19] <font color='grey'>- 14时26分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
