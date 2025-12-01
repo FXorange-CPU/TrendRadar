@@ -1,0 +1,183 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 143</p><p>生成时间: 2025-12-01 12:33:47</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">9</td>
+                    <td class="percentage">6.29%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251201122606385800" target="_blank" class="news-link">日本10年期国债收益率上涨5.5个基点，至1.855%。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时33分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%BB%99%E7%BE%8E%E5%9B%BD%E4%BC%B4%E5%A8%98%E9%80%81%E5%A4%96%E5%8D%96%E4%BC%9A%E6%9C%89%E5%A4%9A%E5%B0%91%E5%B0%8F%E8%B4%B9" target="_blank" class="news-link">给美国伴娘送外卖会有多少小费</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时33分</font></div><br><div class='new-title'>🆕 [俄罗斯卫星通讯社] <a href="https://sputniknews.cn/20251201/--1068643883.html" target="_blank" class="news-link">美国境内出现乌克兰作战的美国雇佣兵空坟，他们的遗体没有交给其家人</a> <font color='red'><strong>[5]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251201120951031800" target="_blank" class="news-link">巴克莱：预计印度央行本月不降息 未来宽松取决于美国关税是否持续</a> [9] <font color='grey'>- 12时33分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2322731" target="_blank" class="news-link">日本一钢铁厂爆炸并引发火灾</a> [14] <font color='grey'>- 12时33分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E5%9B%BD%E8%84%9A%E5%90%88%E5%BD%B1%E7%9A%84%E6%88%98%E7%8A%AF%E6%98%AF%E8%B0%81" target="_blank" class="news-link">日本国脚合影的战犯是谁</a> [16] <font color='grey'>- 12时33分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%92%9F%E5%A3%B0%EF%BC%9A%E4%B8%80%E4%B8%AA%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E6%97%A5%E6%9C%AC%E2%80%9C%E5%8F%88%E5%9B%9E%E6%9D%A5%E4%BA%86%E2%80%9D" target="_blank" class="news-link">钟声：一个什么样的日本“又回来了”</a> [18] <font color='grey'>- 12时33分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%9F%A9%E5%9B%BD%E7%BD%91%E7%BB%9C%E6%80%A7%E7%8A%AF%E7%BD%AA%E5%A4%A7%E6%A1%88%23&amp;t=31&amp;band_rank=18&amp;Refer=top" target="_blank" class="news-link">韩国网络性犯罪大案</a> [18] <font color='grey'>- 12时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251201112823735800" target="_blank" class="news-link">据Politico：欧盟一名高级官员警告称，美国总统特朗普为乌克兰和平所做的努力，绝不能让俄罗斯总统普京逃脱俄军队所犯战争罪的责任，这实际上为达成协议划定了新的红线。</a> [23] <font color='grey'>- 12时33分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">7</td>
+                    <td class="percentage">4.9%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3798516_0_1" target="_blank" class="news-link">AXIOS网站：两名乌克兰官员表示，周日美国和乌克兰之间的谈判重点是根据和平协议划定与俄罗斯的实际边界。他们形容5个小时的会议“艰难”、“紧张”，但富有成效。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 12时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251201120659557800" target="_blank" class="news-link">据AXIOS网站：两名乌克兰官员表示，周日美国和乌克兰之间的谈判重点是根据和平协议划定与俄罗斯的实际边界。他们形容5个小时的会议“艰难”、“紧张”，但富有成效。</a> [12] <font color='grey'>- 12时33分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2215526?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社12月1日电，港股苹果概念股走强，舜宇光学科技涨超6%，蓝思科技涨超5%，丘钛科技、瑞声科技涨超3%。</a> [17]</div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1978148539101114855" target="_blank" class="news-link">如何评价苹果将在 2027 年使用 Intel 18A-P 工艺制造低端 M 系列 SoC？</a> [18] <font color='grey'>- 12时33分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%BC%8F%E8%8B%B9%E6%9E%9C%E7%82%96%E7%8C%AA%E6%8E%92" target="_blank" class="news-link">中式苹果炖猪排</a> [19] <font color='grey'>- 12时33分</font></div><br><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=46103078" target="_blank" class="news-link">I Tested the M5 iPad Pro&#x27;s Neural-Accelerated AI, and the Hype Is Real</a> [24] <font color='grey'>- 12时33分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=iPhone%E7%94%A8%E6%88%B7%E7%9A%84%E5%B0%B4%E5%B0%AC%E7%9E%AC%E9%97%B4&amp;t=31&amp;band_rank=26&amp;Refer=top" target="_blank" class="news-link">iPhone用户的尴尬瞬间</a> [26] <font color='grey'>- 12时33分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">7</td>
+                    <td class="percentage">4.9%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/0158699.html" target="_blank" class="news-link">中国11月百城二手房环比跌幅扩大</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时33分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/12/01/5b9dc3d8d7e648ccafdb42eb02f247fd.html" target="_blank" class="news-link">巴媒：中国打造消费中心吸引全球游客</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时33分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3798519_100_1" target="_blank" class="news-link">【行情】恒生指数午间收报26068点，上涨209点；恒生科技指数午间收报5654点，上涨55点；阿里巴巴升逾3%；新奥能源、中国黄金国际、亚洲航空、环球新材国际创下新高。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 12时33分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2215540?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中国疾控中心研究员彭质斌：当前仍建议还未接种流感疫苗的适宜人群尽快接种</a> [12] <font color='grey'>- 12时33分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2215537?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中国疾病预防控制中心：当前我国已进入呼吸道传染病高发季节 疫情总体呈上升趋势</a> [14] <font color='grey'>- 12时33分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2215528?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">深圳地铁集团法定代表人变更 黄力平接替辛杰</a> [16] <font color='grey'>- 12时33分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%85%A8%E8%83%9C%EF%BC%81%E4%B8%AD%E5%9B%BD%E9%98%9F%E6%99%8B%E7%BA%A7U17%E4%BA%9A%E6%B4%B2%E6%9D%AF%E6%AD%A3%E8%B5%9B" target="_blank" class="news-link">全胜！中国队晋级U17亚洲杯正赛</a> [30] <font color='grey'>- 12时33分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">4</td>
+                    <td class="percentage">2.8%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251201122301880800" target="_blank" class="news-link">软银：和安川电机 (Yaskawa Electric Corporation)签署谅解备忘录，联合开发面向办公场景的人工智能机器人应用方案。将拓展机器人可执行的任务范围。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时33分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2215245" target="_blank" class="news-link">华为首款AI情绪陪伴玩具售罄缺货 AI端侧赛道投资价值凸现</a> [13] <font color='grey'>- 12时33分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%B2%A1%E6%83%B3%E5%88%B0%E5%A4%B8%E5%85%8BAI%E6%B5%8F%E8%A7%88%E5%99%A8%E8%BF%98%E5%8F%AF%E4%BB%A5%E8%BF%99%E4%B9%88%E7%94%A8%23&amp;t=31&amp;band_rank=15&amp;Refer=top" target="_blank" class="news-link">没想到夸克AI浏览器还可以这么用</a> [15] <font color='grey'>- 12时33分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2215509?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">深成指涨逾1% AI端侧领涨市场</a> [20] <font color='grey'>- 12时33分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">高铁 飞机 汽车 自动驾驶</td>
+                    <td class="count">4</td>
+                    <td class="percentage">2.8%</td>
+                    <td class="titles"><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3798487_0_1" target="_blank" class="news-link">惠誉：韩国2026年信用卡资产表现展望“恶化”；对日本汽车贷款的展望为“中性”。</a> [13] <font color='grey'>- 12时33分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2322868" target="_blank" class="news-link">小米汽车将开放现车选购</a> [15] <font color='grey'>- 12时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251201114638887800" target="_blank" class="news-link">惠誉：韩国2026年信用卡资产表现展望“恶化”；对日本汽车贷款的展望为“中性”。</a> [19] <font color='grey'>- 12时33分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%B0%8F%E7%B1%B3%E6%B1%BD%E8%BD%A6%E5%B0%86%E5%BC%80%E6%94%BE%E2%80%9C%E7%8E%B0%E8%BD%A6%E9%80%89%E8%B4%AD%E2%80%9D" target="_blank" class="news-link">小米汽车将开放“现车选购”</a> [25] <font color='grey'>- 12时33分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">科技 核能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.4%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5126923" target="_blank" class="news-link">中关村科技租赁(01601.HK)作为出租人订立融资租赁协议</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时33分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2215546?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">港股午评：恒生指数涨0.81% 恒生科技指数涨0.99%</a> [8] <font color='grey'>- 12时33分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">早报 晚报 日报 金十数据</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251201115633561800" target="_blank" class="news-link">金十数据整理：每日人工智能动态汇总（2025-12-01）</a> [16] <font color='grey'>- 12时33分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=46072521" target="_blank" class="news-link">Replacing My Window Manager with Google Chrome</a> [18] <font color='grey'>- 12时33分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">字节 即梦 coze</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2215541" target="_blank" class="news-link">字节搅动端侧AI风云！豆包发布手机助手预览版 又一轮换机潮可期？</a> [12] <font color='grey'>- 12时33分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">半导体 GPU</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251201113154297800" target="_blank" class="news-link">金十图示：2025年12月01日（周一）富时中国A50指数成分股午盘收盘行情一览：石油、半导体板块领涨，银行板块涨跌不一</a> [21] <font color='grey'>- 12时33分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">手机</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2215529?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【电报解读】中兴通讯封涨停成交量超130亿，搭载豆包的努比亚M153少量发售，快速整理豆包手机相关上市公司（附表）</a> [13] <font color='grey'>- 12时33分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>12</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2215559?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">特朗普：暂停接收难民措施或将维持“很长时间”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时33分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>13</td>
+                    <td class="word">社保 养老 旅游 教育</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5126924" target="_blank" class="news-link">卓越教育集(03978.HK)捐赠100万港元以支援香港大埔火灾救援</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时33分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>14</td>
+                    <td class="word">能源 药品 烟草 石油 大宗商品 集采 食品安全</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251201121222377800" target="_blank" class="news-link">雪佛龙(CVX.N)：其不间断运营不仅对生产商至关重要，对众多依赖这一运输系统保障能源安全的国家也同样不可或缺。</a> [6] <font color='grey'>- 12时33分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
