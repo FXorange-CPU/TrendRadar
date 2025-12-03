@@ -1,0 +1,135 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 42</p><p>生成时间: 2025-12-03 13:18:22</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">国产 中国 广东 湖南 北京 上海 广州 深圳 杭州</td>
+                    <td class="count">4</td>
+                    <td class="percentage">9.52%</td>
+                    <td class="titles"><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28347684&amp;amp;topic_name=%E5%A4%96%E5%8A%A1%E7%9C%81%E5%8F%91%E5%8A%9B%2C%E6%97%A5%E6%9C%AC%E5%85%AC%E5%BC%80%E4%B9%B0%E6%B0%B4%E5%86%9B%E9%BB%91%E4%B8%AD%E5%9B%BD" target="_blank" class="news-link">外务省发力,日本公开买水军黑中国</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时18分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/0358877.html" target="_blank" class="news-link">美智库报告：中国在南中国海多处岛礁升级监视电子作战系统</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时18分</font></div><br><div class='new-title'>🆕 [快牛] <a href="https://www.fastbull.com/cn/fastshort/3802918_100_1" target="_blank" class="news-link">中国人民银行行长潘功胜会见来访的国际货币基金组织第一副总裁丹·卡茨。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 13时18分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32085246" target="_blank" class="news-link">施蛰存诞辰120周年｜浮生杂咏，金石长存：《上海书评》十文重读</a> [18] <font color='grey'>- 13时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">ai agi 人工智能 大模型 开源 AIGC</td>
+                    <td class="count">3</td>
+                    <td class="percentage">7.14%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2218125?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">国家数据局：推动数据要素与人工智能深度融合</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时18分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2218104?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【机构调研】AI应用持续拉动功率半导体市场需求，这家头部供应商出货量有望实现大幅提升</a> [6] <font color='grey'>- 13时18分</font></div><br><div class='new-title'>🆕 [黑客新闻] <a href="https://news.ycombinator.com/item?id=46067995" target="_blank" class="news-link">AI Agents Break Rules Under Everyday Pressure</a> [14] <font color='grey'>- 13时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">手机</td>
+                    <td class="count">3</td>
+                    <td class="percentage">7.14%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251203124533413800" target="_blank" class="news-link">市场消息：印度国大党敦促议会，政府必须阐明强制在手机中预装不可卸载应用程序的法律依据。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时18分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2218115?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">报告：2025年Q3全球折叠屏智能手机出货量同比增长14%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时18分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1978516703932609718" target="_blank" class="news-link">你的第一部手机是什么品牌？还记得它吗？</a> [19] <font color='grey'>- 13时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">美国 日本 韩国 台湾</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.76%</td>
+                    <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%97%A5%E6%9C%AC%E9%80%A0%E5%86%9B%E4%BA%8B%E5%9F%BA%E5%9C%B0%E7%94%BB%E9%9D%A2%E6%9B%9D%E5%85%89" target="_blank" class="news-link">日本造军事基地画面曝光</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时18分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2218091" target="_blank" class="news-link">航拍曝光！日本被曝昼夜赶建军事基地</a> [13] <font color='grey'>- 13时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">马斯克 特斯拉 gork</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.38%</td>
+                    <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%89%B9%E6%96%AF%E6%8B%89%E6%93%8E%E5%A4%A9%E6%9F%B1%E6%9C%89%E5%93%AA%E4%BA%9B%E5%8D%87%E7%BA%A7" target="_blank" class="news-link">特斯拉擎天柱有哪些升级</a> [12] <font color='grey'>- 13时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">Trump 特朗普 川普</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.38%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2218113?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">特朗普称将在“几周内”向新奥尔良市派遣国民警卫队</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">国产剧 电影 科幻</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.38%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2218126?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">2025贺岁档电影票房破20亿</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">社保 养老 旅游 教育</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.38%</td>
+                    <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1978418879983264871" target="_blank" class="news-link">我对孩子教育总是很焦虑，怎么破？</a> [20] <font color='grey'>- 13时18分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
